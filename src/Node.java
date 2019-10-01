@@ -41,6 +41,47 @@ public class Node {
 		this.poids = elsnode[4];
 	}
 	
+	public String getId(){
+		return this.id;
+	}
+	
+	public void setId(String id){
+		this.id = id;
+	}
+	
+	public String getName(){
+		return this.name;
+	}
+	
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public String getPoids() {
+		return poids;
+	}
+
+	public void setPoids(String poids) {
+		this.poids = poids;
+	}
+
+	public static HashMap<Integer, String> getTypesNode() {
+		return typesNode;
+	}
+
+	public static void setTypesNode(HashMap<Integer, String> typesNode) {
+		Node.typesNode = typesNode;
+	}
+
 	public static void main(String[] args) {
 		Node n = new Node("e;47319;'colonne vertébrale';1;260");
 		System.out.println(n.toString());
