@@ -32,13 +32,13 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		Main m = new Main();
 		String mot =  "hyène";
-		//m.extractPage(mot);
+		m.extractPage(mot);
 		
-		m.fillingLists();
-		
-		for (String r : m.relations){
-			System.out.println(r);
-		}
+//		m.fillingLists();
+//		
+//		for (String r : m.relations){
+//			System.out.println(r);
+//		}
 
 	}
 	
