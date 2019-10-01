@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
  */
 public class Test {
 	public static void main(String[] args) throws IOException {
-		Document doc = Jsoup.connect("https://fr.wikipedia.org/wiki/Boulon").get();
+		Document doc = Jsoup.connect("https://fr.wikipedia.org/wiki/Boulon4").get();
 		log(doc.title());
 		
 		Elements link = doc.getElementsByTag("p");
