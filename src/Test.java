@@ -9,8 +9,10 @@ import org.jsoup.select.Elements;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -20,11 +22,19 @@ import java.util.regex.Pattern;
  */
 public class Test {
 	public static void main(String[] args) throws IOException {
-		Document doc = Jsoup.connect("https://fr.wikipedia.org/wiki/Boulon").get();
+		
+		String motDep = "Bouclier_(arme)";
+		
+		Document doc = Jsoup.connect("https://fr.wikipedia.org/wiki/"+URLEncoder.encode(motDep, "UTF-8")).get();
 		log(doc.title());
 		
+		//System.out.println(doc);
+		
 		Elements link = doc.getElementsByTag("p");
-		System.out.println("Text: " + link.text());
+		for(String l : link.eachText()){
+			System.out.println(l);
+		}
+		//System.out.println("Text: " + link.text());
 		ArrayList<String> mots = new ArrayList<String>();
 		//ArrayList<ArrayList<String>> motPOS = new ArrayList<ArrayList<String>>();
 		

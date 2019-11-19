@@ -72,13 +72,15 @@ public class Main {
 		File current = new File("./");
 		String dir = current.getAbsolutePath().substring(0, current.getAbsolutePath().length()-1) + "Relations";
 		File directory = new File(dir);
-		boolean isCreated = directory.mkdirs();
+		directory.mkdirs();
 		String filename = mot+"Resultats.txt";
 		String filenameGlobal = "Relations.txt";
-		File resG = new File(directory + File.separator + filenameGlobal); // Fichier listant les noeuds+relations gloables
-		FileWriter writerG = new FileWriter(resG, true); 
 		
+		File resG = new File(directory + File.separator + filenameGlobal); // Fichier listant les noeuds+relations gloables
 		File res = new File(directory + File.separator + filename); // Fichier listant les noeuds+relations du nouveau mot
+		if (res.exists()) return;
+		
+		FileWriter writerG = new FileWriter(resG, true); 
 		res.createNewFile();
 
 		FileWriter writer = new FileWriter(res); 
@@ -97,6 +99,14 @@ public class Main {
 		writer.close();
 		writerG.close();
 
+	}
+	
+	public ArrayList<String> pruningSentence(ArrayList<String> s)
+	{
+		
+		
+		
+		return s;
 	}
 
 }
