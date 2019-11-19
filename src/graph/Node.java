@@ -6,7 +6,8 @@ import java.util.HashMap;
 
 public class Node {
 	
-	public String id, name, type, poids; // pour les termes
+	public int id;
+	public String nom, type, poids; // pour les termes
 	public static HashMap<Integer, String> typesNode = new HashMap<Integer, String>() {
 	{
 	    put(0, "n_generic");
@@ -36,27 +37,27 @@ public class Node {
 		
 		String[] elsnode = node.split(";");
 		
-		this.id = elsnode[1];
-		this.name = elsnode[2];
+		this.id = Integer.valueOf(elsnode[1]);
+		this.nom = elsnode[2];
 		this.type = typesNode.get(Integer.valueOf(elsnode[3]));
 		this.poids = elsnode[4];
 	}
 	
-	public String getId(){
-		return this.id;
+	public int getId(){
+		return id;
 	}
 	
-	public void setId(String id){
+	public void setId(int id){
 		this.id = id;
 	}
 	
 	public String getName(){
-		return this.name;
+		return this.nom;
 	}
 	
 
 	public void setName(String name) {
-		this.name = name;
+		this.nom = name;
 	}
 	
 	public String getType() {
@@ -89,7 +90,7 @@ public class Node {
 	}
 
 	public String toString() {
-		return "Node [id=" + id + ", name=" + name + ", type=" + type + ", poids=" + poids + "]";
+		return "Node [id=" + id + ", name=" + nom + ", type=" + type + ", poids=" + poids + "]";
 	}
 	
 	

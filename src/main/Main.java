@@ -1,3 +1,4 @@
+package main;
 
 
 import java.io.BufferedReader;
@@ -14,6 +15,8 @@ import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.HashMap;
+
 
 /* mots actuellement dans le fichier relations : 
  * - hyène
@@ -21,24 +24,37 @@ import java.util.ArrayList;
 
 public class Main {
 
-	public ArrayList<String> relations;
-	public ArrayList<String> nodes;
+	public ArrayList<graph.Edge> relations;
+	public ArrayList<graph.Node> nodes;
+	
+	public static HashMap<Integer,graph.Edge> relationsH = new HashMap<Integer,graph.Edge>();
+	public static HashMap<Integer,graph.Node> nodesH = new HashMap<Integer,graph.Node>();
 	
 	public Main() {
-		relations = new ArrayList<String>();
+		relations = new ArrayList<graph.Edge>();
+		nodes = new ArrayList<graph.Node>();
 		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) throws IOException {
 		Main m = new Main();
 		String mot =  "hyène";
-		m.extractPage(mot);
+//		m.extractPage(mot);
 		
-//		m.fillingLists();
-//		
-//		for (String r : m.relations){
-//			System.out.println(r);
-//		}
+		m.fillingLists();
+
+		for (graph.Node n : m.nodes){
+			System.out.println(n);
+		}
+		for (graph.Edge n : m.relations){
+			System.out.println(n);
+		}
+		
+		String nodemot = "e;22842;'hyène';1;120";
+		
+		graph.Node node = new graph.Node(nodemot);
+		
+		//System.out.println(node.toString());
 
 	}
 	
@@ -53,7 +69,16 @@ public class Main {
 	    
 	    br = new BufferedReader(new FileReader(relationsFile));
 	    while ((line = br.readLine()) != null){
-	    	relations.add(line);
+	    	if (line.startsWith("e;")) {
+	    		graph.Node temp = new graph.Node(line);
+		    	nodes.add(temp);
+		    	nodesH.putIfAbsent(temp.getId(),temp);
+	    	}
+	    	if (line.startsWith("r;")) {
+	    		graph.Edge temp = new graph.Edge(line);
+		    	relations.add(new graph.Edge(line));
+		    	relationsH.put(temp.getIdRelation(),temp);
+	    	}
 	    }
 	    
 	    //String[] rules = line.split(lineSplitBy);
