@@ -15,7 +15,10 @@ import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Dictionary;
 import java.util.HashMap;
+
+import com.sun.management.DiagnosticCommandMBean;
 
 
 /* mots actuellement dans le fichier relations : 
@@ -27,28 +30,29 @@ public class Main {
 	public ArrayList<graph.Edge> relations;
 	public ArrayList<graph.Node> nodes;
 	
+	public ArrayList<String> dicoMots;
+	
 	public static HashMap<Integer,graph.Edge> relationsH = new HashMap<Integer,graph.Edge>();
 	public static HashMap<Integer,graph.Node> nodesH = new HashMap<Integer,graph.Node>();
 	
 	public Main() {
 		relations = new ArrayList<graph.Edge>();
 		nodes = new ArrayList<graph.Node>();
+		dicoMots = new ArrayList<String>();
 		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) throws IOException {
 		Main m = new Main();
-		String mot =  "hyène";
-//		m.extractPage(mot);
+		String mot =  "viande";
+		String phrase = "La moto est une voiture";
 		
+		m.readWordsList();
+		//m.extractPage(mot);
 		m.fillingLists();
+		
+		//m.printNodesRelationsDico();
 
-		for (graph.Node n : m.nodes){
-			System.out.println(n);
-		}
-		for (graph.Edge n : m.relations){
-			System.out.println(n);
-		}
 		
 		String nodemot = "e;22842;'hyène';1;120";
 		
@@ -56,6 +60,41 @@ public class Main {
 		
 		//System.out.println(node.toString());
 
+	}
+	
+	public void extractSentence(String sentence) {
+		String[] mots = sentence.split(" ");
+		
+		for ()
+		extractPage(sentence);
+	}
+	
+	public void printNodesRelationsDico(){
+
+		for (graph.Node n : nodes){
+			System.out.println(n);
+		}
+		for (graph.Edge n : relations){
+			System.out.println(n);
+		}
+		for (String s : dicoMots) {
+			System.out.println(s);
+		}
+		
+	}
+	
+	public void readWordsList() throws IOException {
+		File directory = new File("./");
+		String wordsFile = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1)+"Relations/" + "wordsList.txt";
+	
+	    BufferedReader br = null;
+	    String line = "";
+	    
+	    br = new BufferedReader(new FileReader(wordsFile));
+	    while ((line = br.readLine()) != null){
+	    	dicoMots.add(line);
+	    }
+	    
 	}
 	
 	public void fillingLists() throws IOException {
@@ -100,8 +139,10 @@ public class Main {
 		directory.mkdirs();
 		String filename = mot+"Resultats.txt";
 		String filenameGlobal = "Relations.txt";
-		
-		File resG = new File(directory + File.separator + filenameGlobal); // Fichier listant les noeuds+relations gloables
+		String filenameWords = "wordsList.txt";
+
+		File resG = new File(directory + File.separator + filenameGlobal); // Fichier listant les noeuds+relations globales
+		File resW = new File(directory + File.separator + filenameWords); // Fichier listant les mots qu'on a déjà
 		File res = new File(directory + File.separator + filename); // Fichier listant les noeuds+relations du nouveau mot
 		if (res.exists()) return;
 		
@@ -109,6 +150,11 @@ public class Main {
 		res.createNewFile();
 
 		FileWriter writer = new FileWriter(res); 
+		
+		FileWriter writerW = new FileWriter(resW, true); 
+		writerW.write(mot+"\n");
+		dicoMots.add(mot);
+		writerW.close();
 
 		try (BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "ISO-8859-1"))) {
 		    for (String line; (line = reader.readLine()) != null;) {
