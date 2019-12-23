@@ -1,5 +1,6 @@
-nosql
-uuu
-clef
-cheval
 viande
+La
+moto
+est
+une
+voiture

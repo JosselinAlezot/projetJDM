@@ -509,8 +509,8 @@ e;2935005;'VerbalTime:Present';4;0
 e;2946892;'Ver:Conjug';4;0
 e;3093591;'VerbalMode:Subjonctif';4;0
 e;3093590;'VerbalMode:Indicatif';4;0
-e;146881;'Nom:Fem+SG';4;50
-e;161698;'Ver:IPre+SG+P1:IPre+SG+P3:SPre+SG+P1:SPre+SG+P3:ImPre+SG+P2';4;50
+e;146881;'Nom:Fem SG';4;50
+e;161698;'Ver:IPre SG P1:IPre SG P3:SPre SG P1:SPre SG P3:ImPre SG P2';4;50
 e;212235;'Ver:';4;50
 e;171870;'Nom:';4;50
 e;157284;'lieu>68467';1;56;'lieu>poisson'
@@ -520,8 +520,8 @@ e;227591;'soupe>93138';1;156;'soupe>potage'
 e;267642;'organisme animal';1;4
 e;159902;'avariée';1;72
 e;12905116;'bonne viande';1;0
-e;12202123;'(boeuf+poulet (viande)+porc+dinde (viande))';1;0
-e;12109239;'(boeuf+poulet (viande)+porc+dinde (viande)) ag';1;0
+e;12202123;'(boeuf poulet (viande) porc dinde (viande))';1;0
+e;12109239;'(boeuf poulet (viande) porc dinde (viande)) ag';1;0
 e;12081715;'viande à pneu';1;0
 e;12057415;'viande et de produits à base de viande';1;0
 e;12979255;'plats dont l'un des principaux ingrédients est la viande consommée crue';777;0
@@ -722,7 +722,7 @@ e;213264;'akra';1;50
 e;6595671;'plat roboratif';1;0
 e;106956;'olla-podrida';1;50
 e;2550153;'poupiette';1;0
-e;5003192;'blanquette>146881';1;0;'blanquette>Nom:Fem+SG'
+e;5003192;'blanquette>146881';1;0;'blanquette>Nom:Fem SG'
 e;223521;'blanquette>114486';1;52;'blanquette>ragoût'
 e;2485675;'adobo';1;0
 e;6334832;'mouche à viande du sud';1;0
@@ -759,10 +759,10 @@ e;12091763;'canard (viande) ac igg4';1;0
 e;12091762;'canard (viande) ac igg';1;0
 e;12091761;'canard (viande) ac ige classification rast';1;0
 e;12091760;'canard (viande) ac ige';1;0
-e;12090273;'(boeuf+poulet (viande)+porc+dinde (viande)) ac ige';1;0
-e;12090270;'(boeuf+poulet (viande)+jaune d'oeuf+porc+dinde (viande)) ac ige';1;0
-e;12090271;'(boeuf+poulet (viande)+jaune d'oeuf+porc+dinde (viande)) ac ige classification rast';1;0
-e;12090274;'(boeuf+poulet (viande)+porc+dinde (viande)) ac ige classification rast';1;0
+e;12090273;'(boeuf poulet (viande) porc dinde (viande)) ac ige';1;0
+e;12090270;'(boeuf poulet (viande) jaune d'oeuf porc dinde (viande)) ac ige';1;0
+e;12090271;'(boeuf poulet (viande) jaune d'oeuf porc dinde (viande)) ac ige classification rast';1;0
+e;12090274;'(boeuf poulet (viande) porc dinde (viande)) ac ige classification rast';1;0
 e;12099807;'lapin (viande) ac ige classification rast';1;0
 e;12099806;'lapin (viande) ac ige';1;0
 e;12096251;'fibres de viande';1;0
@@ -786,7 +786,7 @@ e;12109792;'élan (viande) ag';1;0
 e;12109781;'dinde (viande) ag';1;0
 e;12109638;'cheval (viande) ag';1;0
 e;12109557;'canard (viande) ag';1;0
-e;12109237;'(boeuf+poulet (viande)+jaune d'oeuf+porc+dinde (viande)) ag';1;0
+e;12109237;'(boeuf poulet (viande) jaune d'oeuf porc dinde (viande)) ag';1;0
 e;8050452;'odeur de viande';1;0
 e;10987549;'sans viande';1;0
 e;12905117;'diminution de la consommation de viande';1;0
@@ -795,7 +795,7 @@ e;5827739;'sauce au jus de viande';777;0
 e;5827485;'préparation de viande séchée';1;0
 e;9966593;'Le Porteur de viande';777;0
 e;9980132;'aimer la viande';1;0
-e;12201920;'(boeuf+poulet (viande)+jaune d'oeuf+porc+dinde (viande))';1;0
+e;12201920;'(boeuf poulet (viande) jaune d'oeuf porc dinde (viande))';1;0
 e;5564839;'viande de chauve-souris';777;0
 e;5564832;'succédané de viande';777;0
 e;5564831;'substitut de viande';777;0
@@ -1066,7 +1066,7 @@ e;151568;'_FL:11';6;50
 e;151553;'_FL:0';6;50
 e;153037;'_FL:26';6;50
 e;142894;'pie';1;334
-e;1803620;'restaurant>146885';1;0;'restaurant>Nom:Mas+SG'
+e;1803620;'restaurant>146885';1;0;'restaurant>Nom:Mas SG'
 e;89538;'gril';1;80
 e;134670;'fourchette';1;1462
 e;229681;'verrine>43125';1;8;'verrine>gastronomie'
@@ -2538,17 +2538,17 @@ e;134375;'maigreur';1;104
 e;44305;'médaillon';1;56
 e;177223;'cordon bleu';1;38
 e;13369;'être';1;808
-e;157007;'être>146885';1;50;'être>Nom:Mas+SG'
+e;157007;'être>146885';1;50;'être>Nom:Mas SG'
 e;145882;'mole';1;82
 e;1646420;'chasseur>171869';1;0;'chasseur>Adj:'
-e;589556;'mole>146885';1;0;'mole>Nom:Mas+SG'
+e;589556;'mole>146885';1;0;'mole>Nom:Mas SG'
 e;30459;'chasseur';1;674
 e;613178;'boucher>171870';1;0;'boucher>Nom:'
 e;606875;'cru>171870';1;0;'cru>Nom:'
-e;1462869;'gîte>146885';1;0;'gîte>Nom:Mas+SG'
-e;160692;'boucher>146888';1;50;'boucher>Adj:Mas+SG'
+e;1462869;'gîte>146885';1;0;'gîte>Nom:Mas SG'
+e;160692;'boucher>146888';1;50;'boucher>Adj:Mas SG'
 e;36354;'farce';1;488
-e;160691;'boucher>146885';1;50;'boucher>Nom:Mas+SG'
+e;160691;'boucher>146885';1;50;'boucher>Nom:Mas SG'
 e;95957;'tailloir';1;50
 e;104695;'croquette';1;112
 e;108793;'pot-pourri';1;88
@@ -2592,7 +2592,7 @@ e;332128;'cuire dans son jus';1;50
 e;371913;'porcelet à la broche';1;50
 e;111202;'frigorifié';1;54
 e;15150;'hâtelet';1;52
-e;213722;'past&#305;rma';1;50
+e;213722;'pastirma';1;50
 e;232270;'blanc-bleu';1;2
 e;252414;'pâtes à la bolognaise';1;4
 e;2374024;'fraise>2374109';1;0;'fraise>abat blanc'

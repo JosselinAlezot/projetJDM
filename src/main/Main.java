@@ -11,6 +11,7 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.net.URLDecoder;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
@@ -43,12 +44,32 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
+		
+		System.out.println("&#305;");
+		String base = "&#305;";
+		
+		String eu = URLEncoder.encode(base,StandardCharsets.ISO_8859_1);
+		System.out.println(eu);
+		
+		String u = URLDecoder.decode(eu,StandardCharsets.UTF_8);
+		System.out.println(u);
+
+		
+		
+		
+		
+		
+		String s2 = new String(u.getBytes("utf8"), "iso-8859-1");
+		
+		System.out.println(s2);
+		
 		Main m = new Main();
 		String mot =  "viande";
 		String phrase = "La moto est une voiture";
 		
 		m.readWordsList();
-		//m.extractPage(mot);
+		m.extractPage(mot);
+		m.extractSentence(phrase);
 		m.fillingLists();
 		
 		//m.printNodesRelationsDico();
@@ -56,17 +77,21 @@ public class Main {
 		
 		String nodemot = "e;22842;'hyène';1;120";
 		
+		System.out.println(URLDecoder.decode(nodemot, "UTF-8"));
+		
 		graph.Node node = new graph.Node(nodemot);
 		
 		//System.out.println(node.toString());
 
 	}
 	
-	public void extractSentence(String sentence) {
+	public void extractSentence(String sentence) throws UnsupportedEncodingException, IOException {
 		String[] mots = sentence.split(" ");
 		
-		for ()
-		extractPage(sentence);
+		for (String s : mots) {
+			if (!dicoMots.contains(s)) extractPage(s);
+		}
+		//extractPage(sentence);
 	}
 	
 	public void printNodesRelationsDico(){
@@ -85,12 +110,22 @@ public class Main {
 	
 	public void readWordsList() throws IOException {
 		File directory = new File("./");
-		String wordsFile = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1)+"Relations/" + "wordsList.txt";
-	
+		String wordsFile = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1)+"Relations" + File.separator + "wordsList.txt";
+		
+		// premiere utilisation o� le dir Relations n'existe pas
+		String dir = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1) + "Relations";
+		File d = new File(dir);
+		d.mkdirs();
+
+		File resW = new File(wordsFile); // Fichier listant les mots qu'on a déjà
+		
+		if (!resW.exists()) resW.createNewFile();
+
+		
 	    BufferedReader br = null;
 	    String line = "";
-	    
-	    br = new BufferedReader(new FileReader(wordsFile));
+	    	    
+	    br = new BufferedReader(new FileReader(resW));
 	    while ((line = br.readLine()) != null){
 	    	dicoMots.add(line);
 	    }
@@ -108,7 +143,10 @@ public class Main {
 	    
 	    br = new BufferedReader(new FileReader(relationsFile));
 	    while ((line = br.readLine()) != null){
+	    	System.out.println(line);
+	    	line = parse(line);
 	    	if (line.startsWith("e;")) {
+	    		System.out.println("currentnode : "+line);
 	    		graph.Node temp = new graph.Node(line);
 		    	nodes.add(temp);
 		    	nodesH.putIfAbsent(temp.getId(),temp);
@@ -152,6 +190,7 @@ public class Main {
 		FileWriter writer = new FileWriter(res); 
 		
 		FileWriter writerW = new FileWriter(resW, true); 
+		
 		writerW.write(mot+"\n");
 		dicoMots.add(mot);
 		writerW.close();
@@ -159,6 +198,7 @@ public class Main {
 		try (BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream(), "ISO-8859-1"))) {
 		    for (String line; (line = reader.readLine()) != null;) {
 		    	if (( line.startsWith("nt;"))||(line.startsWith("e;"))||(line.startsWith("r;"))||(line.startsWith("rt;"))) {
+		    		line = parse(line);
 		    		writer.write(line);
 		    		writer.write("\n");
 		    		writerG.write(line);
@@ -170,6 +210,15 @@ public class Main {
 		writer.close();
 		writerG.close();
 
+	}
+	
+	public String parse(String line) throws IOException {
+		String l = URLDecoder.decode(line, "UTF-8");
+		if (l.contains("&#305;")) {
+			l = l.replaceAll("&#305;", "i");
+		}
+		
+		return l;
 	}
 	
 	public ArrayList<String> pruningSentence(ArrayList<String> s)
