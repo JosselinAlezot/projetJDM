@@ -44,7 +44,6 @@ public class LexicalPattern {
 		String res = "";
 		for(String key: this.getLexicalPatterns().keySet()) {
 			for(String meaning: this.getLexicalPatterns().get(key)) {
-				System.out.println("Relation:" + key + ". LangageNaturel:" + meaning);
 				res += "Relation:" + key + "/// LangageNaturel:" + meaning;
 				res += "\n";
 			}
