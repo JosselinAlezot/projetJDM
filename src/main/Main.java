@@ -44,24 +44,24 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-		
-		System.out.println("&#305;");
-		String base = "&#305;";
-		
-		String eu = URLEncoder.encode(base,StandardCharsets.ISO_8859_1);
-		System.out.println(eu);
-		
-		String u = URLDecoder.decode(eu,StandardCharsets.UTF_8);
-		System.out.println(u);
-
-		
-		
-		
-		
-		
-		String s2 = new String(u.getBytes("utf8"), "iso-8859-1");
-		
-		System.out.println(s2);
+//		
+//		System.out.println("&#305;");
+//		String base = "&#305;";
+//		
+//		String eu = URLEncoder.encode(base,StandardCharsets.ISO_8859_1);
+//		System.out.println(eu);
+//		
+//		String u = URLDecoder.decode(eu,StandardCharsets.UTF_8);
+//		System.out.println(u);
+//
+//		
+//		
+//		
+//		
+//		
+//		String s2 = new String(u.getBytes("utf8"), "iso-8859-1");
+//		
+//		System.out.println(s2);
 		
 		Main m = new Main();
 		String mot =  "viande";
