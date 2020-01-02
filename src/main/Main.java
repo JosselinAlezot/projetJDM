@@ -20,6 +20,9 @@ import java.util.Dictionary;
 import java.util.HashMap;
 
 import com.sun.management.DiagnosticCommandMBean;
+import com.sun.tools.javac.util.Pair;
+
+import graph.Phrase;
 
 
 /* mots actuellement dans le fichier relations : 
@@ -41,6 +44,13 @@ public class Main {
 		nodes = new ArrayList<graph.Node>();
 		dicoMots = new ArrayList<String>();
 		// TODO Auto-generated constructor stub
+	}
+	
+	public void init(Main m, String phrase) throws IOException {
+		
+		m.readWordsList();
+		m.extractSentence(phrase);
+		m.fillingLists();
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -75,13 +85,31 @@ public class Main {
 		//m.printNodesRelationsDico();
 
 		
-		String nodemot = "e;22842;'hyène';1;120";
+		//String nodemot = "e;22842;'hyène';1;120";
 		
-		System.out.println(URLDecoder.decode(nodemot, "UTF-8"));
+		//System.out.println(URLDecoder.decode(nodemot, "UTF-8"));
 		
-		graph.Node node = new graph.Node(nodemot);
+		//graph.Node node = new graph.Node(nodemot);
 		
 		//System.out.println(node.toString());
+		
+//		for (graph.Edge e : graph.Edge.getRelationsFromX(relationsH,graph.Node.getNodeFromString("'moto'"))) {
+//			System.out.println(e);
+//		}
+		
+		Phrase p = new Phrase(phrase);
+		
+		System.out.println(p.getMots());
+		
+//		for (Pair pa : p.getMots()) {
+//			System.out.println(pa);
+//		}
+		
+		for (int i = 0; i < p.getMots().size(); i++) {
+			System.out.println(p.getMots().get(i));
+			
+		}
+
 
 	}
 	

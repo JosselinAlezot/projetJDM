@@ -38,9 +38,17 @@ public class Node {
 		String[] elsnode = node.split(";");
 		
 		this.id = Integer.valueOf(elsnode[1]);
-		this.nom = elsnode[2];
+		setName(elsnode[2]);
 		this.type = typesNode.get(Integer.valueOf(elsnode[3]));
 		this.poids = elsnode[4];
+	}
+	
+	// Ne sert que dans les cas où on rencontre un mot non trouvable
+	public Node() {
+		this.id = -1;
+		this.nom = "";
+		this.type = "";
+		this.poids = "";
 	}
 	
 	public int getId(){
@@ -57,7 +65,8 @@ public class Node {
 	
 
 	public void setName(String name) {
-		this.nom = name;
+		String[] sep = name.split("'");
+		this.nom = sep[1];
 	}
 	
 	public String getType() {
@@ -91,6 +100,14 @@ public class Node {
 
 	public String toString() {
 		return "Node [id=" + id + ", name=" + nom + ", type=" + type + ", poids=" + poids + "]";
+	}
+	
+	public static Node getNodeFromString(String name) {
+		for (Node n : main.Main.nodesH.values()) {
+			if (n.nom.equals(name)) return n;
+		}
+		
+		return null;
 	}
 	
 	

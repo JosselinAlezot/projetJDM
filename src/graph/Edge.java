@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Edge {
@@ -211,6 +212,33 @@ public class Edge {
 		return "Edge [poids=" + poids + ", idRelation=" + idRelation + ", type=" + type + ", x=" + x + ", y=" + y + "]";
 	}
 	
+	public static ArrayList<Edge> getRelationsFromX(HashMap<Integer,graph.Edge> edges, graph.Node node) {
+		ArrayList<Edge> ret = new ArrayList<Edge>();
+		
+		for (Edge e : edges.values()) {
+			if (e.getX().equals(node)) ret.add(e);
+		}
+		
+		return ret;
+	}
+	
+	public static ArrayList<Edge> getRelationsFromY(HashMap<Integer,graph.Edge> edges, graph.Node node) {
+		ArrayList<Edge> ret = new ArrayList<Edge>();
+		
+		for (Edge e : edges.values()) {
+			if (e.getY().equals(node)) ret.add(e);
+		}
+		
+		return ret;
+	}
+
+	public boolean containsX(String x) {
+		return x.equals(this.getX().getName());
+	}
+	
+	public boolean containsY(String y) {
+		return y.equals(this.getY().getName());
+	}
 	
 
 

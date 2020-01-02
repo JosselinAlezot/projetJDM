@@ -6,7 +6,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import com.sun.javafx.applet.Splash;
+//import com.sun.javafx.applet.Splash;
 
 import java.io.BufferedReader;
 import java.io.File;
