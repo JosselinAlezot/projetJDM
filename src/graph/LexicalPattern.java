@@ -63,11 +63,12 @@ public class LexicalPattern {
 		ArrayList<String> res = new ArrayList<String>();
 		BufferedReader br = null;
 		String line = "";
-		String lineSplitBy = ";";
+		//String lineSplitBy = ";";
 		br = new BufferedReader(new FileReader(relationsFile));
 		while ((line = br.readLine()) != null){
 			res.add(line);
 		}
+		br.close();
 		return res;
 	}
 
@@ -99,6 +100,8 @@ public class LexicalPattern {
 		ArrayList<String> meanings = new ArrayList<String>();
 		String allMeanings = lineToFormat.substring(lineToFormat.indexOf("=") + 1, lineToFormat.length());
 		String[] allMeaningsSplit = allMeanings.split(",");
+		//On enleve l'espace au tout debut de la premiere relation extraite
+		allMeaningsSplit[0] = allMeaningsSplit[0].substring(1);
 		for(String currentMeaning: allMeaningsSplit) {
 			meanings.add(currentMeaning);
 		}
