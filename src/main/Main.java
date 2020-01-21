@@ -20,7 +20,7 @@ import java.util.Dictionary;
 import java.util.HashMap;
 
 import com.sun.management.DiagnosticCommandMBean;
-import com.sun.tools.javac.util.Pair;
+//import com.sun.tools.javac.util.Pair;
 
 import graph.Phrase;
 

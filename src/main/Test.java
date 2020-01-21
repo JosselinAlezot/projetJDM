@@ -42,7 +42,6 @@ public class Test {
 		
 		HashMap<String,String> motPOS = new HashMap <String,String>();
 		
-		
 
 	}
 
