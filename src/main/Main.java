@@ -75,7 +75,7 @@ public class Main {
 		
 		Main m = new Main();
 		String mot =  "échelle";
-		String phrase = "La moto est une voiture";
+		String phrase = "Nous être beaux veuve";
 		
 		m.readWordsList(); // vérification des mots déjà collectés auparavant
 		m.extractPage(mot);
@@ -89,9 +89,9 @@ public class Main {
 		 * Pour trouver le node selon l'id : 
 		 * graph.Node camiondepompier = nodesH.get(152109);
 		 */
-		graph.Node camiondepompier = graph.Node.getNodeFromString("camion de pompier");
-		graph.Node voiture = graph.Node.getNodeFromString("voiture");
-		graph.Node moto = graph.Node.getNodeFromString("moto");
+		graph.Node camiondepompier = graph.Node.getNodeFromString("veuve");
+		graph.Node voiture = graph.Node.getNodeFromString("beaux");
+		graph.Node moto = graph.Node.getNodeFromString("être");
 		
 		//System.out.println(camiondepompier);
 
@@ -218,10 +218,10 @@ public class Main {
 	    
 	    br = new BufferedReader(new FileReader(relationsFile));
 	    while ((line = br.readLine()) != null){
-	    	System.out.println(line);
+	    	//System.out.println(line);
 	    	line = parse(line);
 	    	if (line.startsWith("e;")) {
-	    		System.out.println("currentnode : "+line);
+	    		//System.out.println("currentnode : "+line);
 	    		graph.Node temp = new graph.Node(line);
 		    	nodes.add(temp);
 		    	nodesH.putIfAbsent(temp.getId(),temp);

@@ -10,7 +10,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.sun.tools.javac.code.Attribute.Array;
 
 public class Edge {
 
@@ -264,7 +263,7 @@ public class Edge {
 		
 		for (Edge e : main.Main.relationsH.values()) {
 			if (e.getX().equals(x)) {
-				System.out.println(e);
+				//System.out.println(e);
 				if (e.getType()!=null && e.getType().equals(typesEdge.get(rel))) ret.add(e.getY());
 			}
 		}
