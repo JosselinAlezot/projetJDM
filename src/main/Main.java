@@ -74,13 +74,30 @@ public class Main {
 //		System.out.println(s2);
 		
 		Main m = new Main();
-		String mot =  "viande";
+		String mot =  "échelle";
 		String phrase = "La moto est une voiture";
 		
-		m.readWordsList();
+		m.readWordsList(); // vérification des mots déjà collectés auparavant
 		m.extractPage(mot);
-		m.extractSentence(phrase);
-		m.fillingLists();
+		m.extractSentence(phrase); // utilisation de jdm
+		m.fillingLists(); // remplissage des données
+		
+		/*
+		 * Pour trouver le node selon le nom : 
+		 * graph.Node camiondepompier = graph.Node.getNodeFromString("camion de pompier");
+		 * 
+		 * Pour trouver le node selon l'id : 
+		 * graph.Node camiondepompier = nodesH.get(152109);
+		 */
+		graph.Node camiondepompier = graph.Node.getNodeFromString("camion de pompier");
+		
+		System.out.println(camiondepompier);
+		
+		ArrayList<graph.Node> resultsdontechelle = graph.Edge.getYFromRelation(camiondepompier, graph.Edge.getIdTypeFromString("r_has_part"));
+		System.out.println(resultsdontechelle.size());
+		for (graph.Node n : resultsdontechelle) {
+			System.out.println(n);
+		}
 		
 		//m.printNodesRelationsDico();
 
@@ -97,6 +114,9 @@ public class Main {
 //			System.out.println(e);
 //		}
 		
+/* 
+ * vieux test sur la classe phrase		
+		
 		Phrase p = new Phrase(phrase);
 		
 		System.out.println(p.getMots());
@@ -109,19 +129,25 @@ public class Main {
 			System.out.println(p.getMots().get(i));
 			
 		}
+ */
 
 
 	}
 	
+	/*
+	 * Extraction de page pour chaque mot de la phrase en paramètres
+	 */
 	public void extractSentence(String sentence) throws UnsupportedEncodingException, IOException {
 		String[] mots = sentence.split(" ");
 		
 		for (String s : mots) {
 			if (!dicoMots.contains(s)) extractPage(s);
 		}
-		//extractPage(sentence);
 	}
 	
+	/*
+	 * Print to test
+	 */
 	public void printNodesRelationsDico(){
 
 		for (graph.Node n : nodes){
@@ -136,6 +162,9 @@ public class Main {
 		
 	}
 	
+	/*
+	 * Vérification des mots déjà utilisés pour ne pas casser JDM
+	 */
 	public void readWordsList() throws IOException {
 		File directory = new File("./");
 		String wordsFile = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1)+"Relations" + File.separator + "wordsList.txt";
@@ -160,6 +189,9 @@ public class Main {
 	    
 	}
 	
+	/*
+	 * Remplissage des nodes et relations 
+	 */
 	public void fillingLists() throws IOException {
 		File directory = new File("./");
 		String relationsFile = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1)+"Relations/" + "Relations.txt";
@@ -193,6 +225,9 @@ public class Main {
 		return "http://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel="+URLEncoder.encode(mot, "ISO-8859-1")+"&rel=";
 	}
 	
+	/*
+	 * Extraction d'une page selon un mot précis
+	 */
 	public void extractPage(String mot) throws UnsupportedEncodingException, IOException{
 		
 		String urlName = getUrl(mot);
@@ -240,6 +275,10 @@ public class Main {
 
 	}
 	
+	/*
+	 * Gère les exceptions de caractères, c'est pas censé être notre boulot mais bon hein
+	 * quelle idée de laisser des caractères turcs aussi comment ils sont arrivés sur jdm ??
+	 */
 	public String parse(String line) throws IOException {
 		String l = URLDecoder.decode(line, "UTF-8");
 		if (l.contains("&#305;")) {
@@ -249,6 +288,9 @@ public class Main {
 		return l;
 	}
 	
+	/*
+	 * TODO (eventuellement)
+	 */
 	public ArrayList<String> pruningSentence(ArrayList<String> s)
 	{
 		

@@ -10,6 +10,8 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import com.sun.tools.javac.code.Attribute.Array;
+
 public class Edge {
 
 	//private String relation;
@@ -18,27 +20,7 @@ public class Edge {
 	private Node x,y;
 	public static HashMap<Integer, String> typesEdge = new HashMap<Integer, String>() {
 	{
-		/*
-		 * Avant ajout
-		 *   put(0, "n_generic");
-	    put(1, "n_term");
-	    put(2, "n_form");
-	    put(4, "n_pos");
-	    put(5, "n_concept");
-	    put(6, "n_flpot");
-	    put(8, "n_chunk");
-	    put(9, "n_question");
-	    put(10, "n_relation");
-	    put(11, "r_rule");
-	    put(12, "n_analogy");
-	    put(13, "n_commands");
-	    put(14, "f_synt_function");
-	    put(18, "n_data");
-	    put(36, "n_data_pot");
-	    put(444, "n_link");
-	    put(666, "n_AKI");
-	    put(777, "n_wikipedia");
-		 */
+		
 	    put(0, "r_associated");
 	    put(1,"r_raff_sem");
 	    put(3, "r_domain");
@@ -160,6 +142,9 @@ public class Edge {
 
 	}
 
+	/*
+	 * Lecture du fichier relations
+	 */
 	public void getRel(){
 		File fichierRel = new File("./Relations/Relations.txt");
 		BufferedReader br = null;
@@ -206,26 +191,46 @@ public class Edge {
 	public void setY(Node y) {
 		this.y = y;
 	}
+	public String getType() {
+		return type;
+	}
+	/*
+	 * Prend un String de type de relation et cherche l'id associé
+	 */
+	public static int getIdTypeFromString(String t) {
+		for (int idtype : typesEdge.keySet()) {
+			if (typesEdge.get(idtype).contentEquals(t)) return idtype;
+		}
+		System.out.println("merdfe");
+		return 0;
+	}
+	public void setType(int t) {
+		this.type = typesEdge.get(t);
+	}
 
 	@Override
 	public String toString() {
 		return "Edge [poids=" + poids + ", idRelation=" + idRelation + ", type=" + type + ", x=" + x + ", y=" + y + "]";
 	}
 	
-	public static ArrayList<Edge> getRelationsFromX(HashMap<Integer,graph.Edge> edges, graph.Node node) {
+	/*
+	 * Les deux fonctions prennent un node en paramètre,
+	 * et trouvent toutes les relations avec le node courant
+	 */
+	public static ArrayList<Edge> getRelationsFromX(graph.Node node) {
 		ArrayList<Edge> ret = new ArrayList<Edge>();
 		
-		for (Edge e : edges.values()) {
+		for (Edge e : main.Main.relationsH.values()) {
 			if (e.getX().equals(node)) ret.add(e);
 		}
 		
 		return ret;
 	}
 	
-	public static ArrayList<Edge> getRelationsFromY(HashMap<Integer,graph.Edge> edges, graph.Node node) {
+	public static ArrayList<Edge> getRelationsFromY(graph.Node node) {
 		ArrayList<Edge> ret = new ArrayList<Edge>();
 		
-		for (Edge e : edges.values()) {
+		for (Edge e : main.Main.relationsH.values()) {
 			if (e.getY().equals(node)) ret.add(e);
 		}
 		
@@ -238,6 +243,24 @@ public class Edge {
 	
 	public boolean containsY(String y) {
 		return y.equals(this.getY().getName());
+	}
+	
+	/* 
+	 * Prend en paramètres un node et un numéro de relation
+	 * permet de trouver les résultats Y associés 
+	 */
+	public static ArrayList<Node> getYFromRelation(Node x, int rel) {
+		ArrayList<Node> ret = new ArrayList<Node>();
+		
+		for (Edge e : main.Main.relationsH.values()) {
+			if (e.getX().equals(x)) {
+				System.out.println(e);
+				if (e.getType()!=null && e.getType().equals(typesEdge.get(rel))) ret.add(e.getY());
+			}
+		}
+		
+		return ret;
+		
 	}
 	
 
