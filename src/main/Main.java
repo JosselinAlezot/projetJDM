@@ -90,14 +90,29 @@ public class Main {
 		 * graph.Node camiondepompier = nodesH.get(152109);
 		 */
 		graph.Node camiondepompier = graph.Node.getNodeFromString("camion de pompier");
+		graph.Node voiture = graph.Node.getNodeFromString("voiture");
+		graph.Node moto = graph.Node.getNodeFromString("moto");
 		
-		System.out.println(camiondepompier);
+		//System.out.println(camiondepompier);
+
+		ArrayList<graph.Edge> motovoiture = graph.Edge.getRelationsFromXandY(moto, voiture);
+		ArrayList<graph.Edge> motocamiondepompier = graph.Edge.getRelationsFromXandY(moto, camiondepompier);
 		
+		System.out.println(motovoiture.size()+" relations entre "+moto.getName()+" et "+voiture.getName()+" : "+motovoiture);
+		System.out.println(motocamiondepompier.size()+" relations entre "+moto.getName()+" et "+camiondepompier.getName()+" : "+motocamiondepompier);
+		
+		
+		
+		/*
+		 * Test : les r_has_part d'un camion de pompier
+		 * (contient échelle)
+		 *
 		ArrayList<graph.Node> resultsdontechelle = graph.Edge.getYFromRelation(camiondepompier, graph.Edge.getIdTypeFromString("r_has_part"));
 		System.out.println(resultsdontechelle.size());
 		for (graph.Node n : resultsdontechelle) {
 			System.out.println(n);
 		}
+		*/
 		
 		//m.printNodesRelationsDico();
 

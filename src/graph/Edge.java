@@ -236,6 +236,16 @@ public class Edge {
 		
 		return ret;
 	}
+	
+	public static ArrayList<Edge> getRelationsFromXandY(Node x, Node y){
+		ArrayList<Edge> ret = new ArrayList<Edge>();
+		
+		for (Edge e : main.Main.relationsH.values()) {
+			if (e.getX().equals(x) && e.getY().equals(y)) ret.add(e);
+		}
+		
+		return ret;
+	}
 
 	public boolean containsX(String x) {
 		return x.equals(this.getX().getName());
