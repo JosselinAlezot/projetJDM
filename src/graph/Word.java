@@ -12,7 +12,7 @@ import java.io.IOException;
 public class Word {
 
 	private String initialWord;
-	private String grammaticalTag;
+	private ArrayList<String> grammaticalTag = new ArrayList<String>();
 	private ArrayList<String> lemmatizedWord = new ArrayList<String>();
 	public static final ArrayList<String> relevantGrammTags = new ArrayList<String>() {
 		{
@@ -31,9 +31,11 @@ public class Word {
 			add("VER:subi");
 			add("VER:subp");
 		}};
-		
+
 		public Word(PropertyHolder word) {
-			this.grammaticalTag = word.getGrammaticalClass();
+			this.grammaticalTag = this.getGrammaticalTag();
+			if(!this.getGrammaticalTag().contains(word.getGrammaticalClass()))
+				this.grammaticalTag.add(word.getGrammaticalClass());
 			this.initialWord = word.getWord();
 			for(String s: word.getLemmatized().split("\\|")) {
 				this.lemmatizedWord.add(s);
@@ -43,18 +45,21 @@ public class Word {
 		public Word(String word) {
 			ArrayList<PropertyHolder> caracWord = process(word);
 			initialWord = word;
-			grammaticalTag = caracWord.get(0).getGrammaticalClass();
+			System.out.println("Word:" + word);
+			System.out.println("carac word size:" + caracWord.size());
+			if(!grammaticalTag.contains(caracWord.get(0).getGrammaticalClass()))
+				grammaticalTag.add(caracWord.get(0).getGrammaticalClass());
 			String lemmatizedWords = caracWord.get(0).getLemmatized();
-			
+
 			for(String s: lemmatizedWords.split("\\|")) {
 				lemmatizedWord.add(s);
 			}
 		}
 
-		public String getGrammaticalTag() {
+		public ArrayList<String> getGrammaticalTag() {
 			return grammaticalTag;
 		}
-		public void setGrammaticalTag(String grammaticalTag) {
+		public void setGrammaticalTag(ArrayList<String> grammaticalTag) {
 			this.grammaticalTag = grammaticalTag;
 		}
 		public ArrayList<String> getLemmatizedWord() {
@@ -70,6 +75,7 @@ public class Word {
 		 * @return Liste de propertyHolder qui contiendra pour chaque le mot initial,sa classe grammatical et ses lemmatisations
 		 */
 		public static ArrayList<PropertyHolder> process(String text) {
+			System.setProperty("treetagger.home", "tree-tagger-windows-3.2.2/TreeTagger/lib");
 			TreeTaggerWrapper<String> tt = new TreeTaggerWrapper<>();
 			ArrayList<PropertyHolder> relationSet = new ArrayList<PropertyHolder>();
 			try {
@@ -83,11 +89,11 @@ public class Word {
 			}
 			return relationSet;
 		}
-		
+
 		public boolean hasMultipleLemm() {
 			return this.getLemmatizedWord().size() > 1;
 		}
-		
+
 		public String getUniqueLemm(String sentence) throws IOException {
 			if(hasMultipleLemm()) {
 				return this.lemmatizedWordChosen(sentence);
@@ -107,7 +113,7 @@ public class Word {
 			ArrayList<Edge> relTwoWords;
 			ArrayList<Integer> numberRelByLemmatizedWord = new ArrayList<Integer>();
 			main.Main m = new main.Main();
-			m.init(m,sentence);
+			m.initWord(m,sentence);
 			wordProperty = process(sentence);
 			//Pour chacun des mots lemmatise on va compter le nombre de relations avec les autres mots interessants de la phrase
 			for(String currentLem: this.getLemmatizedWord()) {
@@ -151,17 +157,17 @@ public class Word {
 		public static void main(String[] args) throws IOException, TreeTaggerException {
 			System.setProperty("treetagger.home", "tree-tagger-windows-3.2.2/TreeTagger/lib");
 			String texts = "La valorisation de son patrimoine historique, culturel et architectural a permis à la ville d'obtenir le label de Ville d'art et d'histoire. Depuis 2012, date de son inscription sur la liste indicative française, Nîmes travaille son dossier de candidature sur le thème « Nîmes, l'Antiquité au présent » pour l'inscription de la cité bimillénaire au patrimoine mondial de l'UNESCO2.";
-//			text = "n'était";
+			//			text = "n'était";
 			for(String text: texts.split("\\.")) {
 				process(text).forEach(System.out::println);
 			}
 			Word test = new Word("sommes");
 			String onycroit = test.lemmatizedWordChosen("Nous sommes des veuve");
 			System.out.println(onycroit);
-			
-//			ArrayList<PropertyHolder> ontest = process(text);
-//			for(PropertyHolder p: ontest) {
-//				System.out.println("Mot:" + p.getWord() + ". Classe gramm:" + p.getGrammaticalClass() + ". Lemma:" + p.getLemmatized().toString());
-//			}
+
+			//			ArrayList<PropertyHolder> ontest = process(text);
+			//			for(PropertyHolder p: ontest) {
+			//				System.out.println("Mot:" + p.getWord() + ". Classe gramm:" + p.getGrammaticalClass() + ". Lemma:" + p.getLemmatized().toString());
+			//			}
 		}
 }

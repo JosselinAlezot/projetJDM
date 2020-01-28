@@ -8,6 +8,7 @@ public class Node {
 	
 	public int id;
 	public String nom, type, poids; // pour les termes
+	public boolean valid;
 	public static HashMap<Integer, String> typesNode = new HashMap<Integer, String>() {
 	{
 	    put(0, "n_generic");
@@ -42,6 +43,9 @@ public class Node {
 		String[] varRecupName = node.split("'");
 		String[] elsnode1 = varRecupName[0].split(";");
 		
+		this.valid = (elsnode1.length==2);
+		if (!valid) return;
+		
 		int indiceName = 1;
 		String tempname = "";
 		
@@ -56,6 +60,10 @@ public class Node {
 		setName(tempname+varRecupName[indiceName]);
 		this.type = typesNode.get(Integer.valueOf(elsnode2[1]));
 		this.poids = elsnode2[2];
+	}
+	
+	public boolean isValid() {
+		return this.valid;
 	}
 	
 	// Ne sert que dans les cas où on rencontre un mot non trouvable, n'arrivera jamais en théorie sauf dans des cas de tests précis

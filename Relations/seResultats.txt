@@ -1,0 +1,199 @@
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;10;'n_relation'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;200;'n_context'
+nt;444;'n_link'
+nt;777;'n_wikipedia'
+e;37671;'se';1;58
+e;14286111;'se>408813';1;0;'se>déshabilla'
+e;64657;'i';1;2026
+e;52565;'pronominal';1;60
+e;97470;'me';1;108
+e;97577;'c';1;2168
+e;116477;'personne';1;9860
+e;24686;'soi-même';1;116
+e;23157;'linguistique';1;2222
+e;8662;'s';1;318
+e;138323;'Se';1;50
+e;140134;'te';1;96
+e;151684;'Linguistique';1;376
+e;239128;'_COM';36;50
+e;313787;'SE';1;54
+e;2282608;'s'';2;0
+e;5620942;'élément SECIS';777;0
+e;14281790;'se>421165';1;0;'se>rencontrent'
+e;14284966;'se>415023';1;0;'se>convertit'
+e;14286096;'se>408812';1;0;'se>glissa'
+e;171870;'Nom:';4;50
+e;146900;'Pro:SG P3:PL P3';4;50
+e;2356740;'Pro:Pers';4;0
+e;2931520;'Pro:Pers:COD';4;0
+e;2931950;'Pro:Pers:COI';4;0
+e;147826;'Pro:';4;50
+e;1144;'se figer';1;50
+e;356;'se mettre à plat ventre devant';1;50
+e;412;'se faisander';1;50
+e;566;'se soustraire à la vue';1;50
+e;573;'se faire humble';1;52
+e;658;'se sortir';1;50
+e;858;'se mêler';1;78
+e;905;'se grouper';1;56
+e;1032;'se ficher';1;58
+e;1128;'se chausser';1;70
+e;1192;'se griser';1;54
+e;1284;'se confondre en excuses';1;70
+e;1330;'se massacrer';1;50
+e;1768;'se communiquer';1;52
+e;1533;'se torcher';1;62
+e;1382;'se respecter';1;52
+e;220;'se défiler';1;72
+e;1353;'se dégonfler';1;54
+e;151553;'_FL:0';6;50
+e;102633;'soldat';1;1976
+e;24956;'être humain';1;748
+e;155393;'petite fille';1;262
+e;74860;'homme';1;28306
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;254876;'_POL-POS_PC';36;50
+e;223172;'_POL-NEG';36;50
+e;223173;'_POL-POS';36;50
+e;2585997;'_INFO-CNRTL-NO';36;50
+e;2355199;'_OCC-IGNORE';36;0
+e;273221;'_INFO-WIKI-NO';36;50
+e;254878;'_POL-NEG_PC';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;8568796;':r149313816';10;0
+e;8568798;':r149313827';10;0
+e;8568800;':r149313844';10;0
+e;48804;'ce';1;56
+e;3813048;'dbnary:fra:__ws_1_se__pronom_personnel__1';444;0
+e;3832574;'dbnary:fra:__ws_2_se__pronom_personnel__1';444;0
+e;3851899;'dbnary:fra:__ws_3_se__pronom_personnel__1';444;0
+e;3985647;'dbnary:fra:__ws_4_se__pronom_personnel__1';444;0
+e;313774;'séquence de spin écho';1;50
+e;263034;'m'';1;50
+e;2491631;'c.a.c.';1;0
+e;2500702;'c.a.s.';1;0
+e;13681925;'e7ad2f508afd3ad8532531fbaf76090a';200;0
+e;140969;'système d'exploitation';1;238
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;3;'r_domain';'domaine';Il est demandé de fournir des domaines relatifs au mot cible. Par exemple, pour 'corner', on pourra donner les domaines 'football' ou 'sport'.
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;13;'r_agent';'action>agent';L'agent (qu'on appelle aussi le sujet) est l'entité qui effectue l'action, OU la subit pour des formes passives ou des verbes d'état. Par exemple, dans - Le chat mange la souris -, l'agent est le chat. Des agents typiques de 'courir' peuvent être 'sportif', 'enfant',... (manger r_agent chat)
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;24;'r_agent-1';'agent typique-1';Que peut faire ce SUJET ? (par exemple chat => miauler, griffer, etc.) (chat r_agent-1 manger)
+rt;27;'r_domain-1';'domaine-1';inverse de r_domain : à un domaine, on associe des termes
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;71;'r_variante';'variante';Variantes du termes cible. Par exemple, yaourt, yahourt, ou encore évènement, événement.
+rt;128;'r_node2relnode';'r_node2relnode';Relation entre un noeud (quelconque) et un noeud de relation (type = 10) - permet de rendre le graphe connexe même avec les annotations de relations
+rt;161;'r_homophone';'homophone';Il est demandé d'énumérer les homophones ou quasi-homophones de ce terme.
+rt;200;'r_context';'r_context';Relation de contexte entre un terme et un noeud contexte.
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+r;363907906;37671;14286111;0;70
+r;111200761;37671;64657;0;27
+r;1896978;37671;52565;0;31
+r;1896979;37671;97470;0;43
+r;111200760;37671;97577;0;30
+r;1342317;37671;116477;0;30
+r;1896977;37671;24686;0;32
+r;15365292;37671;23157;0;32
+r;111200762;37671;8662;0;26
+r;14488020;37671;138323;0;26
+r;1831271;37671;140134;0;70
+r;15702132;37671;151684;0;24
+r;24034706;37671;239128;0;1000000
+r;14462054;37671;313787;0;30
+r;71844695;37671;2282608;0;34
+r;111200759;37671;5620942;0;34
+r;363892828;37671;14281790;0;110
+r;363903902;37671;14284966;0;70
+r;363907853;37671;14286096;0;70
+r;15660548;37671;151684;3;-20
+r;513261;37671;23157;3;29
+r;1422051;37671;171870;4;-60
+r;52660;37671;146900;4;57
+r;48898710;37671;2356740;4;32
+r;72296924;37671;2931520;4;45
+r;72296925;37671;2931950;4;45
+r;12109718;37671;147826;4;51
+r;8980965;37671;1144;11;34
+r;8980919;37671;356;11;30
+r;8980924;37671;412;11;27
+r;8980933;37671;566;11;27
+r;8980934;37671;573;11;26
+r;8980935;37671;658;11;30
+r;8980947;37671;858;11;29
+r;8980948;37671;905;11;32
+r;8980955;37671;1032;11;31
+r;8980962;37671;1128;11;35
+r;8980969;37671;1192;11;28
+r;8980975;37671;1284;11;29
+r;8980980;37671;1330;11;27
+r;8981005;37671;1768;11;29
+r;8980992;37671;1533;11;27
+r;8980986;37671;1382;11;26
+r;8980912;37671;220;11;26
+r;8980982;37671;1353;11;29
+r;1676516;37671;151553;12;17
+r;149711561;37671;102633;13;30
+r;314741593;37671;24956;13;30
+r;149711560;37671;155393;13;30
+r;149711562;37671;74860;13;30
+r;90908987;37671;3576104;18;35
+r;90038521;37671;3575927;18;29
+r;333017;37671;37671;19;60
+r;26848911;37671;254876;36;19
+r;26440924;37671;223172;36;49
+r;18433418;37671;223173;36;93
+r;76819556;37671;2585997;36;56
+r;48898952;37671;2355199;36;44
+r;361375014;37671;273221;36;25
+r;26848913;37671;254878;36;10
+r;26848912;37671;254877;36;71
+r;22532690;37671;241794;36;349
+r;72296964;37671;2282608;71;55
+r;149313820;37671;8568796;128;6
+r;149313831;37671;8568798;128;12
+r;149313848;37671;8568800;128;6
+r;87247655;37671;48804;161;32
+r;94209342;37671;3813048;444;1
+r;94226849;37671;3832574;444;1
+r;94244078;37671;3851899;444;1
+r;94363370;37671;3985647;444;1
+r;15298204;23157;37671;0;24
+r;15546946;151684;37671;0;24
+r;14464354;313774;37671;0;26
+r;14462053;313787;37671;0;27
+r;14488019;138323;37671;0;27
+r;111200755;5620942;37671;0;27
+r;21110966;116477;37671;0;28
+r;111200766;64657;37671;0;31
+r;111200768;8662;37671;0;35
+r;1893799;97470;37671;0;56
+r;72063432;263034;37671;0;56
+r;2032960;52565;37671;0;57
+r;1676515;140134;37671;0;60
+r;111200764;97577;37671;0;73
+r;125357635;2491631;37671;0;77
+r;125357959;2500702;37671;0;77
+r;333017;37671;37671;19;60
+r;149313816;74860;37671;24;30
+r;149313827;102633;37671;24;30
+r;149313844;155393;37671;24;30
+r;315231076;24956;37671;24;30
+r;15510676;151684;37671;27;-29
+r;15167857;23157;37671;27;29
+r;72296959;2282608;37671;71;34
+r;87247656;48804;37671;161;43
+r;347358536;13681925;37671;200;2
+r;3652289;140969;37671;777;10

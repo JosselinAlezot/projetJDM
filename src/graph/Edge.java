@@ -17,6 +17,7 @@ public class Edge {
 	private int poids,idRelation;
 	private String type;
 	private Node x,y;
+	private boolean valid;
 	public static HashMap<Integer, String> typesEdge = new HashMap<Integer, String>() {
 	{
 		
@@ -138,7 +139,13 @@ public class Edge {
 		y = main.Main.nodesH.get(Integer.valueOf(elsrel[3]));
 		type = typesEdge.get(Integer.valueOf(elsrel[4]));
 		poids = Integer.valueOf(elsrel[5]);
+		
+		if (type==null || x==null || y==null) valid=false;
 
+	}
+	
+	public boolean isValid(){
+		return this.valid;
 	}
 
 	/*
@@ -240,6 +247,7 @@ public class Edge {
 		ArrayList<Edge> ret = new ArrayList<Edge>();
 		
 		for (Edge e : main.Main.relationsH.values()) {
+			if(e.getX()==null) System.out.println(e);
 			if (e.getX().equals(x) && e.getY().equals(y)) ret.add(e);
 		}
 		

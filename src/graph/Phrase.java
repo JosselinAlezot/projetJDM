@@ -59,7 +59,7 @@ public class Phrase {
 		
 		main.Main m = new main.Main();
 		try {
-			m.init(m,phrase);
+			m.initWord(m,phrase);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

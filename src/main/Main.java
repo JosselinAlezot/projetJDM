@@ -46,11 +46,17 @@ public class Main {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void init(Main m, String phrase) throws IOException {
-		
+	public void init(Main m) throws IOException {
 		m.readWordsList();
-		m.extractSentence(phrase);
+		m.extractSentence("");
 		m.fillingLists();
+	}
+	
+	public void initWord(Main m, String phrase) throws IOException {
+		System.out.println("phrase : "+phrase);
+		//m.readWordsList();
+		m.extractSentence(phrase);
+		//m.fillingLists();
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -223,17 +229,38 @@ public class Main {
 	    	if (line.startsWith("e;")) {
 	    		//System.out.println("currentnode : "+line);
 	    		graph.Node temp = new graph.Node(line);
+	    		if (!temp.isValid()) continue;
 		    	nodes.add(temp);
 		    	nodesH.putIfAbsent(temp.getId(),temp);
 	    	}
 	    	if (line.startsWith("r;")) {
 	    		graph.Edge temp = new graph.Edge(line);
+	    		if (!temp.isValid()) continue;
 		    	relations.add(new graph.Edge(line));
 		    	relationsH.put(temp.getIdRelation(),temp);
 	    	}
 	    }
 	    
 	    //String[] rules = line.split(lineSplitBy);
+	}
+	
+	/*
+	 * Utilisée pour ajouter de nouvelles relations après l'init sans avoir à relire le fichier Relations
+	 */
+	public void addLine(String line) {
+    	if (line.startsWith("e;")) {
+    		//System.out.println("currentnode : "+line);
+    		graph.Node temp = new graph.Node(line);
+    		if (!temp.isValid()) return;
+	    	nodes.add(temp);
+	    	nodesH.putIfAbsent(temp.getId(),temp);
+    	}
+    	if (line.startsWith("r;")) {
+    		graph.Edge temp = new graph.Edge(line);
+    		if (!temp.isValid()) return;
+	    	relations.add(new graph.Edge(line));
+	    	relationsH.put(temp.getIdRelation(),temp);
+    	}
 	}
 	
 	public String getUrl(String mot) throws UnsupportedEncodingException{
@@ -277,6 +304,7 @@ public class Main {
 		    for (String line; (line = reader.readLine()) != null;) {
 		    	if (( line.startsWith("nt;"))||(line.startsWith("e;"))||(line.startsWith("r;"))||(line.startsWith("rt;"))) {
 		    		line = parse(line);
+		    		addLine(line);
 		    		writer.write(line);
 		    		writer.write("\n");
 		    		writerG.write(line);
@@ -295,12 +323,19 @@ public class Main {
 	 * quelle idée de laisser des caractères turcs aussi comment ils sont arrivés sur jdm ??
 	 */
 	public String parse(String line) throws IOException {
-		String l = URLDecoder.decode(line, "UTF-8");
-		if (l.contains("&#305;")) {
-			l = l.replaceAll("&#305;", "i");
+		
+		try {
+			String l = URLDecoder.decode(line, "UTF-8");
+			if (l.contains("&#305;")) {
+				l = l.replaceAll("&#305;", "i");
+			}
+			
+			return l;
+		} catch (Exception e) {
+			// TODO: handle exception
 		}
 		
-		return l;
+		return line;
 	}
 	
 	/*

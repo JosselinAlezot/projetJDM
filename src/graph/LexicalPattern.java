@@ -76,18 +76,20 @@ public class LexicalPattern {
 	public HashMap<String,ArrayList<String>> getLexicalPatternLemmatized() throws IOException{
 		HashMap<String,ArrayList<String>> res = new HashMap<String,ArrayList<String>>();
 		StringBuilder lemmatizedMeaning = new StringBuilder();
-		graph.Word word = new Word("");
 		String lemmatizedWordChosen = "";
 		ArrayList<String> allLemmaMeanings = new ArrayList<String>();
+		int cpt = 0;
 		//pour chaque clé
 		for(String key: this.getLexicalPatterns().keySet()) {
+			System.out.println("Taille cle:" + this.getLexicalPatterns().size() + ". Numero cle:" + cpt);
+			cpt++;
 			//Pour chaque traduction
 			for(String meaning: this.getLexicalPatterns().get(key)) {
 				//On process la traduction a analysee
 				ArrayList<PropertyHolder> sentenceProcessed = graph.Word.process(meaning);
 				//Pour tous les mots analyses de la phrase
 				for(int i = 0;i < sentenceProcessed.size();i++) {
-					word = new graph.Word(sentenceProcessed.get(i));
+					Word word = new graph.Word(sentenceProcessed.get(i));
 					//S'il y a plusieurs lemmatisation
 					if(word.getLemmatizedWord().size() > 1) {
 						lemmatizedWordChosen = word.lemmatizedWordChosen(meaning);

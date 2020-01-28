@@ -1,0 +1,115 @@
+nt;1;'n_term'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;444;'n_link'
+nt;777;'n_wikipedia'
+e;398556;'trouve';1;50
+e;48704;'trouver';1;460
+e;412957;'Trouvé';1;50
+e;37302;'trouvé';1;86
+e;150117;'Ver:IPre SG P1';4;50
+e;14270945;'VerbalNumber:SG';4;0
+e;14270944;'VerbalPers:P3';4;0
+e;14270943;'VerbalPers:P2';4;0
+e;14270942;'VerbalPers:P1';4;0
+e;14270847;'Ver:ImPre SG P2';4;0
+e;14270798;'VerbalMode:Impératif';4;0
+e;3093591;'VerbalMode:Subjonctif';4;0
+e;3093590;'VerbalMode:Indicatif';4;0
+e;2946892;'Ver:Conjug';4;0
+e;2935005;'VerbalTime:Present';4;0
+e;150118;'Ver:IPre SG P3';4;50
+e;150119;'Ver:SPre SG P1';4;50
+e;150120;'Ver:SPre SG P3';4;50
+e;161698;'Ver:IPre SG P1:IPre SG P3:SPre SG P1:SPre SG P3:ImPre SG P2';4;50
+e;212235;'Ver:';4;50
+e;2446902;'il se trouve';1;0
+e;5835508;'Je vous trouve très beau';777;0
+e;171711;'si ça se trouve';1;50
+e;10064212;'Tarzan trouve un fils';777;0
+e;202043;'il se trouve que';1;50
+e;2605850;'l'herbe sera bien courte, s'il ne trouve de quoi brouter';1;0
+e;2372059;'chacun prend son plaisir où il le trouve';1;0
+e;10143066;'Jerry trouve un allié';777;0
+e;388875;'à quelque niveau où l'on se trouve';1;50
+e;11101233;'Marge se trouve un emploi';777;0
+e;151553;'_FL:0';6;50
+e;3575927;'Morpho:min';18;50
+e;3576104;'Morpho:nospace';18;50
+e;223172;'_POL-NEG';36;50
+e;276096;'_INFO-WIKI-YES';36;50
+e;254878;'_POL-NEG_PC';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;254876;'_POL-POS_PC';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;223173;'_POL-POS';36;50
+e;3228593;'wiki:@';444;0
+e;2983124;'_SW';36;50
+e;161213;'plasticienne';1;114
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+r;87498486;398556;48704;0;26
+r;14452711;398556;412957;0;27
+r;14459101;398556;37302;0;27
+r;362961989;398556;150117;4;25
+r;362998003;398556;14270945;4;25
+r;363024809;398556;14270944;4;25
+r;363015787;398556;14270943;4;25
+r;363006866;398556;14270942;4;25
+r;363203747;398556;14270847;4;25
+r;361881966;398556;14270798;4;25
+r;75814655;398556;3093591;4;45
+r;75814654;398556;3093590;4;50
+r;72424291;398556;2946892;4;45
+r;72094757;398556;2935005;4;45
+r;362970901;398556;150118;4;25
+r;362979892;398556;150119;4;25
+r;362989008;398556;150120;4;25
+r;14364293;398556;161698;4;53
+r;14364294;398556;212235;4;55
+r;55390115;398556;2446902;11;38
+r;114024707;398556;5835508;11;32
+r;14290101;398556;171711;11;53
+r;232099014;398556;10064212;11;40
+r;14279865;398556;202043;11;56
+r;55494691;398556;2605850;11;60
+r;52039346;398556;2372059;11;37
+r;236659849;398556;10143066;11;45
+r;14206132;398556;388875;11;54
+r;282620907;398556;11101233;11;37
+r;74800081;398556;151553;12;28
+r;89793839;398556;3575927;18;30
+r;90771911;398556;3576104;18;31
+r;14364292;398556;48704;19;57
+r;26530746;398556;223172;36;58
+r;86864322;398556;276096;36;31
+r;27527181;398556;254878;36;13
+r;27527180;398556;254877;36;68
+r;27527179;398556;254876;36;19
+r;17263011;398556;241794;36;298
+r;26313818;398556;223173;36;81
+r;78153421;398556;3228593;444;28
+r;73948109;398556;2983124;555;121193
+r;17263013;398556;161213;777;10
+r;114024708;5835508;398556;0;8
+r;52039347;2372059;398556;0;12
+r;55390116;2446902;398556;0;13
+r;282620908;11101233;398556;0;13
+r;232099015;10064212;398556;0;16
+r;236659850;10143066;398556;0;22
+r;14459102;37302;398556;0;23
+r;14452710;412957;398556;0;24
+r;14290102;171711;398556;0;45
+r;14279866;202043;398556;0;48
+r;14206133;388875;398556;0;56
+r;55494692;2605850;398556;0;57
