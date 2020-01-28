@@ -81,7 +81,7 @@ public class LexicalPattern {
 		int cpt = 0;
 		//pour chaque clé
 		for(String key: this.getLexicalPatterns().keySet()) {
-			System.out.println("Taille cle:" + this.getLexicalPatterns().size() + ". Numero cle:" + cpt);
+			//System.out.println("Taille cle:" + this.getLexicalPatterns().size() + ". Numero cle:" + cpt);
 			cpt++;
 			//Pour chaque traduction
 			for(String meaning: this.getLexicalPatterns().get(key)) {
@@ -145,6 +145,16 @@ public class LexicalPattern {
 		
 		return meanings;
 	}
+	
+	public ArrayList<String> getMeaningsBrut(){
+		ArrayList<String> res = new ArrayList<String>();
+		for(String key: this.getLexicalPatterns().keySet()){
+			for(String meaning: this.getLexicalPatterns().get(key)){
+				res.add(meaning);
+			}
+		}
+		return res;
+	}
 
 
 
@@ -158,6 +168,6 @@ public class LexicalPattern {
 
 	public static void main(String args[]) throws IOException {
 		LexicalPattern test = new LexicalPattern();
-		System.out.println(test.toStringLexicalPattern());
+		//System.out.println(test.toStringLexicalPattern());
 	}
 }

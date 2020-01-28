@@ -1,12 +1,14 @@
 package graph;
 
 import java.util.ArrayList;
+
 import org.annolab.tt4j.TreeTaggerException;
 import org.annolab.tt4j.TreeTaggerWrapper;
 
 import com.oracle.webservices.internal.api.message.PropertySet.Property;
 
 import static java.util.Arrays.asList;
+
 import java.io.IOException;
 
 public class Word {
@@ -45,8 +47,8 @@ public class Word {
 		public Word(String word) {
 			ArrayList<PropertyHolder> caracWord = process(word);
 			initialWord = word;
-			System.out.println("Word:" + word);
-			System.out.println("carac word size:" + caracWord.size());
+			//System.out.println("Word:" + word);
+			//System.out.println("carac word size:" + caracWord.size());
 			if(!grammaticalTag.contains(caracWord.get(0).getGrammaticalClass()))
 				grammaticalTag.add(caracWord.get(0).getGrammaticalClass());
 			String lemmatizedWords = caracWord.get(0).getLemmatized();
@@ -68,6 +70,18 @@ public class Word {
 		public void setLemmatizedWord(ArrayList<String> lemmatizedWord) {
 			this.lemmatizedWord = lemmatizedWord;
 		}
+
+
+		public boolean grammClassRelevant(){
+			if(this.getGrammaticalTag().size() > 0){
+				for(String tmp: this.getGrammaticalTag()){
+					if(graph.Word.relevantGrammTags.contains(tmp)) return true;
+				}
+				return false;
+			}
+			return false;
+		}
+
 
 		/**
 		 * 
@@ -130,6 +144,7 @@ public class Word {
 							relTwoWords = graph.Edge.getRelationsFromXandY(graph.Node.getNodeFromString(currentLem),graph.Node.getNodeFromString(s));
 							cpt += relTwoWords.size();
 						}
+						//System.out.println("cpt:" + cpt);
 					}
 					cpt2++;
 				}
@@ -158,6 +173,8 @@ public class Word {
 			System.setProperty("treetagger.home", "tree-tagger-windows-3.2.2/TreeTagger/lib");
 			String texts = "La valorisation de son patrimoine historique, culturel et architectural a permis à la ville d'obtenir le label de Ville d'art et d'histoire. Depuis 2012, date de son inscription sur la liste indicative française, Nîmes travaille son dossier de candidature sur le thème « Nîmes, l'Antiquité au présent » pour l'inscription de la cité bimillénaire au patrimoine mondial de l'UNESCO2.";
 			//			text = "n'était";
+
+
 			for(String text: texts.split("\\.")) {
 				process(text).forEach(System.out::println);
 			}

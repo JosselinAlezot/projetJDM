@@ -23,9 +23,10 @@ public class Sentence {
 	
 	public ArrayList<Word> getWordsBetweenXAndY(ArrayList<Word> sentence,int x,int y){
 		ArrayList<Word> res = new ArrayList<Word>();
-		for(int i = 1;i < y;i++) {
-			res.add(sentence.get(x + i));
+		for(int i = x + 1;i < y;i++) {
+			res.add(sentence.get(i));
 		}
 		return res;
 	}
+	
 }

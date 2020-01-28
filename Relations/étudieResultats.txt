@@ -1,0 +1,125 @@
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;10;'n_relation'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;444;'n_link'
+nt;777;'n_wikipedia'
+e;2313474;'étudie';2;0
+e;35143;'biologie';1;1814
+e;6950310;'=student=';1;0
+e;123769;'étudiant';1;1964
+e;127257;'étudier';1;1394
+e;2313487;'étudies';2;0
+e;568619;'Étudiante';1;50
+e;416774;'Etudiant';1;50
+e;416601;'Élèves';1;50
+e;413238;'Étudiants';1;50
+e;324350;'étudiées';1;50
+e;152089;'étudiante';1;276
+e;158842;'étudiée';1;102
+e;244169;'étudiantes';1;80
+e;3093590;'VerbalMode:Indicatif';4;0
+e;14270945;'VerbalNumber:SG';4;0
+e;14270944;'VerbalPers:P3';4;0
+e;14270943;'VerbalPers:P2';4;0
+e;14270942;'VerbalPers:P1';4;0
+e;14270847;'Ver:ImPre SG P2';4;0
+e;14270798;'VerbalMode:Impératif';4;0
+e;3093591;'VerbalMode:Subjonctif';4;0
+e;2946892;'Ver:Conjug';4;0
+e;2935005;'VerbalTime:Present';4;0
+e;2586630;'Number:Plur';4;0
+e;150117;'Ver:IPre SG P1';4;50
+e;212235;'Ver:';4;50
+e;161698;'Ver:IPre SG P1:IPre SG P3:SPre SG P1:SPre SG P3:ImPre SG P2';4;50
+e;150118;'Ver:IPre SG P3';4;50
+e;150120;'Ver:SPre SG P3';4;50
+e;150119;'Ver:SPre SG P1';4;50
+e;104647;'primatologie';1;56
+e;10745900;'branche des sciences qui étudie l'être humain';1;0
+e;151553;'_FL:0';6;50
+e;3575927;'Morpho:min';18;50
+e;3576104;'Morpho:nospace';18;50
+e;191678;'_INFO-SEM-SET';36;18
+e;5876586;':r114416090';10;0
+e;5876585;':r114416083';10;0
+e;6133185;'umls:C0038492';444;0
+e;2983124;'_SW';36;50
+e;6003853;'Marcel Golay';777;0
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;3;'r_domain';'domaine';Il est demandé de fournir des domaines relatifs au mot cible. Par exemple, pour 'corner', on pourra donner les domaines 'football' ou 'sport'.
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;9;'r_has_part';'partie';Il faut donner des PARTIES/constituants/éléments (a pour méronymes) du mot cible. Par exemple, 'voiture' a comme parties : 'porte', 'roue', 'moteur', ...
+rt;10;'r_holo';'tout';Il est démandé d'énumérer des 'TOUT' (a pour holonymes)  de l'objet en question. Pour 'main', on aura 'bras', 'corps', 'personne', etc... Le tout est aussi l'ensemble comme 'classe' pour 'élève'.
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;72;'r_syn_strict';'r_syn_strict';Termes strictement substituables, pour des termes hors du domaine général, et pour la plupart des noms (exemple : endométriose intra-utérine --> adénomyose)
+rt;128;'r_node2relnode';'r_node2relnode';Relation entre un noeud (quelconque) et un noeud de relation (type = 10) - permet de rendre le graphe connexe même avec les annotations de relations
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+r;121666151;2313474;35143;0;40
+r;211606918;2313474;6950310;0;31
+r;120482184;2313474;123769;0;31
+r;87683647;2313474;127257;0;40
+r;120482244;2313474;2313487;0;32
+r;120482266;2313474;568619;0;35
+r;120482271;2313474;416774;0;29
+r;120482215;2313474;416601;0;34
+r;120482255;2313474;413238;0;27
+r;120482268;2313474;324350;0;34
+r;120482199;2313474;152089;0;32
+r;120482231;2313474;158842;0;29
+r;120482264;2313474;244169;0;31
+r;121177941;2313474;35143;3;38
+r;77841619;2313474;3093590;4;31
+r;362994353;2313474;14270945;4;25
+r;363021107;2313474;14270944;4;25
+r;363012134;2313474;14270943;4;25
+r;363003228;2313474;14270942;4;25
+r;363199723;2313474;14270847;4;25
+r;361885603;2313474;14270798;4;25
+r;77841620;2313474;3093591;4;28
+r;77841618;2313474;2946892;4;28
+r;77841617;2313474;2935005;4;35
+r;114416088;2313474;2586630;4;27
+r;362958321;2313474;150117;4;25
+r;32652085;2313474;212235;4;59
+r;77841616;2313474;161698;4;31
+r;362967257;2313474;150118;4;25
+r;362985195;2313474;150120;4;25
+r;362976206;2313474;150119;4;25
+r;114416090;2313474;104647;9;28
+r;268887808;2313474;10745900;11;35
+r;74647952;2313474;151553;12;30
+r;89381437;2313474;3575927;18;29
+r;90366848;2313474;3576104;18;35
+r;32652084;2313474;127257;19;56
+r;114416089;2313474;191678;36;31
+r;296067005;2313474;416601;72;-25
+r;114416093;2313474;5876586;128;51
+r;114416087;2313474;5876585;128;4
+r;119861995;2313474;6133185;444;31
+r;73951647;2313474;2983124;555;24420
+r;268887809;10745900;2313474;0;11
+r;120482183;123769;2313474;0;26
+r;120482270;127257;2313474;0;28
+r;120482272;416774;2313474;0;29
+r;211606917;6950310;2313474;0;29
+r;120482198;152089;2313474;0;30
+r;120482214;416601;2313474;0;30
+r;120482230;158842;2313474;0;30
+r;120482254;413238;2313474;0;30
+r;120482265;244169;2313474;0;32
+r;120482269;324350;2313474;0;32
+r;120482243;2313487;2313474;0;34
+r;120482267;568619;2313474;0;35
+r;114416083;104647;2313474;10;28
+r;296067002;416601;2313474;72;-25
+r;118189837;6003853;2313474;777;10
