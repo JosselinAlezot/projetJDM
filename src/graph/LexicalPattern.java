@@ -8,6 +8,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 //import com.sun.javafx.applet.Splash;
 
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -69,6 +70,40 @@ public class LexicalPattern {
 			res.add(line);
 		}
 		br.close();
+		return res;
+	}
+	
+	public HashMap<String,ArrayList<String>> getLexicalPatternLemmatized() throws IOException{
+		HashMap<String,ArrayList<String>> res = new HashMap<String,ArrayList<String>>();
+		StringBuilder lemmatizedMeaning = new StringBuilder();
+		graph.Word word = new Word("");
+		String lemmatizedWordChosen = "";
+		ArrayList<String> allLemmaMeanings = new ArrayList<String>();
+		//pour chaque clé
+		for(String key: this.getLexicalPatterns().keySet()) {
+			//Pour chaque traduction
+			for(String meaning: this.getLexicalPatterns().get(key)) {
+				//On process la traduction a analysee
+				ArrayList<PropertyHolder> sentenceProcessed = graph.Word.process(meaning);
+				//Pour tous les mots analyses de la phrase
+				for(int i = 0;i < sentenceProcessed.size();i++) {
+					word = new graph.Word(sentenceProcessed.get(i));
+					//S'il y a plusieurs lemmatisation
+					if(word.getLemmatizedWord().size() > 1) {
+						lemmatizedWordChosen = word.lemmatizedWordChosen(meaning);
+						lemmatizedMeaning = lemmatizedMeaning.append(lemmatizedWordChosen);
+					}
+					//S'il y a qu'une seule lemmatisation
+					else {
+						lemmatizedMeaning = lemmatizedMeaning.append(word.getLemmatizedWord().get(0));
+					}
+					//Si ce n'est pas le dernier caractere
+					if(i == sentenceProcessed.size() - 1) lemmatizedMeaning.append(" ");
+				}
+				allLemmaMeanings.add(lemmatizedMeaning.toString());
+			}
+			res.put(key,allLemmaMeanings);
+		}
 		return res;
 	}
 

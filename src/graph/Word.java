@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import org.annolab.tt4j.TreeTaggerException;
 import org.annolab.tt4j.TreeTaggerWrapper;
 
+import com.oracle.webservices.internal.api.message.PropertySet.Property;
 
 import static java.util.Arrays.asList;
 import java.io.IOException;
@@ -13,7 +14,7 @@ public class Word {
 	private String initialWord;
 	private String grammaticalTag;
 	private ArrayList<String> lemmatizedWord = new ArrayList<String>();
-	private static final ArrayList<String> relevantGrammTags = new ArrayList<String>() {
+	public static final ArrayList<String> relevantGrammTags = new ArrayList<String>() {
 		{
 			add("ADJ");
 			add("NAM");
@@ -30,6 +31,14 @@ public class Word {
 			add("VER:subi");
 			add("VER:subp");
 		}};
+		
+		public Word(PropertyHolder word) {
+			this.grammaticalTag = word.getGrammaticalClass();
+			this.initialWord = word.getWord();
+			for(String s: word.getLemmatized().split("\\|")) {
+				this.lemmatizedWord.add(s);
+			}
+		}
 
 		public Word(String word) {
 			ArrayList<PropertyHolder> caracWord = process(word);
@@ -39,7 +48,6 @@ public class Word {
 			
 			for(String s: lemmatizedWords.split("\\|")) {
 				lemmatizedWord.add(s);
-				System.out.println(s);
 			}
 		}
 
@@ -61,7 +69,7 @@ public class Word {
 		 * @param text Texte a evaluer
 		 * @return Liste de propertyHolder qui contiendra pour chaque le mot initial,sa classe grammatical et ses lemmatisations
 		 */
-		private static ArrayList<PropertyHolder> process(String text) {
+		public static ArrayList<PropertyHolder> process(String text) {
 			TreeTaggerWrapper<String> tt = new TreeTaggerWrapper<>();
 			ArrayList<PropertyHolder> relationSet = new ArrayList<PropertyHolder>();
 			try {
@@ -74,6 +82,17 @@ public class Word {
 				tt.destroy();
 			}
 			return relationSet;
+		}
+		
+		public boolean hasMultipleLemm() {
+			return this.getLemmatizedWord().size() > 1;
+		}
+		
+		public String getUniqueLemm(String sentence) throws IOException {
+			if(hasMultipleLemm()) {
+				return this.lemmatizedWordChosen(sentence);
+			}
+			return "";
 		}
 
 		/**
@@ -131,11 +150,18 @@ public class Word {
 
 		public static void main(String[] args) throws IOException, TreeTaggerException {
 			System.setProperty("treetagger.home", "tree-tagger-windows-3.2.2/TreeTagger/lib");
-//			String text = "La valorisation de son patrimoine historique, culturel et architectural a permis à la ville d'obtenir le label de Ville d'art et d'histoire. Depuis 2012, date de son inscription sur la liste indicative française, Nîmes travaille son dossier de candidature sur le thème « Nîmes, l'Antiquité au présent » pour l'inscription de la cité bimillénaire au patrimoine mondial de l'UNESCO2.";
+			String texts = "La valorisation de son patrimoine historique, culturel et architectural a permis à la ville d'obtenir le label de Ville d'art et d'histoire. Depuis 2012, date de son inscription sur la liste indicative française, Nîmes travaille son dossier de candidature sur le thème « Nîmes, l'Antiquité au présent » pour l'inscription de la cité bimillénaire au patrimoine mondial de l'UNESCO2.";
 //			text = "n'était";
-//			process(text).forEach(System.out::println);
+			for(String text: texts.split("\\.")) {
+				process(text).forEach(System.out::println);
+			}
 			Word test = new Word("sommes");
 			String onycroit = test.lemmatizedWordChosen("Nous sommes des veuve");
 			System.out.println(onycroit);
+			
+//			ArrayList<PropertyHolder> ontest = process(text);
+//			for(PropertyHolder p: ontest) {
+//				System.out.println("Mot:" + p.getWord() + ". Classe gramm:" + p.getGrammaticalClass() + ". Lemma:" + p.getLemmatized().toString());
+//			}
 		}
 }
