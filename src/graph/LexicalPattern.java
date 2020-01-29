@@ -60,7 +60,7 @@ public class LexicalPattern {
 	 */
 	public static ArrayList<String> extractText() throws IOException {
 		File directory = new File("./");
-		String relationsFile = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1)+"LexicalPattern/" + "LexicalPatterns.txt";
+		String relationsFile = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1)+"LexicalPattern/" + "LemmatizedPattern.txt";
 		ArrayList<String> res = new ArrayList<String>();
 		BufferedReader br = null;
 		String line = "";

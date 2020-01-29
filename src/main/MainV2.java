@@ -4,7 +4,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import org.w3c.dom.stylesheets.LinkStyle;
+
 import com.sun.org.apache.xml.internal.utils.ListingErrorHandler;
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 import graph.LexicalPattern;
 import graph.PropertyHolder;
@@ -14,15 +17,15 @@ import jdk.internal.util.xml.impl.Pair;
 public class MainV2 {
 
 	private HashMap<String,graph.Word> dicoMots = new HashMap<String,graph.Word>();
-	private ArrayList<Pair> pairmots = new ArrayList<Pair>();
 
 	public static void main(String args[]) throws IOException {
 		MainV2 test = new MainV2();
 		System.out.println(System.currentTimeMillis());
-		System.out.println(test.getRelaFromWiki("Plante"));
+		long first = System.currentTimeMillis();
+		System.out.println(test.getRelaFromWiki("France"));
 		//System.out.println(test.getAllRelations("Plante"));
 
-		System.out.println(System.currentTimeMillis());
+		System.out.println(System.currentTimeMillis()-first);
 	}
 
 
@@ -83,8 +86,15 @@ public class MainV2 {
 		this.processAllText1(wikiExtractor.getTextExtracted());
 		System.out.println(wikiExtractor.getTextExtracted());
 		System.out.println(this.getDicoMots().keySet().contains("phylogénétiqueLes"));
-
+		//lexicalPatterns.getLexicalPatterns()
 		graph.LexicalPattern lexicalPatterns = new graph.LexicalPattern();
+		
+		for (ArrayList<String> a : lexicalPatterns.getLexicalPatterns().values()) {
+			System.out.println(a);
+		}
+		
+		
+		
 		String stringAllMeanings = lexicalPatterns.getMeaningBrutString();
 		this.processAllText1(stringAllMeanings);
 		String betweenXandYLemm;
@@ -108,7 +118,7 @@ public class MainV2 {
 			//on va fixer le x
 			for(int XIndex = 0;XIndex < listWords.length - 2;XIndex++) {
 				String x = listWords[XIndex];
-				if(checkWord(x)) {
+				if(!checkWord(x)) {
 					ArrayList<graph.Word> tmp = graph.Word.process(x);
 					this.getDicoMots().put(x, tmp.get(0));
 				}
@@ -116,14 +126,12 @@ public class MainV2 {
 				if(this.dicoMots.get(x)!=null && this.dicoMots.get(x).grammClassRelevant()){
 					//on va fixer le y
 					for(int YIndex = XIndex+2;YIndex < listWords.length;YIndex++) {
-						if (this.dicoMots.get(listWords[XIndex])!=null 
-								&& this.dicoMots.get(listWords[YIndex])!=null 
-								&& pairmots.contains(listWords[XIndex])
-								&& pairmots.contains(listWords[YIndex])) continue;
+						//System.out.println(listWords[XIndex]+" -> "+dejavus.get(listWords[XIndex]));
+						
 						//Si le x et le y ne sont pas trop  eloignes
-						if(YIndex - XIndex < 3) {
+						if(YIndex - XIndex < 7) {
 							String y = listWords[YIndex];
-							if(checkWord(y)) {
+							if(!checkWord(y)) {
 								ArrayList<graph.Word> tmp = graph.Word.process(y);
 								this.getDicoMots().put(y, tmp.get(0));
 							}
@@ -143,8 +151,16 @@ public class MainV2 {
 								//								System.out.println(betweenXandYLemm);
 								//On lemmatise les mots entre x et y
 								betweenXandYLemm = this.getSentLemmatized(betweenXandYLemm);
+								
+//								if (lexicalPatterns.getLexicalPatterns().values().contains(betweenXandYLemm+" ")) {
+//									System.out.println("---- Affiche : "+betweenXandYLemm);
+//									continue;
+//								}
+								
+								//if (!checkInPattern(lexicalPatterns,betweenXandYLemm)) continue;
+								
 								//On compare les mots lemmatises entre x et y avec toutes les traductions qui seront lemmatisees
-								tmpRel = this.compareLexWordsBetw(lexicalPatterns, betweenXandYLemm, XIndex, YIndex);
+								tmpRel = this.compareLexWordsBetw(lexicalPatterns, betweenXandYLemm, XIndex, YIndex, listWords);
 								//Si on a des nouvelles relations on les rajoute
 								if(tmpRel.size() > 0){
 									//System.out.println("xi:"+listWords[XIndex]+this.dicoMots.get(listWords[XIndex]).getGrammaticalTag());
@@ -163,6 +179,16 @@ public class MainV2 {
 			System.out.println(res);
 		}
 		return res.toString();
+	}
+	
+	public boolean checkInPattern(LexicalPattern lexicalPatterns, String betweenXandYLemm) {
+		for (ArrayList a : lexicalPatterns.getLexicalPatterns().values()) {
+			if (a.contains(betweenXandYLemm)) {
+				//System.out.println("---- Affiche : "+betweenXandYLemm);
+				return true;
+			}
+		}
+		return false;
 	}
 
 	public boolean checkWord(String s) {
@@ -329,13 +355,23 @@ public class MainV2 {
 	//		}
 	//	}
 
-	public ArrayList<String> compareLexWordsBetw(LexicalPattern lexicalPattern,String sentenceLemm,int XIndex,int Yindex) throws IOException{
+	public ArrayList<String> compareLexWordsBetw(LexicalPattern lexicalPattern,String sentenceLemm,int XIndex,int YIndex, String[] listWords) throws IOException{
 		ArrayList<String> res = new ArrayList<String>();
+		boolean isThere = false;
+		for (ArrayList a : lexicalPattern.getLexicalPatterns().values()) {
+			if (a.contains(sentenceLemm)) {
+				//System.out.println("---- Affiche : "+betweenXandYLemm);
+				isThere = true;
+			}
+		}
+		if (isThere = false) return res;
 		for(String rel: lexicalPattern.getLexicalPatterns().keySet()){
 			for(String meaning: lexicalPattern.getLexicalPatterns().get(rel)){
-				String currentMeaningLemmatized = this.getSentLemmatized(meaning);
-				if(currentMeaningLemmatized.equals(sentenceLemm))
+				//String currentMeaningLemmatized = this.getSentLemmatized(meaning);
+				if(meaning.equals(sentenceLemm)){
 					res.add(rel);
+					break;
+				}
 			}
 		}
 		return res;
