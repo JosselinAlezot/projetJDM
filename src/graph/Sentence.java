@@ -7,9 +7,9 @@ public class Sentence {
 	private ArrayList<Word> wordsFromSentence;
 	
 	public Sentence(String sentence) {
-		ArrayList<PropertyHolder> wordsProcessed = graph.Word.process(sentence);
-		for(PropertyHolder p: wordsProcessed) {
-			this.wordsFromSentence.add(new Word(p));
+		ArrayList<graph.Word> wordsProcessed = graph.Word.process(sentence);
+		for(Word p: wordsProcessed) {
+			this.wordsFromSentence.add(p);
 		}
 	}
 

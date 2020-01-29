@@ -4,20 +4,27 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import com.sun.org.apache.xml.internal.utils.ListingErrorHandler;
+
 import graph.LexicalPattern;
 import graph.PropertyHolder;
 import graph.Sentence;
+import jdk.internal.util.xml.impl.Pair;
 
 public class MainV2 {
 
 	private HashMap<String,graph.Word> dicoMots = new HashMap<String,graph.Word>();
+	private ArrayList<Pair> pairmots = new ArrayList<Pair>();
 
 	public static void main(String args[]) throws IOException {
 		MainV2 test = new MainV2();
+		System.out.println(System.currentTimeMillis());
 		System.out.println(test.getRelaFromWiki("Plante"));
 		//System.out.println(test.getAllRelations("Plante"));
+
+		System.out.println(System.currentTimeMillis());
 	}
-	
+
 
 	public HashMap<String, graph.Word> getDicoMots() {
 		return dicoMots;
@@ -69,64 +76,82 @@ public class MainV2 {
 
 	public String getRelaFromWiki(String wordToCompute) throws IOException{
 		StringBuilder res = new StringBuilder();
-		
+		int cptNbRelTotal = 0;
 		WikiExtractor wikiExtractor = new WikiExtractor(wordToCompute);
 		String[] allSentences = wikiExtractor.getTextExtracted().split("\\.");
-		this.processAllText(wikiExtractor.getTextExtracted());
+		//this.processAllText(wikiExtractor.getTextExtracted());
+		this.processAllText1(wikiExtractor.getTextExtracted());
 		System.out.println(wikiExtractor.getTextExtracted());
 		System.out.println(this.getDicoMots().keySet().contains("phylogénétiqueLes"));
-//
-//		graph.LexicalPattern lexicalPatterns = new graph.LexicalPattern();
-//		ArrayList<String> stringAllMeanings = lexicalPatterns.getMeaningsBrut();
-//		this.processAllText(stringAllMeanings);
-		
+
+		graph.LexicalPattern lexicalPatterns = new graph.LexicalPattern();
+		String stringAllMeanings = lexicalPatterns.getMeaningBrutString();
+		this.processAllText1(stringAllMeanings);
 		String betweenXandYLemm;
 		ArrayList<String> tmpRel = new ArrayList<String>();
 		//pour toutes les phrases
 		for(int cptSent = 0;cptSent < allSentences.length;cptSent++){
-			System.out.println("Nb phrases traitees:" + cptSent + " sur " + allSentences.length + " phrases.");
-			System.out.println("Phrase:" + allSentences[cptSent]);
+			//System.out.println("Nb phrases traitees:" + cptSent + " sur " + allSentences.length + " phrases.");
+			//System.out.println("Phrase:" + allSentences[cptSent]);
 			//On sépare chaque mot de la phrase
 			if(allSentences[cptSent].startsWith(" ")){
 				allSentences[cptSent] = allSentences[cptSent].substring(1,allSentences[cptSent].length());
 			}
 			String listWords[] = allSentences[cptSent].split(" ");
+			
+			for (String motls : listWords) {
+				System.out.print(motls+" ");
+			}
+				System.out.println();
+			
+			
 			//on va fixer le x
 			for(int XIndex = 0;XIndex < listWords.length - 2;XIndex++) {
 				String x = listWords[XIndex];
-				//Si le x a une classe grammaticale interessante
-//				System.out.println("Phrase:" + allSentences[cptSent]);
-//				System.out.println("test listwords:" + listWords[0]);
-//				System.out.println("test listwords:" + listWords[1]);
-//				System.out.println("test listwords:" + listWords[2]);
-//				System.out.println("test listwords:" + listWords[3]);
-//				System.out.println("Word numero: " + XIndex);
-//				System.out.println(listWords.length);
-//				System.out.println("test listwords:" + listWords[XIndex]);
-//				System.out.println("on est la " + x);
-				if(this.dicoMots.get(x).grammClassRelevant()){
+				if(checkWord(x)) {
+					ArrayList<graph.Word> tmp = graph.Word.process(x);
+					this.getDicoMots().put(x, tmp.get(0));
+				}
+				//System.out.println(x+" "+this.dicoMots.get(x));
+				if(this.dicoMots.get(x)!=null && this.dicoMots.get(x).grammClassRelevant()){
 					//on va fixer le y
 					for(int YIndex = XIndex+2;YIndex < listWords.length;YIndex++) {
+						if (this.dicoMots.get(listWords[XIndex])!=null 
+								&& this.dicoMots.get(listWords[YIndex])!=null 
+								&& pairmots.contains(listWords[XIndex])
+								&& pairmots.contains(listWords[YIndex])) continue;
 						//Si le x et le y ne sont pas trop  eloignes
-						if(YIndex - XIndex < 7) {
+						if(YIndex - XIndex < 3) {
+							String y = listWords[YIndex];
+							if(checkWord(y)) {
+								ArrayList<graph.Word> tmp = graph.Word.process(y);
+								this.getDicoMots().put(y, tmp.get(0));
+							}
 							//Si le y vient d'une classe grammaticale interessante
-							if(this.dicoMots.get(x).grammClassRelevant()){
-								
+							//System.out.println("Taille listMots:" + listWords.length);
+							//System.out.println("Index y" + YIndex + " mot =" + listWords[YIndex]);
+							//System.out.println(this.dicoMots.get(listWords[YIndex]));
+							
+							
+							if(this.dicoMots.get(listWords[YIndex])!=null && this.dicoMots.get(listWords[YIndex]).grammClassRelevant()){
 								//on recupere les mots entre x et y
 								//betweenXandYLemm = allSentences[cptSent].substring(XIndex + 1, YIndex - 1);
+								
 								betweenXandYLemm = getBetween(listWords, XIndex, YIndex);
 								//System.out.println(allSentences[cptSent]);
-//								System.out.println(XIndex + ":" + YIndex);
-//								System.out.println(betweenXandYLemm);
+								//								System.out.println(XIndex + ":" + YIndex);
+								//								System.out.println(betweenXandYLemm);
 								//On lemmatise les mots entre x et y
-								System.out.println("BetweenXandY:" + betweenXandYLemm);
 								betweenXandYLemm = this.getSentLemmatized(betweenXandYLemm);
 								//On compare les mots lemmatises entre x et y avec toutes les traductions qui seront lemmatisees
-								//tmpRel = this.compareLexWordsBetw(lexicalPatterns, betweenXandYLemm, XIndex, YIndex);
+								tmpRel = this.compareLexWordsBetw(lexicalPatterns, betweenXandYLemm, XIndex, YIndex);
 								//Si on a des nouvelles relations on les rajoute
 								if(tmpRel.size() > 0){
+									//System.out.println("xi:"+listWords[XIndex]+this.dicoMots.get(listWords[XIndex]).getGrammaticalTag());
+									//System.out.println("yi:"+listWords[YIndex]+this.dicoMots.get(listWords[YIndex]).getGrammaticalTag());
 									for(String newRel: tmpRel){
-										res.append(listWords[XIndex] + " " + newRel + " " + listWords[YIndex]);
+										res.append(listWords[XIndex] + " " + newRel + " " + listWords[YIndex]+",");
+										cptNbRelTotal++;
 									}
 								}
 							}
@@ -134,10 +159,16 @@ public class MainV2 {
 					}
 				}
 			}
+			System.out.println(cptSent + " done sur " + allSentences.length + " Taille res:" + cptNbRelTotal);
+			System.out.println(res);
 		}
 		return res.toString();
 	}
-	
+
+	public boolean checkWord(String s) {
+		return this.getDicoMots().containsKey(s);
+	}
+
 	public static String getBetween(String[] wordsSentence,int Xindex,int Yindex){
 		StringBuilder res = new StringBuilder();
 		for(int i = Xindex + 1;i < Yindex;i++){
@@ -147,28 +178,31 @@ public class MainV2 {
 		res.delete(res.length()-1,res.length());
 		return res.toString();
 	}
-	
+
 	public String getSentLemmatized(String sentence) throws IOException{
 		StringBuilder res = new StringBuilder();
 		for(String word: sentence.split(" ")){
-//			System.out.println(word);
-//			System.out.println(sentence);
+			//			System.out.println(word);
+			//			System.out.println(sentence);
 			graph.Word wordTmp = this.dicoMots.get(word);
-//			System.out.println(this.getDicoMots().keySet().contains(word));
-//			System.out.println(wordTmp.toString());
-//			System.out.println(wordTmp.getInitialWord());
-			if(wordTmp.hasMultipleLemm())
-				res.append(wordTmp.getUniqueLemm(sentence));
-			else {
-				res.append(wordTmp.getLemmatizedWord().get(0));
+			//			System.out.println(this.getDicoMots().keySet().contains(word));
+			//			System.out.println(wordTmp.toString());
+			//			System.out.println(wordTmp.getInitialWord());
+			if (wordTmp!=null) {
+				if(wordTmp.hasMultipleLemm())
+					res.append(wordTmp.getUniqueLemm(sentence));
+				else {
+					res.append(wordTmp.getLemmatizedWord().get(0));
+				}
 			}
+
 			res.append(" ");
 		}
 		res.delete(res.length()-1,res.length());
 		return res.toString();
 	}
-	
-	
+
+
 	public String getCurrentSentLemm(String sentence) throws IOException{
 		StringBuilder res = new StringBuilder();
 		String listWords[] = sentence.split(" ");
@@ -192,8 +226,8 @@ public class MainV2 {
 		res.delete(res.length()-1, res.length());
 		return res.toString();
 	}
-	
-	
+
+
 
 	public HashMap<String,ArrayList<String>> getLemmatizedPattern(LexicalPattern lexicalPattern) throws IOException{
 		HashMap<String,ArrayList<String>> res = new HashMap<String,ArrayList<String>>();
@@ -231,37 +265,69 @@ public class MainV2 {
 		}
 		return res;
 	}
-	
+
 	public void processAllText(ArrayList<String> text){
 		int cpt = 0;
 		for(String s: text){
 			//System.out.println("Nb Rela traitées:" + cpt + " sur " + text.size());
-			processAllText(s);
+			//processAllText(s);
+			processAllText1(s);
 			cpt++;
 		}
 	}
-	
 
-	public void processAllText(String text) {
-		ArrayList<graph.PropertyHolder> listWords = graph.Word.process(text);
-		for(graph.PropertyHolder p: listWords) {
-			if(p.getWord().equals("phylogénétiqueLes"))
-				System.out.println("ouiii");
-			//Si on ne connait pas le mot
-			if(!this.dicoMots.containsKey(p.getWord()))this.dicoMots.put(p.getWord(), new graph.Word(p));
+	public void processAllText1(String text) {
+		ArrayList<graph.Word> listWords = graph.Word.process(text);
+		int cpt = 0;
+		for(graph.Word p: listWords) {
+			if(!this.dicoMots.containsKey(p.getInitialWord()))this.dicoMots.put(p.getInitialWord(), p);
 			//Si on a deja vu le mot
 			else { 
-				for(String s: p.getLemmatized().split("\\|")){
-					//Si on a pas deja le mot lemmatise
-					if(!this.dicoMots.get(p.getWord()).getLemmatizedWord().contains(s)){
-						this.dicoMots.get(p.getWord()).getLemmatizedWord().add(s);
-					}
+				//S'il a une nouvelle classe
+				if(hasNewGramm(p)) {
+					this.dicoMots.get(p.getInitialWord()).getGrammaticalTag().add(p.getGrammaticalTag().get(0));
 				}
-				if(this.dicoMots.get(p.getWord()).getGrammaticalTag().contains(p.getGrammaticalClass()))
-					this.dicoMots.get(p.getWord()).getGrammaticalTag().add(p.getGrammaticalClass());
+				//s'il a un nouveau lemm
+				if(hasNewLemm(p))
+					this.dicoMots.get(p.getInitialWord()).getLemmatizedWord().add(p.getGrammaticalTag().get(0));
 			}
+			System.out.println(cpt + " sur " + text.length());
+			cpt += p.getInitialWord().length();
 		}
+
 	}
+
+	public boolean hasNewLemm(graph.Word w) {
+		if(this.getDicoMots().get(w.getInitialWord()).getLemmatizedWord().contains(w.getGrammaticalTag().get(0)))
+			return true;
+		return false;	
+	}
+
+	public boolean hasNewGramm(graph.Word w) {
+		if(this.getDicoMots().get(w.getInitialWord()).getGrammaticalTag().contains(w.getGrammaticalTag().get(0)))
+			return true;
+		return false;	
+	}
+
+	//
+	//	public void processAllText(String text) {
+	//		ArrayList<graph.Word> listWords = graph.Word.process(text);
+	//		for(graph.Word p: listWords) {
+	//			//Si on ne connait pas le mot
+	//			if(!this.dicoMots.containsKey(p.getInitialWord()))this.dicoMots.put(p.getInitialWord(), p);
+	//			//Si on a deja vu le mot
+	//			else { 
+	//				for(String s: p.getLemmatized().split("\\|")){
+	//					//Si on a pas deja le mot lemmatise
+	//					if(!this.dicoMots.get(p.getWord()).getLemmatizedWord().contains(s)){
+	//						this.dicoMots.get(p.getWord()).getLemmatizedWord().add(s);
+	//					}
+	//				}
+	//				if(this.dicoMots.get(p.getWord()).getGrammaticalTag().contains(p.getGrammaticalClass()))
+	//					this.dicoMots.get(p.getWord()).getGrammaticalTag().add(p.getGrammaticalClass());
+	//			}
+	//		}
+	//	}
 
 	public ArrayList<String> compareLexWordsBetw(LexicalPattern lexicalPattern,String sentenceLemm,int XIndex,int Yindex) throws IOException{
 		ArrayList<String> res = new ArrayList<String>();
@@ -274,8 +340,8 @@ public class MainV2 {
 		}
 		return res;
 	}
-	
-	
+
+
 	public static String lexicalPatternEvolvedTest(String sentence,LexicalPattern lexicalPattern, graph.Word x, graph.Word y,ArrayList<graph.Word> betweenXAndY) throws IOException {
 		StringBuilder res = new StringBuilder();
 		StringBuilder wordsBetween = new StringBuilder();
@@ -299,7 +365,7 @@ public class MainV2 {
 		}
 		return res.toString();
 	}
-	
+
 
 	/**
 	 * 
