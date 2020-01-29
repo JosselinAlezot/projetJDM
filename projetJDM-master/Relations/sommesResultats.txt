@@ -1,0 +1,194 @@
+nt;1;'n_term'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;200;'n_context'
+nt;777;'n_wikipedia'
+e;421197;'sommes';1;50
+e;143510;'somme';1;314
+e;146503;'sommer';1;62
+e;13369;'être';1;808
+e;14293083;'sommes>2946892';1;0;'sommes>Ver:Conjug'
+e;14293084;'sommes>171870';1;0;'sommes>Nom:'
+e;14270942;'VerbalPers:P1';4;0
+e;14270946;'VerbalNumber:PL';4;0
+e;14270943;'VerbalPers:P2';4;0
+e;14270945;'VerbalNumber:SG';4;0
+e;161718;'Ver:SPre SG P2';4;50
+e;161717;'Ver:IPre SG P2';4;50
+e;2935005;'VerbalTime:Present';4;0
+e;2946892;'Ver:Conjug';4;0
+e;161710;'Ver:IPre SG P2:SPre SG P2';4;50
+e;3093590;'VerbalMode:Indicatif';4;0
+e;3093591;'VerbalMode:Subjonctif';4;0
+e;161766;'Ver:IPre PL P1';4;50
+e;212235;'Ver:';4;50
+e;171870;'Nom:';4;50
+e;13144293;'sommes dues';1;0
+e;11175210;'sommes de Riemann';777;0
+e;11317435;'sommes de Dedekind';777;0
+e;6596572;'sommes colossales';1;0
+e;13999090;'Nous sommes tous des Juifs et des Allemands';777;0
+e;13999091;'Nous sommes tous des juifs allemands';777;0
+e;14008325;'ne sommes pas';1;0
+e;14098145;'sommes de Newton';777;0
+e;10624137;'Nous sommes tous encore ici';777;0
+e;10904418;'Nous sommes la nuit';777;0
+e;5782078;'types sommes';777;0
+e;11359244;'Nous sommes vivants';777;0
+e;5960843;'Nous ne sommes pas des saints';777;0
+e;10867848;'Nous sommes tous des assassins';777;0
+e;10312177;'Nous ne sommes pas seuls';777;0
+e;10777541;'Nous sommes nos montagnes';777;0
+e;2418980;'nous sommes tous cousins';1;0
+e;10190028;'Nous nous sommes tant haïs';777;0
+e;11195720;'Minority SafePack - Nous sommes un million à signer pour la diversité de l'Europe';777;0
+e;10514346;'Nous sommes tous des voleurs';777;0
+e;10179572;'Nous ne sommes pas des anges';777;0
+e;10184754;'Nous ne sommes plus des enfants';777;0
+e;2342350;'sommes-nous';1;0
+e;6596575;'investir des sommes colossales';1;0
+e;210162;'à l'heure où nous sommes';1;50
+e;24864;'Pourquoi sommes-nous au Viêt-nam';1;50
+e;32991;'Nous nous sommes tant aimés';1;52
+e;1133440;'Nous sommes les Miller';777;0
+e;151553;'_FL:0';6;50
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;191651;'Ver:Etat';18;50
+e;223172;'_POL-NEG';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;438949;'_INFO-POLYMORPHIC';36;50
+e;273221;'_INFO-WIKI-NO';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;2355199;'_OCC-IGNORE';36;0
+e;254876;'_POL-POS_PC';36;50
+e;223173;'_POL-POS';36;50
+e;12985536;'98e0b544240c0f6439058f7d414442cf';200;0
+e;318709;'équation diophantienne';1;50
+e;403495;'diophantienne';1;50
+e;272618;'groupe abélien fini';777;50
+e;255794;'détournement de fonds publics';1;52
+e;4336353;'analyse indéterminée';777;0
+e;11154625;'partie d'un espace vectoriel topologique';777;0
+e;260960;'bornée';1;52
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;2;'r_raff_morpho';'raffinement morphologique';Raffinement morphologique vers un usage particulier du terme source
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;6;'r_isa';'générique';Il est demandé d'énumérer les GENERIQUES/hyperonymes du terme. Par exemple, 'animal' et 'mammifère' sont des génériques de 'chat'.
+rt;8;'r_hypo';'spécifique';Il est demandé d'énumérer des SPECIFIQUES/hyponymes du terme. Par exemple, 'mouche', 'abeille', 'guêpe' pour 'insecte'.
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;200;'r_context';'r_context';Relation de contexte entre un terme et un noeud contexte.
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+r;87678493;421197;143510;0;27
+r;87678494;421197;146503;0;30
+r;87495118;421197;13369;0;32
+r;363932263;421197;14293083;2;45
+r;363932267;421197;14293084;2;45
+r;363110893;421197;14270942;4;25
+r;363110882;421197;14270946;4;25
+r;362952057;421197;14270943;4;25
+r;362943661;421197;14270945;4;25
+r;362935171;421197;161718;4;25
+r;362926702;421197;161717;4;25
+r;72094408;421197;2935005;4;45
+r;72423854;421197;2946892;4;45
+r;75901527;421197;161710;4;45
+r;75901528;421197;3093590;4;45
+r;75901529;421197;3093591;4;45
+r;14352647;421197;161766;4;53
+r;14352648;421197;212235;4;57
+r;32638239;421197;171870;4;68
+r;346585482;421197;13144293;8;1
+r;286072200;421197;11175210;8;12
+r;290341497;421197;11317435;8;12
+r;247902126;421197;6596572;8;25
+r;352984110;421197;13999090;11;25
+r;352984664;421197;13999091;11;25
+r;353187135;421197;14008325;11;25
+r;357024203;421197;14098145;11;25
+r;267332621;421197;10624137;11;27
+r;274291114;421197;10904418;11;30
+r;112657839;421197;5782078;11;32
+r;291284502;421197;11359244;11;32
+r;116577852;421197;5960843;11;34
+r;272514456;421197;10867848;11;35
+r;252678042;421197;10312177;11;36
+r;335933525;421197;13144293;11;37
+r;269874141;421197;10777541;11;38
+r;54436141;421197;2418980;11;40
+r;242257774;421197;10190028;11;40
+r;287144217;421197;11195720;11;40
+r;262038168;421197;10514346;11;41
+r;240640633;421197;10179572;11;42
+r;286018732;421197;11175210;11;42
+r;240635418;421197;10184754;11;43
+r;289934739;421197;11317435;11;43
+r;122164960;421197;6596572;11;49
+r;34414228;421197;2342350;11;54
+r;122164915;421197;6596575;11;56
+r;14277701;421197;210162;11;58
+r;14325283;421197;24864;11;58
+r;14323263;421197;32991;11;59
+r;21845023;421197;1133440;11;60
+r;74777745;421197;151553;12;29
+r;90748610;421197;3576104;18;29
+r;89785024;421197;3575927;18;31
+r;72800648;421197;191651;18;36
+r;32638240;421197;146503;19;55
+r;32638238;421197;143510;19;56
+r;14352646;421197;13369;19;59
+r;217051616;421197;223172;36;1
+r;27228301;421197;254877;36;15
+r;363932266;421197;438949;36;25
+r;217051618;421197;273221;36;29
+r;26405328;421197;241794;36;43
+r;46669367;421197;2355199;36;44
+r;27228300;421197;254876;36;84
+r;26378609;421197;223173;36;239
+r;352984111;13999090;421197;0;1
+r;352984665;13999091;421197;0;1
+r;353187136;14008325;421197;0;1
+r;357024204;14098145;421197;0;1
+r;267332622;10624137;421197;0;3
+r;112657840;5782078;421197;0;4
+r;274291115;10904418;421197;0;6
+r;291284503;11359244;421197;0;8
+r;116577853;5960843;421197;0;10
+r;272514457;10867848;421197;0;11
+r;252678043;10312177;421197;0;12
+r;54436142;2418980;421197;0;13
+r;269874142;10777541;421197;0;14
+r;335933526;13144293;421197;0;14
+r;122164916;6596575;421197;0;16
+r;242257775;10190028;421197;0;16
+r;287144218;11195720;421197;0;16
+r;122164961;6596572;421197;0;17
+r;262038169;10514346;421197;0;17
+r;240640634;10179572;421197;0;18
+r;240635419;10184754;421197;0;19
+r;286018733;11175210;421197;0;25
+r;289934740;11317435;421197;0;25
+r;14325284;24864;421197;0;28
+r;14323264;32991;421197;0;37
+r;14277702;210162;421197;0;49
+r;34414229;2342350;421197;0;58
+r;21845024;1133440;421197;0;59
+r;357024205;14098145;421197;6;25
+r;286018734;11175210;421197;6;26
+r;289934741;11317435;421197;6;26
+r;335933527;13144293;421197;6;26
+r;122164962;6596572;421197;6;32
+r;333558438;12985536;421197;200;5
+r;16414415;318709;421197;777;10
+r;17312232;403495;421197;777;10
+r;20932683;272618;421197;777;10
+r;79956771;255794;421197;777;10
+r;98936981;4336353;421197;777;10
+r;283622244;11154625;421197;777;10
+r;283622245;260960;421197;777;10

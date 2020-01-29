@@ -1,0 +1,1942 @@
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;200;'n_context'
+nt;444;'n_link'
+nt;777;'n_wikipedia'
+e;45022;'cyanobactéries';1;50
+e;95373;'embranchement';1;90
+e;5809970;'Oxyphotobacteria';777;0
+e;13767649;'2f5 classe des oxyphotobacteria';1;0
+e;290625;'Cyanophyceae';777;50
+e;6913070;'=cyanobacteria=';1;0
+e;6367550;'algues bleu vert';1;0
+e;146519;'Cyanophycées';1;50
+e;140577;'Cyanobactéries';1;50
+e;6720545;'=nodularia=';1;0
+e;6720602;'=cylindrospermopsis=';1;0
+e;6720640;'=flavobacteriaceae=';1;0
+e;6720653;'=cyanothece=';1;0
+e;6720780;'=plectonema=';1;0
+e;6729040;'=subclass nocardioform actinomycetes=';1;0
+e;6729224;'=benzethonium chloride=';1;0
+e;6730317;'=butamben=';1;0
+e;6730318;'=butalbital=';1;0
+e;6730323;'=bromodiphenhydramine=';1;0
+e;6730333;'=bitolterol=';1;0
+e;6730358;'=benzquinamide=';1;0
+e;6730359;'=benzthiazide=';1;0
+e;6730366;'=benoxinate=';1;0
+e;6731006;'=propionibacteriaceae=';1;0
+e;6732436;'=butylated hydroxytoluene=';1;0
+e;6732444;'=butacaine=';1;0
+e;6732445;'=butabarbital=';1;0
+e;6732460;'=brucellaceae=';1;0
+e;6732494;'=betazole=';1;0
+e;6732504;'=bepridil=';1;0
+e;6732511;'=benzphetamine=';1;0
+e;6732534;'=bendroflumethiazide=';1;0
+e;6732542;'=benactyzine=';1;0
+e;6732551;'=bacteroidaceae=';1;0
+e;6750471;'=endospore-forming bacteria=';1;0
+e;6795318;'=aspects of radiation effects=';1;0
+e;6795323;'=drug effect=';1;0
+e;6795326;'=growth & development aspects=';1;0
+e;6795341;'=ultrastructure=';1;0
+e;6795343;'=viruses=';1;0
+e;6795411;'=cellular aspects of=';1;0
+e;6795413;'=chemical aspects=';1;0
+e;6795417;'=enzymology=';1;0
+e;6795419;'=immunology aspects=';1;0
+e;6795421;'=metabolic aspects=';1;0
+e;6795425;'=physiological aspects=';1;0
+e;6796741;'=genetic aspects=';1;0
+e;6796753;'=taxonomic=';1;0
+e;6806926;'=isolation & purification analysis=';1;0
+e;6825352;'=agricultural inoculants=';1;0
+e;6825413;'=anabaena=';1;0
+e;6825416;'=anaerobic bacteria=';1;0
+e;6825484;'=aphanizomenon=';1;0
+e;6825587;'=azotobacter=';1;0
+e;6825592;'=bacillaceae=';1;0
+e;6825594;'=bacillus=';1;0
+e;6825598;'=bacteria, aerobic=';1;0
+e;6825801;'=capnocytophaga=';1;0
+e;6825931;'=chlamydiaceae=';1;0
+e;6826074;'=actinomycetales=';1;0
+e;6826130;'=agrobacterium=';1;0
+e;6826279;'=archaea=';1;0
+e;6826341;'=atypical bacterial forms=';1;0
+e;6826373;'=bacteria=';1;0
+e;6826382;'=bacteroidetes=';1;0
+e;6826420;'=bifidobacterium=';1;0
+e;6826616;'=caulobacter=';1;0
+e;6826717;'=chlorobi=';1;0
+e;6826718;'=chloroflexi <phylum>=';1;0;'=chloroflexi &lt;phylum&gt;='
+e;6836939;'=pyogenic bacterium=';1;0
+e;6852583;'=bcg vaccine=';1;0
+e;6857918;'=neisseriaceae=';1;0
+e;6867422;'=belinostat=';1;0
+e;6867476;'=black cohosh=';1;0
+e;6867539;'=busulfan=';1;0
+e;6869310;'=bendamustine=';1;0
+e;6869319;'=beta-glucan=';1;0
+e;6869334;'=bevacizumab=';1;0
+e;6869362;'=bleomycin=';1;0
+e;6879354;'=bacitracin=';1;0
+e;6879378;'=betamethasone=';1;0
+e;6879385;'=biafine cream=';1;0
+e;6879408;'=botulinum toxin type a=';1;0
+e;6880153;'=baclofen=';1;0
+e;6880158;'=barium sulfate=';1;0
+e;6880185;'=black seed oil=';1;0
+e;6880193;'=boceprevir=';1;0
+e;6880195;'=boswellia serrata extract=';1;0
+e;6880207;'=bromelains=';1;0
+e;6884773;'=belatacept=';1;0
+e;6891609;'=bone meal=';1;0
+e;6891677;'=bee pollen=';1;0
+e;6891846;'=berberine=';1;0
+e;6891847;'=betaine=';1;0
+e;6891953;'=nutritional supplement drink=';1;0
+e;6896912;'=streptococcus=';1;0
+e;6903318;'=bioflavonoid=';1;0
+e;6912497;'=coxiella burnetii=';1;0
+e;6912539;'=cytophaga=';1;0
+e;6912592;'=desulfovibrio=';1;0
+e;6912709;'=enterobacteriaceae=';1;0
+e;6912711;'=enterococcus=';1;0
+e;6912842;'=francisella tularensis=';1;0
+e;6912855;'=fusobacteria=';1;0
+e;6912856;'=fusobacterium=';1;0
+e;6912926;'=gram-negative bacteria=';1;0
+e;6912928;'=gram-negative oxygenic photosynthetic bacteria=';1;0
+e;6912930;'=gram-positive bacteria=';1;0
+e;6913281;'=eubacterium=';1;0
+e;6913352;'=firmicutes=';1;0
+e;6924371;'=bentoquatam=';1;0
+e;6924447;'=bentonite=';1;0
+e;6924448;'=bismuth=';1;0
+e;6924831;'=betahistine=';1;0
+e;6926813;'=benzyl acetate=';1;0
+e;6927884;'=basic fuchsin=';1;0
+e;6928220;'=becaplermin=';1;0
+e;6929804;'=beta-galactosidase=';1;0
+e;6930420;'=bromocriptine=';1;0
+e;6931645;'=benzocaine=';1;0
+e;6931799;'=bentiromide=';1;0
+e;6932288;'=benzyl benzoate=';1;0
+e;6932309;'=butyrolactone=';1;0
+e;6934956;'=benzoxiquine=';1;0
+e;6934958;'=benzoyl peroxide=';1;0
+e;6934959;'=benzyl alcohol=';1;0
+e;6934964;'=bismuth tribromophenate=';1;0
+e;6934966;'=boric acid=';1;0
+e;6935312;'=benzalkonium=';1;0
+e;6935315;'=benzoin=';1;0
+e;6935538;'=benzalkonium/oxyquinoline=';1;0
+e;6935540;'=benzocaine/ephedrine/hydrocortisone/ichthammol/oxyquinoline/zinc=';1;0
+e;6941213;'=pathogenicity aspects=';1;0
+e;6948860;'=bethanechol=';1;0
+e;6951386;'=brucine=';1;0
+e;6952457;'=levomenol=';1;0
+e;6959660;'=bisoprolol=';1;0
+e;6959834;'=bretylium=';1;0
+e;6959977;'=bivalirudin=';1;0
+e;6960522;'=benzaldehyde=';1;0
+e;6960643;'=butylated hydroxyanisole=';1;0
+e;6962935;'=balsalazide=';1;0
+e;6966124;'=butyric acid=';1;0
+e;6967303;'=brinzolamide=';1;0
+e;6967343;'=brimonidine=';1;0
+e;6968101;'=butanols=';1;0
+e;6970908;'=biotin=';1;0
+e;6974000;'=tenericutes=';1;0
+e;6974001;'=mycoplasmatales (bacterium)=';1;0
+e;6988571;'=brilliant green=';1;0
+e;6994252;'=boron=';1;0
+e;6994308;'=pasteurellaceae=';1;0
+e;6994407;'=vibrionaceae=';1;0
+e;6994424;'=halobacteriaceae=';1;0
+e;6994428;'=legionella=';1;0
+e;6994683;'=micrococcaceae=';1;0
+e;6994951;'=actinobacteria=';1;0
+e;6995020;'=bacteria by body site=';1;0
+e;6995022;'=bacteria taxonomy=';1;0
+e;6995024;'=coryneform bacteria=';1;0
+e;6995026;'=lactobacillaceae=';1;0
+e;6995027;'=order spirochaetales=';1;0
+e;6995028;'=streptococcaceae=';1;0
+e;6995029;'=helicobacter=';1;0
+e;6995030;'=myxococcales=';1;0
+e;6995031;'=order rickettsiales=';1;0
+e;6995032;'=pseudomonadaceae=';1;0
+e;6995033;'=rhodopseudomonas=';1;0
+e;6995034;'=blood-borne pathogens=';1;0
+e;6995035;'=phylum acidobacteria=';1;0
+e;6995036;'=sulfur-reducing bacteria=';1;0
+e;6995037;'=aquificae <phylum>=';1;0;'=aquificae &lt;phylum&gt;='
+e;6995039;'=bacteroidetes/chlorobi group=';1;0
+e;6995041;'=caldiserica=';1;0
+e;6995043;'=chlamydiae/verrucomicrobia group=';1;0
+e;6995045;'=chrysiogenetes <phylum>=';1;0;'=chrysiogenetes &lt;phylum&gt;='
+e;6995047;'=deinococcus-thermus=';1;0
+e;6995049;'=fibrobacteres/acidobacteria group=';1;0
+e;6995051;'=nitrospina=';1;0
+e;6995053;'=phylum dictyoglomi=';1;0
+e;6995055;'=phylum synergistetes=';1;0
+e;6995057;'=proteobacteria=';1;0
+e;6995058;'=subclass spirochetes=';1;0
+e;6995059;'=thermodesulfobacteria <phylum>=';1;0;'=thermodesulfobacteria &lt;phylum&gt;='
+e;6995061;'=unclassified bacteria=';1;0
+e;6995062;'=aerotolerant anaerobic bacteria=';1;0
+e;6995066;'=campylobacter-like species=';1;0
+e;6995068;'=chlamydiae=';1;0
+e;6995070;'=coccobacilli=';1;0
+e;6995071;'=cytophaga-like bacteria=';1;0
+e;6995073;'=fastidious bacterium=';1;0
+e;6995075;'=form-bacillus=';1;0
+e;6995077;'=gram-variable bacterium=';1;0
+e;6995079;'=motile bacteria=';1;0
+e;6995081;'=nitrospirae=';1;0
+e;6995083;'=obligate intracellular bacteria=';1;0
+e;6995085;'=phylum gemmatimonadetes=';1;0
+e;6995087;'=prokaryote-cell wall absent=';1;0
+e;6995089;'=spirochaetes=';1;0
+e;6995091;'=thermotogae <phylum>=';1;0;'=thermotogae &lt;phylum&gt;='
+e;6995102;'=aerobic bacteria and anaerobic bacteria=';1;0
+e;6995104;'=bacteria by stain=';1;0
+e;6995106;'=chlamydobacteriales=';1;0
+e;6995108;'=lactic acid bacteria=';1;0
+e;6995110;'=pseudomonadales=';1;0
+e;6995112;'=methanobacteriaceae=';1;0
+e;6995114;'=rhizobiaceae=';1;0
+e;6995115;'=rhodospirillales=';1;0
+e;6995116;'=armatimonadetes=';1;0
+e;6995118;'=deferribacteres <phylum>=';1;0;'=deferribacteres &lt;phylum&gt;='
+e;6995120;'=elusimicrobia geissinger et al. 2010=';1;0
+e;6995122;'=planctomycetes=';1;0
+e;6995126;'=acidophilic bacteria=';1;0
+e;6995128;'=antimicrobial susceptible bacteria=';1;0
+e;6995130;'=bactoderma=';1;0
+e;6995132;'=budding and appendaged bacteria=';1;0
+e;6995133;'=capnophilic bacteria=';1;0
+e;6995135;'=cocci (bacteria)=';1;0
+e;6995136;'=diplococci=';1;0
+e;6995138;'=facultative anaerobic bacteria=';1;0
+e;6995140;'=fluorescent bacteria=';1;0
+e;6995142;'=microaerophilic bacteria=';1;0
+e;6995144;'=non-motile bacteria=';1;0
+e;6995146;'=phototrophic bacteria=';1;0
+e;6995148;'=phylum lentisphaerae=';1;0
+e;6995150;'=resistant bacteria=';1;0
+e;6995152;'=superphylum chlamydiae/verrucomicrobia group=';1;0
+e;7005759;'=buspirone=';1;0
+e;7006811;'=canada balsam=';1;0
+e;7011828;'=benphothiamine=';1;0
+e;7012272;'=benzene=';1;0
+e;7012306;'=botulinum antitoxin=';1;0
+e;7012323;'=buprenorphine, naloxone drug combination=';1;0
+e;7012984;'=barbital=';1;0
+e;7013040;'=brompheniramine=';1;0
+e;7016341;'=beta-sitosterol=';1;0
+e;7017620;'=bupivacaine epinephrine=';1;0
+e;7021061;'=castor oil / peruvian balsam / trypsin=';1;0
+e;7024961;'=alloiococcus=';1;0
+e;7024965;'=dermacoccus=';1;0
+e;7029673;'=bacitracin, polymyxin b drug combination=';1;0
+e;7049970;'=belladonna extract, usp=';1;0
+e;7050358;'=b [preparations]=';1;0
+e;7050414;'=baby oil=';1;0
+e;7050416;'=bacitracin//neomycin/polymyxin/pramoxine=';1;0
+e;7050418;'=bacitracin/neomycin/polymyxin=';1;0
+e;7050420;'=bacitracin / hydrocortisone / neomycin / polymyxin b=';1;0
+e;7050422;'=bacitracin / neomycin / polymyxin b=';1;0
+e;7050424;'=bagenema/bisacodyl/castile soap/castor oil=';1;0
+e;7050426;'=baicalin=';1;0
+e;7050428;'=baking powder=';1;0
+e;7050430;'=balanced salt solution/bicarbonate/dextrose/glutathione=';1;0
+e;7050432;'=banaba=';1;0
+e;7050434;'=barbital/hyoscyamine/hyoscyamus/passion/scopolamine/valerian=';1;0
+e;7050436;'=barium sulfate/methylcellulose=';1;0
+e;7050438;'=basle cream=';1;0
+e;7050440;'=bay rum=';1;0
+e;7050442;'=baza cream=';1;0
+e;7050444;'=bazedoxifene/estrogens=';1;0
+e;7050446;'=belladonna/benzoic/gelsemium/methenamine/phenazopyridine/phenyl=';1;0
+e;7050448;'=belladonna/caffeine/ergotamine/phenobarbital=';1;0
+e;7050450;'=belladonna/chlorpheniramine/ephedrine/phenobarbital=';1;0
+e;7050452;'=belladonna/chlorpheniramine/phenylephrine/phenylpropanolamine=';1;0
+e;7050454;'=belladonna/dehydrocholic acid/lipase/ox bile/pancreatin/pepsin=';1;0
+e;7050456;'=belladonna/kaolin/pectin=';1;0
+e;7050458;'=belladonna/kaolin/phenobarbital=';1;0
+e;7050460;'=belladonna/phenobarbital=';1;0
+e;7050462;'=belladonna alkaloids / caffeine / ergotamine / pentobarbital=';1;0
+e;7050464;'=belladonna extract, usp / butabarbital=';1;0
+e;7050466;'=benactyzine / meprobamate=';1;0
+e;7050468;'=bendroflumethiazide/potassium chloride/rauwolfia serpentina=';1;0
+e;7050470;'=bendroflumethiazide   nadolol=';1;0
+e;7050472;'=bentone=';1;0
+e;7050474;'=bentonite/potassium alum/talc=';1;0
+e;7050476;'=benzalkonium/camphor/diperodon/ichthammol/juniper/phenol/thymol=';1;0
+e;7050478;'=benzalkonium/cetylpyridinium/chloroxylenol/triacetin=';1;0
+e;7050480;'=benzalkonium / lidocaine=';1;0
+e;7050482;'=benzalkonium chloride/benzocaine/dibucaine/tetracaine=';1;0
+e;7050484;'=benzalkonium chloride/chloroxylenol/hydrocortisone=';1;0
+e;7050486;'=benzalkonium chloride/edetate/sodium hydroxide=';1;0
+e;7050488;'=benzalkonium chloride/hydroxypropyl methylcellulose/polyvinyl al=';1;0
+e;7050490;'=benzalkonium chloride/tyloxapol=';1;0
+e;7050492;'=benzethonium/benzocaine/glycerin/polyethylene glycol=';1;0
+e;7050494;'=benzethonium/chloroxylenol/menthol/thymol/zinc stearate=';1;0
+e;7050496;'=benzethonium chloride/corn starch/kaolin/zinc oxide=';1;0
+e;7050498;'=benzethonium chloride/menthol/zinc stearate=';1;0
+e;7050500;'=benzocaine/bismuth subgallate/phenylmecuric nitrate/zinc oxide=';1;0
+e;7050502;'=benzocaine/calamine/zinc oxide=';1;0
+e;7050504;'=benzocaine/camphor/ichthammol/phenol/sulfur/tar=';1;0
+e;7050506;'=benzocaine/cetylpyridinium chloride=';1;0
+e;7050508;'=benzocaine/chlorobutanol=';1;0
+e;7050510;'=benzocaine/chlorobutanol/eugenol/peruvian balsam=';1;0
+e;7050512;'=benzocaine/cinnamon oil/clove oil/eucalyptus oil/phenol=';1;0
+e;7050514;'=benzocaine/phenol/povidone iodine=';1;0
+e;7050516;'=benzocaine   menthol=';1;0
+e;7050518;'=benzocaine   resorcinol=';1;0
+e;7050520;'=benzocaine / boric acid=';1;0
+e;7050522;'=benzocaine / calcium carbonate / magnesium carbonate / phenobarbital=';1;0
+e;7050524;'=benzocaine / chloroxylenol / zinc oxide=';1;0
+e;7050526;'=benzocaine / dextromethorphan=';1;0
+e;7050528;'=benzocaine / docusate=';1;0
+e;7050530;'=benzocaine / ichthammol=';1;0
+e;7050532;'=benzocaine / licorice / menthol=';1;0
+e;7050534;'=benzocaine / phenylephrine / phenylpropanolamine=';1;0
+e;7050536;'=benzoic acid/boric acid/zinc oxide/zinc stearate=';1;0
+e;7050538;'=benzoin/camphor/tolu balsam=';1;0
+e;7050540;'=benzoin compound/isopropyl alcohol=';1;0
+e;7050542;'=benzophenone-3/para-aminobenzoic acid=';1;0
+e;7050544;'=benzoyl peroxide/doxycycline=';1;0
+e;7050546;'=benzoyl peroxide   hydrocortisone=';1;0
+e;7050548;'=benzyl alcohol/camphor/isopropyl alcohol/menthol=';1;0
+e;7050550;'=benzyl alcohol/water=';1;0
+e;7050552;'=benzyl alcohol / sodium chloride=';1;0
+e;7050554;'=benzyl benzoate/bismuth/calcium/coconut oil/vegetable oil/zinc o=';1;0
+e;7050556;'=berberis extract=';1;0
+e;7050558;'=beta-d-galactose/maltodextrin=';1;0
+e;7050560;'=betaine/protease=';1;0
+e;7050562;'=betamethasone   clotrimazole=';1;0
+e;7050564;'=beta sitosterol / zinc citrate=';1;0
+e;7050566;'=betony=';1;0
+e;7050568;'=bifidobacterium/lactobacillus/streptococcus=';1;0
+e;7050570;'=bile salt=';1;0
+e;7050571;'=bile salts/dehydrocholic acid/pancreatin/pepsin=';1;0
+e;7050573;'=bilirubin/blood,occult/glucose/ketone/nitrite/ph/protein/urobili=';1;0
+e;7050575;'=bilirubin/blood/glucose/ketone/leukocytes/nitrite/ph/protein/spe=';1;0
+e;7050577;'=bilirubin/blood/glucose/ketone/leukocytes/nitrite/ph/protein te=';1;0
+e;7050579;'=bilirubin/blood/glucose/ketone/leukocytes/ph/protein test=';1;0
+e;7050581;'=bilirubin/blood/glucose/ketone/nitrite/ph/protein/urobilinogen=';1;0
+e;7050583;'=bilirubin/blood/glucose/ketone/ph/protein/specific gravity test=';1;0
+e;7050585;'=bilirubin/blood/glucose/ketone/ph/protein test=';1;0
+e;7050587;'=biotene=';1;0
+e;7050589;'=bisacodyl/castor oil=';1;0
+e;7050591;'=bisacodyl/electrolytes/peg-3350=';1;0
+e;7050593;'=bisacodyl/magnesium citrate/magnesium sulfate/senna/sucrose=';1;0
+e;7050595;'=bisacodyl/phospho soda=';1;0
+e;7050597;'=bismuth/calcium/opium/pectin/zinc=';1;0
+e;7050599;'=bismuth/metronidazole/tetracycline=';1;0
+e;7050601;'=bismuth subcarbonate/kaolin/opium/pectin=';1;0
+e;7050603;'=bismuth subcarbonate / morphine=';1;0
+e;7050605;'=bismuth subgallate/kaolin/opium/pectin/zinc phenosulfonate=';1;0
+e;7050607;'=bismuth subnitrate / calcium carbonate / magnesium carbonate=';1;0
+e;7050609;'=bismuth subsalicylate/codeine/kaolin/pectin=';1;0
+e;7050611;'=bismuth subsalicylate/magnesium silicate/salicylic acid/sodium s=';1;0
+e;7050613;'=bisoprolol, hydrochlorothiazide drug combination=';1;0
+e;7050615;'=bitter melon (pharmacologic substance)=';1;0
+e;7050617;'=black currant preparation=';1;0
+e;7050619;'=black radish=';1;0
+e;7050621;'=black tea extract=';1;0
+e;7050623;'=bleomycin/sodium chloride=';1;0
+e;7050625;'=blood/glucose/ketone/leukocytes/nitrite/ph/protein test=';1;0
+e;7050627;'=blood/glucose/ketone/ph/protein test=';1;0
+e;7050629;'=blood/glucose/ph/protein test=';1;0
+e;7050631;'=bloodstop ex=';1;0
+e;7050633;'=blood urea nitrogen test device=';1;0
+e;7050635;'=borate buffer=';1;0
+e;7050637;'=boric acid/edta/hydroxyethyl cellulose=';1;0
+e;7050639;'=boric acid/lauramide dea/propylene glycol/tea-dodecylbenzenesulf=';1;0
+e;7050641;'=boric acid/sodium borate=';1;0
+e;7050643;'=boric acid/sodium chloride=';1;0
+e;7050645;'=boric acid / zinc oxide=';1;0
+e;7050647;'=bosentan=';1;0
+e;7050649;'=bretylium/dextrose=';1;0
+e;7050651;'=brilliant green / gentian violet / proflavine=';1;0
+e;7050653;'=brimonidine   timolol=';1;0
+e;7050655;'=bromodiphenhydramine codeine=';1;0
+e;7050657;'=brompheniramine/codeine/guaifenesin/phenylephrine/phenylpropanol=';1;0
+e;7050659;'=brompheniramine/guaifenesin/phenylephrine/phenylpropanolamine=';1;0
+e;7050661;'=brompheniramine / codeine / phenylephrine=';1;0
+e;7050663;'=brompheniramine / dextromethorphan / phenylephrine=';1;0
+e;7050665;'=brompheniramine / guaifenesin / pseudoephedrine=';1;0
+e;7050667;'=brompheniramine / phenylephrine / phenyltoloxamine=';1;0
+e;7050669;'=brompheniramine maleate   dextromethorphan hydrobromide   phenylpropanolamine hydrochloride=';1;0
+e;7050671;'=bryonia preparation=';1;0
+e;7050673;'=budesonide   formoterol=';1;0
+e;7050675;'=bupivacaine glucose=';1;0
+e;7050677;'=bupivacaine/epinephrine/lidocaine=';1;0
+e;7050679;'=bupivacaine/sodium chloride=';1;0
+e;7050681;'=bupivacaine / hydromorphone=';1;0
+e;7050683;'=burdock preparation=';1;0
+e;7050685;'=butabarbital/guaifenesin/pseudoephedrine/theophylline=';1;0
+e;7050687;'=butabarbital / epinephrine / theophylline=';1;0
+e;7050689;'=butylparaben/cetyl alcohol/methylparaben/propylene glycol/propy=';1;0
+e;7050691;'=n-butoxyethanol=';1;0
+e;7050693;'=opium belladonna=';1;0
+e;7050696;'=phenazopyridine   butabarbital   hyoscyamine=';1;0
+e;7050749;'=bacampicillin=';1;0
+e;7050750;'=bacitracin/lidocaine/neomycin/polymyxin=';1;0
+e;7050752;'=bacitracin / diperodon / neomycin / polymyxin b=';1;0
+e;7050754;'=bacitracin / lidocaine / polymyxin b=';1;0
+e;7050756;'=bacitracin / polymyxin b / pramoxine=';1;0
+e;7050758;'=bacteriuria test=';1;0
+e;7050760;'=bagenema/bisacodyl tab/castile soap/phospho-soda=';1;0
+e;7050762;'=baicalin,catechin/citrated zinc=';1;0
+e;7050764;'=balanced salt solution=';1;0
+e;7050766;'=barley grass preparation=';1;0
+e;7050768;'=basis=';1;0
+e;7050770;'=bath oil=';1;0
+e;7050772;'=baza/peri-wash=';1;0
+e;7050774;'=baza pro=';1;0
+e;7050776;'=beeswax/mineral oil/rose oil/rose soluble/sodium borate/spermace=';1;0
+e;7050778;'=behenoxy dimethicone=';1;0
+e;7050780;'=belladonna/bile salts/pancreatin/pepsin/phenobarbital=';1;0
+e;7050782;'=belladonna/charcoal=';1;0
+e;7050784;'=belladonna/chlorpheniramine/pheniramine/phenylpropanolamine=';1;0
+e;7050786;'=belladonna/chlorpheniramine/phenylephrine/pyrilamine=';1;0
+e;7050788;'=belladonna/kaolin/opium/pectin=';1;0
+e;7050790;'=belladonna/kaolin/pectin/sodium benzoate=';1;0
+e;7050792;'=belladonna/methenamine/salicylamide=';1;0
+e;7050794;'=belladonna/phenobarbital/ergotamine=';1;0
+e;7050796;'=benazepril/hydrochlorothiazide=';1;0
+e;7050798;'=bendroflumethiazide/rauwolfia serpentina=';1;0
+e;7050800;'=bendroflumethiazide / potassium chloride=';1;0
+e;7050802;'=benoxinate/fluorescein=';1;0
+e;7050804;'=bentonite magma/calamine/calcium hydroxide/glycerin/zinc oxide=';1;0
+e;7050806;'=benzalkonium/calcium chloride/hydrochloric acid/magnesium chlori=';1;0
+e;7050808;'=benzalkonium/cetylpyridinium/chloroxylenol/sodium/triacetin=';1;0
+e;7050810;'=benzalkonium chloride/benzocaine=';1;0
+e;7050812;'=benzalkonium chloride/benzocaine/zinc chloride=';1;0
+e;7050814;'=benzalkonium chloride/edetate/polyvinyl alcohol=';1;0
+e;7050816;'=benzalkonium chloride/edta=';1;0
+e;7050818;'=benzalkonium chloride/polyoxyethylene=';1;0
+e;7050820;'=benzethonium/calamine/eucalyptol/zinc oxide=';1;0
+e;7050822;'=benzethonium/triclosan=';1;0
+e;7050824;'=benzethonium chloride/benzocaine=';1;0
+e;7050826;'=benzethonium chloride/lidocaine=';1;0
+e;7050828;'=benzocaine/calamine/diphenhydramine/menthol=';1;0
+e;7050830;'=benzocaine/camphor/ephedrine/zinc oxide=';1;0
+e;7050832;'=benzocaine/camphor/menthol=';1;0
+e;7050834;'=benzocaine/cetylpyridinium chloride/terpin hydrate=';1;0
+e;7050836;'=benzocaine/chlorobutanol/ethanol/menthol/tannic acid=';1;0
+e;7050838;'=benzocaine/chloroxylenol/isopropyl/resorcinol/salicylic acid=';1;0
+e;7050840;'=benzocaine/phenol/vitamin e/zinc oxide=';1;0
+e;7050842;'=benzocaine   phenol=';1;0
+e;7050844;'=benzocaine / bismuth subnitrate / cerium oxalate=';1;0
+e;7050846;'=benzocaine / butamben / tetracaine=';1;0
+e;7050848;'=benzocaine / cetalkonium chloride=';1;0
+e;7050850;'=benzocaine / clove oil=';1;0
+e;7050852;'=benzocaine / dextromethorphan / menthol=';1;0
+e;7050854;'=benzocaine / glycerin=';1;0
+e;7050856;'=benzocaine / isopropyl alcohol / menthol=';1;0
+e;7050858;'=benzocaine / methyl salicylate=';1;0
+e;7050860;'=benzocaine / salicylic acid=';1;0
+e;7050862;'=benzoic acid   salicylic acid=';1;0
+e;7050863;'=benzoin/camphor/eucalyptus oil/thymol=';1;0
+e;7050865;'=benzoin/podophyllin=';1;0
+e;7050867;'=benzophenone-3/lanolin/mineral oil/polyethylene glycol-4=';1;0
+e;7050869;'=benzothonium=';1;0
+e;7050871;'=benzoxiquine / ichthammol=';1;0
+e;7050873;'=benzoyl peroxide, erythromycin drug combination=';1;0
+e;7050875;'=benzoyl peroxide   clindamycin=';1;0
+e;7050877;'=benzoyl peroxide   sulfur=';1;0
+e;7050879;'=benzylpenicilloyl polylysine=';1;0
+e;7050881;'=benzyl alcohol/cetylpyridinium chloride=';1;0
+e;7050883;'=benzyl benzoate/bismuth/peruvian balsam/zinc oxide=';1;0
+e;7050885;'=besifloxacin=';1;0
+e;7050887;'=betamethasone / calcipotriene=';1;0
+e;7050889;'=beta carotene/vitamin a combination=';1;0
+e;7050891;'=bicarbonate preparation=';1;0
+e;7050893;'=bifidobacterium/lactobacillus=';1;0
+e;7050895;'=bilberry extract=';1;0
+e;7050897;'=bile salts/charcoal/pancreatin=';1;0
+e;7050899;'=bile salts/pancreatin/pepsin=';1;0
+e;7050901;'=bilirubin/blood,occult/glucose/ketone/ph/protein/urobilinogen te=';1;0
+e;7050903;'=bilirubin/blood/glucose/ketone/leukocytes/nitrite/ph/protein/uro=';1;0
+e;7050905;'=bilirubin/blood/glucose/ketone/leukocytes/ph/protein/urobilinoge=';1;0
+e;7050907;'=bilirubin/blood/glucose/ketone/nitrite/ph/protein/specific/urobi=';1;0
+e;7050909;'=bilirubin/blood/glucose/ketone/ph/protein/specific gravity/urobi=';1;0
+e;7050911;'=bilirubin/blood/glucose/ketone/ph/protein/urobilinogen test=';1;0
+e;7050913;'=bilirubin test kit=';1;0
+e;7050915;'=biolex=';1;0
+e;7050917;'=bisacodyl/docusate/senna concentrate/senna extract/sucrose=';1;0
+e;7050919;'=bisacodyl/magnesium citrate=';1;0
+e;7050921;'=bisacodyl/magnesium citrate/phenolphthalein=';1;0
+e;7050923;'=bisacodyl / tannic acid=';1;0
+e;7050925;'=bismuth-formic-iodide=';1;0
+e;7050927;'=bismuth/kaolin/opium/pectin/potassium/salol/zinc=';1;0
+e;7050929;'=bismuth hydroxide/kaolin/opium/pectin=';1;0
+e;7050931;'=bismuth subcarbonate / kaolin / pectin=';1;0
+e;7050933;'=bismuth subgallate/boric acid/zinc oxide=';1;0
+e;7050935;'=bismuth subnitrate/castor oil/ceresin/lanolin/peru balsam=';1;0
+e;7050937;'=bismuth subsalicylate metronidazole tetracycline hydrochloride=';1;0
+e;7050939;'=bismuth subsalicylate/kaolin/opium/pectin=';1;0
+e;7050941;'=bismuth subsalicylate / calcium carbonate=';1;0
+e;7050943;'=bitter orange peel=';1;0
+e;7050945;'=black haw preparation=';1;0
+e;7050947;'=blood/glucose/ketone/leukocytes/nitrite/ph/protein/specific grav=';1;0
+e;7050949;'=blood/glucose/ketone/leukocytes/ph/protein test=';1;0
+e;7050951;'=blood/glucose/leukocytes/protein test=';1;0
+e;7050953;'=bloodstop=';1;0
+e;7050955;'=blood test device=';1;0
+e;7050957;'=borage oil=';1;0
+e;7050959;'=boric acid/glycerin/sodium borate/tetrahydrozoline=';1;0
+e;7050961;'=boric acid/potassium chloride/sodium carbonate=';1;0
+e;7050963;'=boric acid/sodium borate/sodium chloride=';1;0
+e;7050965;'=boric acid/vitamin a/vitamin d/zinc oxide=';1;0
+e;7050967;'=boric acid carbomer 940=';1;0
+e;7050969;'=boron (as citrate)=';1;0
+e;7050971;'=boston pharmaceuticals=';1;0
+e;7050973;'=brimonidine / brinzolamide=';1;0
+e;7050975;'=bromphenhiramine/dextromethorphan/pseudoephedrine=';1;0
+e;7050977;'=brompheniramine/codeine/guaifenesin/menthol/phenylephrine/phenyl=';1;0
+e;7050979;'=brompheniramine/guaifenesin/menthol/phenylephrine/phenylpropanol=';1;0
+e;7050981;'=brompheniramine   pseudoephedrine=';1;0
+e;7050983;'=brompheniramine / codeine / phenylpropanolamine=';1;0
+e;7050985;'=brompheniramine / dextromethorphan / pseudoephedrine=';1;0
+e;7050987;'=brompheniramine / phenylephrine / phenylpropanolamine=';1;0
+e;7050989;'=brompheniramine / phenylpropanolamine=';1;0
+e;7050991;'=brown algae=';1;0
+e;7050993;'=bryonia/hydrastis/phenolphthalein=';1;0
+e;7050995;'=buclizine=';1;0
+e;7050996;'=bupivacaine/dextrose/epinephrine/lidocaine=';1;0
+e;7050998;'=bupivacaine/epinephrine/lidocaine/sodium chloride=';1;0
+e;7051000;'=bupivacaine / fentanyl=';1;0
+e;7051002;'=bupleurum preparation=';1;0
+e;7051004;'=bupropion   naltrexone=';1;0
+e;7051006;'=butabarbital / ephedrine / guaifenesin / theophylline=';1;0
+e;7051008;'=butabarbital / phenobarbital / secobarbital=';1;0
+e;7051010;'=butcher's broom preparation=';1;0
+e;7051012;'=citrus bergamia extract=';1;0
+e;7051013;'=orabase with benzocaine=';1;0
+e;7051015;'=peruvian balsam / trypsin=';1;0
+e;7051017;'=yellow wax=';1;0
+e;7053294;'=phytoplankton=';1;0
+e;7153878;'=monera=';1;0
+e;7193870;'=synechococcus=';1;0
+e;7195546;'=exiguobacterium=';1;0
+e;7195589;'=rummeliibacillus=';1;0
+e;7204247;'=genus cyanobacterium=';1;0
+e;7204494;'=aerobic chemolithotrophic bacteria=';1;0
+e;7204495;'=aerobic gram negative coccus=';1;0
+e;7204500;'=aerobic gram negative bacillus=';1;0
+e;7204503;'=acid-fast bacillus=';1;0
+e;7204505;'=caldimonas=';1;0
+e;7204507;'=micrococcus=';1;0
+e;7204508;'=strict aerobic bacteria=';1;0
+e;7204510;'=thermaerobacter=';1;0
+e;7204512;'=photosynthetic bacteria=';1;0
+e;7483242;'=oscillatoria=';1;0
+e;7483366;'=microcystis=';1;0
+e;7483400;'=nostoc=';1;0
+e;7483417;'=prochlorophytes=';1;0
+e;7483444;'=spirulina=';1;0
+e;7483466;'=synechocystis=';1;0
+e;8274122;'=gloeobacteria=';1;0
+e;8274154;'=pleurocapsales=';1;0
+e;8274172;'=unclassified cyanobacteria=';1;0
+e;8275712;'=oscillatoriophycideae=';1;0
+e;8275724;'=blue green algae cap/tab=';1;0
+e;8275728;'=class cyanophyceae=';1;0
+e;8278605;'=nostocales=';1;0
+e;8280681;'=stigonematales=';1;0
+e;280643;'cyanobacteria';777;50
+e;265054;'cyanobactérie';1;52
+e;6416913;'algues bleu-vert';1;0
+e;112658;'cyanophycées';1;52
+e;237226;'algue bleue';1;66
+e;6285179;'algue bleu-vert';1;0
+e;35143;'biologie';1;1814
+e;6319091;'algue bleu vert';1;0
+e;239128;'_COM';36;50
+e;146893;'Nom:Fem PL';4;50
+e;171870;'Nom:';4;50
+e;2586628;'Gender:Fem';4;0
+e;2586630;'Number:Plur';4;0
+e;12321566;'=bacterium=';1;0
+e;3575927;'Morpho:min';18;50
+e;3576104;'Morpho:nospace';18;50
+e;37298;'amour';1;6828
+e;57221;'joie';1;3732
+e;91691;'surprise';1;1072
+e;14330;'satisfaction';1;526
+e;28453;'bonheur';1;2104
+e;254878;'_POL-NEG_PC';36;50
+e;223172;'_POL-NEG';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;276096;'_INFO-WIKI-YES';36;50
+e;1912917;'_INFO-COUNTABLE-YES';36;0
+e;2585997;'_INFO-CNRTL-NO';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;254876;'_POL-POS_PC';36;50
+e;223173;'_POL-POS';36;50
+e;120470;'caroténoïdes';1;54
+e;12667767;'8c24b74b249d4e8a908c2b04675fce7b';200;0
+e;12671347;'f048e8157b1a6f141c401fdf2db8439f';200;0
+e;12689075;'2ef6a7ea9f3bca58c6fffd521942870f';200;0
+e;12689083;'31687cba134ed6931efebe226fc0ab8d';200;0
+e;12689713;'cd506a327cc71912d5f302740dda23d3';200;0
+e;12693398;'4a36044e1abaf032c737ca785e962637';200;0
+e;12693546;'cc2ad8388548918de10b7a13cd27b027';200;0
+e;12693548;'252a2d8f61faa3ed9b26cc08a47a4e07';200;0
+e;13031355;'2c487ec4abd17ea5be6b26e5e9c8427d';200;0
+e;13031638;'0b16da64dd06b33780f37265cb750f3c';200;0
+e;12689052;'e42e223709052d13c613989caa46ff47';200;0
+e;12693269;'1744ee897134181b802c63e67dd2f0cf';200;0
+e;12693479;'3b5cfff28c5cb477d79ad0d6b3c745d1';200;0
+e;12790341;'ab215c8476c9eafe7c0dc26a688de61d';200;0
+e;14319245;'1e4b777848996dc0f64dc05fe06e40d7';200;0
+e;12689046;'3ea023f349ba7c2df33d445903ce3f0c';200;0
+e;12689106;'9f7b6cdf5c4068c7933d645be6e26c39';200;0
+e;12689107;'e8469ec50dd54cc92b033974e27dd016';200;0
+e;12689122;'ae72f539f8ae1c3347e3fc16f4639a2c';200;0
+e;12689125;'5792aa3e48b1ca0c646b3cfda5bd752a';200;0
+e;13823171;'f815f2a691c42fee83b2f08cb4ed70a0';200;0
+e;14095411;'157426f43be7d7fef2bb94689f1ffe7a';200;0
+e;12671917;'0001d1cc17f5d3a9c1133d5a6eba7294';200;0
+e;12689084;'06c4cf049bec42ca6675db69ec3a09e5';200;0
+e;12689089;'fe5915a8f64140ba1e90d3a92c16df4d';200;0
+e;12689105;'c23781e693b7d791d4f7c7617758a9c2';200;0
+e;12689109;'c628231020f1791d60bdd7274817ab32';200;0
+e;12689110;'923e7a1b50f4450dda12fdd75eb9326e';200;0
+e;12694730;'74ce36da7fdd19a247a64c3217e23d48';200;0
+e;12771909;'a94d12e2aa7ddaa4b41aadee26b39df5';200;0
+e;12732872;'e0597730502b9fde15d2610d9711f631';200;0
+e;3228593;'wiki:@';444;0
+e;6091464;'umls:C1047211';444;0
+e;2983124;'_SW';36;50
+e;28295;'Schaffner';1;50
+e;291045;'Eubacteria';777;50
+e;11139;'Eubactéries';1;50
+e;15700;'Bacillus';1;50
+e;119768;'Australie';1;341
+e;119306;'intoxications';1;50
+e;44955;'botulisme';1;162
+e;6832;'procaryotes';1;56
+e;142623;'classe';1;1786
+e;268061;'symbiotiques';1;50
+e;161290;'énergie solaire';1;106
+e;88042;'énergie chimique';1;50
+e;167773;'dioxyde de carbone';1;158
+e;139892;'Terre';1;1182
+e;35198;'calcaire';1;274
+e;54785;'eutrophisation';1;58
+e;71539;'animaux';1;1384
+e;59704;'spiruline';1;50
+e;126405;'noyau';1;1166
+e;133060;'plaste';1;56
+e;44092;'chromosomes';1;144
+e;140685;'flagelle';1;62
+e;145311;'Chlorophylle';1;50
+e;101176;'chlorophylle';1;144
+e;82005;'pigments';1;58
+e;234924;'microscope optique';1;2
+e;39340;'taxinomie';1;78
+e;111638;'spores';1;62
+e;21866;'unicellulaires';1;50
+e;5029;'mer Rouge';1;84
+e;16848;'glutamine';1;50
+e;287741;'cil cellulaire';777;50
+e;152366;'cils';1;130
+e;7908;'Nostocales';1;50
+e;113559;'colonie';1;312
+e;77286;'extrusion';1;52
+e;40381;'mucilage';1;56
+e;155661;'gaz carbonique';1;88
+e;229404;'puits de carbone';1;10
+e;68722;'effet de serre';1;156
+e;144333;'Soleil';1;260
+e;146872;'eau douce';1;188
+e;130922;'planctonique';1;52
+e;50969;'benthique';1;118
+e;28856;'substrat';1;60
+e;293786;'dystrophisation';777;50
+e;145623;'azote';1;222
+e;38128;'phosphore';1;94
+e;145091;'Peau';1;52
+e;109785;'peau';1;3134
+e;115155;'foie';1;830
+e;85037;'anatoxines';1;50
+e;121809;'toxines';1;56
+e;152821;'cochons';1;98
+e;40310;'gibier';1;354
+e;7077;'Chamorro';1;50
+e;145904;'coco';1;88
+e;225865;'maladie de Huntington';1;4
+e;29525;'étiologique';1;50
+e;405643;'Division';1;50
+e;413245;'Classe';1;50
+e;401929;'Clostridium';1;52
+e;303982;'Actinobacteria';777;50
+e;214730;'Population';1;50
+e;252895;'populations';1;54
+e;431820;'Animaux';1;50
+e;407371;'Noyau';1;50
+e;415030;'mitochondries';1;66
+e;40989;'micro';1;314
+e;311519;'zone euphotique';777;50
+e;11567;'taxonomie';1;110
+e;412461;'Colonie';1;50
+e;316103;'archées';1;50
+e;419466;'Toxine';1;50
+e;302708;'endotoxines';777;50
+e;573031;'muqueuses';1;52
+e;428313;'Foie';1;50
+e;597298;'carbonatées';1;0
+e;627082;'Azote';1;0
+e;652934;'Cochon';1;0
+e;1765032;'Bacilli';1;0
+e;1814040;'île de Guam';1;0
+e;61152;'Saint-Hyacinthe';1;50
+e;110310;'ultrasons';1;56
+e;2298916;'trichomes';2;0
+e;2135377;'blooms';2;0
+e;202539;'la nuit';1;50
+e;2200456;'flagelles';2;0
+e;2936756;'Protéobactéries';777;0
+e;2602821;'Firmicutes';777;0
+e;2547127;'Carbonate';1;0
+e;2580401;'puissance moyenne';777;0
+e;2530304;'écotoxicité';1;0
+e;2608759;'DL50';1;0
+e;3158975;'Nom vernaculaire';777;0
+e;249004;'nom vernaculaire';1;4
+e;3321947;'Pigment';1;0
+e;3684570;'incertae sedis';777;0
+e;627081;'Carbone';1;0
+e;146076;'carbone';1;302
+e;5634122;'Arthrospira';777;0
+e;5677576;'Taxonomie';1;0
+e;5624822;'baie Missisquoi';777;0
+e;5810052;'Anabaena sphaerica';777;0
+e;5810179;'Clostridia';777;0
+e;5810316;'Chlorobi';777;0
+e;5810309;'Bacteroidetes';777;0
+e;5810091;'Chlamydiales';777;0
+e;5810306;'Chloroflexi';777;0
+e;5810172;'Aquificales';777;0
+e;5810373;'Thermotogae';777;0
+e;5810374;'Thermotogales';777;0
+e;5855284;'Grande Oxydation';777;0
+e;5810290;'cyanotoxines';777;0
+e;5810417;'Arthrospira platensis';777;0
+e;5810840;'Chroococcales';777;0
+e;5810836;'Oscillatoriales';777;0
+e;5810843;'Pseudanabaenales';777;0
+e;5810841;'Synechococcales';777;0
+e;5810845;'Stigonematales';777;0
+e;5810238;'Coelosphaerium kuetzingianum';777;0
+e;5812748;'Nostoc';1;0
+e;5870808;'World Register of Marine Species';777;0
+e;5984829;'picoplancton';777;0
+e;6308362;'Énergie solaire';1;0
+e;6370813;'bains de boue';1;0
+e;434928;'Lyse';1;50
+e;76625;'lyse';1;56
+e;5810076;'Spirochaetae';777;0
+e;331371;'Chlamydiae';1;50
+e;3185535;'Aquificae';777;0
+e;2007134;'efflorescences';2;0
+e;138567;'Bloom';1;50
+e;10160680;'Intoxication';777;0
+e;10618447;'Plessisville';777;0
+e;11813193;'Mer Rouge';777;0
+e;12199858;'Archaea';1;0
+e;12689092;'stromatolithes';1;0
+e;12689090;'phycocyanines';1;0
+e;12689095;'dystrophisations';1;0
+e;12689093;'neurotoxines';1;0
+e;12689103;'nano-plancton';1;0
+e;13629572;'Embranchement';1;0
+e;12689126;'mixotrophes';1;0
+e;102345;'plaisir';1;3214
+e;13637620;'48422f8c767ea4ad6c842a686b455398';200;0
+e;13708990;'43ff8a780c9a9f07626219e3c0814373';200;0
+e;13637751;'95ed77b2827aa4392475b2aba9df6abc';200;0
+e;13839855;'4967d50c1d999e0d820c63dd872f8796';200;0
+e;13884962;'315e1a1223fa76350d31668f1f42902c';200;0
+e;14231117;'b150030aed5177e20b202b3aba7f663b';200;0
+e;12689104;'05e6d9dd9384e8a79c6d9c02c58f7673';200;0
+e;12689112;'394fb1fef2b68e45f49a4e2a90d3251b';200;0
+e;12689113;'4fef804ff5d49c067ee90aade5625b7b';200;0
+e;12689114;'26544d06170aeb38dd1c93fb0070c17f';200;0
+e;12689118;'bd27afbe52cea613aec524330586514d';200;0
+e;12689119;'7212992e0f1b81a07df09868c8cf62ce';200;0
+e;12689120;'4ff90ffb5f18e730a6e9eb2381b96944';200;0
+e;12689123;'f734652780972eecb834d4e08406f18e';200;0
+e;12689082;'37950c86ba11891988f4e2dd0a57905b';200;0
+e;12689086;'5d8d4059ce9d02dc0b97ae280e3ee4ab';200;0
+e;12689111;'e0ae3a46d2ca5e6cfc215c43bfd88501';200;0
+e;234776;'organisme génétiquement modifié';1;14
+e;74556;'OGM';1;86
+e;44176;'archéobactéries';1;50
+e;152858;'ogm';1;68
+e;142938;'Archéobactéries';1;50
+e;96055;'extra-terrestre';1;94
+e;112382;'volcan';1;738
+e;136507;'végétal';1;744
+e;6482;'bactérie';1;660
+e;162162;'biologie cellulaire';1;92
+e;145941;'plante';1;4760
+e;13035;'paresseux';1;204
+e;20206;'nitrates';1;58
+e;178429;'immunodéficience';1;8
+e;86828;'immunodépression';1;56
+e;136076;'plantes';1;202
+e;272518;'plantae';777;50
+e;273504;'algues rouges';777;4
+e;146002;'Rhodophytes';1;50
+e;87472;'rhodophytes';1;50
+e;272311;'Numéro index';777;50
+e;273455;'Classification';777;50
+e;272188;'Symboles';777;50
+e;272189;'Phrases R';777;50
+e;272192;'Phrases S';777;50
+e;19061;'bactéries';1;100
+e;275080;'bacteria';777;50
+e;275210;'chloroplastes';1;10
+e;101941;'lac Léman';1;84
+e;275401;'lac de';777;50
+e;103057;'cellule';1;1458
+e;276448;'éponges';777;50
+e;666;'spongiaires';1;50
+e;276567;'porifera';777;50
+e;119421;'vie extraterrestre';1;50
+e;1756;'extraterrestre';1;84
+e;3741;'cytologique';1;50
+e;139004;'Précambrien';1;50
+e;278434;'Hétérocyste';777;50
+e;135364;'nostoc';1;50
+e;278741;'fungi';777;2
+e;278742;'mycota';777;50
+e;176143;'mycètes';1;50
+e;264503;'fonge';1;50
+e;9687;'oxygène';1;824
+e;10571;'nitrate';1;64
+e;280464;'archaea';777;50
+e;173691;'Orosirien';1;50
+e;225867;'sclérose latérale amyotrophique';1;50
+e;281357;'sla';777;50
+e;281358;'maladie de Charcot';777;50
+e;249989;'cellule eucaryote';1;22
+e;282265;'faune de l'Édiacarien';777;50
+e;141429;'faune d'Ediacara';1;50
+e;62273;'tourbière';1;58
+e;40901;'tourbage';1;50
+e;109754;'humus';1;78
+e;112801;'humification';1;50
+e;149201;'monocellulaire';1;50
+e;259132;'génétiquement modifié';1;2
+e;266399;'cellule animale';1;50
+e;271480;'organismes génétiquement modifiés';1;50
+e;82163;'Vilaine';1;52
+e;276417;'R12';777;50
+e;70563;'phytoplancton';1;62
+e;68018;'phycoérythrine';1;50
+e;33586;'phycobiline';1;50
+e;275473;'Grandes familles de';777;50
+e;37654;'rythmes biologiques';1;50
+e;143031;'Protérozoïque';1;52
+e;65625;'récif';1;120
+e;67720;'transgénique';1;58
+e;68939;'circadien';1;52
+e;77946;'geyser';1;68
+e;101482;'mont Erebus';1;50
+e;207345;'rythme circadien';1;52
+e;251260;'étang de Berre';1;50
+e;311938;'cycle circadien';1;50
+e;311941;'rythme biologique';1;56
+e;23432;'caroténoïde';1;56
+e;364593;'modification génétique';1;50
+e;56362;'gras';1;1860
+e;1826611;'acide nucléique peptidique';1;0
+e;1852785;'Peptide Nucleic Acid';777;0
+e;1842588;'ptérine';1;0
+e;2374878;'type trophique';777;0
+e;2374877;'photolithotrophe';1;0
+e;2413444;'photoorganotrophe';1;0
+e;2470703;'photoautotrophe';1;0
+e;2549364;'azolla';1;0
+e;3245852;'H220';777;0
+e;3322550;'H270';777;0
+e;300392;'blanchissement des coraux';777;50
+e;300393;'blanchiment du corail';777;50
+e;300394;'blanchissement corallien';777;50
+e;63234;'rupicole';1;50
+e;129220;'stromatolithe';1;50
+e;303781;'stromatolite';777;50
+e;5687364;'ADDA';777;0
+e;5804437;'géosmine';777;0
+e;5810244;'Sphaerotilus natans';777;0
+e;5534856;'Découvrez comment faire';777;0
+e;5855285;'catastrophe de l'oxygène';777;0
+e;5855286;'crise de l'oxygène';777;0
+e;5891756;'sulfoquinovosyldiacylglycérol';777;0
+e;5891757;'SQDG';777;0
+e;5891758;'uridine-diphosphate-sulfoquinovose';777;0
+e;5891759;'UDP-sulfoquinovose';777;0
+e;5897220;'hopanoïde';777;0
+e;5920328;'phycoérythrobiline';777;0
+e;5535122;'Grandes familles de biomolécules';777;0
+e;5920329;'phycocyanobiline';777;0
+e;5920330;'phycourobiline';777;0
+e;5920335;'chlorophylle d';777;0
+e;6000476;'cyanophycine';777;0
+e;3326119;'Azollaceae';777;0
+e;5996853;'Azolla';1;0
+e;364741;'molécule d'oxygène';1;50
+e;133150;'dioxygène';1;86
+e;9798187;'azollas';777;0
+e;9634975;'listes à puces';777;0
+e;10746009;'Saint-Mathieu-de-Rioux';777;0
+e;1782575;'dihydrogène';1;2
+e;299925;'efflorescence algale';777;50
+e;11013762;'coraux mous et durs d'eau froide';777;0
+e;11013763;'éponges siliceuse';777;0
+e;35222;'végétaux';1;164
+e;27404;'photosynthèse';1;78
+e;9944812;'photosynthèse oxygénique';777;0
+e;11349964;'lac acide';777;0
+e;30472;'titres';1;62
+e;66372;'texte';1;898
+e;136284;'italique';1;56
+e;191712;'citations';1;54
+e;146823;'tableaux';1;116
+e;11351215;'Trichodesmium';777;0
+e;56101;'autotrophe';1;58
+e;11552535;'Grande Oxygénation';777;0
+e;96727;'phytochrome';1;52
+e;12197342;'les lipopolysaccharides';777;0
+e;302709;'LPS';777;50
+e;5073;'photopériodisme';1;50
+e;2353626;'actinobactéries';777;0
+e;266447;'origines de la vie';1;50
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;3;'r_domain';'domaine';Il est demandé de fournir des domaines relatifs au mot cible. Par exemple, pour 'corner', on pourra donner les domaines 'football' ou 'sport'.
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;5;'r_syn';'synonyme';Il est demandé d'énumérer les synonymes ou quasi-synonymes de ce terme.
+rt;6;'r_isa';'générique';Il est demandé d'énumérer les GENERIQUES/hyperonymes du terme. Par exemple, 'animal' et 'mammifère' sont des génériques de 'chat'.
+rt;8;'r_hypo';'spécifique';Il est demandé d'énumérer des SPECIFIQUES/hyponymes du terme. Par exemple, 'mouche', 'abeille', 'guêpe' pour 'insecte'.
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;27;'r_domain-1';'domaine-1';inverse de r_domain : à un domaine, on associe des termes
+rt;32;'r_sentiment';'sentiment';Pour un terme donné, évoquer des mots liés à des SENTIMENTS ou des EMOTIONS que vous pourriez associer à ce terme. Par exemple, la joie, le plaisir, le dégoût, la peur, la haine, l'amour, l'indifférence, l'envie, avoir peur, horrible, etc.
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;53;'r_make';'produit';Que peut PRODUIRE le terme ? (par exemple abeille -> miel, usine -> voiture, agriculteur -> blé,  moteur -> gaz carbonique ...)
+rt;54;'r_product_of';'est le produit de';Le terme est le RESULTAT/PRODUIT de qui/quoi ?
+rt;72;'r_syn_strict';'r_syn_strict';Termes strictement substituables, pour des termes hors du domaine général, et pour la plupart des noms (exemple : endométriose intra-utérine --> adénomyose)
+rt;115;'r_sentiment-1';'sentiment-1';Pour un SENTIMENT ou EMOTION donné, il est demandé dénumérer les termes que vous pourriez associer. Par exemple, pour 'joie', on aurait 'cadeau', 'naissance', 'bonne nouvelle', etc.
+rt;200;'r_context';'r_context';Relation de contexte entre un terme et un noeud contexte.
+rt;333;'r_translation';'r_translation';Traduction vers une autre langue.
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+r;242725587;45022;95373;0;22
+r;294407531;45022;5809970;0;25
+r;349341439;45022;13767649;0;25
+r;120783791;45022;290625;0;35
+r;191707831;45022;6913070;0;35
+r;120783754;45022;6367550;0;40
+r;191707819;45022;146519;0;63
+r;14486408;45022;140577;0;102
+r;217241803;45022;6720545;0;106
+r;217241805;45022;6720602;0;106
+r;217241806;45022;6720640;0;106
+r;217241807;45022;6720653;0;106
+r;217241808;45022;6720780;0;106
+r;217241809;45022;6729040;0;106
+r;217241810;45022;6729224;0;106
+r;217241811;45022;6730317;0;106
+r;217241812;45022;6730318;0;106
+r;217241813;45022;6730323;0;106
+r;217241814;45022;6730333;0;106
+r;217241815;45022;6730358;0;106
+r;217241816;45022;6730359;0;106
+r;217241817;45022;6730366;0;106
+r;217241818;45022;6731006;0;106
+r;217241819;45022;6732436;0;106
+r;217241820;45022;6732444;0;106
+r;217241821;45022;6732445;0;106
+r;217241822;45022;6732460;0;106
+r;217241823;45022;6732494;0;106
+r;217241824;45022;6732504;0;106
+r;217241825;45022;6732511;0;106
+r;217241826;45022;6732534;0;106
+r;217241827;45022;6732542;0;106
+r;217241828;45022;6732551;0;106
+r;217241829;45022;6750471;0;106
+r;217241830;45022;6795318;0;106
+r;217241831;45022;6795323;0;106
+r;217241832;45022;6795326;0;106
+r;217241833;45022;6795341;0;106
+r;217241834;45022;6795343;0;106
+r;217241835;45022;6795411;0;106
+r;217241836;45022;6795413;0;106
+r;217241837;45022;6795417;0;106
+r;217241838;45022;6795419;0;106
+r;217241839;45022;6795421;0;106
+r;217241840;45022;6795425;0;106
+r;217241841;45022;6796741;0;106
+r;217241842;45022;6796753;0;106
+r;217241843;45022;6806926;0;106
+r;217241844;45022;6825352;0;106
+r;217241845;45022;6825413;0;106
+r;217241846;45022;6825416;0;106
+r;217241847;45022;6825484;0;106
+r;217241848;45022;6825587;0;106
+r;217241849;45022;6825592;0;106
+r;217241850;45022;6825594;0;106
+r;217241851;45022;6825598;0;106
+r;217241852;45022;6825801;0;106
+r;217241853;45022;6825931;0;106
+r;217241854;45022;6826074;0;106
+r;217241855;45022;6826130;0;106
+r;217241856;45022;6826279;0;106
+r;217241857;45022;6826341;0;106
+r;217241858;45022;6826373;0;106
+r;217241859;45022;6826382;0;106
+r;217241860;45022;6826420;0;106
+r;217241861;45022;6826616;0;106
+r;217241862;45022;6826717;0;106
+r;217241863;45022;6826718;0;106
+r;217241864;45022;6836939;0;106
+r;217241865;45022;6852583;0;106
+r;217241866;45022;6857918;0;106
+r;217241867;45022;6867422;0;106
+r;217241868;45022;6867476;0;106
+r;217241869;45022;6867539;0;106
+r;217241870;45022;6869310;0;106
+r;217241871;45022;6869319;0;106
+r;217241872;45022;6869334;0;106
+r;217241873;45022;6869362;0;106
+r;217241874;45022;6879354;0;106
+r;217241875;45022;6879378;0;106
+r;217241876;45022;6879385;0;106
+r;217241877;45022;6879408;0;106
+r;217241878;45022;6880153;0;106
+r;217241879;45022;6880158;0;106
+r;217241880;45022;6880185;0;106
+r;217241881;45022;6880193;0;106
+r;217241882;45022;6880195;0;106
+r;217241883;45022;6880207;0;106
+r;217241884;45022;6884773;0;106
+r;217241885;45022;6891609;0;106
+r;217241886;45022;6891677;0;106
+r;217241887;45022;6891846;0;106
+r;217241888;45022;6891847;0;106
+r;217241889;45022;6891953;0;106
+r;217241890;45022;6896912;0;106
+r;217241891;45022;6903318;0;106
+r;217241892;45022;6912497;0;106
+r;217241893;45022;6912539;0;106
+r;217241894;45022;6912592;0;106
+r;217241895;45022;6912709;0;106
+r;217241896;45022;6912711;0;106
+r;217241897;45022;6912842;0;106
+r;217241898;45022;6912855;0;106
+r;217241899;45022;6912856;0;106
+r;217241900;45022;6912926;0;106
+r;217241901;45022;6912928;0;106
+r;217241902;45022;6912930;0;106
+r;217241903;45022;6913281;0;106
+r;217241904;45022;6913352;0;106
+r;217241905;45022;6924371;0;106
+r;217241906;45022;6924447;0;106
+r;217241907;45022;6924448;0;106
+r;217241908;45022;6924831;0;106
+r;217241909;45022;6926813;0;106
+r;217241910;45022;6927884;0;106
+r;217241911;45022;6928220;0;106
+r;217241912;45022;6929804;0;106
+r;217241913;45022;6930420;0;106
+r;217241914;45022;6931645;0;106
+r;217241915;45022;6931799;0;106
+r;217241916;45022;6932288;0;106
+r;217241917;45022;6932309;0;106
+r;217241918;45022;6934956;0;106
+r;217241919;45022;6934958;0;106
+r;217241920;45022;6934959;0;106
+r;217241921;45022;6934964;0;106
+r;217241922;45022;6934966;0;106
+r;217241923;45022;6935312;0;106
+r;217241924;45022;6935315;0;106
+r;217241925;45022;6935538;0;106
+r;217241926;45022;6935540;0;106
+r;217241927;45022;6941213;0;106
+r;217241928;45022;6948860;0;106
+r;217241929;45022;6951386;0;106
+r;217241930;45022;6952457;0;106
+r;217241931;45022;6959660;0;106
+r;217241932;45022;6959834;0;106
+r;217241933;45022;6959977;0;106
+r;217241934;45022;6960522;0;106
+r;217241935;45022;6960643;0;106
+r;217241937;45022;6962935;0;106
+r;217241938;45022;6966124;0;106
+r;217241939;45022;6967303;0;106
+r;217241940;45022;6967343;0;106
+r;217241941;45022;6968101;0;106
+r;217241942;45022;6970908;0;106
+r;217241943;45022;6974000;0;106
+r;217241944;45022;6974001;0;106
+r;217241945;45022;6988571;0;106
+r;217241946;45022;6994252;0;106
+r;217241947;45022;6994308;0;106
+r;217241948;45022;6994407;0;106
+r;217241949;45022;6994424;0;106
+r;217241950;45022;6994428;0;106
+r;217241951;45022;6994683;0;106
+r;217241952;45022;6994951;0;106
+r;217241953;45022;6995020;0;106
+r;217241954;45022;6995022;0;106
+r;217241955;45022;6995024;0;106
+r;217241956;45022;6995026;0;106
+r;217241957;45022;6995027;0;106
+r;217241958;45022;6995028;0;106
+r;217241959;45022;6995029;0;106
+r;217241960;45022;6995030;0;106
+r;217241961;45022;6995031;0;106
+r;217241962;45022;6995032;0;106
+r;217241963;45022;6995033;0;106
+r;217241964;45022;6995034;0;106
+r;217241965;45022;6995035;0;106
+r;217241966;45022;6995036;0;106
+r;217241967;45022;6995037;0;106
+r;217241968;45022;6995039;0;106
+r;217241969;45022;6995041;0;106
+r;217241970;45022;6995043;0;106
+r;217241971;45022;6995045;0;106
+r;217241972;45022;6995047;0;106
+r;217241973;45022;6995049;0;106
+r;217241974;45022;6995051;0;106
+r;217241975;45022;6995053;0;106
+r;217241976;45022;6995055;0;106
+r;217241977;45022;6995057;0;106
+r;217241978;45022;6995058;0;106
+r;217241979;45022;6995059;0;106
+r;217241980;45022;6995061;0;106
+r;217241981;45022;6995062;0;106
+r;217241982;45022;6995066;0;106
+r;217241983;45022;6995068;0;106
+r;217241984;45022;6995070;0;106
+r;217241985;45022;6995071;0;106
+r;217241986;45022;6995073;0;106
+r;217241987;45022;6995075;0;106
+r;217241988;45022;6995077;0;106
+r;217241989;45022;6995079;0;106
+r;217241990;45022;6995081;0;106
+r;217241991;45022;6995083;0;106
+r;217241992;45022;6995085;0;106
+r;217241993;45022;6995087;0;106
+r;217241994;45022;6995089;0;106
+r;217241995;45022;6995091;0;106
+r;217241996;45022;6995102;0;106
+r;217241997;45022;6995104;0;106
+r;217241998;45022;6995106;0;106
+r;217241999;45022;6995108;0;106
+r;217242000;45022;6995110;0;106
+r;217242001;45022;6995112;0;106
+r;217242002;45022;6995114;0;106
+r;217242003;45022;6995115;0;106
+r;217242004;45022;6995116;0;106
+r;217242005;45022;6995118;0;106
+r;217242006;45022;6995120;0;106
+r;217242007;45022;6995122;0;106
+r;217242008;45022;6995126;0;106
+r;217242009;45022;6995128;0;106
+r;217242010;45022;6995130;0;106
+r;217242011;45022;6995132;0;106
+r;217242012;45022;6995133;0;106
+r;217242013;45022;6995135;0;106
+r;217242014;45022;6995136;0;106
+r;217242015;45022;6995138;0;106
+r;217242016;45022;6995140;0;106
+r;217242017;45022;6995142;0;106
+r;217242018;45022;6995144;0;106
+r;217242019;45022;6995146;0;106
+r;217242020;45022;6995148;0;106
+r;217242021;45022;6995150;0;106
+r;217242022;45022;6995152;0;106
+r;217242023;45022;7005759;0;106
+r;217242024;45022;7006811;0;106
+r;217242025;45022;7011828;0;106
+r;217242026;45022;7012272;0;106
+r;217242027;45022;7012306;0;106
+r;217242028;45022;7012323;0;106
+r;217242029;45022;7012984;0;106
+r;217242030;45022;7013040;0;106
+r;217242031;45022;7016341;0;106
+r;217242032;45022;7017620;0;106
+r;217242033;45022;7021061;0;106
+r;217242034;45022;7024961;0;106
+r;217242035;45022;7024965;0;106
+r;217242036;45022;7029673;0;106
+r;217242037;45022;7049970;0;106
+r;217242038;45022;7050358;0;106
+r;217242039;45022;7050414;0;106
+r;217242040;45022;7050416;0;106
+r;217242041;45022;7050418;0;106
+r;217242042;45022;7050420;0;106
+r;217242043;45022;7050422;0;106
+r;217242044;45022;7050424;0;106
+r;217242045;45022;7050426;0;106
+r;217242046;45022;7050428;0;106
+r;217242047;45022;7050430;0;106
+r;217242048;45022;7050432;0;106
+r;217242049;45022;7050434;0;106
+r;217242050;45022;7050436;0;106
+r;217242051;45022;7050438;0;106
+r;217242052;45022;7050440;0;106
+r;217242053;45022;7050442;0;106
+r;217242054;45022;7050444;0;106
+r;217242055;45022;7050446;0;106
+r;217242056;45022;7050448;0;106
+r;217242057;45022;7050450;0;106
+r;217242058;45022;7050452;0;106
+r;217242059;45022;7050454;0;106
+r;217242060;45022;7050456;0;106
+r;217242061;45022;7050458;0;106
+r;217242062;45022;7050460;0;106
+r;217242063;45022;7050462;0;106
+r;217242064;45022;7050464;0;106
+r;217242065;45022;7050466;0;106
+r;217242066;45022;7050468;0;106
+r;217242067;45022;7050470;0;106
+r;217242068;45022;7050472;0;106
+r;217242069;45022;7050474;0;106
+r;217242070;45022;7050476;0;106
+r;217242071;45022;7050478;0;106
+r;217242072;45022;7050480;0;106
+r;217242073;45022;7050482;0;106
+r;217242074;45022;7050484;0;106
+r;217242075;45022;7050486;0;106
+r;217242076;45022;7050488;0;106
+r;217242077;45022;7050490;0;106
+r;217242078;45022;7050492;0;106
+r;217242079;45022;7050494;0;106
+r;217242080;45022;7050496;0;106
+r;217242081;45022;7050498;0;106
+r;217242082;45022;7050500;0;106
+r;217242083;45022;7050502;0;106
+r;217242084;45022;7050504;0;106
+r;217242085;45022;7050506;0;106
+r;217242086;45022;7050508;0;106
+r;217242087;45022;7050510;0;106
+r;217242088;45022;7050512;0;106
+r;217242089;45022;7050514;0;106
+r;217242090;45022;7050516;0;106
+r;217242091;45022;7050518;0;106
+r;217242092;45022;7050520;0;106
+r;217242093;45022;7050522;0;106
+r;217242094;45022;7050524;0;106
+r;217242095;45022;7050526;0;106
+r;217242096;45022;7050528;0;106
+r;217242097;45022;7050530;0;106
+r;217242098;45022;7050532;0;106
+r;217242099;45022;7050534;0;106
+r;217242100;45022;7050536;0;106
+r;217242101;45022;7050538;0;106
+r;217242102;45022;7050540;0;106
+r;217242103;45022;7050542;0;106
+r;217242104;45022;7050544;0;106
+r;217242105;45022;7050546;0;106
+r;217242106;45022;7050548;0;106
+r;217242107;45022;7050550;0;106
+r;217242108;45022;7050552;0;106
+r;217242109;45022;7050554;0;106
+r;217242110;45022;7050556;0;106
+r;217242111;45022;7050558;0;106
+r;217242112;45022;7050560;0;106
+r;217242113;45022;7050562;0;106
+r;217242114;45022;7050564;0;106
+r;217242115;45022;7050566;0;106
+r;217242116;45022;7050568;0;106
+r;217242117;45022;7050570;0;106
+r;217242118;45022;7050571;0;106
+r;217242119;45022;7050573;0;106
+r;217242120;45022;7050575;0;106
+r;217242121;45022;7050577;0;106
+r;217242122;45022;7050579;0;106
+r;217242123;45022;7050581;0;106
+r;217242124;45022;7050583;0;106
+r;217242125;45022;7050585;0;106
+r;217242126;45022;7050587;0;106
+r;217242127;45022;7050589;0;106
+r;217242128;45022;7050591;0;106
+r;217242129;45022;7050593;0;106
+r;217242130;45022;7050595;0;106
+r;217242131;45022;7050597;0;106
+r;217242132;45022;7050599;0;106
+r;217242133;45022;7050601;0;106
+r;217242134;45022;7050603;0;106
+r;217242135;45022;7050605;0;106
+r;217242136;45022;7050607;0;106
+r;217242137;45022;7050609;0;106
+r;217242138;45022;7050611;0;106
+r;217242139;45022;7050613;0;106
+r;217242140;45022;7050615;0;106
+r;217242141;45022;7050617;0;106
+r;217242142;45022;7050619;0;106
+r;217242143;45022;7050621;0;106
+r;217242144;45022;7050623;0;106
+r;217242145;45022;7050625;0;106
+r;217242146;45022;7050627;0;106
+r;217242147;45022;7050629;0;106
+r;217242148;45022;7050631;0;106
+r;217242149;45022;7050633;0;106
+r;217242150;45022;7050635;0;106
+r;217242151;45022;7050637;0;106
+r;217242152;45022;7050639;0;106
+r;217242153;45022;7050641;0;106
+r;217242154;45022;7050643;0;106
+r;217242155;45022;7050645;0;106
+r;217242156;45022;7050647;0;106
+r;217242157;45022;7050649;0;106
+r;217242158;45022;7050651;0;106
+r;217242159;45022;7050653;0;106
+r;217242160;45022;7050655;0;106
+r;217242161;45022;7050657;0;106
+r;217242162;45022;7050659;0;106
+r;217242163;45022;7050661;0;106
+r;217242164;45022;7050663;0;106
+r;217242165;45022;7050665;0;106
+r;217242166;45022;7050667;0;106
+r;217242167;45022;7050669;0;106
+r;217242168;45022;7050671;0;106
+r;217242169;45022;7050673;0;106
+r;217242170;45022;7050675;0;106
+r;217242171;45022;7050677;0;106
+r;217242172;45022;7050679;0;106
+r;217242173;45022;7050681;0;106
+r;217242174;45022;7050683;0;106
+r;217242175;45022;7050685;0;106
+r;217242176;45022;7050687;0;106
+r;217242177;45022;7050689;0;106
+r;217242178;45022;7050691;0;106
+r;217242179;45022;7050693;0;106
+r;217242180;45022;7050696;0;106
+r;217242181;45022;7050749;0;106
+r;217242182;45022;7050750;0;106
+r;217242183;45022;7050752;0;106
+r;217242184;45022;7050754;0;106
+r;217242185;45022;7050756;0;106
+r;217242186;45022;7050758;0;106
+r;217242187;45022;7050760;0;106
+r;217242188;45022;7050762;0;106
+r;217242189;45022;7050764;0;106
+r;217242190;45022;7050766;0;106
+r;217242191;45022;7050768;0;106
+r;217242192;45022;7050770;0;106
+r;217242193;45022;7050772;0;106
+r;217242194;45022;7050774;0;106
+r;217242195;45022;7050776;0;106
+r;217242196;45022;7050778;0;106
+r;217242197;45022;7050780;0;106
+r;217242198;45022;7050782;0;106
+r;217242199;45022;7050784;0;106
+r;217242200;45022;7050786;0;106
+r;217242201;45022;7050788;0;106
+r;217242202;45022;7050790;0;106
+r;217242203;45022;7050792;0;106
+r;217242204;45022;7050794;0;106
+r;217242205;45022;7050796;0;106
+r;217242206;45022;7050798;0;106
+r;217242207;45022;7050800;0;106
+r;217242208;45022;7050802;0;106
+r;217242209;45022;7050804;0;106
+r;217242210;45022;7050806;0;106
+r;217242211;45022;7050808;0;106
+r;217242212;45022;7050810;0;106
+r;217242213;45022;7050812;0;106
+r;217242214;45022;7050814;0;106
+r;217242215;45022;7050816;0;106
+r;217242216;45022;7050818;0;106
+r;217242217;45022;7050820;0;106
+r;217242218;45022;7050822;0;106
+r;217242219;45022;7050824;0;106
+r;217242220;45022;7050826;0;106
+r;217242221;45022;7050828;0;106
+r;217242222;45022;7050830;0;106
+r;217242223;45022;7050832;0;106
+r;217242224;45022;7050834;0;106
+r;217242225;45022;7050836;0;106
+r;217242226;45022;7050838;0;106
+r;217242227;45022;7050840;0;106
+r;217242228;45022;7050842;0;106
+r;217242229;45022;7050844;0;106
+r;217242230;45022;7050846;0;106
+r;217242231;45022;7050848;0;106
+r;217242232;45022;7050850;0;106
+r;217242233;45022;7050852;0;106
+r;217242234;45022;7050854;0;106
+r;217242235;45022;7050856;0;106
+r;217242236;45022;7050858;0;106
+r;217242237;45022;7050860;0;106
+r;217242238;45022;7050862;0;106
+r;217242239;45022;7050863;0;106
+r;217242240;45022;7050865;0;106
+r;217242241;45022;7050867;0;106
+r;217242242;45022;7050869;0;106
+r;217242243;45022;7050871;0;106
+r;217242244;45022;7050873;0;106
+r;217242245;45022;7050875;0;106
+r;217242246;45022;7050877;0;106
+r;217242247;45022;7050879;0;106
+r;217242248;45022;7050881;0;106
+r;217242249;45022;7050883;0;106
+r;217242250;45022;7050885;0;106
+r;217242251;45022;7050887;0;106
+r;217242252;45022;7050889;0;106
+r;217242253;45022;7050891;0;106
+r;217242254;45022;7050893;0;106
+r;217242255;45022;7050895;0;106
+r;217242256;45022;7050897;0;106
+r;217242257;45022;7050899;0;106
+r;217242258;45022;7050901;0;106
+r;217242259;45022;7050903;0;106
+r;217242260;45022;7050905;0;106
+r;217242261;45022;7050907;0;106
+r;217242262;45022;7050909;0;106
+r;217242263;45022;7050911;0;106
+r;217242264;45022;7050913;0;106
+r;217242265;45022;7050915;0;106
+r;217242266;45022;7050917;0;106
+r;217242267;45022;7050919;0;106
+r;217242268;45022;7050921;0;106
+r;217242269;45022;7050923;0;106
+r;217242270;45022;7050925;0;106
+r;217242271;45022;7050927;0;106
+r;217242272;45022;7050929;0;106
+r;217242273;45022;7050931;0;106
+r;217242274;45022;7050933;0;106
+r;217242275;45022;7050935;0;106
+r;217242276;45022;7050937;0;106
+r;217242277;45022;7050939;0;106
+r;217242278;45022;7050941;0;106
+r;217242279;45022;7050943;0;106
+r;217242280;45022;7050945;0;106
+r;217242281;45022;7050947;0;106
+r;217242282;45022;7050949;0;106
+r;217242283;45022;7050951;0;106
+r;217242284;45022;7050953;0;106
+r;217242285;45022;7050955;0;106
+r;217242286;45022;7050957;0;106
+r;217242287;45022;7050959;0;106
+r;217242288;45022;7050961;0;106
+r;217242289;45022;7050963;0;106
+r;217242290;45022;7050965;0;106
+r;217242291;45022;7050967;0;106
+r;217242292;45022;7050969;0;106
+r;217242293;45022;7050971;0;106
+r;217242294;45022;7050973;0;106
+r;217242295;45022;7050975;0;106
+r;217242296;45022;7050977;0;106
+r;217242297;45022;7050979;0;106
+r;217242298;45022;7050981;0;106
+r;217242299;45022;7050983;0;106
+r;217242300;45022;7050985;0;106
+r;217242301;45022;7050987;0;106
+r;217242302;45022;7050989;0;106
+r;217242303;45022;7050991;0;106
+r;217242304;45022;7050993;0;106
+r;217242305;45022;7050995;0;106
+r;217242306;45022;7050996;0;106
+r;217242307;45022;7050998;0;106
+r;217242308;45022;7051000;0;106
+r;217242309;45022;7051002;0;106
+r;217242310;45022;7051004;0;106
+r;217242311;45022;7051006;0;106
+r;217242312;45022;7051008;0;106
+r;217242313;45022;7051010;0;106
+r;217242315;45022;7051012;0;106
+r;217242316;45022;7051013;0;106
+r;217242317;45022;7051015;0;106
+r;217242318;45022;7051017;0;106
+r;217242319;45022;7053294;0;106
+r;217242320;45022;7153878;0;106
+r;217242321;45022;7193870;0;106
+r;217242322;45022;7195546;0;106
+r;217242323;45022;7195589;0;106
+r;217242324;45022;7204247;0;106
+r;217242325;45022;7204494;0;106
+r;217242326;45022;7204495;0;106
+r;217242327;45022;7204500;0;106
+r;217242328;45022;7204503;0;106
+r;217242329;45022;7204505;0;106
+r;217242330;45022;7204507;0;106
+r;217242331;45022;7204508;0;106
+r;217242332;45022;7204510;0;106
+r;217242333;45022;7204512;0;106
+r;217242334;45022;7483242;0;106
+r;217242335;45022;7483366;0;106
+r;217242336;45022;7483400;0;106
+r;217242337;45022;7483417;0;106
+r;217242338;45022;7483444;0;106
+r;217242339;45022;7483466;0;106
+r;217242340;45022;8274122;0;106
+r;217242341;45022;8274154;0;106
+r;217242342;45022;8274172;0;106
+r;217242343;45022;8275712;0;106
+r;217242344;45022;8275724;0;106
+r;217242345;45022;8275728;0;106
+r;217242346;45022;8278605;0;106
+r;217242347;45022;8280681;0;106
+r;120783799;45022;280643;0;117
+r;14168366;45022;265054;0;120
+r;120783768;45022;6416913;0;128
+r;120783780;45022;112658;0;129
+r;120783793;45022;237226;0;129
+r;120783795;45022;6285179;0;129
+r;121668179;45022;35143;0;129
+r;120783797;45022;6319091;0;132
+r;24039819;45022;239128;0;1000000
+r;121164011;45022;35143;3;128
+r;14168364;45022;146893;4;28
+r;14168363;45022;171870;4;44
+r;53989100;45022;2586628;4;45
+r;54005190;45022;2586630;4;45
+r;312137400;45022;6913070;5;26
+r;217241802;45022;280643;5;107
+r;333150225;45022;12321566;6;20
+r;108384855;45022;95373;6;115
+r;90033561;45022;3575927;18;29
+r;90903189;45022;3576104;18;43
+r;14168367;45022;265054;19;31
+r;33401339;45022;37298;32;-5
+r;33401341;45022;57221;32;-5
+r;34041376;45022;91691;32;103
+r;34041377;45022;14330;32;108
+r;33401340;45022;28453;32;125
+r;211818904;45022;254878;36;1
+r;77847624;45022;223172;36;2
+r;26988929;45022;254877;36;19
+r;361213818;45022;276096;36;25
+r;30785333;45022;1912917;36;40
+r;77847623;45022;2585997;36;53
+r;26400297;45022;241794;36;61
+r;26988928;45022;254876;36;80
+r;23382933;45022;223173;36;251
+r;334342898;45022;120470;53;50
+r;311794157;45022;6913070;72;25
+r;217395454;45022;280643;72;28
+r;324237768;45022;12667767;200;1
+r;324375522;45022;12671347;200;1
+r;325058721;45022;12689075;200;1
+r;325059162;45022;12689083;200;1
+r;325097841;45022;12689713;200;1
+r;325264970;45022;12693398;200;1
+r;325269422;45022;12693546;200;1
+r;325269484;45022;12693548;200;1
+r;334339266;45022;13031355;200;1
+r;334344144;45022;13031638;200;1
+r;325056933;45022;12689052;200;2
+r;325259920;45022;12693269;200;2
+r;325267533;45022;12693479;200;2
+r;328210213;45022;12790341;200;2
+r;364416045;45022;14319245;200;2
+r;325056711;45022;12689046;200;3
+r;325059830;45022;12689106;200;4
+r;325059857;45022;12689107;200;4
+r;325060767;45022;12689122;200;4
+r;325061088;45022;12689125;200;4
+r;349894614;45022;13823171;200;4
+r;356582148;45022;14095411;200;4
+r;324395642;45022;12671917;200;5
+r;325059183;45022;12689084;200;5
+r;325059521;45022;12689089;200;5
+r;325059768;45022;12689105;200;5
+r;325059924;45022;12689109;200;5
+r;325060035;45022;12689110;200;5
+r;325322910;45022;12694730;200;7
+r;327701320;45022;12771909;200;8
+r;327044824;45022;12732872;200;10
+r;217203477;45022;6913070;333;50
+r;78011049;45022;3228593;444;30
+r;119474548;45022;6091464;444;49
+r;74133120;45022;2983124;555;535
+r;6949686;45022;28295;777;10
+r;6949690;45022;291045;777;10
+r;6949691;45022;11139;777;10
+r;6949692;45022;15700;777;10
+r;6949693;45022;119768;777;10
+r;6949696;45022;119306;777;10
+r;6949697;45022;44955;777;10
+r;6949698;45022;95373;777;10
+r;6949699;45022;6832;777;10
+r;6949700;45022;142623;777;10
+r;6949701;45022;268061;777;10
+r;6949702;45022;161290;777;10
+r;6949703;45022;88042;777;10
+r;6949704;45022;167773;777;10
+r;6949705;45022;139892;777;10
+r;6949706;45022;35198;777;10
+r;6949707;45022;54785;777;10
+r;6949708;45022;71539;777;10
+r;6949709;45022;59704;777;10
+r;6949710;45022;126405;777;10
+r;6949711;45022;133060;777;10
+r;6949712;45022;44092;777;10
+r;6949713;45022;140685;777;10
+r;6949714;45022;145311;777;10
+r;6949715;45022;101176;777;10
+r;6949716;45022;82005;777;10
+r;6949717;45022;234924;777;10
+r;6949718;45022;39340;777;10
+r;6949719;45022;111638;777;10
+r;6949720;45022;21866;777;10
+r;6949723;45022;5029;777;10
+r;6949724;45022;16848;777;10
+r;6949725;45022;287741;777;10
+r;6949726;45022;152366;777;10
+r;6949727;45022;7908;777;10
+r;6949728;45022;113559;777;10
+r;6949729;45022;77286;777;10
+r;6949730;45022;40381;777;10
+r;6949731;45022;155661;777;10
+r;6949732;45022;229404;777;10
+r;6949733;45022;68722;777;10
+r;6949734;45022;144333;777;10
+r;6949735;45022;146872;777;10
+r;6949736;45022;130922;777;10
+r;6949737;45022;50969;777;10
+r;6949738;45022;28856;777;10
+r;6949742;45022;293786;777;10
+r;6949743;45022;145623;777;10
+r;6949744;45022;38128;777;10
+r;6949746;45022;145091;777;10
+r;6949747;45022;109785;777;10
+r;6949748;45022;115155;777;10
+r;6949749;45022;85037;777;10
+r;6949750;45022;121809;777;10
+r;6949757;45022;152821;777;10
+r;6949758;45022;40310;777;10
+r;6949760;45022;7077;777;10
+r;6949763;45022;145904;777;10
+r;6949764;45022;225865;777;10
+r;6949767;45022;29525;777;10
+r;17883717;45022;405643;777;10
+r;17883718;45022;413245;777;10
+r;17883719;45022;401929;777;10
+r;17883720;45022;303982;777;10
+r;17883725;45022;214730;777;10
+r;17883726;45022;252895;777;10
+r;17883727;45022;431820;777;10
+r;17883728;45022;407371;777;10
+r;17883729;45022;415030;777;10
+r;17883730;45022;40989;777;10
+r;17883731;45022;311519;777;10
+r;17883732;45022;11567;777;10
+r;17883738;45022;412461;777;10
+r;17883739;45022;316103;777;10
+r;17883742;45022;419466;777;10
+r;17883743;45022;302708;777;10
+r;17883744;45022;573031;777;10
+r;17883745;45022;428313;777;10
+r;28171059;45022;597298;777;10
+r;28171060;45022;627082;777;10
+r;28171061;45022;652934;777;10
+r;30659106;45022;1765032;777;10
+r;30659142;45022;1814040;777;10
+r;34180962;45022;61152;777;10
+r;34180963;45022;110310;777;10
+r;34180967;45022;2298916;777;10
+r;34180971;45022;2135377;777;10
+r;34180972;45022;202539;777;10
+r;34180976;45022;2200456;777;10
+r;72911047;45022;2936756;777;10
+r;72911051;45022;2602821;777;10
+r;72911054;45022;290625;777;10
+r;72911058;45022;2547127;777;10
+r;72911062;45022;2580401;777;10
+r;72911066;45022;2530304;777;10
+r;72911070;45022;2608759;777;10
+r;76584046;45022;3158975;777;10
+r;76584047;45022;249004;777;10
+r;85712597;45022;3321947;777;10
+r;96434475;45022;3684570;777;10
+r;113217127;45022;627081;777;10
+r;113217131;45022;146076;777;10
+r;113217154;45022;5634122;777;10
+r;113217171;45022;5677576;777;10
+r;113217180;45022;5624822;777;10
+r;114241030;45022;5810052;777;10
+r;114241034;45022;5810179;777;10
+r;114241038;45022;5810316;777;10
+r;114241042;45022;5810309;777;10
+r;114241046;45022;5810091;777;10
+r;114241050;45022;5810306;777;10
+r;114241054;45022;5810172;777;10
+r;114241060;45022;5810373;777;10
+r;114241061;45022;5810374;777;10
+r;114241066;45022;5855284;777;10
+r;114241070;45022;5810290;777;10
+r;114241074;45022;5810417;777;10
+r;114241078;45022;5810840;777;10
+r;114241082;45022;5810836;777;10
+r;114241087;45022;5810843;777;10
+r;114241091;45022;5810841;777;10
+r;114241095;45022;5810845;777;10
+r;114241099;45022;5810238;777;10
+r;114241104;45022;5812748;777;10
+r;114410457;45022;5870808;777;10
+r;118981168;45022;5984829;777;10
+r;121920774;45022;6308362;777;10
+r;121920778;45022;6370813;777;10
+r;191707902;45022;434928;777;10
+r;191707903;45022;76625;777;10
+r;231865930;45022;5810076;777;10
+r;231865934;45022;331371;777;10
+r;231865938;45022;3185535;777;10
+r;278155420;45022;2007134;777;10
+r;278155424;45022;138567;777;10
+r;278155428;45022;10160680;777;10
+r;278155438;45022;10618447;777;10
+r;305904686;45022;11813193;777;10
+r;325058705;45022;12199858;777;10
+r;325059628;45022;12689092;777;10
+r;325059632;45022;12689090;777;10
+r;325059636;45022;12689095;777;10
+r;325059640;45022;12689093;777;10
+r;325059644;45022;12689103;777;10
+r;360106076;45022;13629572;777;10
+r;360106080;45022;12689126;777;10
+r;217442031;35143;45022;0;12
+r;294407530;5809970;45022;0;25
+r;349341438;13767649;45022;0;25
+r;14486407;140577;45022;0;26
+r;120783794;237226;45022;0;28
+r;120783753;6367550;45022;0;32
+r;120783779;112658;45022;0;32
+r;120783767;6416913;45022;0;34
+r;120783796;6285179;45022;0;34
+r;120783798;6319091;45022;0;34
+r;120783792;290625;45022;0;35
+r;191707823;146519;45022;0;35
+r;191707832;6913070;45022;0;45
+r;120783800;280643;45022;0;46
+r;312137401;6913070;45022;5;30
+r;217395453;280643;45022;5;32
+r;242725588;95373;45022;8;25
+r;217442030;35143;45022;27;12
+r;334342897;120470;45022;54;51
+r;311794158;6913070;45022;72;26
+r;217203480;280643;45022;72;50
+r;34616106;102345;45022;115;1
+r;34616107;28453;45022;115;1
+r;345916234;13637620;45022;200;-1
+r;347949141;13708990;45022;200;-1
+r;349897238;13637751;45022;200;-1
+r;349994634;13839855;45022;200;-1
+r;351458007;13884962;45022;200;-1
+r;361264507;14231117;45022;200;-1
+r;324375628;12671347;45022;200;1
+r;325058731;12689075;45022;200;1
+r;325059173;12689083;45022;200;1
+r;325097958;12689713;45022;200;1
+r;325269449;12693546;45022;200;1
+r;325269512;12693548;45022;200;1
+r;334339321;13031355;45022;200;1
+r;334344201;13031638;45022;200;1
+r;364416119;14319245;45022;200;1
+r;325057004;12689052;45022;200;2
+r;325260042;12693269;45022;200;2
+r;328210273;12790341;45022;200;2
+r;349894672;13823171;45022;200;2
+r;356582263;14095411;45022;200;2
+r;325056761;12689046;45022;200;3
+r;325059734;12689104;45022;200;4
+r;325059848;12689106;45022;200;4
+r;325059868;12689107;45022;200;4
+r;325060329;12689112;45022;200;4
+r;325060406;12689113;45022;200;4
+r;325060461;12689114;45022;200;4
+r;325060587;12689118;45022;200;4
+r;325060641;12689119;45022;200;4
+r;325060723;12689120;45022;200;4
+r;325060777;12689122;45022;200;4
+r;325060838;12689123;45022;200;4
+r;325061104;12689125;45022;200;4
+r;325059152;12689082;45022;200;5
+r;324395681;12671917;45022;200;5
+r;325059203;12689084;45022;200;5
+r;325059313;12689086;45022;200;5
+r;325059549;12689089;45022;200;5
+r;325059805;12689105;45022;200;5
+r;325060124;12689110;45022;200;5
+r;325060286;12689111;45022;200;5
+r;325322935;12694730;45022;200;7
+r;327701376;12771909;45022;200;7
+r;325059961;12689109;45022;200;10
+r;327044883;12732872;45022;200;10
+r;217239116;6913070;45022;333;25
+r;3623902;234776;45022;777;1
+r;3623907;74556;45022;777;1
+r;4529878;44176;45022;777;1
+r;7553831;152858;45022;777;1
+r;11610377;316103;45022;777;1
+r;11616294;142938;45022;777;1
+r;13471888;96055;45022;777;2
+r;3969638;112382;45022;777;8
+r;3300146;136507;45022;777;9
+r;3892505;6482;45022;777;9
+r;3985998;162162;45022;777;9
+r;3262901;145941;45022;777;10
+r;3284361;13035;45022;777;10
+r;3284463;20206;45022;777;10
+r;3362199;178429;45022;777;10
+r;3362380;86828;45022;777;10
+r;3424705;136076;45022;777;10
+r;3424815;272518;45022;777;10
+r;3613555;273504;45022;777;10
+r;3613556;146002;45022;777;10
+r;3613557;87472;45022;777;10
+r;3826131;272311;45022;777;10
+r;3826283;273455;45022;777;10
+r;3826437;272188;45022;777;10
+r;3826584;272189;45022;777;10
+r;3826728;272192;45022;777;10
+r;3892501;19061;45022;777;10
+r;3892503;275080;45022;777;10
+r;3900583;275210;45022;777;10
+r;3938481;101941;45022;777;10
+r;3938524;275401;45022;777;10
+r;3985616;103057;45022;777;10
+r;4085449;276448;45022;777;10
+r;4085450;666;45022;777;10
+r;4085451;276567;45022;777;10
+r;4110639;119421;45022;777;10
+r;4110641;1756;45022;777;10
+r;4184763;3741;45022;777;10
+r;4224412;139004;45022;777;10
+r;4230911;138567;45022;777;10
+r;4275584;278434;45022;777;10
+r;4285164;135364;45022;777;10
+r;4285165;7908;45022;777;10
+r;4319320;278741;45022;777;10
+r;4319322;278742;45022;777;10
+r;4319323;176143;45022;777;10
+r;4319324;264503;45022;777;10
+r;4365194;9687;45022;777;10
+r;4401238;10571;45022;777;10
+r;4529877;280464;45022;777;10
+r;4575175;173691;45022;777;10
+r;4646523;225867;45022;777;10
+r;4646524;281357;45022;777;10
+r;4646525;281358;45022;777;10
+r;4673917;249989;45022;777;10
+r;4759537;282265;45022;777;10
+r;4759539;141429;45022;777;10
+r;4825574;62273;45022;777;10
+r;4825575;40901;45022;777;10
+r;4840531;109754;45022;777;10
+r;4840532;112801;45022;777;10
+r;4915724;149201;45022;777;10
+r;4958496;259132;45022;777;10
+r;5025893;266399;45022;777;10
+r;5083569;271480;45022;777;10
+r;5096190;82163;45022;777;10
+r;5640084;276417;45022;777;10
+r;6280250;70563;45022;777;10
+r;6345830;68018;45022;777;10
+r;6578171;33586;45022;777;10
+r;6578172;275473;45022;777;10
+r;6878749;37654;45022;777;10
+r;7061691;143031;45022;777;10
+r;7089798;65625;45022;777;10
+r;7107562;67720;45022;777;10
+r;7118598;68939;45022;777;10
+r;7202469;77946;45022;777;10
+r;7402461;101482;45022;777;10
+r;8079920;207345;45022;777;10
+r;8234858;251260;45022;777;10
+r;8520234;311938;45022;777;10
+r;8520298;311941;45022;777;10
+r;23396400;120470;45022;777;10
+r;23396399;23432;45022;777;10
+r;17077164;364593;45022;777;10
+r;290916397;56362;45022;777;10
+r;29840409;1826611;45022;777;10
+r;29840414;1852785;45022;777;10
+r;30065488;1842588;45022;777;10
+r;52211485;2374878;45022;777;10
+r;52211488;2374877;45022;777;10
+r;54292798;2413444;45022;777;10
+r;83753414;2470703;45022;777;10
+r;83864823;2549364;45022;777;10
+r;83868270;3245852;45022;777;10
+r;83872200;3322550;45022;777;10
+r;85598600;300392;45022;777;10
+r;85598601;300393;45022;777;10
+r;85598602;300394;45022;777;10
+r;85603001;63234;45022;777;10
+r;88328506;129220;45022;777;10
+r;88328507;303781;45022;777;10
+r;111718208;5687364;45022;777;10
+r;113064904;5804437;45022;777;10
+r;113224773;5810244;45022;777;10
+r;113234960;5534856;45022;777;10
+r;114111458;5855284;45022;777;10
+r;114111459;5855285;45022;777;10
+r;114111460;5855286;45022;777;10
+r;114411373;5812748;45022;777;10
+r;114595424;5891756;45022;777;10
+r;114595425;5891757;45022;777;10
+r;114595438;5891758;45022;777;10
+r;114595439;5891759;45022;777;10
+r;114824566;5897220;45022;777;10
+r;115576144;5920328;45022;777;10
+r;115576145;5535122;45022;777;10
+r;115576181;5920329;45022;777;10
+r;115576332;5920330;45022;777;10
+r;115576615;5920335;45022;777;10
+r;117981762;6000476;45022;777;10
+r;118893173;3326119;45022;777;10
+r;118893174;5996853;45022;777;10
+r;220292929;364741;45022;777;10
+r;220292928;133150;45022;777;10
+r;218626605;9798187;45022;777;10
+r;290916404;9634975;45022;777;10
+r;268860072;10746009;45022;777;10
+r;269738567;1782575;45022;777;10
+r;277934867;2298916;45022;777;10
+r;278298679;299925;45022;777;10
+r;278990446;11013762;45022;777;10
+r;278990447;11013763;45022;777;10
+r;278990449;35222;45022;777;10
+r;280314138;27404;45022;777;10
+r;280314139;9944812;45022;777;10
+r;290225959;54785;45022;777;10
+r;290860001;11349964;45022;777;10
+r;290916392;30472;45022;777;10
+r;290916395;66372;45022;777;10
+r;290916401;136284;45022;777;10
+r;290916403;191712;45022;777;10
+r;290916405;146823;45022;777;10
+r;290916408;11351215;45022;777;10
+r;290937291;56101;45022;777;10
+r;292380622;59704;45022;777;10
+r;296549828;11552535;45022;777;10
+r;298194108;96727;45022;777;10
+r;316181783;12197342;45022;777;10
+r;316181784;302709;45022;777;10
+r;318700943;5073;45022;777;10
+r;333713502;303982;45022;777;10
+r;333713503;2353626;45022;777;10
+r;341211776;266447;45022;777;10

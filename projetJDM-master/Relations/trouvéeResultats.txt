@@ -1,0 +1,3749 @@
+nt;1;'n_term'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;200;'n_context'
+nt;777;'n_wikipedia'
+e;230256;'trouvée';1;70
+e;48704;'trouver';1;460
+e;37302;'trouvé';1;86
+e;239128;'_COM';36;50
+e;2325330;'trouvée>161702';1;0;'trouvée>Ver:PPas'
+e;2325331;'trouvée>171869';1;0;'trouvée>Adj:'
+e;161702;'Ver:PPas';4;50
+e;2586628;'Gender:Fem';4;0
+e;2586629;'Number:Sing';4;0
+e;161700;'Ver:PPas Fem SG';4;50
+e;212235;'Ver:';4;50
+e;146894;'Adj:Fem SG';4;50
+e;171869;'Adj:';4;50
+e;12196297;'identification d'yy1 gène mutation cible trouvée';1;0
+e;12195902;'identification de wt1 gène mutation cible trouvée';1;0
+e;12195896;'identification de ws2a gène mutation cible trouvée';1;0
+e;12195893;'identification de wfs1 gène mutation cible trouvée';1;0
+e;12195887;'identification de was gène mutation cible trouvée';1;0
+e;12195862;'identification de vwf gène mutation cible trouvée';1;0
+e;12195854;'identification de vps13b gène mutation cible trouvée';1;0
+e;12195699;'identification de vkorc1 gène mutation cible trouvée';1;0
+e;12194881;'identification de vhl gène mutation cible trouvée';1;0
+e;12194567;'identification de vapb gène mutation cible trouvée';1;0
+e;12194336;'identification d'ush2a gène mutation cible trouvée';1;0
+e;12193987;'identification d'unc13d gène mutation cible trouvée';1;0
+e;12193985;'identification d'umod gène mutation cible trouvée';1;0
+e;12193977;'identification d'ugt2b15 gène mutation cible trouvée';1;0
+e;12193972;'identification d'ugt1a1 gène mutation cible trouvée';1;0
+e;12193959;'identification d'ube3a gène mutation cible trouvée';1;0
+e;12193860;'identification de tyr gène mutation cible trouvée';1;0
+e;12193825;'identification de twist1 gène mutation cible trouvée';1;0
+e;12193781;'identification de ttr gène mutation cible trouvée';1;0
+e;12193773;'identification de tsc2 gène mutation cible trouvée';1;0
+e;12193769;'identification de tsc1 gène mutation cible trouvée';1;0
+e;12193766;'identification de tsc gène mutation cible trouvée';1;0
+e;12193572;'identification de trps1 gène mutation cible trouvée';1;0
+e;12192785;'identification de trappc2 gène mutation cible trouvée';1;0
+e;12192613;'identification de traf3 gène mutation cible trouvée';1;0
+e;12192591;'détermination de la présence de tpp1 gène mutation cible trouvée';1;0
+e;12192582;'identification de tpmt gène mutation cible trouvée';1;0
+e;12192569;'identification de tp73l gène mutation cible trouvée';1;0
+e;12192567;'identification de tp53 gène mutation cible trouvée';1;0
+e;12192308;'identification de tor1a gène mutation cible trouvée';1;0
+e;12192176;'identification de tnfrsf1a gène mutation cible trouvée';1;0
+e;12192168;'identification de tnfrsf13b gène mutation cible trouvée';1;0
+e;12191585;'identification de thrb gène mutation cible trouvée';1;0
+e;12191303;'identification de th gène mutation cible trouvée';1;0
+e;12191301;'identification de tgm1 gène mutation cible trouvée';1;0
+e;12191299;'identification de tgfbr2 gène mutation cible trouvée';1;0
+e;12191297;'identification de tgfbr1 tgfbr2 gène mutation cible trouvée';1;0
+e;12191295;'identification de tgfbr1 gène mutation cible trouvée';1;0
+e;12191293;'identification de tgfb3 gène mutation cible trouvée';1;0
+e;12190306;'identification de tcof1 gène mutation cible trouvée';1;0
+e;12190301;'identification de tbx5 gène mutation cible trouvée';1;0
+e;12190238;'identification de tardbp gène mutation cible trouvée';1;0
+e;12189873;'identification de syndrome de kalman gène mutation cible trouvée';1;0
+e;12189821;'identification de surf1 gène mutation cible trouvée';1;0
+e;12188525;'identification de stk11 gène mutation cible trouvée';1;0
+e;12188205;'identification de sry gène mutation cible trouvée';1;0
+e;12188127;'identification de spink1 gène mutation cible trouvée';1;0
+e;12188105;'identification de spg3a gène mutation cible trouvée';1;0
+e;12188103;'détermination de la présence de spg11 gène délétion duplication et mutation trouvée';1;0
+e;12187706;'identification de spast kiaa0196 gènes mutation cible trouvée';1;0
+e;12187701;'identification de spast gène mutation cible trouvée';1;0
+e;12187612;'identification de sos1 gène mutation cible trouvée';1;0
+e;12186833;'identification de sod1 gène mutation cible trouvée';1;0
+e;12186821;'identification de snca gène mutation cible trouvée';1;0
+e;12186814;'identification de smpd1 gène mutation cible trouvée';1;0
+e;12186812;'identification de smn2 gène mutation cible trouvée';1;0
+e;12186810;'identification de smn1 smn2 gènes mutation cible trouvée';1;0
+e;12186807;'identification de smn1 gène mutation cible trouvée';1;0
+e;12186805;'identification de smc1a gène mutation cible trouvée';1;0
+e;12186744;'identification de slc6a4 gène mutation cible trouvée';1;0
+e;12186742;'identification de slc40a1 gène mutation cible trouvée';1;0
+e;12186740;'détermination de la présence de slc37a4 gène mutation cible trouvée';1;0
+e;12186728;'identification de slc26a4 gène mutation cible trouvée';1;0
+e;12186726;'détermination de la présence de slc26a2 gène mutation cible trouvée';1;0
+e;12186724;'identification de slc25a4 gène mutation cible trouvée';1;0
+e;12186722;'identification de slc25a13 gène mutation cible trouvée';1;0
+e;12186720;'identification de slc22a5 gène mutation cible trouvée';1;0
+e;12186717;'identification de slc22a18 gène mutation cible trouvée';1;0
+e;12186713;'identification de slc14a1 gène mutation cible trouvée';1;0
+e;12186711;'détermination de la présence de slc12a6 gène mutation cible trouvée';1;0
+e;12186583;'identification de si gène mutation cible trouvée';1;0
+e;12186580;'identification de shox gène mutation cible trouvée';1;0
+e;12186534;'identification de sh3tc2 gène mutation cible trouvée';1;0
+e;12186532;'identification de sh3bp2 gène mutation cible trouvée';1;0
+e;12186529;'identification de sh2d1a gène mutation cible trouvée';1;0
+e;12186527;'identification de sgsh gène mutation cible trouvée';1;0
+e;12186522;'identification de sgcg gène mutation cible trouvée';1;0
+e;12186520;'identification de sgcb gène mutation cible trouvée';1;0
+e;12186518;'identification de sgca gène mutation cible trouvée';1;0
+e;12186515;'identification de sftpc gène mutation cible trouvée';1;0
+e;12186512;'identification de sftpb gène mutation cible trouvée';1;0
+e;12186446;'identification de serping1 gène mutation cible trouvée';1;0
+e;12186437;'identification de serpine1 gène mutation cible trouvée';1;0
+e;12186428;'identification de serpina10 gène mutation cible trouvée';1;0
+e;12186419;'identification de serpina1 gène mutation cible trouvée';1;0
+e;12186313;'détermination de la présence de sept9 gène mutation cible trouvée';1;0
+e;12186165;'identification de sdhd gène mutation cible trouvée';1;0
+e;12186160;'identification de sdhc gène mutation cible trouvée';1;0
+e;12186155;'identification de sdhb gène mutation cible trouvée';1;0
+e;12186108;'identification de sco2 gène mutation cible trouvée';1;0
+e;12186106;'identification de sco1 gène mutation cible trouvée';1;0
+e;12186102;'identification de scn5a gène mutation cible trouvée';1;0
+e;12186100;'identification de scn4a gène mutation cible trouvée';1;0
+e;12186098;'identification de scn1a gène mutation cible trouvée';1;0
+e;12185942;'identification de sbds gène mutation cible trouvée';1;0
+e;12185498;'détermination de la présence de sacs gène mutation cible trouvée';1;0
+e;12185408;'identification de ryr1 gène mutation cible trouvée';1;0
+e;12185291;'identification de rs1 gène mutation cible trouvée';1;0
+e;12185289;'identification de rps6ka3 gène mutation cible trouvée tiers 2';1;0
+e;12185287;'identification de rps6ka3 gène mutation cible trouvée tiers 1';1;0
+e;12185284;'identification de rps6ka3 gène mutation cible trouvée';1;0
+e;12185282;'mesure de rps19 gène mutation cible trouvée';1;0
+e;12184971;'détermination de la présence de rmrp gène mutation cible trouvée';1;0
+e;12184252;'identification du type de rhe gène mutation cible trouvée';1;0
+e;12184250;'identification de rhd rhc gènes mutation cible trouvée';1;0
+e;12184248;'identification du type de rhd gène mutation cible trouvée';1;0
+e;12184246;'identification de rhd gène mutation cible trouvée';1;0
+e;12184242;'identification de rhce gène mutation cible trouvée';1;0
+e;12184240;'identification du type de rhc gène mutation cible trouvée';1;0
+e;12183986;'identification de ret gène mutation cible trouvée';1;0
+e;12183588;'identification de rb1 gène mutation cible trouvée';1;0
+e;12183481;'identification de rai1 gène mutation cible trouvée';1;0
+e;12183330;'identification de qt long syndrome congénital gène mutation cible trouvée';1;0
+e;12183148;'identification de pygm gène mutation cible trouvée';1;0
+e;12183144;'identification de pws gène mutation cible trouvée';1;0
+e;12183101;'identification de ptpn11 gène mutation cible trouvée tier 3';1;0
+e;12183099;'identification de ptpn11 gène mutation cible trouvée tier 1';1;0
+e;12183096;'identification de ptpn11 gène mutation cible trouvée';1;0
+e;12183085;'identification de pten gène mutation cible trouvée';1;0
+e;12183078;'identification de ptch gène mutation cible trouvée';1;0
+e;12182997;'identification de psen2 gène mutation cible trouvée';1;0
+e;12182993;'identification de psen1 gène mutation cible trouvée';1;0
+e;12182989;'identification de psap gène mutation cible trouvée';1;0
+e;12182986;'identification de prx gène mutation cible trouvée';1;0
+e;12182962;'identification de prss1 gène mutation cible trouvée';1;0
+e;12182418;'identification de pros1 gène mutation cible trouvée';1;0
+e;12182316;'identification de prop1 gène mutation cible trouvée';1;0
+e;12181833;'détermination de la présence de prnp gène mutation cible trouvée';1;0
+e;12181831;'identification de prnp gène mutation cible trouvée';1;0
+e;12181792;'identification de prf1 gène mutation cible trouvée';1;0
+e;12181590;'identification de ppt1 gène mutation cible trouvée';1;0
+e;12181443;'identification de pou3f4 gène mutation cible trouvée';1;0
+e;12181231;'identification de pomt2 gène mutation cible trouvée';1;0
+e;12181229;'identification de pomt1 gène mutation cible trouvée';1;0
+e;12180365;'identification de polg gène mutation cible trouvée';1;0
+e;12180153;'identification de pnkd gène mutation cible trouvée';1;0
+e;12180066;'identification de pmp22 gène mutation cible trouvée';1;0
+e;12180058;'détermination de la présence de pmm2 gène mutation cible trouvée';1;0
+e;12180043;'identification de plp1 gène mutation cible trouvée';1;0
+e;12179986;'identification de plod1 gène mutation cible trouvée';1;0
+e;12178444;'identification de pklr gène mutation cible trouvée';1;0
+e;12178441;'identification de pkhd1 gène mutation cible trouvée';1;0
+e;12178439;'identification de pkd2 gène mutation cible trouvée';1;0
+e;12178436;'identification de pkd1 pkd2 gènes mutation cible trouvée';1;0
+e;12178329;'identification de pink1 gène mutation cible trouvée';1;0
+e;12178254;'identification de pik3ca gène mutation cible trouvée';1;0
+e;12178197;'identification de phox2b gène mutation cible trouvée';1;0
+e;12177549;'identification de phex gène mutation cible trouvée';1;0
+e;12177099;'détermination de la présence de pex7 gène mutation cible trouvée';1;0
+e;12177097;'détermination de la présence de pex1 gène mutation cible trouvée';1;0
+e;12176747;'identification de peo gène mutation cible trouvée';1;0
+e;12176426;'identification de pdgfra gène exon 18 mutation cible trouvée';1;0
+e;12176418;'identification de pdcd10 gène mutation cible trouvée';1;0
+e;12176416;'identification de pcsk9 gène mutation cible trouvée';1;0
+e;12176390;'identification de pcca pccb gènes mutation cible trouvée';1;0
+e;12176381;'mesure de pax6 gène mutation cible trouvée';1;0
+e;12176370;'identification de pax3 gène mutation cible trouvée';1;0
+e;12176078;'identification de park7 gène mutation cible trouvée';1;0
+e;12176075;'identification de park2 gène mutation cible trouvée';1;0
+e;12175319;'identification de pank2 gène mutation cible trouvée';1;0
+e;12175300;'identification de pancréatite héréditaire gène mutation cible trouvée';1;0
+e;12175178;'identification de pah gène mutation cible trouvée';1;0
+e;12175158;'identification de pabpn1 gène mutation cible trouvée';1;0
+e;12174660;'identification d'otof gène mutation cible trouvée';1;0
+e;12174655;'identification d'otc gène mutation cible trouvée';1;0
+e;12174080;'détermination de la présence d'opa3 gène mutation cible trouvée';1;0
+e;12174078;'identification d'opa1 gène mutation cible trouvée';1;0
+e;12174071;'détermination de la présence d'oncogène mutation cible trouvée';1;0
+e;12173771;'identification d'ocrl1 gène mutation cible trouvée';1;0
+e;12173767;'identification d'oca2 gène mutation cible trouvée';1;0
+e;12173259;'mesure de nsd1 gène mutation cible trouvée';1;0
+e;12173251;'identification de nras gène mutation cible trouvée';1;0
+e;12173246;'identification de nr0b1 gène mutation cible trouvée';1;0
+e;12173243;'identification de npm1 gène mutation cible trouvée';1;0
+e;12173232;'identification de nphs2 gène mutation cible trouvée';1;0
+e;12173227;'identification de nphs1 gène mutation cible trouvée';1;0
+e;12173225;'identification de nphp1 gène mutation cible trouvée';1;0
+e;12173222;'identification de npdc gène mutation cible trouvée';1;0
+e;12172998;'identification de notch3 gène mutation cible trouvée';1;0
+e;12172263;'identification de nod2 gène mutation cible trouvée';1;0
+e;12172119;'identification de nipbl gène mutation cible trouvée';1;0
+e;12172117;'identification de nipa1 gène mutation cible trouvée';1;0
+e;12171995;'identification de nf2 gène mutation cible trouvée';1;0
+e;12171990;'identification de nf1 gène mutation cible trouvée';1;0
+e;12171965;'identification de neuropathie périphérique gène mutation cible trouvée';1;0
+e;12171573;'identification de nefl gène mutation cible trouvée';1;0
+e;12171552;'identification de neb gène mutation cible trouvée';1;0
+e;12171516;'identification de ncf2 gène mutation cible trouvée';1;0
+e;12171514;'identification de ncf1 ncf2 cybb gènes mutation cible trouvée';1;0
+e;12171512;'identification de ncf1 gène mutation cible trouvée';1;0
+e;12171503;'détermination de la présence de nbn gène mutation cible trouvée';1;0
+e;12171499;'identification de nb gène mutation cible trouvée';1;0
+e;12171376;'identification de nags gène mutation cible trouvée';1;0
+e;12171247;'identification de myopathie mitochondriale gène mutation cible trouvée';1;0
+e;12171211;'identification de myoc gène mutation cible trouvée';1;0
+e;12171114;'détermination de la présence de myd88 gène mutation p.leu265pro ciblée trouvée';1;0
+e;12170626;'identification de myc gène mutation cible trouvée';1;0
+e;12170608;'identification de mxi1 gène mutation cible trouvée';1;0
+e;12170606;'identification de mvk gène mutation cible trouvée';1;0
+e;12170603;'identification de mutyh gène mutation cible trouvée';1;0
+e;12170435;'identification de mt-tk gène mutation cible trouvée';1;0
+e;12170403;'identification de mtm1 gène mutation cible trouvée';1;0
+e;12170394;'identification de mthfr gène mutation cible trouvée';1;0
+e;12170373;'identification de mt-atp6 gène mutation cible trouvée';1;0
+e;12170369;'identification de msh6 gène mutation cible trouvée';1;0
+e;12170363;'identification de msh2 mlh1 msh6 gènes mutation cible trouvée';1;0
+e;12170361;'identification de msh2 mlh1 gènes mutation cible trouvée';1;0
+e;12170356;'identification de msh2 gène mutation cible trouvée';1;0
+e;12170323;'identification de mpz gène mutation cible trouvée';1;0
+e;12170310;'détermination de la présence de mpi gène mutation cible trouvée';1;0
+e;12169775;'identification de mlh1 gène mutation cible trouvée';1;0
+e;12169767;'détermination de la présence de mlc1 gène mutation cible trouvée';1;0
+e;12169688;'identification de mitochondrie arnt mutation cible trouvée';1;0
+e;12169686;'identification de mitochondrie arnr mutation cible trouvée';1;0
+e;12169357;'identification de mfn2 gène mutation cible trouvée';1;0
+e;12168325;'identification de merrf gène mutation cible trouvée';1;0
+e;12168158;'identification de men1 gène mutation cible trouvée';1;0
+e;12168048;'identification de melas gène mutation cible trouvée';1;0
+e;12168000;'identification de mefv gène mutation cible trouvée';1;0
+e;12167973;'identification de med12 gène mutation cible trouvée';1;0
+e;12167971;'identification de mecp2 gène mutation cible trouvée';1;0
+e;12167941;'identification de mdcr gène mutation cible trouvée';1;0
+e;12167929;'identification de mcoln1 gène mutation cible trouvée';1;0
+e;12167908;'identification de mc4r gène mutation cible trouvée';1;0
+e;12167906;'identification de mbl2 gène mutation cible trouvée';1;0
+e;12167784;'identification de mapt gène mutation cible trouvée';1;0
+e;12167763;'identification de map2k2 gène mutation cible trouvée';1;0
+e;12167761;'identification de map2k1 gène mutation cible trouvée';1;0
+e;12167670;'détermination de la présence de man2b1 gène mutation cible trouvée';1;0
+e;12167506;'identification de maladie de gaucher type 3 gène mutation cible trouvée';1;0
+e;12167504;'identification de maladie de gaucher type 2 gène mutation cible trouvée';1;0
+e;12167502;'identification de maladie de gaucher type 1 gène mutation cible trouvée';1;0
+e;12166532;'détermination de la présence de lrrk2 gène mutation p.arg1441gly et p.gly2019ser ciblée trouvée';1;0
+e;12166530;'identification de lrrk2 gène mutation cible trouvée';1;0
+e;12166384;'identification de lmx1b gène mutation cible trouvée';1;0
+e;12166381;'identification de lmna gène mutation cible trouvée';1;0
+e;12166299;'identification de litaf gène mutation cible trouvée';1;0
+e;12166004;'identification de lhon gène mutation cible trouvée';1;0
+e;12165564;'identification de leucémie lymphoïde chronique gène mutation cible trouvée';1;0
+e;12164780;'identification de ldlr gène mutation cible trouvée';1;0
+e;12164747;'identification du type de lct gène mutation cible trouvée';1;0
+e;12164741;'identification de lca gène mutation cible trouvée';1;0
+e;12164500;'détermination de la présence de lamc2 gène mutation cible trouvée';1;0
+e;12164498;'détermination de la présence de lamb3 gène mutation cible trouvée';1;0
+e;12164496;'détermination de la présence de lama3 gène mutation cible trouvée';1;0
+e;12164493;'identification de lama2 gène mutation cible trouvée';1;0
+e;12164072;'identification de l1cam gène mutation cible trouvée';1;0
+e;12164052;'identification de krit1 gène mutation cible trouvée';1;0
+e;12164045;'identification de kras gène mutation cible trouvée';1;0
+e;12164039;'identification de kras et nras gène mutation cible trouvée';1;0
+e;12163971;'identification de kit gène mutation cible trouvée';1;0
+e;12163967;'détermination de la présence de kit gène exon 8 mutation cible trouvée';1;0
+e;12163965;'détermination de la présence de kit gène exon 17 mutation cible trouvée';1;0
+e;12163963;'détermination de la présence de kit gène exon 13 mutation cible trouvée';1;0
+e;12163961;'identification de kit gène exon 11 mutation cible trouvée';1;0
+e;12163906;'identification de kiaa0196 gène mutation cible trouvée';1;0
+e;12163776;'identification de kel gène mutation cible trouvée';1;0
+e;12163772;'identification de kcnq2 gène mutation cible trouvée';1;0
+e;12163770;'identification de kcnq1ot1 gène mutation cible trouvée';1;0
+e;12163764;'identification de kcnq1 gène mutation cible trouvée';1;0
+e;12163758;'identification de kcnc3 gène mutation cible trouvée';1;0
+e;12163428;'identification de jak3 gène mutation cible trouvée';1;0
+e;12163420;'identification de jak2 gène mutation cible trouvée';1;0
+e;12163417;'détermination de la présence de jak2 gène exon 14 mutation cible trouvée';1;0
+e;12163415;'identification de jak2 gène exon 13 mutation cible trouvée';1;0
+e;12163411;'détermination de la présence de jak2 gène exon 12 mutation cible trouvée';1;0
+e;12163409;'identification de jak2 gène exon 12 mutation cible trouvée';1;0
+e;12163407;'identification de jag1 gène mutation cible trouvée';1;0
+e;12163383;'détermination de la présence d'ivd gène mutation cible trouvée';1;0
+e;12163340;'identification d'itgb3 gène mutation cible trouvée';1;0
+e;12163338;'identification d'itga2b gène mutation cible trouvée';1;0
+e;12163098;'identification d'irf6 gène mutation cible trouvée';1;0
+e;12161074;'identification d'ikbkg gène mutation cible trouvée';1;0
+e;12161072;'identification d'igvh gène mutation cible trouvée';1;0
+e;12161030;'identification d'idua gène mutation cible trouvée';1;0
+e;12160369;'identification d'hyal1 gène mutation cible trouvée';1;0
+e;12160323;'identification d'htt gène mutation cible trouvée';1;0
+e;12160311;'identification d'htr2a htr2c gènes mutation cible trouvée';1;0
+e;12160157;'identification d'htc2 gène mutation cible trouvée';1;0
+e;12160155;'détermination de la présence d'hsd17b4 gène mutation cible trouvée';1;0
+e;12160149;'identification d'hras gène mutation cible trouvée';1;0
+e;12160147;'identification d'hps1 gène mutation cible trouvée';1;0
+e;12160145;'identification d'hprt1 gène mutation cible trouvée';1;0
+e;12159936;'identification d'holoprosencéphalie gène mutation cible trouvée';1;0
+e;12159932;'identification d'hnpcc gènes mutation cible trouvée';1;0
+e;12158953;'détermination de la présence d'hgd gène mutation cible trouvée';1;0
+e;12158942;'identification d'hfe gène mutation cible trouvée';1;0
+e;12158812;'identification d'hexa gène mutation cible trouvée';1;0
+e;12158753;'détermination de la présence d'hétérochromatine constitutive trouvée';1;0
+e;12156876;'identification d'hbb gène mutation cible trouvée';1;0
+e;12156849;'identification d'hba2 gène mutation cible trouvée';1;0
+e;12156828;'identification d'hba1 gène mutation cible trouvée';1;0
+e;12156494;'identification d'hadhb gène mutation cible trouvée';1;0
+e;12156471;'identification de gys2 gène mutation cible trouvée';1;0
+e;12156318;'détermination de la présence de grhpr gène mutation cible trouvée';1;0
+e;12156179;'identification de gpr143 gène mutation cible trouvée';1;0
+e;12156176;'identification de gpc3 gène mutation cible trouvée';1;0
+e;12156108;'identification de gne gène mutation cible trouvée';1;0
+e;12156104;'identification de gnas1 gène mutation cible trouvée';1;0
+e;12154537;'identification de glra1 gène mutation cible trouvée';1;0
+e;12154445;'identification de gla gène mutation cible trouvée';1;0
+e;12154440;'identification de gjb6 gène mutation cible trouvée';1;0
+e;12154438;'identification de gjb3 gène mutation cible trouvée';1;0
+e;12154435;'identification de gjb2 gène mutation cible trouvée';1;0
+e;12154433;'détermination de la présence de gjb2 gène mutation c.35delg ciblée trouvée';1;0
+e;12154428;'identification de gjb1 gène mutation cible trouvée';1;0
+e;12154338;'identification de gfap gène mutation cible trouvée';1;0
+e;12154205;'identification de gène xxx mutation cible trouvée';1;0
+e;12154170;'détermination de la présence de gdap1 gène mutation cible trouvée';1;0
+e;12154168;'identification de gdap1 gène mutation cible trouvée';1;0
+e;12154166;'identification de gck gène mutation cible trouvée';1;0
+e;12154164;'identification de gch1 gène mutation cible trouvée';1;0
+e;12154162;'identification de gcdh gène mutation cible trouvée';1;0
+e;12154145;'identification de gba gène mutation cible trouvée';1;0
+e;12154113;'détermination de la présence de gata1 gène exon 2 mutation cible trouvée';1;0
+e;12153508;'identification de galt gène mutation cible trouvée';1;0
+e;12153482;'détermination de la présence de galc gène mutation cible trouvée';1;0
+e;12153356;'identification de gaa gène mutation cible trouvée';1;0
+e;12153350;'identification de g6pd gène mutation cible trouvée';1;0
+e;12153348;'identification de g6pc gène mutation cible trouvée';1;0
+e;12153318;'identification de fxn gène mutation cible trouvée';1;0
+e;12153266;'identification de fus gène mutation cible trouvée';1;0
+e;12153212;'identification de fshr gène mutation cible trouvée';1;0
+e;12153209;'identification de fshd gène mutation cible trouvée';1;0
+e;12152635;'détermination de la présence de fmr1 gène répétition cgg trouvée';1;0
+e;12152627;'identification de fmr1 gène mutation cible trouvée';1;0
+e;12152425;'identification de flt3 gène mutation cible trouvée';1;0
+e;12152393;'identification de flna gène mutation cible trouvée';1;0
+e;12152346;'identification de flcn gène mutation cible trouvée';1;0
+e;12152322;'identification de fktn gène mutation cible trouvée';1;0
+e;12152320;'identification de fkrp gène mutation cible trouvée';1;0
+e;12152232;'identification de fig4 gène mutation cible trouvée';1;0
+e;12152031;'identification de fh gène mutation cible trouvée';1;0
+e;12152021;'détermination de la présence de fgfr3 gène mutation p.gly380arg ciblée trouvée';1;0
+e;12152017;'identification de fgfr3 gène mutation cible trouvée';1;0
+e;12152015;'identification de fgfr2 fgfr3 gènes mutation cible trouvée';1;0
+e;12152010;'identification de fgfr2 gène mutation cible trouvée';1;0
+e;12152002;'identification de fgfr1 gène mutation cible trouvée';1;0
+e;12151970;'identification de fgf23 gène mutation cible trouvée';1;0
+e;12151959;'identification de fgd1 gène mutation cible trouvée';1;0
+e;12151955;'identification de fgb gène mutation cible trouvée';1;0
+e;12149887;'identification de fech gène mutation cible trouvée';1;0
+e;12149879;'identification de fbn2 gène mutation cible trouvée';1;0
+e;12149874;'identification de fbn1 gène mutation cible trouvée';1;0
+e;12149829;'identification de fancc gène mutation cible trouvée';1;0
+e;12149820;'identification de fah gène mutation cible trouvée';1;0
+e;12149506;'identification de f9 gène mutation cible trouvée';1;0
+e;12149502;'identification de f8 gène mutation cible trouvée';1;0
+e;12149499;'détermination de la présence de f8 gène intron 1 mutation inversion ciblée trouvée';1;0
+e;12149496;'détermination de la présence de f8 gène intron 1 et mutation inversion 22 ciblée trouvée';1;0
+e;12149492;'identification de f7 gène mutation cible trouvée';1;0
+e;12149484;'identification de f5 gène mutation cible trouvée';1;0
+e;12149480;'identification de f2 gène mutation cible trouvée';1;0
+e;12149471;'identification du type de f12 gène mutation cible trouvée';1;0
+e;12149469;'détermination de la présence de f11 gène mutation cible trouvée';1;0
+e;12149463;'identification d'eya1 gène mutation cible trouvée';1;0
+e;12149460;'identification d'ext1 gène mutation cible trouvée';1;0
+e;12148578;'identification d'érythrocytes morphologie trouvée';1;0
+e;12148306;'identification d'erbb2 gène mutation cible trouvée';1;0
+e;12148064;'identification d'epm2a gène mutation cible trouvée';1;0
+e;12147446;'identification d'eln gène mutation cible trouvée';1;0
+e;12147392;'identification d'ela2 gène mutation cible trouvée';1;0
+e;12147289;'identification d'egr2 gène mutation cible trouvée';1;0
+e;12147282;'identification d'egfr gène mutation cible trouvée';1;0
+e;12146969;'identification d'ecgf1 gène mutation cible trouvée';1;0
+e;12146929;'identification de dystrophie myotonique gène mutation cible trouvée';1;0
+e;12146925;'identification de dysf gène mutation cible trouvée';1;0
+e;12146918;'identification de dys gène mutation cible trouvée';1;0
+e;12146862;'mesure de dpyd2a gène mutation cible trouvée';1;0
+e;12146860;'identification de dpyd gène mutation cible trouvée';1;0
+e;12146630;'identification de dnai1 dnah5 gènes mutation cible trouvée';1;0
+e;12146624;'détermination de la présence de dmpk gène répétition ctg trouvée';1;0
+e;12146622;'identification de dmpk gène mutation cible trouvée';1;0
+e;12146609;'identification de dmd gène mutation cible trouvée';1;0
+e;12146602;'identification de dld gène mutation cible trouvée';1;0
+e;12145919;'identification de dhcr7 gène mutation cible trouvée';1;0
+e;12144659;'identification d'apoe gène mutation trouvée';1;0
+e;12144651;'identification d'apc gène mutation trouvée';1;0
+e;12143867;'identification de dcx gène mutation cible trouvée';1;0
+e;12143200;'identification de cyp3a5 gène mutation cible trouvée';1;0
+e;12143192;'identification de cyp3a4 gène mutation cible trouvée';1;0
+e;12143187;'détermination de la présence de cyp3a4 et cyp3a5 gènes mutations ciblées trouvée';1;0
+e;12143185;'mesure de cyp3a4 et cyp3a5 gène mutation cible trouvée panel';1;0
+e;12143183;'identification de cyp2e1 gène mutation cible trouvée';1;0
+e;12143179;'identification de cyp2d6 gène mutation trouvée g-a nt1 x4';1;0
+e;12143176;'identification de cyp2d6 gène mutation cible trouvée';1;0
+e;12143162;'mesure de cyp2d6 et cyp2c19 gènes mutation cible trouvée panel';1;0
+e;12143160;'détermination de la présence de cyp2c9 gène mutation cible trouvée';1;0
+e;12143158;'identification de cyp2c9 gène mutation cible trouvée';1;0
+e;12143146;'identification de cyp2c8 gène mutation cible trouvée';1;0
+e;12143140;'identification de cyp2c19 gène mutation cible trouvée';1;0
+e;12143115;'identification de cyp2b6 gène mutation cible trouvée';1;0
+e;12143102;'identification de cyp21a2 gène mutation cible trouvée';1;0
+e;12143100;'détermination de la présence de cyp1a2 gène mutation cible trouvée';1;0
+e;12143098;'identification de cyp1a2 gène mutation cible trouvée';1;0
+e;12143050;'identification de cyp11b1 gène mutation cible trouvée';1;0
+e;12142798;'identification de cybb gène mutation cible trouvée';1;0
+e;12142796;'identification de cyba gène mutation cible trouvée';1;0
+e;12142665;'détermination de la présence de ctsk gène mutation cible trouvée';1;0
+e;12142663;'détermination de la présence de ctns gène mutation cible trouvée';1;0
+e;12142659;'identification de ctnnb1 gène mutation cible trouvée';1;0
+e;12142647;'identification de cstb gène mutation cible trouvée';1;0
+e;12141902;'identification de cpvt1 gène mutation cible trouvée';1;0
+e;12141892;'identification de cpt2 gène mutation cible trouvée';1;0
+e;12141887;'identification de cps1 gène mutation cible trouvée';1;0
+e;12141885;'identification de cpeo gène mutation cible trouvée';1;0
+e;12141427;'identification de cox10 gène mutation cible trouvée';1;0
+e;12139451;'identification de col5a1 col5a2 gènes mutation cible trouvée';1;0
+e;12139448;'identification de col5a1 gène mutation cible trouvée';1;0
+e;12139446;'identification de col4a5 gène mutation cible trouvée';1;0
+e;12139443;'identification de col3a1 gène mutation cible trouvée';1;0
+e;12139441;'identification de col2a1 col11a1 gènes mutation cible trouvée';1;0
+e;12139437;'identification de col2a1 gène mutation cible trouvée';1;0
+e;12139435;'identification de col1a1 col1a2 gènes mutation cible trouvée';1;0
+e;12139433;'identification de col10a1 gène mutation cible trouvée';1;0
+e;12139367;'identification de coch gène mutation cible trouvée';1;0
+e;12139099;'identification de cnr1 gène mutation cible trouvée';1;0
+e;12139097;'détermination de la présence de cngb3 gène mutation cible trouvée';1;0
+e;12139095;'détermination de la présence de cnbp gène répétition cctg trouvée';1;0
+e;12139093;'identification de cnbp gène mutation cible trouvée';1;0
+e;12139091;'identification de cmtx2 gène mutation cible trouvée';1;0
+e;12139088;'identification de cmt2 gène mutation cible trouvée';1;0
+e;12139085;'identification de cmt1 gène mutation cible trouvée';1;0
+e;12138709;'détermination de la présence de cln8 gène mutation cible trouvée';1;0
+e;12138707;'détermination de la présence de cln5 gène mutation cible trouvée';1;0
+e;12138669;'identification de clcn5 gène mutation cible trouvée';1;0
+e;12138667;'identification de clcn1 gène mutation cible trouvée';1;0
+e;12138574;'identification de cla2 gène mutation cible trouvée';1;0
+e;12138378;'identification de cild2 gène mutation cible trouvée';1;0
+e;12138331;'identification de cias1 gène mutation cible trouvée';1;0
+e;12136600;'identification de chic2 gène mutation cible trouvée';1;0
+e;12136474;'identification de chd7 gène mutation cible trouvée';1;0
+e;12136272;'identification de cftr prss1 spink1 gènes mutation cible trouvée';1;0
+e;12136237;'mesure de cftr gène mutation cible trouvée';1;0
+e;12136230;'identification de cftr gène mutation cible trouvée';1;0
+e;12136212;'identification de cfh gène mutation cible trouvée';1;0
+e;12134821;'identification de cebpa gène mutation cible trouvée';1;0
+e;12134812;'identification de cdkn2a cdk4 gènes mutation cible trouvée';1;0
+e;12134802;'identification de cdkl5 gène mutation cible trouvée';1;0
+e;12134794;'identification de cdh1 gène mutation cible trouvée';1;0
+e;12133186;'identification de ccr5 gène mutation cible trouvée';1;0
+e;12133178;'identification de ccnd1 gène mutation cible trouvée';1;0
+e;12133166;'identification de cbs gène mutation cible trouvée';1;0
+e;12133154;'détermination de la présence de cav3 gène mutation cible trouvée';1;0
+e;12133033;'identification de catch22 gène mutation cible trouvée';1;0
+e;12133021;'identification de casr gène mutation cible trouvée';1;0
+e;12132763;'détermination de la présence de cardiomyopathie hypertrophique gène mutation cible trouvée';1;0
+e;12132761;'identification de cardiomyopathie hypertrophique gène mutation cible trouvée';1;0
+e;12132382;'identification de capn3 gène mutation cible trouvée';1;0
+e;12131963;'identification de calr gène exon 9 mutation cible trouvée';1;0
+e;12131340;'identification de cact gène mutation cible trouvée';1;0
+e;12131338;'identification de cacna1s scn4a gènes mutation cible trouvée';1;0
+e;12131328;'identification de cacna1s gène mutation cible trouvée';1;0
+e;12131324;'identification de cacna1a gène mutation cible trouvée';1;0
+e;12131308;'détermination de la présence de c9orf72 gène répétition ggggcc trouvée';1;0
+e;12131296;'identification de c10orf2 gène mutation cible trouvée';1;0
+e;12235050;'identification de mfn2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235049;'identification de mfn2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12234559;'identification de merrf gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12234558;'identification de merrf gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12234460;'identification de men1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12234459;'identification de men1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12234417;'identification de melas gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12234416;'identification de melas gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12234411;'identification de mefv gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12234410;'identification de mefv gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12234389;'identification de mcoln1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12234388;'identification de mcoln1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12234357;'identification de mapt gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12234356;'identification de mapt gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12233846;'identification de lmna gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12233845;'identification de lmna gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12233805;'identification de litaf gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12233804;'identification de litaf gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12233695;'identification de lhon gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12233694;'identification de lhon gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12233423;'identification de leucémie lymphoïde chronique gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12233422;'identification de leucémie lymphoïde chronique gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12232951;'identification de lama2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12232950;'identification de lama2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12232790;'identification de l1cam gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12232789;'identification de l1cam gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12232780;'identification de kras gène mutation cible trouvée | biologie moléculaire | tissu cancer colorectal | ponctuel | résultat nominal | identification';1;0
+e;12232779;'identification de kras gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12232778;'identification de kras gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12232777;'identification de kras gène mutation cible trouvée | biologie moléculaire | moelle osseuse | ponctuel | résultat nominal | identification';1;0
+e;12232691;'identification de kel gène mutation cible trouvée | biologie moléculaire | liquide amniotique | ponctuel | résultat textuel | identification';1;0
+e;12232690;'identification de kel gène mutation cible trouvée | biologie moléculaire | liquide amniotique | ponctuel | résultat nominal | identification';1;0
+e;12232553;'détermination de la présence de jak2 gène exon 14 mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | document | recherche';1;0
+e;12232552;'détermination de la présence de jak2 gène exon 14 mutation cible trouvée | biologie moléculaire | moelle osseuse | ponctuel | document | recherche';1;0
+e;12092603;'cebpa gène mutation cible trouvée';1;0
+e;12092599;'cdkn2a cdk4 gènes mutation cible trouvée';1;0
+e;12092594;'cdkl5 gène mutation cible trouvée';1;0
+e;12092590;'cdh1 gène mutation cible trouvée';1;0
+e;12092026;'ccr5 gène mutation cible trouvée';1;0
+e;12092022;'ccnd1 gène mutation cible trouvée';1;0
+e;12092017;'cbs gène mutation cible trouvée';1;0
+e;12092014;'cav3 gène mutation cible trouvée';1;0
+e;12091985;'catch22 gène mutation cible trouvée';1;0
+e;12091984;'casr gène mutation cible trouvée';1;0
+e;12091912;'cardiomyopathie hypertrophique gène mutation cible trouvée';1;0
+e;12091846;'capn3 gène mutation cible trouvée';1;0
+e;12091726;'calr gène exon 9 mutation cible trouvée';1;0
+e;12091533;'cact gène mutation cible trouvée';1;0
+e;12091532;'cacna1s scn4a gènes mutation cible trouvée';1;0
+e;12091527;'cacna1s gène mutation cible trouvée';1;0
+e;12091525;'cacna1a gène mutation cible trouvée';1;0
+e;12091518;'c9orf72 gène répétition ggggcc trouvée';1;0
+e;12091512;'c10orf2 gène mutation cible trouvée';1;0
+e;12091369;'btk gène mutation cible trouvée';1;0
+e;12091367;'btd gène mutation cible trouvée';1;0
+e;12091291;'brca2 gène mutation cible trouvée';1;0
+e;12091287;'brca1 brca2 gènes mutation cible trouvée';1;0
+e;12091284;'brca1 gène mutation cible trouvée';1;0
+e;12091277;'braf gène mutation cible trouvée';1;0
+e;12238186;'identification de peo gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12238185;'identification de peo gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12238037;'identification de pax3 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12238036;'identification de pax3 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12237889;'identification de park2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12237888;'identification de park2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12237548;'identification de pank2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12237547;'identification de pank2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12237509;'identification de pabpn1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12237508;'identification de pabpn1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12237236;'identification d'otc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12237235;'identification d'otc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236789;'identification de nras gène mutation cible trouvée | biologie moléculaire | tissu cancer colorectal | ponctuel | résultat nominal | identification';1;0
+e;12236788;'identification de nras gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236787;'identification de nras gène mutation cible trouvée | biologie moléculaire | moelle osseuse | ponctuel | résultat nominal | identification';1;0
+e;12236786;'identification de nr0b1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12236785;'identification de nr0b1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236784;'identification de npm1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236783;'identification de npm1 gène mutation cible trouvée | biologie moléculaire | moelle osseuse | ponctuel | résultat nominal | identification';1;0
+e;12236776;'identification de nphs1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12236775;'identification de nphs1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236774;'identification de nphs1 gène mutation cible trouvée | biologie moléculaire | liquide biologique | ponctuel | résultat textuel | identification';1;0
+e;12236773;'identification de nphs1 gène mutation cible trouvée | biologie moléculaire | liquide biologique | ponctuel | résultat nominal | identification';1;0
+e;12236772;'identification de npdc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12236771;'identification de npdc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236684;'identification de notch3 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12236683;'identification de notch3 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236301;'identification de nod2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12236300;'identification de nod2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236237;'identification de nipbl gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12236236;'identification de nipbl gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236179;'identification de nf1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12236178;'identification de nf1 gène mutation cible trouvée | biologie moléculaire | liquide amniotique | ponctuel | résultat nominal | identification';1;0
+e;12236172;'identification de neuropathie périphérique gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12236171;'identification de neuropathie périphérique gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235952;'identification de nefl gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235951;'identification de nefl gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235917;'identification de ncf2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235916;'identification de ncf2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235802;'identification de myopathie mitochondriale gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235801;'identification de myopathie mitochondriale gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235480;'identification de mutyh gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235479;'identification de mutyh gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235434;'identification de mt-tk gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235433;'identification de mt-tk gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235432;'identification de mtm1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235431;'identification de mtm1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235430;'identification de mthfr gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235429;'identification de mthfr gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235428;'identification de mt-atp6 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235427;'identification de mt-atp6 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235426;'identification de msh6 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235425;'identification de msh6 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235424;'identification de msh2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235423;'identification de msh2 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235422;'identification de mpz gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235421;'identification de mpz gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12235162;'identification de mlh1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12235161;'identification de mlh1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12090027;'atp7b gène mutation cible trouvée';1;0
+e;12090044;'atrx gène mutation cible trouvée';1;0
+e;12088568;'abcb4 gène mutation cible trouvée';1;0
+e;12088569;'abcc8 gène mutation cible trouvée';1;0
+e;12088598;'acads gène mutation cible trouvée';1;0
+e;12088567;'abcb1 gène mutation cible trouvée';1;0
+e;12088597;'acadm gène mutation cible trouvée';1;0
+e;12088566;'abca3 gène mutation cible trouvée';1;0
+e;12088611;'ace gène mutation cible trouvée';1;0
+e;12088711;'acta1 gène mutation cible trouvée';1;0
+e;12088754;'acvrl1 gène mutation cible trouvée';1;0
+e;12088710;'acsl4 gène mutation cible trouvée';1;0
+e;12088756;'acvrl1 eng gènes mutation cible trouvée';1;0
+e;12088882;'adnfle gène mutation cible trouvée';1;0
+e;12088868;'adn mitochondrial complexe iv mutation cible trouvée';1;0
+e;12088867;'adn mitochondrial complexe iii mutation cible trouvée';1;0
+e;12088871;'adn mitochondrial mutation cible trouvée';1;0
+e;12088937;'agl gène mutation cible trouvée';1;0
+e;12088966;'akt1 gène mutation cible trouvée';1;0
+e;12088943;'agxt gène mutation cible trouvée';1;0
+e;12088979;'alas2 gène mutation cible trouvée';1;0
+e;12088963;'aire gène mutation cible trouvée';1;0
+e;12088866;'adn mitochondrial complexe i mutation cible trouvée';1;0
+e;12088869;'adn mitochondrial complexe v mutation cible trouvée';1;0
+e;12089111;'alox3 alox12b gènes mutation cible trouvée';1;0
+e;12089348;'als4 gène mutation cible trouvée';1;0
+e;12089347;'als2 gène mutation cible trouvée';1;0
+e;12089641;'ang gène mutation cible trouvée';1;0
+e;12089741;'apc gène mutation cible trouvée';1;0
+e;12089744;'apc gène mutation trouvée';1;0
+e;12089790;'aptx gène mutation cible trouvée';1;0
+e;12089750;'apob gène mutation cible trouvée';1;0
+e;12089793;'ar gène mutation cible trouvée';1;0
+e;12089761;'apoe gène mutation trouvée';1;0
+e;12089760;'apoe gène mutation cible trouvée';1;0
+e;12089785;'app gène mutation cible trouvée';1;0
+e;12089909;'aspa gène mutation cible trouvée';1;0
+e;12089879;'as gène mutation cible trouvée';1;0
+e;12089860;'arsa gène mutation cible trouvée';1;0
+e;12089875;'arx gène mutation cible trouvée';1;0
+e;12089752;'apob ldlr gènes mutation cible trouvée';1;0
+e;12090012;'atm gène mutation cible trouvée';1;0
+e;12090001;'ass1 gène mutation cible trouvée';1;0
+e;12090023;'atp7a gène mutation cible trouvée';1;0
+e;12090007;'ataxie spinocérébelleuse gène mutation cible trouvée';1;0
+e;12090019;'atp1a2 gène mutation cible trouvée';1;0
+e;12089880;'as pws gènes mutation cible trouvée';1;0
+e;12090706;'bbs1 gène mutation cible trouvée';1;0
+e;12090711;'bche gène mutation cible trouvée';1;0
+e;12090712;'bckdhb gène mutation cible trouvée';1;0
+e;12090707;'bbs10 gène mutation cible trouvée';1;0
+e;12090727;'bcr-abl1 kinase mutation cible trouvée';1;0
+e;12090729;'bcs1l gène mutation cible trouvée';1;0
+e;12090708;'bbs2 gène mutation cible trouvée';1;0
+e;12090878;'bhd gène mutation cible trouvée';1;0
+e;12091050;'blm gène mutation cible trouvée';1;0
+e;12100571;'maladie de gaucher type 3 gène mutation cible trouvée';1;0
+e;12100570;'maladie de gaucher type 2 gène mutation cible trouvée';1;0
+e;12100569;'maladie de gaucher type 1 gène mutation cible trouvée';1;0
+e;12100273;'lrrk2 gène mutation p.arg1441gly et p.gly2019ser ciblée trouvée';1;0
+e;12100272;'lrrk2 gène mutation cible trouvée';1;0
+e;12100259;'lmx1b gène mutation cible trouvée';1;0
+e;12100258;'lmna gène mutation cible trouvée';1;0
+e;12100239;'litaf gène mutation cible trouvée';1;0
+e;12100154;'lhon gène mutation cible trouvée';1;0
+e;12100081;'leucémie lymphoïde chronique gène mutation cible trouvée';1;0
+e;12099888;'ldlr gène mutation cible trouvée';1;0
+e;12099875;'lct gène mutation cible trouvée';1;0
+e;12099872;'lca gène mutation cible trouvée';1;0
+e;12099782;'lamc2 gène mutation cible trouvée';1;0
+e;12099781;'lamb3 gène mutation cible trouvée';1;0
+e;12099780;'lama3 gène mutation cible trouvée';1;0
+e;12099779;'lama2 gène mutation cible trouvée';1;0
+e;12099663;'l1cam gène mutation cible trouvée';1;0
+e;12099658;'krit1 gène mutation cible trouvée';1;0
+e;12099656;'kras gène mutation cible trouvée';1;0
+e;12099653;'kras et nras gène mutation cible trouvée';1;0
+e;12099622;'kit gène mutation cible trouvée';1;0
+e;12099620;'kit gène exon 8 mutation cible trouvée';1;0
+e;12099619;'kit gène exon 17 mutation cible trouvée';1;0
+e;12099618;'kit gène exon 13 mutation cible trouvée';1;0
+e;12099617;'kit gène exon 11 mutation cible trouvée';1;0
+e;12099593;'kiaa0196 gène mutation cible trouvée';1;0
+e;12099570;'kel gène mutation cible trouvée';1;0
+e;12099568;'kcnq2 gène mutation cible trouvée';1;0
+e;12099567;'kcnq1ot1 gène mutation cible trouvée';1;0
+e;12099564;'kcnq1 gène mutation cible trouvée';1;0
+e;12099561;'kcnc3 gène mutation cible trouvée';1;0
+e;12099461;'jak3 gène mutation cible trouvée';1;0
+e;12099458;'jak2 gène mutation cible trouvée';1;0
+e;12099457;'jak2 gène exon 14 mutation cible trouvée';1;0
+e;12099456;'jak2 gène exon 13 mutation cible trouvée';1;0
+e;12099454;'jak2 gène exon 12 mutation cible trouvée';1;0
+e;12099453;'jag1 gène mutation cible trouvée';1;0
+e;12099442;'ivd gène mutation cible trouvée';1;0
+e;12099426;'itgb3 gène mutation cible trouvée';1;0
+e;12099425;'itga2b gène mutation cible trouvée';1;0
+e;12099367;'irf6 gène mutation cible trouvée';1;0
+e;12098772;'ikbkg gène mutation cible trouvée';1;0
+e;12098771;'igvh gène mutation cible trouvée';1;0
+e;12098754;'idua gène mutation cible trouvée';1;0
+e;12098590;'hyal1 gène mutation cible trouvée';1;0
+e;12098571;'htt gène mutation cible trouvée';1;0
+e;12098568;'htr2a htr2c gènes mutation cible trouvée';1;0
+e;12098521;'htc2 gène mutation cible trouvée';1;0
+e;12098520;'hsd17b4 gène mutation cible trouvée';1;0
+e;12098518;'hras gène mutation cible trouvée';1;0
+e;12098517;'hps1 gène mutation cible trouvée';1;0
+e;12098516;'hprt1 gène mutation cible trouvée';1;0
+e;12098453;'holoprosencéphalie gène mutation cible trouvée';1;0
+e;12098451;'hnpcc gènes mutation cible trouvée';1;0
+e;12098173;'hgd gène mutation cible trouvée';1;0
+e;12098168;'hfe gène mutation cible trouvée';1;0
+e;12098140;'hexa gène mutation cible trouvée';1;0
+e;12098115;'hétérochromatine constitutive trouvée';1;0
+e;12097692;'hbb gène mutation cible trouvée';1;0
+e;12097688;'hba2 gène mutation cible trouvée';1;0
+e;12097681;'hba1 gène mutation cible trouvée';1;0
+e;12097569;'hadhb gène mutation cible trouvée';1;0
+e;12097563;'gys2 gène mutation cible trouvée';1;0
+e;12097508;'grhpr gène mutation cible trouvée';1;0
+e;12097476;'gpr143 gène mutation cible trouvée';1;0
+e;12097475;'gpc3 gène mutation cible trouvée';1;0
+e;12097445;'gne gène mutation cible trouvée';1;0
+e;12097443;'gnas1 gène mutation cible trouvée';1;0
+e;12096974;'glra1 gène mutation cible trouvée';1;0
+e;12096953;'gla gène mutation cible trouvée';1;0
+e;12096951;'gjb6 gène mutation cible trouvée';1;0
+e;12096950;'gjb3 gène mutation cible trouvée';1;0
+e;12096949;'gjb2 gène mutation cible trouvée';1;0
+e;12096948;'gjb2 gène mutation c.35delg ciblée trouvée';1;0
+e;12096946;'gjb1 gène mutation cible trouvée';1;0
+e;12096918;'gfap gène mutation cible trouvée';1;0
+e;12096872;'gène xxx mutation cible trouvée';1;0
+e;12096860;'gdap1 gène mutation cible trouvée';1;0
+e;12096859;'gck gène mutation cible trouvée';1;0
+e;12096858;'gch1 gène mutation cible trouvée';1;0
+e;12096857;'gcdh gène mutation cible trouvée';1;0
+e;12096852;'gba gène mutation cible trouvée';1;0
+e;12096847;'gata1 gène exon 2 mutation cible trouvée';1;0
+e;12096681;'galt gène mutation cible trouvée';1;0
+e;12096673;'galc gène mutation cible trouvée';1;0
+e;12096646;'gaa gène mutation cible trouvée';1;0
+e;12096643;'g6pd gène mutation cible trouvée';1;0
+e;12096642;'g6pc gène mutation cible trouvée';1;0
+e;12096634;'fxn gène mutation cible trouvée';1;0
+e;12096615;'fus gène mutation cible trouvée';1;0
+e;12096601;'fshr gène mutation cible trouvée';1;0
+e;12096600;'fshd gène mutation cible trouvée';1;0
+e;12096396;'fmr1 gène répétition cgg trouvée';1;0
+e;12096393;'fmr1 gène mutation cible trouvée';1;0
+e;12096365;'flt3 gène mutation cible trouvée';1;0
+e;12096356;'flna gène mutation cible trouvée';1;0
+e;12096340;'flcn gène mutation cible trouvée';1;0
+e;12096331;'fktn gène mutation cible trouvée';1;0
+e;12096330;'fkrp gène mutation cible trouvée';1;0
+e;12096300;'fig4 gène mutation cible trouvée';1;0
+e;12096250;'fh gène mutation cible trouvée';1;0
+e;12096245;'fgfr3 gène mutation p.gly380arg ciblée trouvée';1;0
+e;12096244;'fgfr3 gène mutation cible trouvée';1;0
+e;12096243;'fgfr2 fgfr3 gènes mutation cible trouvée';1;0
+e;12096241;'fgfr2 gène mutation cible trouvée';1;0
+e;12096238;'fgfr1 gène mutation cible trouvée';1;0
+e;12096223;'fgf23 gène mutation cible trouvée';1;0
+e;12096218;'fgd1 gène mutation cible trouvée';1;0
+e;12096216;'fgb gène mutation cible trouvée';1;0
+e;12096174;'fech gène mutation cible trouvée';1;0
+e;12096170;'fbn2 gène mutation cible trouvée';1;0
+e;12096168;'fbn1 gène mutation cible trouvée';1;0
+e;12096154;'fancc gène mutation cible trouvée';1;0
+e;12096152;'fah gène mutation cible trouvée';1;0
+e;12096046;'f9 gène mutation cible trouvée';1;0
+e;12096044;'f8 gène mutation cible trouvée';1;0
+e;12096043;'f8 gène intron 1 mutation inversion ciblée trouvée';1;0
+e;12096042;'f8 gène intron 1 et mutation inversion 22 ciblée trouvée';1;0
+e;12096040;'f7 gène mutation cible trouvée';1;0
+e;12096036;'f5 gène mutation cible trouvée';1;0
+e;12096034;'f2 gène mutation cible trouvée';1;0
+e;12096031;'f12 gène mutation cible trouvée';1;0
+e;12096030;'f11 gène mutation cible trouvée';1;0
+e;12096027;'eya1 gène mutation cible trouvée';1;0
+e;12096026;'ext1 gène mutation cible trouvée';1;0
+e;12095807;'érythrocytes morphologie trouvée';1;0
+e;12095730;'erbb2 gène mutation cible trouvée';1;0
+e;12095675;'epm2a gène mutation cible trouvée';1;0
+e;12095512;'eln gène mutation cible trouvée';1;0
+e;12095496;'ela2 gène mutation cible trouvée';1;0
+e;12095467;'egr2 gène mutation cible trouvée';1;0
+e;12095465;'egfr gène mutation cible trouvée';1;0
+e;12095402;'ecgf1 gène mutation cible trouvée';1;0
+e;12095388;'dystrophie myotonique gène mutation cible trouvée';1;0
+e;12095387;'dysf gène mutation cible trouvée';1;0
+e;12095385;'dys gène mutation cible trouvée';1;0
+e;12095365;'dpyd2a gène mutation cible trouvée';1;0
+e;12095364;'dpyd gène mutation cible trouvée';1;0
+e;12095306;'dnai1 dnah5 gènes mutation cible trouvée';1;0
+e;12095303;'dmpk gène répétition ctg trouvée';1;0
+e;12095302;'dmpk gène mutation cible trouvée';1;0
+e;12095298;'dmd gène mutation cible trouvée';1;0
+e;12095295;'dld gène mutation cible trouvée';1;0
+e;12095157;'dhcr7 gène mutation cible trouvée';1;0
+e;12094894;'dcx gène mutation cible trouvée';1;0
+e;12094728;'cyp3a5 gène mutation cible trouvée';1;0
+e;12094726;'cyp3a4 gène mutation cible trouvée';1;0
+e;12094724;'cyp3a4 et cyp3a5 gènes mutations ciblées trouvée';1;0
+e;12094723;'cyp3a4 et cyp3a5 gène mutation cible trouvée panel';1;0
+e;12094722;'cyp2e1 gène mutation cible trouvée';1;0
+e;12094720;'cyp2d6 gène mutation trouvée g-a nt1 x4';1;0
+e;12094719;'cyp2d6 gène mutation cible trouvée';1;0
+e;12094712;'cyp2d6 et cyp2c19 gènes mutation cible trouvée panel';1;0
+e;12094711;'cyp2c9 gène mutation cible trouvée';1;0
+e;12094705;'cyp2c8 gène mutation cible trouvée';1;0
+e;12094703;'cyp2c19 gène mutation cible trouvée';1;0
+e;12094696;'cyp2b6 gène mutation cible trouvée';1;0
+e;12094691;'cyp21a2 gène mutation cible trouvée';1;0
+e;12094690;'cyp1a2 gène mutation cible trouvée';1;0
+e;12094684;'cyp11b1 gène mutation cible trouvée';1;0
+e;12094641;'cybb gène mutation cible trouvée';1;0
+e;12094640;'cyba gène mutation cible trouvée';1;0
+e;12094611;'ctsk gène mutation cible trouvée';1;0
+e;12094610;'ctns gène mutation cible trouvée';1;0
+e;12094608;'ctnnb1 gène mutation cible trouvée';1;0
+e;12094605;'cstb gène mutation cible trouvée';1;0
+e;12094418;'cpvt1 gène mutation cible trouvée';1;0
+e;12094412;'cpt2 gène mutation cible trouvée';1;0
+e;12094411;'cps1 gène mutation cible trouvée';1;0
+e;12094410;'cpeo gène mutation cible trouvée';1;0
+e;12094317;'cox10 gène mutation cible trouvée';1;0
+e;12093677;'col5a1 col5a2 gènes mutation cible trouvée';1;0
+e;12093676;'col5a1 gène mutation cible trouvée';1;0
+e;12093675;'col4a5 gène mutation cible trouvée';1;0
+e;12093674;'col3a1 gène mutation cible trouvée';1;0
+e;12093673;'col2a1 col11a1 gènes mutation cible trouvée';1;0
+e;12093671;'col2a1 gène mutation cible trouvée';1;0
+e;12093670;'col1a1 col1a2 gènes mutation cible trouvée';1;0
+e;12093669;'col10a1 gène mutation cible trouvée';1;0
+e;12093654;'coch gène mutation cible trouvée';1;0
+e;12093607;'cnr1 gène mutation cible trouvée';1;0
+e;12093606;'cngb3 gène mutation cible trouvée';1;0
+e;12093605;'cnbp gène répétition cctg trouvée';1;0
+e;12093604;'cnbp gène mutation cible trouvée';1;0
+e;12093603;'cmtx2 gène mutation cible trouvée';1;0
+e;12093602;'cmt2 gène mutation cible trouvée';1;0
+e;12093601;'cmt1 gène mutation cible trouvée';1;0
+e;12091077;'bor gène mutation cible trouvée';1;0
+e;12093508;'cln8 gène mutation cible trouvée';1;0
+e;12093507;'cln5 gène mutation cible trouvée';1;0
+e;12093498;'clcn5 gène mutation cible trouvée';1;0
+e;12093497;'clcn1 gène mutation cible trouvée';1;0
+e;12093470;'cla2 gène mutation cible trouvée';1;0
+e;12093420;'cild2 gène mutation cible trouvée';1;0
+e;12093406;'cias1 gène mutation cible trouvée';1;0
+e;12093031;'chic2 gène mutation cible trouvée';1;0
+e;12092972;'chd7 gène mutation cible trouvée';1;0
+e;12092912;'cftr prss1 spink1 gènes mutation cible trouvée';1;0
+e;12092903;'cftr gène mutation cible trouvée';1;0
+e;12092894;'cfh gène mutation cible trouvée';1;0
+e;12238802;'identification de pkhd1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12238801;'identification de pkhd1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12238800;'identification de pkd1 pkd2 gènes mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12238799;'identification de pkd1 pkd2 gènes mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12238749;'identification de pik3ca gène mutation cible trouvée | biologie moléculaire | tissu cancer colorectal | ponctuel | résultat nominal | identification';1;0
+e;12238748;'identification de pik3ca gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12238747;'identification de pik3ca gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12088570;'abcd1 gène mutation cible trouvée';1;0
+e;12089030;'aldob gène mutation cible trouvée';1;0
+e;12089753;'apob ldlr pcsk9 gènes mutation cible trouvée';1;0
+e;12105678;'sdhd gène mutation cible trouvée';1;0
+e;12105676;'sdhc gène mutation cible trouvée';1;0
+e;12105674;'sdhb gène mutation cible trouvée';1;0
+e;12105658;'sco2 gène mutation cible trouvée';1;0
+e;12105657;'sco1 gène mutation cible trouvée';1;0
+e;12105655;'scn5a gène mutation cible trouvée';1;0
+e;12105654;'scn4a gène mutation cible trouvée';1;0
+e;12105653;'scn1a gène mutation cible trouvée';1;0
+e;12105609;'sbds gène mutation cible trouvée';1;0
+e;12105478;'sacs gène mutation cible trouvée';1;0
+e;12105455;'ryr1 gène mutation cible trouvée';1;0
+e;12105436;'rs1 gène mutation cible trouvée';1;0
+e;12105435;'rps6ka3 gène mutation cible trouvée tiers 2';1;0
+e;12105434;'rps6ka3 gène mutation cible trouvée tiers 1';1;0
+e;12105433;'rps6ka3 gène mutation cible trouvée';1;0
+e;12105432;'rps19 gène mutation cible trouvée';1;0
+e;12105358;'rmrp gène mutation cible trouvée';1;0
+e;12105184;'rhe gène mutation cible trouvée';1;0
+e;12105183;'rhd rhc gènes mutation cible trouvée';1;0
+e;12105182;'rhd gène mutation cible trouvée';1;0
+e;12105180;'rhce gène mutation cible trouvée';1;0
+e;12105179;'rhc gène mutation cible trouvée';1;0
+e;12105106;'ret gène mutation cible trouvée';1;0
+e;12104949;'rb1 gène mutation cible trouvée';1;0
+e;12104912;'rai1 gène mutation cible trouvée';1;0
+e;12104878;'qt long syndrome congénital gène mutation cible trouvée';1;0
+e;12104831;'pygm gène mutation cible trouvée';1;0
+e;12104830;'pws gène mutation cible trouvée';1;0
+e;12104816;'ptpn11 gène mutation cible trouvée tier 3';1;0
+e;12104815;'ptpn11 gène mutation cible trouvée tier 1';1;0
+e;12104814;'ptpn11 gène mutation cible trouvée';1;0
+e;12104811;'pten gène mutation cible trouvée';1;0
+e;12104809;'ptch gène mutation cible trouvée';1;0
+e;12104787;'psen2 gène mutation cible trouvée';1;0
+e;12104785;'psen1 gène mutation cible trouvée';1;0
+e;12104783;'psap gène mutation cible trouvée';1;0
+e;12104782;'prx gène mutation cible trouvée';1;0
+e;12104771;'prss1 gène mutation cible trouvée';1;0
+e;12104631;'pros1 gène mutation cible trouvée';1;0
+e;12104612;'prop1 gène mutation cible trouvée';1;0
+e;12104443;'prnp gène mutation cible trouvée';1;0
+e;12104433;'prf1 gène mutation cible trouvée';1;0
+e;12104382;'ppt1 gène mutation cible trouvée';1;0
+e;12104329;'pou3f4 gène mutation cible trouvée';1;0
+e;12104289;'pomt2 gène mutation cible trouvée';1;0
+e;12104288;'pomt1 gène mutation cible trouvée';1;0
+e;12104037;'polg gène mutation cible trouvée';1;0
+e;12103950;'pnkd gène mutation cible trouvée';1;0
+e;12103932;'pmp22 gène mutation cible trouvée';1;0
+e;12103928;'pmm2 gène mutation cible trouvée';1;0
+e;12103924;'plp1 gène mutation cible trouvée';1;0
+e;12103916;'plod1 gène mutation cible trouvée';1;0
+e;12103251;'pklr gène mutation cible trouvée';1;0
+e;12103250;'pkhd1 gène mutation cible trouvée';1;0
+e;12103249;'pkd2 gène mutation cible trouvée';1;0
+e;12103248;'pkd1 pkd2 gènes mutation cible trouvée';1;0
+e;12103217;'pink1 gène mutation cible trouvée';1;0
+e;12103183;'pik3ca gène mutation cible trouvée';1;0
+e;12103164;'phox2b gène mutation cible trouvée';1;0
+e;12102988;'phex gène mutation cible trouvée';1;0
+e;12102926;'pex7 gène mutation cible trouvée';1;0
+e;12102925;'pex1 gène mutation cible trouvée';1;0
+e;12102817;'peo gène mutation cible trouvée';1;0
+e;12102744;'pdgfra gène exon 18 mutation cible trouvée';1;0
+e;12102741;'pdcd10 gène mutation cible trouvée';1;0
+e;12102740;'pcsk9 gène mutation cible trouvée';1;0
+e;12102732;'pcca pccb gènes mutation cible trouvée';1;0
+e;12102728;'pax6 gène mutation cible trouvée';1;0
+e;12102723;'pax3 gène mutation cible trouvée';1;0
+e;12102640;'park7 gène mutation cible trouvée';1;0
+e;12102639;'park2 gène mutation cible trouvée';1;0
+e;12102410;'pank2 gène mutation cible trouvée';1;0
+e;12102404;'pancréatite héréditaire gène mutation cible trouvée';1;0
+e;12102359;'pah gène mutation cible trouvée';1;0
+e;12102350;'pabpn1 gène mutation cible trouvée';1;0
+e;12102268;'otof gène mutation cible trouvée';1;0
+e;12102266;'otc gène mutation cible trouvée';1;0
+e;12102130;'opa3 gène mutation cible trouvée';1;0
+e;12102129;'opa1 gène mutation cible trouvée';1;0
+e;12102127;'oncogène mutation cible trouvée';1;0
+e;12102038;'ocrl1 gène mutation cible trouvée';1;0
+e;12102036;'oca2 gène mutation cible trouvée';1;0
+e;12102003;'nsd1 gène mutation cible trouvée';1;0
+e;12102000;'nras gène mutation cible trouvée';1;0
+e;12101998;'nr0b1 gène mutation cible trouvée';1;0
+e;12101997;'npm1 gène mutation cible trouvée';1;0
+e;12101993;'nphs2 gène mutation cible trouvée';1;0
+e;12101992;'nphs1 gène mutation cible trouvée';1;0
+e;12101991;'nphp1 gène mutation cible trouvée';1;0
+e;12101990;'npdc gène mutation cible trouvée';1;0
+e;12101931;'notch3 gène mutation cible trouvée';1;0
+e;12101733;'nod2 gène mutation cible trouvée';1;0
+e;12101703;'nipbl gène mutation cible trouvée';1;0
+e;12101702;'nipa1 gène mutation cible trouvée';1;0
+e;12101687;'nf2 gène mutation cible trouvée';1;0
+e;12101685;'nf1 gène mutation cible trouvée';1;0
+e;12101678;'neuropathie périphérique gène mutation cible trouvée';1;0
+e;12101597;'nefl gène mutation cible trouvée';1;0
+e;12101590;'neb gène mutation cible trouvée';1;0
+e;12101585;'ncf2 gène mutation cible trouvée';1;0
+e;12101584;'ncf1 ncf2 cybb gènes mutation cible trouvée';1;0
+e;12101583;'ncf1 gène mutation cible trouvée';1;0
+e;12101579;'nbn gène mutation cible trouvée';1;0
+e;12101577;'nb gène mutation cible trouvée';1;0
+e;12101547;'nags gène mutation cible trouvée';1;0
+e;12101507;'myopathie mitochondriale gène mutation cible trouvée';1;0
+e;12101499;'myoc gène mutation cible trouvée';1;0
+e;12101477;'myd88 gène mutation p.leu265pro ciblée trouvée';1;0
+e;12101347;'myc gène mutation cible trouvée';1;0
+e;12101339;'mxi1 gène mutation cible trouvée';1;0
+e;12101338;'mvk gène mutation cible trouvée';1;0
+e;12101337;'mutyh gène mutation cible trouvée';1;0
+e;12101293;'mt-tk gène mutation cible trouvée';1;0
+e;12101288;'mtm1 gène mutation cible trouvée';1;0
+e;12101284;'mthfr gène mutation cible trouvée';1;0
+e;12101280;'mt-atp6 gène mutation cible trouvée';1;0
+e;12101279;'msh6 gène mutation cible trouvée';1;0
+e;12101276;'msh2 mlh1 msh6 gènes mutation cible trouvée';1;0
+e;12101275;'msh2 mlh1 gènes mutation cible trouvée';1;0
+e;12101273;'msh2 gène mutation cible trouvée';1;0
+e;12101257;'mpz gène mutation cible trouvée';1;0
+e;12101251;'mpi gène mutation cible trouvée';1;0
+e;12101119;'mlh1 gène mutation cible trouvée';1;0
+e;12101115;'mlc1 gène mutation cible trouvée';1;0
+e;12101095;'mitochondrie arnt mutation cible trouvée';1;0
+e;12101094;'mitochondrie arnr mutation cible trouvée';1;0
+e;12101005;'mfn2 gène mutation cible trouvée';1;0
+e;12100809;'merrf gène mutation cible trouvée';1;0
+e;12100788;'men1 gène mutation cible trouvée';1;0
+e;12100759;'melas gène mutation cible trouvée';1;0
+e;12100739;'mefv gène mutation cible trouvée';1;0
+e;12100732;'med12 gène mutation cible trouvée';1;0
+e;12100731;'mecp2 gène mutation cible trouvée';1;0
+e;12100726;'mdcr gène mutation cible trouvée';1;0
+e;12100722;'mcoln1 gène mutation cible trouvée';1;0
+e;12100716;'mc4r gène mutation cible trouvée';1;0
+e;12100715;'mbl2 gène mutation cible trouvée';1;0
+e;12100670;'mapt gène mutation cible trouvée';1;0
+e;12100666;'map2k2 gène mutation cible trouvée';1;0
+e;12100665;'map2k1 gène mutation cible trouvée';1;0
+e;12100639;'man2b1 gène mutation cible trouvée';1;0
+e;12240429;'identification de ret gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12240428;'identification de ret gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12240346;'identification de rb1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12240345;'identification de rb1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12240182;'identification de pygm gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12240181;'identification de pygm gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12240166;'identification de ptpn11 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12240165;'identification de ptpn11 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12240158;'identification de pten gène mutation cible trouvée | biologie moléculaire | tissu cancer colorectal | ponctuel | résultat nominal | identification';1;0
+e;12240157;'identification de pten gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12240156;'identification de ptch gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12240155;'identification de ptch gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12240122;'identification de prx gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12240121;'identification de prx gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12239644;'identification de prf1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12239643;'identification de prf1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12239642;'identification de prf1 gène mutation cible trouvée | biologie moléculaire | liquide amniotique | ponctuel | résultat textuel | identification';1;0
+e;12239641;'identification de prf1 gène mutation cible trouvée | biologie moléculaire | liquide amniotique | ponctuel | résultat nominal | identification';1;0
+e;12239551;'identification de ppt1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12239550;'identification de ppt1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241795;'identification de spast gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241794;'identification de spast gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12108702;'yy1 gène mutation cible trouvée';1;0
+e;12108596;'wt1 gène mutation cible trouvée';1;0
+e;12108593;'ws2a gène mutation cible trouvée';1;0
+e;12108592;'wfs1 gène mutation cible trouvée';1;0
+e;12108589;'was gène mutation cible trouvée';1;0
+e;12108584;'vwf gène mutation cible trouvée';1;0
+e;12108580;'vps13b gène mutation cible trouvée';1;0
+e;12108565;'vkorc1 gène mutation cible trouvée';1;0
+e;12108355;'vhl gène mutation cible trouvée';1;0
+e;12108262;'vapb gène mutation cible trouvée';1;0
+e;12108197;'ush2a gène mutation cible trouvée';1;0
+e;12108135;'unc13d gène mutation cible trouvée';1;0
+e;12108134;'umod gène mutation cible trouvée';1;0
+e;12108130;'ugt2b15 gène mutation cible trouvée';1;0
+e;12108128;'ugt1a1 gène mutation cible trouvée';1;0
+e;12108121;'ube3a gène mutation cible trouvée';1;0
+e;12108101;'tyr gène mutation cible trouvée';1;0
+e;12108090;'twist1 gène mutation cible trouvée';1;0
+e;12108080;'ttr gène mutation cible trouvée';1;0
+e;12108076;'tsc2 gène mutation cible trouvée';1;0
+e;12108074;'tsc1 gène mutation cible trouvée';1;0
+e;12108073;'tsc gène mutation cible trouvée';1;0
+e;12108032;'trps1 gène mutation cible trouvée';1;0
+e;12107852;'trappc2 gène mutation cible trouvée';1;0
+e;12107798;'traf3 gène mutation cible trouvée';1;0
+e;12107792;'tpp1 gène mutation cible trouvée';1;0
+e;12107790;'tpmt gène mutation cible trouvée';1;0
+e;12107788;'tp73l gène mutation cible trouvée';1;0
+e;12107787;'tp53 gène mutation cible trouvée';1;0
+e;12107730;'tor1a gène mutation cible trouvée';1;0
+e;12107693;'tnfrsf1a gène mutation cible trouvée';1;0
+e;12107689;'tnfrsf13b gène mutation cible trouvée';1;0
+e;12107493;'thrb gène mutation cible trouvée';1;0
+e;12107438;'th gène mutation cible trouvée';1;0
+e;12107437;'tgm1 gène mutation cible trouvée';1;0
+e;12107436;'tgfbr2 gène mutation cible trouvée';1;0
+e;12107435;'tgfbr1 tgfbr2 gène mutation cible trouvée';1;0
+e;12107434;'tgfbr1 gène mutation cible trouvée';1;0
+e;12107433;'tgfb3 gène mutation cible trouvée';1;0
+e;12107121;'tcof1 gène mutation cible trouvée';1;0
+e;12107119;'tbx5 gène mutation cible trouvée';1;0
+e;12107106;'tardbp gène mutation cible trouvée';1;0
+e;12106975;'syndrome de kalman gène mutation cible trouvée';1;0
+e;12106961;'surf1 gène mutation cible trouvée';1;0
+e;12106520;'stk11 gène mutation cible trouvée';1;0
+e;12106419;'sry gène mutation cible trouvée';1;0
+e;12106400;'spink1 gène mutation cible trouvée';1;0
+e;12106393;'spg3a gène mutation cible trouvée';1;0
+e;12106392;'spg11 gène délétion duplication et mutation trouvée';1;0
+e;12106251;'spast kiaa0196 gènes mutation cible trouvée';1;0
+e;12106249;'spast gène mutation cible trouvée';1;0
+e;12106214;'sos1 gène mutation cible trouvée';1;0
+e;12105879;'sod1 gène mutation cible trouvée';1;0
+e;12105873;'snca gène mutation cible trouvée';1;0
+e;12105870;'smpd1 gène mutation cible trouvée';1;0
+e;12105869;'smn2 gène mutation cible trouvée';1;0
+e;12105868;'smn1 smn2 gènes mutation cible trouvée';1;0
+e;12105867;'smn1 gène mutation cible trouvée';1;0
+e;12105866;'smc1a gène mutation cible trouvée';1;0
+e;12105855;'slc6a4 gène mutation cible trouvée';1;0
+e;12105854;'slc40a1 gène mutation cible trouvée';1;0
+e;12105853;'slc37a4 gène mutation cible trouvée';1;0
+e;12105849;'slc26a4 gène mutation cible trouvée';1;0
+e;12105848;'slc26a2 gène mutation cible trouvée';1;0
+e;12105847;'slc25a4 gène mutation cible trouvée';1;0
+e;12105846;'slc25a13 gène mutation cible trouvée';1;0
+e;12105845;'slc22a5 gène mutation cible trouvée';1;0
+e;12105844;'slc22a18 gène mutation cible trouvée';1;0
+e;12105842;'slc14a1 gène mutation cible trouvée';1;0
+e;12105841;'slc12a6 gène mutation cible trouvée';1;0
+e;12105809;'si gène mutation cible trouvée';1;0
+e;12105808;'shox gène mutation cible trouvée';1;0
+e;12105793;'sh3tc2 gène mutation cible trouvée';1;0
+e;12105792;'sh3bp2 gène mutation cible trouvée';1;0
+e;12105791;'sh2d1a gène mutation cible trouvée';1;0
+e;12105790;'sgsh gène mutation cible trouvée';1;0
+e;12105788;'sgcg gène mutation cible trouvée';1;0
+e;12105787;'sgcb gène mutation cible trouvée';1;0
+e;12105786;'sgca gène mutation cible trouvée';1;0
+e;12105785;'sftpc gène mutation cible trouvée';1;0
+e;12105784;'sftpb gène mutation cible trouvée';1;0
+e;12105763;'serping1 gène mutation cible trouvée';1;0
+e;12105759;'serpine1 gène mutation cible trouvée';1;0
+e;12105756;'serpina10 gène mutation cible trouvée';1;0
+e;12105752;'serpina1 gène mutation cible trouvée';1;0
+e;12105715;'sept9 gène mutation cible trouvée';1;0
+e;12241659;'identification de smpd1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241658;'identification de smpd1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241657;'identification de smn1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241656;'identification de smn1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241629;'identification de slc26a4 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241628;'identification de slc26a4 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241627;'identification de slc22a18 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241626;'identification de slc22a18 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241569;'identification de shox gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241568;'identification de shox gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241548;'identification de sh2d1a gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241547;'identification de sh2d1a gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241546;'identification de sftpc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241545;'identification de sftpc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241544;'identification de sftpb gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241543;'identification de sftpb gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241521;'identification de serpine1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241520;'identification de serpine1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241519;'identification de serpina1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241518;'identification de serpina1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241408;'identification de sdhd gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241407;'identification de sdhd gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241406;'identification de sdhc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241405;'identification de sdhc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241404;'identification de sdhb gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241403;'identification de sdhb gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241054;'identification de rs1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241053;'identification de rs1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241052;'identification de rps6ka3 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241051;'identification de rps6ka3 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12241871;'identification de spink1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12241870;'identification de spink1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;10838999;'aucune source fiable trouvée';777;0
+e;12242831;'identification de tbx5 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12242830;'identification de tbx5 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12243661;'identification de tpmt gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12243660;'identification de tpmt gène mutation cible trouvée | séquençage | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12243659;'identification de tpmt gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12243505;'identification de tor1a gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12243504;'identification de tor1a gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12243448;'identification de tnfrsf1a gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12243447;'identification de tnfrsf1a gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12243165;'identification de th gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12243164;'identification de th gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244071;'identification de trps1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244070;'identification de trps1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244206;'identification de tyr gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244205;'identification de tyr gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244192;'identification de twist1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244191;'identification de twist1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244168;'identification de ttr gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244167;'identification de ttr gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244166;'identification de tsc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244165;'identification de tsc gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244244;'identification d'ugt1a1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244243;'identification d'ugt1a1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244590;'identification de vhl gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244589;'identification de vhl gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12244992;'identification de vkorc1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12244991;'identification de vkorc1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12245126;'identification de wfs1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12245125;'identification de wfs1 gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;12245112;'identification de vwf gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat textuel | identification';1;0
+e;12245111;'identification de vwf gène mutation cible trouvée | biologie moléculaire | sang/tissu | ponctuel | résultat nominal | identification';1;0
+e;2675143;'chose trouvée';1;0
+e;391391;'excuse toute trouvée';1;50
+e;151553;'_FL:0';6;50
+e;152775;'_FL:23';6;50
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;28722;'cachette';1;296
+e;116162;'valise';1;580
+e;254878;'_POL-NEG_PC';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;223172;'_POL-NEG';36;50
+e;438949;'_INFO-POLYMORPHIC';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;273221;'_INFO-WIKI-NO';36;50
+e;254876;'_POL-POS_PC';36;50
+e;223173;'_POL-POS';36;50
+e;12664462;'bf11616c88b88a8d41fffe99474c081e';200;0
+e;12664464;'36364afdd2c704c5fc2ef4b750638460';200;0
+e;12666989;'82d7eb42a6cc1e028df0b2aeda6c7dc6';200;0
+e;12666993;'718b5f8f37ac4b85711b143f84c66abf';200;0
+e;13512284;'fa389d17d319d556e63c5cd7ecaa10c7';200;0
+e;12676682;'1c9b9c78d15475a930ee91771d187380';200;0
+e;12677067;'02c67566c38f8e7ff8de736bd4447b22';200;0
+e;12681795;'e184fd80c2161593916fbb844150071c';200;0
+e;12681911;'55bcfd3d3597482a11057c2d2f3cf97c';200;0
+e;12683749;'f3c08abd27e7f73dac49da416854ba24';200;0
+e;12697289;'67fa3e9f1286a5eb2cfe0da9183ecbb0';200;0
+e;12717222;'bf4f0cde81da42b6892444f7a802c308';200;0
+e;12718134;'83024ce21423f3c599d1c149abbfab9e';200;0
+e;12718290;'547a46d03a66061009a580276c033f68';200;0
+e;12719917;'c84e1360ec61cc3920690e5fe39c7840';200;0
+e;12720881;'f4ea4b94f9e25ab51050b8bb9b3487c9';200;0
+e;12724373;'7518487c80797b70ab157f3b8001eafc';200;0
+e;12773854;'70b7e67960a3696fdc4f65dfa2818ed4';200;0
+e;12784444;'8cc50045b89d9875c94753b6bb2dbe94';200;0
+e;12789921;'31f01ee6cace470fdd15cc8a9f8d1d37';200;0
+e;12790182;'8c5d2cf1973bac0dfe4093235e4ac091';200;0
+e;12794157;'8dc42c196eba18e9afeedc56504c83d8';200;0
+e;12812795;'286cf4bad16c8e7eb7828f4baa1314c1';200;0
+e;12825716;'5c34f361bd8abad78770055a74813be9';200;0
+e;12863469;'728efde14fb2c9b45e36f3d420e83fdc';200;0
+e;12884128;'4ec733d869eab9c7d8248c44875cb36e';200;0
+e;12884262;'e0be7feaf625b48ff2cb0e634e1c1812';200;0
+e;12978802;'a0f7c01ec839ea1b60bf708f8f2f5cf3';200;0
+e;12986089;'7e23902e5bde3f66804b4728f788f966';200;0
+e;12993695;'b1a7510c3bb9135bcf3cbaef18a074b1';200;0
+e;13106508;'c6c4ab3c24277ca348fd510e918e3962';200;0
+e;13270137;'e1c4a23c90339310b33eea3af60bac48';200;0
+e;13535021;'5b26acfc729593fe825daef41afa625c';200;0
+e;14281607;'c418a71bd3e700b81085d1888f9ade77';200;0
+e;12675053;'3299e75cd1eee84d3eb6274469b2cc01';200;0
+e;12680116;'0e40d4a30c655d8b715e6ca8cff7af37';200;0
+e;12693269;'1744ee897134181b802c63e67dd2f0cf';200;0
+e;12714806;'f6af9cb27cf59d7f014a9fee95ce7b45';200;0
+e;12715583;'b17f7c7d2819f52ec603aa58c5896105';200;0
+e;12718993;'af83498b671b07973f24baf3ef027aba';200;0
+e;12718996;'e4db1df7ca156714ae43428fb63ba94d';200;0
+e;12719000;'e54fb9ad547060614b2ebac3fab5e691';200;0
+e;12719949;'424bbcaa2fc4437695fa7bb50914aa91';200;0
+e;12722187;'1bbdba1e5f45fc3c8ca94019b407d887';200;0
+e;12724195;'7f7d83fc1612fe41f514408ac414b73c';200;0
+e;12738131;'1f39ca6bf65d1bc6847640dd65121ae0';200;0
+e;13319622;'6b93539890763446d783937a984a0c8f';200;0
+e;13320386;'e5996e4ac281827ea2e273dc0f4bd01a';200;0
+e;13519505;'066f8fcbe2769d08822209400ddf9866';200;0
+e;13536563;'1e8709a3a39b4bd555ee904796597b3b';200;0
+e;13538211;'284301d5c00f6d89e00d8b8a2cf31b7b';200;0
+e;13589771;'06a76bc04174f5312d8c030cece6bafd';200;0
+e;13595068;'bf487dac5f386671264c793f4fc35760';200;0
+e;13627909;'2d781c8bf2fa6b1b03ac8cb6cd9a5f34';200;0
+e;13628016;'ea044ad9a2ff2e0f65f0da2aee393c14';200;0
+e;13634254;'8475661866ff00ba508fd7165a897d11';200;0
+e;13643648;'5a05849a7e05de4536b17c2acfb6bcb1';200;0
+e;13665967;'04660090d1ebc929c1b78bfa48c988cd';200;0
+e;13854740;'c98c60def50740a4268a2d284df84a74';200;0
+e;14002690;'529d858995fa21215a1307e237c2b855';200;0
+e;14026361;'fe10bdd1b53e152cfbed4c46d3623057';200;0
+e;14030746;'3153aec9d6540c86e45fe7d863ff1c3b';200;0
+e;14127559;'1300330b68f52d974ac7416cb7fc7821';200;0
+e;14131317;'b5a1b5ac3cbda4bcab8e2c632c5910dd';200;0
+e;14152518;'53cc923ef1713b97d8a843c44481ef3f';200;0
+e;14156958;'ebeed3b11d12fabd34d398e86bd3be45';200;0
+e;14158187;'602e7eda1c48066351d6b03a408127d4';200;0
+e;14165641;'1446f1fe137a7944e7d2b7e27434ea3e';200;0
+e;14318853;'4f25f767af4d45c8461ba609f7376963';200;0
+e;14326372;'3a24fa83d43b9c3d4b5cc3d5e64883a0';200;0
+e;12709723;'66c14530543d5e703903fd238cc25bf9';200;0
+e;12724826;'0d73af23e8a44b49c996e62724e49564';200;0
+e;12863211;'81cca876689d8c06f9d6f2dccd026a20';200;0
+e;12880673;'417981242ddda25ad29bb31ba3bcab99';200;0
+e;13187056;'e023fc2b8231ad102025bd41c9d964b7';200;0
+e;13440506;'fa94a61dd6def1635cdb07ae12a6766a';200;0
+e;13518969;'d4167dcfe853344f86d676fc47c2aa2f';200;0
+e;12681361;'d60b2b3c40ad0aed374e52ca5be886a5';200;0
+e;12726405;'5c63a65edb6d1727182fceac109233e5';200;0
+e;13614562;'d9d30ef796e344e70f149d607baef3ab';200;0
+e;14003948;'392a9648074c206d23d958cabe03e31c';200;0
+e;14095411;'157426f43be7d7fef2bb94689f1ffe7a';200;0
+e;12682346;'1e14b5d180100e55308839966c5777ca';200;0
+e;12698438;'3fe6638d568b4d707de44f92f7ad7f86';200;0
+e;12827128;'b6a17366a3533066515f5fbb73b1ba59';200;0
+e;12682151;'d212fa58495bceb93678232611a9737b';200;0
+e;13665608;'932e496d0d002301e7c895a5a2a8b03b';200;0
+e;14030381;'2b090ef3561548d5255007bfb56e5d04';200;0
+e;12698425;'6aaa6ec679f6891ca5ac46505c8a16b0';200;0
+e;12689769;'44d1590146c03b9508b3d7be52010c39';200;0
+e;2983124;'_SW';36;50
+e;3562710;'découverte>13844';1;0;'découverte>théâtre'
+e;3562653;'découverte>71830';1;0;'découverte>trouvaille'
+e;3562656;'découverte>91691';1;0;'découverte>surprise'
+e;3562654;'découverte>137768';1;2;'découverte>invention'
+e;3562652;'découverte>49928';1;0;'découverte>couverture'
+e;3562655;'découverte>230256';1;0;'découverte>trouvée'
+e;153770;'pelle en plastique';1;58
+e;143036;'découverte';1;372
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;2;'r_raff_morpho';'raffinement morphologique';Raffinement morphologique vers un usage particulier du terme source
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;17;'r_carac';'caractéristique';Pour un terme donné, souvent un objet, il est demandé d'en énumérer les CARACtéristiques (adjectifs) possibles/typiques. Par exemple, 'liquide', 'froide', 'chaude', pour 'eau'.
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;23;'r_carac-1';'caractéristique-1';Quels sont les objets (des noms) possédant typiquement/possiblement la caractérisque suivante ? Par exemple, 'soleil', 'feu', pour 'chaud'.
+rt;35;'r_meaning/glose';'glose/sens/signification';Quels SENS/SIGNIFICATIONS pouvez vous donner au terme proposé. Il s'agira de termes (des gloses) évoquant chacun des sens possibles, par exemple : 'forces de l'ordre', 'contrat d'assurance', 'police typographique', ... pour 'police'.
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;59;'r_masc';'équivalent masc';L'équivalent masculin du terme : lionne --> lion.
+rt;60;'r_fem';'équivalent fem';L'équivalent féminin du terme : lion --> lionne.
+rt;200;'r_context';'r_context';Relation de contexte entre un terme et un noeud contexte.
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;999;'r_inhib';'r_inhib';relation d'inhibition, le terme inhibe les termes suivants... ce terme a tendance à exclure le terme associé.
+r;87491766;230256;48704;0;26
+r;87491765;230256;37302;0;31
+r;24167407;230256;239128;0;1000000
+r;33831261;230256;2325330;2;45
+r;33831265;230256;2325331;2;45
+r;12113929;230256;161702;4;41
+r;53922945;230256;2586628;4;45
+r;54209534;230256;2586629;4;45
+r;12112153;230256;161700;4;51
+r;12112154;230256;212235;4;52
+r;12112150;230256;146894;4;60
+r;12112151;230256;171869;4;64
+r;316557838;230256;12196297;11;25
+r;316559100;230256;12195902;11;25
+r;316559132;230256;12195896;11;25
+r;316559145;230256;12195893;11;25
+r;316559184;230256;12195887;11;25
+r;316559254;230256;12195862;11;25
+r;316559300;230256;12195854;11;25
+r;316559564;230256;12195699;11;25
+r;316562700;230256;12194881;11;25
+r;316563885;230256;12194567;11;25
+r;316564529;230256;12194336;11;25
+r;316565177;230256;12193987;11;25
+r;316565190;230256;12193985;11;25
+r;316565240;230256;12193977;11;25
+r;316565268;230256;12193972;11;25
+r;316565340;230256;12193959;11;25
+r;316565639;230256;12193860;11;25
+r;316565758;230256;12193825;11;25
+r;316565882;230256;12193781;11;25
+r;316565921;230256;12193773;11;25
+r;316565945;230256;12193769;11;25
+r;316565958;230256;12193766;11;25
+r;316566607;230256;12193572;11;25
+r;316568967;230256;12192785;11;25
+r;316569697;230256;12192613;11;25
+r;316569768;230256;12192591;11;25
+r;316569807;230256;12192582;11;25
+r;316569886;230256;12192569;11;25
+r;316569899;230256;12192567;11;25
+r;316570716;230256;12192308;11;25
+r;316571142;230256;12192176;11;25
+r;316571190;230256;12192168;11;25
+r;316573424;230256;12191585;11;25
+r;316574212;230256;12191303;11;25
+r;316574225;230256;12191301;11;25
+r;316574238;230256;12191299;11;25
+r;316574249;230256;12191297;11;25
+r;316574262;230256;12191295;11;25
+r;316574275;230256;12191293;11;25
+r;316578555;230256;12190306;11;25
+r;316578576;230256;12190301;11;25
+r;316578741;230256;12190238;11;25
+r;316579760;230256;12189873;11;25
+r;316579935;230256;12189821;11;25
+r;316585334;230256;12188525;11;25
+r;316586669;230256;12188205;11;25
+r;316586913;230256;12188127;11;25
+r;316586999;230256;12188105;11;25
+r;316587012;230256;12188103;11;25
+r;316589185;230256;12187706;11;25
+r;316589219;230256;12187701;11;25
+r;316589637;230256;12187612;11;25
+r;316593215;230256;12186833;11;25
+r;316593277;230256;12186821;11;25
+r;316593312;230256;12186814;11;25
+r;316593325;230256;12186812;11;25
+r;316593336;230256;12186810;11;25
+r;316593349;230256;12186807;11;25
+r;316593362;230256;12186805;11;25
+r;316593498;230256;12186744;11;25
+r;316593511;230256;12186742;11;25
+r;316593526;230256;12186740;11;25
+r;316593588;230256;12186728;11;25
+r;316593603;230256;12186726;11;25
+r;316593616;230256;12186724;11;25
+r;316593629;230256;12186722;11;25
+r;316593642;230256;12186720;11;25
+r;316593655;230256;12186717;11;25
+r;316593683;230256;12186713;11;25
+r;316593698;230256;12186711;11;25
+r;316594060;230256;12186583;11;25
+r;316594073;230256;12186580;11;25
+r;316594230;230256;12186534;11;25
+r;316594243;230256;12186532;11;25
+r;316594256;230256;12186529;11;25
+r;316594269;230256;12186527;11;25
+r;316594295;230256;12186522;11;25
+r;316594308;230256;12186520;11;25
+r;316594321;230256;12186518;11;25
+r;316594334;230256;12186515;11;25
+r;316594347;230256;12186512;11;25
+r;316594617;230256;12186446;11;25
+r;316594678;230256;12186437;11;25
+r;316594729;230256;12186428;11;25
+r;316594775;230256;12186419;11;25
+r;316595195;230256;12186313;11;25
+r;316595529;230256;12186165;11;25
+r;316595557;230256;12186160;11;25
+r;316595585;230256;12186155;11;25
+r;316595804;230256;12186108;11;25
+r;316595817;230256;12186106;11;25
+r;316595851;230256;12186102;11;25
+r;316595864;230256;12186100;11;25
+r;316595877;230256;12186098;11;25
+r;316596460;230256;12185942;11;25
+r;316598073;230256;12185498;11;25
+r;316598448;230256;12185408;11;25
+r;316598712;230256;12185291;11;25
+r;316598725;230256;12185289;11;25
+r;316598743;230256;12185287;11;25
+r;316598761;230256;12185284;11;25
+r;316598774;230256;12185282;11;25
+r;316599875;230256;12184971;11;25
+r;316602630;230256;12184252;11;25
+r;316602641;230256;12184250;11;25
+r;316602656;230256;12184248;11;25
+r;316602669;230256;12184246;11;25
+r;316602689;230256;12184242;11;25
+r;316602704;230256;12184240;11;25
+r;316603527;230256;12183986;11;25
+r;316605671;230256;12183588;11;25
+r;316606141;230256;12183481;11;25
+r;316606561;230256;12183330;11;25
+r;316607134;230256;12183148;11;25
+r;316607154;230256;12183144;11;25
+r;316607304;230256;12183101;11;25
+r;316607322;230256;12183099;11;25
+r;316607340;230256;12183096;11;25
+r;316607367;230256;12183085;11;25
+r;316607396;230256;12183078;11;25
+r;316607666;230256;12182997;11;25
+r;316607700;230256;12182993;11;25
+r;316607724;230256;12182989;11;25
+r;316607737;230256;12182986;11;25
+r;316607844;230256;12182962;11;25
+r;316609568;230256;12182418;11;25
+r;316609773;230256;12182316;11;25
+r;316611543;230256;12181833;11;25
+r;316611556;230256;12181831;11;25
+r;316611652;230256;12181792;11;25
+r;316612192;230256;12181590;11;25
+r;316612862;230256;12181443;11;25
+r;316613358;230256;12181231;11;25
+r;316613371;230256;12181229;11;25
+r;316618690;230256;12180365;11;25
+r;316619692;230256;12180153;11;25
+r;316619899;230256;12180066;11;25
+r;316619943;230256;12180058;11;25
+r;316619998;230256;12180043;11;25
+r;316620119;230256;12179986;11;25
+r;316634995;230256;12178444;11;25
+r;316635008;230256;12178441;11;25
+r;316635021;230256;12178439;11;25
+r;316635032;230256;12178436;11;25
+r;316635306;230256;12178329;11;25
+r;316635666;230256;12178254;11;25
+r;316635911;230256;12178197;11;25
+r;316638612;230256;12177549;11;25
+r;316639295;230256;12177099;11;25
+r;316639310;230256;12177097;11;25
+r;316640663;230256;12176747;11;25
+r;316641647;230256;12176426;11;25
+r;316641696;230256;12176418;11;25
+r;316641709;230256;12176416;11;25
+r;316641798;230256;12176390;11;25
+r;316641835;230256;12176381;11;25
+r;316641884;230256;12176370;11;25
+r;316642865;230256;12176078;11;25
+r;316642878;230256;12176075;11;25
+r;316645721;230256;12175319;11;25
+r;316645799;230256;12175300;11;25
+r;316646196;230256;12175178;11;25
+r;316646283;230256;12175158;11;25
+r;316647169;230256;12174660;11;25
+r;316647193;230256;12174655;11;25
+r;316648604;230256;12174080;11;25
+r;316648617;230256;12174078;11;25
+r;316648640;230256;12174071;11;25
+r;316649510;230256;12173771;11;25
+r;316649528;230256;12173767;11;25
+r;316650115;230256;12173259;11;25
+r;316650148;230256;12173251;11;25
+r;316650168;230256;12173246;11;25
+r;316650181;230256;12173243;11;25
+r;316650233;230256;12173232;11;25
+r;316650246;230256;12173227;11;25
+r;316650259;230256;12173225;11;25
+r;316650272;230256;12173222;11;25
+r;316651318;230256;12172998;11;25
+r;316653320;230256;12172263;11;25
+r;316653623;230256;12172119;11;25
+r;316653636;230256;12172117;11;25
+r;316653842;230256;12171995;11;25
+r;316653866;230256;12171990;11;25
+r;316653954;230256;12171965;11;25
+r;316655031;230256;12171573;11;25
+r;316655113;230256;12171552;11;25
+r;316655149;230256;12171516;11;25
+r;316655160;230256;12171514;11;25
+r;316655173;230256;12171512;11;25
+r;316655205;230256;12171503;11;25
+r;316655225;230256;12171499;11;25
+r;316655558;230256;12171376;11;25
+r;316655863;230256;12171247;11;25
+r;316655975;230256;12171211;11;25
+r;316656318;230256;12171114;11;25
+r;316658402;230256;12170626;11;25
+r;316658515;230256;12170608;11;25
+r;316658528;230256;12170606;11;25
+r;316658541;230256;12170603;11;25
+r;316659247;230256;12170435;11;25
+r;316659430;230256;12170403;11;25
+r;316659476;230256;12170394;11;25
+r;316659600;230256;12170373;11;25
+r;316659619;230256;12170369;11;25
+r;316659647;230256;12170363;11;25
+r;316659658;230256;12170361;11;25
+r;316659688;230256;12170356;11;25
+r;316659953;230256;12170323;11;25
+r;316660015;230256;12170310;11;25
+r;316661415;230256;12169775;11;25
+r;316661456;230256;12169767;11;25
+r;316661743;230256;12169688;11;25
+r;316661756;230256;12169686;11;25
+r;316662954;230256;12169357;11;25
+r;316665150;230256;12168325;11;25
+r;316665477;230256;12168158;11;25
+r;316665913;230256;12168048;11;25
+r;316666102;230256;12168000;11;25
+r;316666170;230256;12167973;11;25
+r;316666183;230256;12167971;11;25
+r;316666257;230256;12167941;11;25
+r;316666313;230256;12167929;11;25
+r;316666377;230256;12167908;11;25
+r;316666390;230256;12167906;11;25
+r;316666903;230256;12167784;11;25
+r;316666955;230256;12167763;11;25
+r;316666968;230256;12167761;11;25
+r;316667224;230256;12167670;11;25
+r;316667927;230256;12167506;11;25
+r;316667944;230256;12167504;11;25
+r;316667961;230256;12167502;11;25
+r;316671287;230256;12166532;11;25
+r;316671300;230256;12166530;11;25
+r;316671562;230256;12166384;11;25
+r;316671575;230256;12166381;11;25
+r;316671859;230256;12166299;11;25
+r;316672827;230256;12166004;11;25
+r;316673640;230256;12165564;11;25
+r;316676985;230256;12164780;11;25
+r;316677092;230256;12164747;11;25
+r;316677141;230256;12164741;11;25
+r;316678207;230256;12164500;11;25
+r;316678222;230256;12164498;11;25
+r;316678237;230256;12164496;11;25
+r;316678250;230256;12164493;11;25
+r;316679621;230256;12164072;11;25
+r;316679679;230256;12164052;11;25
+r;316679703;230256;12164045;11;25
+r;316679740;230256;12164039;11;25
+r;316680076;230256;12163971;11;25
+r;316680108;230256;12163967;11;25
+r;316680125;230256;12163965;11;25
+r;316680142;230256;12163963;11;25
+r;316680157;230256;12163961;11;25
+r;316680494;230256;12163906;11;25
+r;316680827;230256;12163776;11;25
+r;316680851;230256;12163772;11;25
+r;316680864;230256;12163770;11;25
+r;316680909;230256;12163764;11;25
+r;316680956;230256;12163758;11;25
+r;316682064;230256;12163428;11;25
+r;316682097;230256;12163420;11;25
+r;316682114;230256;12163417;11;25
+r;316682129;230256;12163415;11;25
+r;316682159;230256;12163411;11;25
+r;316682174;230256;12163409;11;25
+r;316682187;230256;12163407;11;25
+r;316682314;230256;12163383;11;25
+r;316682492;230256;12163340;11;25
+r;316682505;230256;12163338;11;25
+r;316683061;230256;12163098;11;25
+r;316689628;230256;12161074;11;25
+r;316689641;230256;12161072;11;25
+r;316689821;230256;12161030;11;25
+r;316691641;230256;12160369;11;25
+r;316691835;230256;12160323;11;25
+r;316691905;230256;12160311;11;25
+r;316692409;230256;12160157;11;25
+r;316692424;230256;12160155;11;25
+r;316692448;230256;12160149;11;25
+r;316692461;230256;12160147;11;25
+r;316692474;230256;12160145;11;25
+r;316692972;230256;12159936;11;25
+r;316692996;230256;12159932;11;25
+r;316695161;230256;12158953;11;25
+r;316695218;230256;12158942;11;25
+r;316695488;230256;12158812;11;25
+r;316695736;230256;12158753;11;25
+r;316700791;230256;12156876;11;25
+r;316700945;230256;12156849;11;25
+r;316701062;230256;12156828;11;25
+r;316702357;230256;12156494;11;25
+r;316702446;230256;12156471;11;25
+r;316703021;230256;12156318;11;25
+r;316703451;230256;12156179;11;25
+r;316703464;230256;12156176;11;25
+r;316703793;230256;12156108;11;25
+r;316703815;230256;12156104;11;25
+r;316709842;230256;12154537;11;25
+r;316710168;230256;12154445;11;25
+r;316710194;230256;12154440;11;25
+r;316710207;230256;12154438;11;25
+r;316710220;230256;12154435;11;25
+r;316710237;230256;12154433;11;25
+r;316710271;230256;12154428;11;25
+r;316710658;230256;12154338;11;25
+r;316711185;230256;12154205;11;25
+r;316711337;230256;12154170;11;25
+r;316711350;230256;12154168;11;25
+r;316711363;230256;12154166;11;25
+r;316711376;230256;12154164;11;25
+r;316711389;230256;12154162;11;25
+r;316711473;230256;12154145;11;25
+r;316711579;230256;12154113;11;25
+r;316713838;230256;12153508;11;25
+r;316713926;230256;12153482;11;25
+r;316714281;230256;12153356;11;25
+r;316714318;230256;12153350;11;25
+r;316714331;230256;12153348;11;25
+r;316714437;230256;12153318;11;25
+r;316714677;230256;12153266;11;25
+r;316714816;230256;12153212;11;25
+r;316714829;230256;12153209;11;25
+r;316717043;230256;12152635;11;25
+r;316717078;230256;12152627;11;25
+r;316717433;230256;12152425;11;25
+r;316717546;230256;12152393;11;25
+r;316717712;230256;12152346;11;25
+r;316717795;230256;12152322;11;25
+r;316717808;230256;12152320;11;25
+r;316718132;230256;12152232;11;25
+r;316718939;230256;12152031;11;25
+r;316719000;230256;12152021;11;25
+r;316719013;230256;12152017;11;25
+r;316719024;230256;12152015;11;25
+r;316719048;230256;12152010;11;25
+r;316719090;230256;12152002;11;25
+r;316719290;230256;12151970;11;25
+r;316719335;230256;12151959;11;25
+r;316719359;230256;12151955;11;25
+r;316725788;230256;12149887;11;25
+r;316725826;230256;12149879;11;25
+r;316725858;230256;12149874;11;25
+r;316726031;230256;12149829;11;25
+r;316726061;230256;12149820;11;25
+r;316727573;230256;12149506;11;25
+r;316727593;230256;12149502;11;25
+r;316727610;230256;12149499;11;25
+r;316727627;230256;12149496;11;25
+r;316727647;230256;12149492;11;25
+r;316727685;230256;12149484;11;25
+r;316727705;230256;12149480;11;25
+r;316727757;230256;12149471;11;25
+r;316727772;230256;12149469;11;25
+r;316727793;230256;12149463;11;25
+r;316727806;230256;12149460;11;25
+r;316730183;230256;12148578;11;25
+r;316730815;230256;12148306;11;25
+r;316731730;230256;12148064;11;25
+r;316733709;230256;12147446;11;25
+r;316733902;230256;12147392;11;25
+r;316734202;230256;12147289;11;25
+r;316734241;230256;12147282;11;25
+r;316734950;230256;12146969;11;25
+r;316735104;230256;12146929;11;25
+r;316735124;230256;12146925;11;25
+r;316735155;230256;12146918;11;25
+r;316735339;230256;12146862;11;25
+r;316735352;230256;12146860;11;25
+r;316735994;230256;12146630;11;25
+r;316736031;230256;12146624;11;25
+r;316736044;230256;12146622;11;25
+r;316736124;230256;12146609;11;25
+r;316736150;230256;12146602;11;25
+r;316737762;230256;12145919;11;25
+r;316742668;230256;12144659;11;25
+r;316742706;230256;12144651;11;25
+r;316745120;230256;12143867;11;25
+r;316747224;230256;12143200;11;25
+r;316747269;230256;12143192;11;25
+r;316747306;230256;12143187;11;25
+r;316747321;230256;12143185;11;25
+r;316747336;230256;12143183;11;25
+r;316747357;230256;12143179;11;25
+r;316747374;230256;12143176;11;25
+r;316747459;230256;12143162;11;25
+r;316747476;230256;12143160;11;25
+r;316747489;230256;12143158;11;25
+r;316747554;230256;12143146;11;25
+r;316747584;230256;12143140;11;25
+r;316747729;230256;12143115;11;25
+r;316747808;230256;12143102;11;25
+r;316747823;230256;12143100;11;25
+r;316747836;230256;12143098;11;25
+r;316748130;230256;12143050;11;25
+r;316748847;230256;12142798;11;25
+r;316748860;230256;12142796;11;25
+r;316749194;230256;12142665;11;25
+r;316749209;230256;12142663;11;25
+r;316749233;230256;12142659;11;25
+r;316749252;230256;12142647;11;25
+r;316751893;230256;12141902;11;25
+r;316751942;230256;12141892;11;25
+r;316751972;230256;12141887;11;25
+r;316751985;230256;12141885;11;25
+r;316753332;230256;12141427;11;25
+r;316761868;230256;12139451;11;25
+r;316761881;230256;12139448;11;25
+r;316761894;230256;12139446;11;25
+r;316761907;230256;12139443;11;25
+r;316761918;230256;12139441;11;25
+r;316761942;230256;12139437;11;25
+r;316761953;230256;12139435;11;25
+r;316761966;230256;12139433;11;25
+r;316762141;230256;12139367;11;25
+r;316762743;230256;12139099;11;25
+r;316762758;230256;12139097;11;25
+r;316762773;230256;12139095;11;25
+r;316762786;230256;12139093;11;25
+r;316762799;230256;12139091;11;25
+r;316762812;230256;12139088;11;25
+r;316762825;230256;12139085;11;25
+r;316764268;230256;12138709;11;25
+r;316764283;230256;12138707;11;25
+r;316764400;230256;12138669;11;25
+r;316764413;230256;12138667;11;25
+r;316764749;230256;12138574;11;25
+r;316765252;230256;12138378;11;25
+r;316765426;230256;12138331;11;25
+r;316771062;230256;12136600;11;25
+r;316771749;230256;12136474;11;25
+r;316772438;230256;12136272;11;25
+r;316772643;230256;12136237;11;25
+r;316772656;230256;12136230;11;25
+r;316772759;230256;12136212;11;25
+r;316776372;230256;12134821;11;25
+r;316776414;230256;12134812;11;25
+r;316776483;230256;12134802;11;25
+r;316776543;230256;12134794;11;25
+r;316780484;230256;12133186;11;25
+r;316780532;230256;12133178;11;25
+r;316780593;230256;12133166;11;25
+r;316780656;230256;12133154;11;25
+r;316781081;230256;12133033;11;25
+r;316781113;230256;12133021;11;25
+r;316781889;230256;12132763;11;25
+r;316781904;230256;12132761;11;25
+r;316782946;230256;12132382;11;25
+r;316784680;230256;12131963;11;25
+r;316787142;230256;12131340;11;25
+r;316787153;230256;12131338;11;25
+r;316787210;230256;12131328;11;25
+r;316787236;230256;12131324;11;25
+r;316787313;230256;12131308;11;25
+r;316787390;230256;12131296;11;25
+r;318612085;230256;12235050;11;25
+r;318612109;230256;12235049;11;25
+r;318621396;230256;12234559;11;25
+r;318621420;230256;12234558;11;25
+r;318623243;230256;12234460;11;25
+r;318623267;230256;12234459;11;25
+r;318624272;230256;12234417;11;25
+r;318624296;230256;12234416;11;25
+r;318624400;230256;12234411;11;25
+r;318624424;230256;12234410;11;25
+r;318624830;230256;12234389;11;25
+r;318624854;230256;12234388;11;25
+r;318625538;230256;12234357;11;25
+r;318625562;230256;12234356;11;25
+r;318636274;230256;12233846;11;25
+r;318636298;230256;12233845;11;25
+r;318637240;230256;12233805;11;25
+r;318637264;230256;12233804;11;25
+r;318639526;230256;12233695;11;25
+r;318639550;230256;12233694;11;25
+r;318645404;230256;12233423;11;25
+r;318645432;230256;12233422;11;25
+r;318656977;230256;12232951;11;25
+r;318657001;230256;12232950;11;25
+r;318660870;230256;12232790;11;25
+r;318660894;230256;12232789;11;25
+r;318661093;230256;12232780;11;25
+r;318661123;230256;12232779;11;25
+r;318661147;230256;12232778;11;25
+r;318661171;230256;12232777;11;25
+r;318663009;230256;12232691;11;25
+r;318663037;230256;12232690;11;25
+r;318666317;230256;12232553;11;25
+r;318666345;230256;12232552;11;25
+r;315634919;230256;12092603;11;26
+r;315634949;230256;12092599;11;26
+r;315635003;230256;12092594;11;26
+r;315635047;230256;12092590;11;26
+r;315637016;230256;12092026;11;26
+r;315637048;230256;12092022;11;26
+r;315637084;230256;12092017;11;26
+r;315637103;230256;12092014;11;26
+r;315637333;230256;12091985;11;26
+r;315637343;230256;12091984;11;26
+r;315637917;230256;12091912;11;26
+r;315638448;230256;12091846;11;26
+r;315639545;230256;12091726;11;26
+r;315641063;230256;12091533;11;26
+r;315641073;230256;12091532;11;26
+r;315641109;230256;12091527;11;26
+r;315641127;230256;12091525;11;26
+r;315641187;230256;12091518;11;26
+r;315641239;230256;12091512;11;26
+r;315642327;230256;12091369;11;26
+r;315642337;230256;12091367;11;26
+r;315643017;230256;12091291;11;26
+r;315643047;230256;12091287;11;26
+r;315643081;230256;12091284;11;26
+r;315643132;230256;12091277;11;26
+r;318544934;230256;12238186;11;26
+r;318544958;230256;12238185;11;26
+r;318547893;230256;12238037;11;26
+r;318547917;230256;12238036;11;26
+r;318551287;230256;12237889;11;26
+r;318551311;230256;12237888;11;26
+r;318559492;230256;12237548;11;26
+r;318559516;230256;12237547;11;26
+r;318560272;230256;12237509;11;26
+r;318560296;230256;12237508;11;26
+r;318565306;230256;12237236;11;26
+r;318565328;230256;12237235;11;26
+r;318574019;230256;12236789;11;26
+r;318574049;230256;12236788;11;26
+r;318574073;230256;12236787;11;26
+r;318574101;230256;12236786;11;26
+r;318574125;230256;12236785;11;26
+r;318574149;230256;12236784;11;26
+r;318574173;230256;12236783;11;26
+r;318574345;230256;12236776;11;26
+r;318574369;230256;12236775;11;26
+r;318574393;230256;12236774;11;26
+r;318574421;230256;12236773;11;26
+r;318574449;230256;12236772;11;26
+r;318574473;230256;12236771;11;26
+r;318576537;230256;12236684;11;26
+r;318576561;230256;12236683;11;26
+r;318584081;230256;12236301;11;26
+r;318584105;230256;12236300;11;26
+r;318585341;230256;12236237;11;26
+r;318585365;230256;12236236;11;26
+r;318586379;230256;12236179;11;26
+r;318586403;230256;12236178;11;26
+r;318586535;230256;12236172;11;26
+r;318586561;230256;12236171;11;26
+r;318591979;230256;12235952;11;26
+r;318592003;230256;12235951;11;26
+r;318592599;230256;12235917;11;26
+r;318592623;230256;12235916;11;26
+r;318594870;230256;12235802;11;26
+r;318594896;230256;12235801;11;26
+r;318603024;230256;12235480;11;26
+r;318603048;230256;12235479;11;26
+r;318604066;230256;12235434;11;26
+r;318604089;230256;12235433;11;26
+r;318604113;230256;12235432;11;26
+r;318604137;230256;12235431;11;26
+r;318604161;230256;12235430;11;26
+r;318604185;230256;12235429;11;26
+r;318604208;230256;12235428;11;26
+r;318604231;230256;12235427;11;26
+r;318604255;230256;12235426;11;26
+r;318604279;230256;12235425;11;26
+r;318604303;230256;12235424;11;26
+r;318604327;230256;12235423;11;26
+r;318604351;230256;12235422;11;26
+r;318604375;230256;12235421;11;26
+r;318609811;230256;12235162;11;26
+r;318609835;230256;12235161;11;26
+r;315483331;230256;12090027;11;27
+r;315478966;230256;12090044;11;27
+r;315422918;230256;12088568;11;27
+r;315423251;230256;12088569;11;27
+r;315423700;230256;12088598;11;27
+r;315429631;230256;12088567;11;27
+r;315429680;230256;12088597;11;27
+r;315429703;230256;12088566;11;27
+r;315430544;230256;12088611;11;27
+r;315434561;230256;12088711;11;27
+r;315434610;230256;12088754;11;27
+r;315434843;230256;12088710;11;27
+r;315440187;230256;12088756;11;27
+r;315443623;230256;12088882;11;27
+r;315457345;230256;12088868;11;27
+r;315461142;230256;12088867;11;27
+r;315461249;230256;12088871;11;27
+r;315461428;230256;12088937;11;27
+r;315462098;230256;12088966;11;27
+r;315462166;230256;12088943;11;27
+r;315462473;230256;12088979;11;27
+r;315462549;230256;12088963;11;27
+r;315462924;230256;12088866;11;27
+r;315463476;230256;12088869;11;27
+r;315465224;230256;12089111;11;27
+r;315467789;230256;12089348;11;27
+r;315468503;230256;12089347;11;27
+r;315471786;230256;12089641;11;27
+r;315471984;230256;12089741;11;27
+r;315472269;230256;12089744;11;27
+r;315472385;230256;12089790;11;27
+r;315472591;230256;12089750;11;27
+r;315472869;230256;12089793;11;27
+r;315472947;230256;12089761;11;27
+r;315473269;230256;12089760;11;27
+r;315473609;230256;12089785;11;27
+r;315473702;230256;12089909;11;27
+r;315473903;230256;12089879;11;27
+r;315474180;230256;12089860;11;27
+r;315474314;230256;12089875;11;27
+r;315474485;230256;12089752;11;27
+r;315474961;230256;12090012;11;27
+r;315475092;230256;12090001;11;27
+r;315475156;230256;12090023;11;27
+r;315476059;230256;12090007;11;27
+r;315476568;230256;12090019;11;27
+r;315476666;230256;12089880;11;27
+r;315568151;230256;12090706;11;27
+r;315568209;230256;12090711;11;27
+r;315568976;230256;12090712;11;27
+r;315568993;230256;12090707;11;27
+r;315569106;230256;12090727;11;27
+r;315569294;230256;12090729;11;27
+r;315570366;230256;12090708;11;27
+r;315571440;230256;12090878;11;27
+r;315572476;230256;12091050;11;27
+r;315572659;230256;12100571;11;27
+r;315572679;230256;12100570;11;27
+r;315572699;230256;12100569;11;27
+r;315575327;230256;12100273;11;27
+r;315575337;230256;12100272;11;27
+r;315575387;230256;12100259;11;27
+r;315575397;230256;12100258;11;27
+r;315575530;230256;12100239;11;27
+r;315576181;230256;12100154;11;27
+r;315576593;230256;12100081;11;27
+r;315578173;230256;12099888;11;27
+r;315578230;230256;12099875;11;27
+r;315578266;230256;12099872;11;27
+r;315579039;230256;12099782;11;27
+r;315579049;230256;12099781;11;27
+r;315579059;230256;12099780;11;27
+r;315579069;230256;12099779;11;27
+r;315579989;230256;12099663;11;27
+r;315580020;230256;12099658;11;27
+r;315580044;230256;12099656;11;27
+r;315580073;230256;12099653;11;27
+r;315580313;230256;12099622;11;27
+r;315580339;230256;12099620;11;27
+r;315580352;230256;12099619;11;27
+r;315580365;230256;12099618;11;27
+r;315580378;230256;12099617;11;27
+r;315580595;230256;12099593;11;27
+r;315580708;230256;12099570;11;27
+r;315580724;230256;12099568;11;27
+r;315580734;230256;12099567;11;27
+r;315580768;230256;12099564;11;27
+r;315580804;230256;12099561;11;27
+r;315581426;230256;12099461;11;27
+r;315581453;230256;12099458;11;27
+r;315581465;230256;12099457;11;27
+r;315581477;230256;12099456;11;27
+r;315581499;230256;12099454;11;27
+r;315581509;230256;12099453;11;27
+r;315581624;230256;12099442;11;27
+r;315581745;230256;12099426;11;27
+r;315581755;230256;12099425;11;27
+r;315582028;230256;12099367;11;27
+r;315587682;230256;12098772;11;27
+r;315587692;230256;12098771;11;27
+r;315587807;230256;12098754;11;27
+r;315588973;230256;12098590;11;27
+r;315589111;230256;12098571;11;27
+r;315589141;230256;12098568;11;27
+r;315589424;230256;12098521;11;27
+r;315589434;230256;12098520;11;27
+r;315589452;230256;12098518;11;27
+r;315589462;230256;12098517;11;27
+r;315589472;230256;12098516;11;27
+r;315589801;230256;12098453;11;27
+r;315589819;230256;12098451;11;27
+r;315590384;230256;12098173;11;27
+r;315590420;230256;12098168;11;27
+r;315590502;230256;12098140;11;27
+r;315590713;230256;12098115;11;27
+r;315594600;230256;12097692;11;27
+r;315594640;230256;12097688;11;27
+r;315594700;230256;12097681;11;27
+r;315595765;230256;12097569;11;27
+r;315595795;230256;12097563;11;27
+r;315596253;230256;12097508;11;27
+r;315596496;230256;12097476;11;27
+r;315596506;230256;12097475;11;27
+r;315596779;230256;12097445;11;27
+r;315596791;230256;12097443;11;27
+r;315600157;230256;12096974;11;27
+r;315600359;230256;12096953;11;27
+r;315600380;230256;12096951;11;27
+r;315600390;230256;12096950;11;27
+r;315600400;230256;12096949;11;27
+r;315600412;230256;12096948;11;27
+r;315600438;230256;12096946;11;27
+r;315600720;230256;12096918;11;27
+r;315601069;230256;12096872;11;27
+r;315601172;230256;12096860;11;27
+r;315601182;230256;12096859;11;27
+r;315601192;230256;12096858;11;27
+r;315601202;230256;12096857;11;27
+r;315601240;230256;12096852;11;27
+r;315601284;230256;12096847;11;27
+r;315602654;230256;12096681;11;27
+r;315602706;230256;12096673;11;27
+r;315602876;230256;12096646;11;27
+r;315602904;230256;12096643;11;27
+r;315602914;230256;12096642;11;27
+r;315602964;230256;12096634;11;27
+r;315603166;230256;12096615;11;27
+r;315603212;230256;12096601;11;27
+r;315603222;230256;12096600;11;27
+r;315604948;230256;12096396;11;27
+r;315604977;230256;12096393;11;27
+r;315605141;230256;12096365;11;27
+r;315605217;230256;12096356;11;27
+r;315605331;230256;12096340;11;27
+r;315605375;230256;12096331;11;27
+r;315605385;230256;12096330;11;27
+r;315605685;230256;12096300;11;27
+r;315606172;230256;12096250;11;27
+r;315606210;230256;12096245;11;27
+r;315606220;230256;12096244;11;27
+r;315606230;230256;12096243;11;27
+r;315606248;230256;12096241;11;27
+r;315606272;230256;12096238;11;27
+r;315606399;230256;12096223;11;27
+r;315606425;230256;12096218;11;27
+r;315606443;230256;12096216;11;27
+r;315606715;230256;12096174;11;27
+r;315606740;230256;12096170;11;27
+r;315606766;230256;12096168;11;27
+r;315606886;230256;12096154;11;27
+r;315606897;230256;12096152;11;27
+r;315607985;230256;12096046;11;27
+r;315607999;230256;12096044;11;27
+r;315608011;230256;12096043;11;27
+r;315608023;230256;12096042;11;27
+r;315608037;230256;12096040;11;27
+r;315608059;230256;12096036;11;27
+r;315608073;230256;12096034;11;27
+r;315608097;230256;12096031;11;27
+r;315608107;230256;12096030;11;27
+r;315608117;230256;12096027;11;27
+r;315608127;230256;12096026;11;27
+r;315609785;230256;12095807;11;27
+r;315610230;230256;12095730;11;27
+r;315610961;230256;12095675;11;27
+r;315612307;230256;12095512;11;27
+r;315612430;230256;12095496;11;27
+r;315612606;230256;12095467;11;27
+r;315612624;230256;12095465;11;27
+r;315613013;230256;12095402;11;27
+r;315613132;230256;12095388;11;27
+r;315613142;230256;12095387;11;27
+r;315613162;230256;12095385;11;27
+r;315613251;230256;12095365;11;27
+r;315613261;230256;12095364;11;27
+r;315613535;230256;12095306;11;27
+r;315613557;230256;12095303;11;27
+r;315613567;230256;12095302;11;27
+r;315613605;230256;12095298;11;27
+r;315613625;230256;12095295;11;27
+r;315614311;230256;12095157;11;27
+r;315616271;230256;12094894;11;27
+r;315617542;230256;12094728;11;27
+r;315617565;230256;12094726;11;27
+r;315617578;230256;12094724;11;27
+r;315617591;230256;12094723;11;27
+r;315617603;230256;12094722;11;27
+r;315617617;230256;12094720;11;27
+r;315617631;230256;12094719;11;27
+r;315617693;230256;12094712;11;27
+r;315617705;230256;12094711;11;27
+r;315617754;230256;12094705;11;27
+r;315617764;230256;12094703;11;27
+r;315617798;230256;12094696;11;27
+r;315617856;230256;12094691;11;27
+r;315617866;230256;12094690;11;27
+r;315617934;230256;12094684;11;27
+r;315618161;230256;12094641;11;27
+r;315618171;230256;12094640;11;27
+r;315618367;230256;12094611;11;27
+r;315618377;230256;12094610;11;27
+r;315618395;230256;12094608;11;27
+r;315618405;230256;12094605;11;27
+r;315619939;230256;12094418;11;27
+r;315619981;230256;12094412;11;27
+r;315619991;230256;12094411;11;27
+r;315620001;230256;12094410;11;27
+r;315620780;230256;12094317;11;27
+r;315626336;230256;12093677;11;27
+r;315626346;230256;12093676;11;27
+r;315626356;230256;12093675;11;27
+r;315626366;230256;12093674;11;27
+r;315626376;230256;12093673;11;27
+r;315626394;230256;12093671;11;27
+r;315626404;230256;12093670;11;27
+r;315626414;230256;12093669;11;27
+r;315626515;230256;12093654;11;27
+r;315626807;230256;12093607;11;27
+r;315626817;230256;12093606;11;27
+r;315626827;230256;12093605;11;27
+r;315626837;230256;12093604;11;27
+r;315626847;230256;12093603;11;27
+r;315626857;230256;12093602;11;27
+r;315626867;230256;12093601;11;27
+r;315626892;230256;12091077;11;27
+r;315627849;230256;12093508;11;27
+r;315627859;230256;12093507;11;27
+r;315627910;230256;12093498;11;27
+r;315627920;230256;12093497;11;27
+r;315628095;230256;12093470;11;27
+r;315628369;230256;12093420;11;27
+r;315628452;230256;12093406;11;27
+r;315631815;230256;12093031;11;27
+r;315632394;230256;12092972;11;27
+r;315632854;230256;12092912;11;27
+r;315632937;230256;12092903;11;27
+r;315633005;230256;12092894;11;27
+r;318484476;230256;12238802;11;27
+r;318484500;230256;12238801;11;27
+r;318484522;230256;12238800;11;27
+r;318484542;230256;12238799;11;27
+r;318485568;230256;12238749;11;27
+r;318485598;230256;12238748;11;27
+r;318485622;230256;12238747;11;27
+r;315439867;230256;12088570;11;28
+r;315463777;230256;12089030;11;28
+r;315473464;230256;12089753;11;28
+r;315521159;230256;12105678;11;28
+r;315521181;230256;12105676;11;28
+r;315521203;230256;12105674;11;28
+r;315521342;230256;12105658;11;28
+r;315521352;230256;12105657;11;28
+r;315521378;230256;12105655;11;28
+r;315521388;230256;12105654;11;28
+r;315521398;230256;12105653;11;28
+r;315521710;230256;12105609;11;28
+r;315522603;230256;12105478;11;28
+r;315522801;230256;12105455;11;28
+r;315522968;230256;12105436;11;28
+r;315522978;230256;12105435;11;28
+r;315522993;230256;12105434;11;28
+r;315523008;230256;12105433;11;28
+r;315523018;230256;12105432;11;28
+r;315523744;230256;12105358;11;28
+r;315525386;230256;12105184;11;28
+r;315525396;230256;12105183;11;28
+r;315525406;230256;12105182;11;28
+r;315525420;230256;12105180;11;28
+r;315525430;230256;12105179;11;28
+r;315525850;230256;12105106;11;28
+r;315527810;230256;12104949;11;28
+r;315528129;230256;12104912;11;28
+r;315528357;230256;12104878;11;28
+r;315528598;230256;12104831;11;28
+r;315528608;230256;12104830;11;28
+r;315528700;230256;12104816;11;28
+r;315528715;230256;12104815;11;28
+r;315528730;230256;12104814;11;28
+r;315528753;230256;12104811;11;28
+r;315528767;230256;12104809;11;28
+r;315528928;230256;12104787;11;28
+r;315528954;230256;12104785;11;28
+r;315528972;230256;12104783;11;28
+r;315528982;230256;12104782;11;28
+r;315529056;230256;12104771;11;28
+r;315530164;230256;12104631;11;28
+r;315530236;230256;12104612;11;28
+r;315531364;230256;12104443;11;28
+r;315531409;230256;12104433;11;28
+r;315531664;230256;12104382;11;28
+r;315532178;230256;12104329;11;28
+r;315532482;230256;12104289;11;28
+r;315532492;230256;12104288;11;28
+r;315536640;230256;12104037;11;28
+r;315537453;230256;12103950;11;28
+r;315537573;230256;12103932;11;28
+r;315537601;230256;12103928;11;28
+r;315537630;230256;12103924;11;28
+r;315537702;230256;12103916;11;28
+r;315547913;230256;12103251;11;28
+r;315547923;230256;12103250;11;28
+r;315547933;230256;12103249;11;28
+r;315547943;230256;12103248;11;28
+r;315548087;230256;12103217;11;28
+r;315548400;230256;12103183;11;28
+r;315548537;230256;12103164;11;28
+r;315550362;230256;12102988;11;28
+r;315550603;230256;12102926;11;28
+r;315550613;230256;12102925;11;28
+r;315551606;230256;12102817;11;28
+r;315552072;230256;12102744;11;28
+r;315552099;230256;12102741;11;28
+r;315552109;230256;12102740;11;28
+r;315552158;230256;12102732;11;28
+r;315552180;230256;12102728;11;28
+r;315552212;230256;12102723;11;28
+r;315552991;230256;12102640;11;28
+r;315553001;230256;12102639;11;28
+r;315555048;230256;12102410;11;28
+r;315555088;230256;12102404;11;28
+r;315555413;230256;12102359;11;28
+r;315555480;230256;12102350;11;28
+r;315555942;230256;12102268;11;28
+r;315555960;230256;12102266;11;28
+r;315556997;230256;12102130;11;28
+r;315557007;230256;12102129;11;28
+r;315557015;230256;12102127;11;28
+r;315557598;230256;12102038;11;28
+r;315557611;230256;12102036;11;28
+r;315557827;230256;12102003;11;28
+r;315557857;230256;12102000;11;28
+r;315557871;230256;12101998;11;28
+r;315557881;230256;12101997;11;28
+r;315557927;230256;12101993;11;28
+r;315557937;230256;12101992;11;28
+r;315557947;230256;12101991;11;28
+r;315557957;230256;12101990;11;28
+r;315558610;230256;12101931;11;28
+r;315559845;230256;12101733;11;28
+r;315559920;230256;12101703;11;28
+r;315559930;230256;12101702;11;28
+r;315560008;230256;12101687;11;28
+r;315560026;230256;12101685;11;28
+r;315560081;230256;12101678;11;28
+r;315560899;230256;12101597;11;28
+r;315560960;230256;12101590;11;28
+r;315560982;230256;12101585;11;28
+r;315560992;230256;12101584;11;28
+r;315561002;230256;12101583;11;28
+r;315561018;230256;12101579;11;28
+r;315561032;230256;12101577;11;28
+r;315561156;230256;12101547;11;28
+r;315561292;230256;12101507;11;28
+r;315561340;230256;12101499;11;28
+r;315561499;230256;12101477;11;28
+r;315562694;230256;12101347;11;28
+r;315562781;230256;12101339;11;28
+r;315562791;230256;12101338;11;28
+r;315562801;230256;12101337;11;28
+r;315563199;230256;12101293;11;28
+r;315563249;230256;12101288;11;28
+r;315563279;230256;12101284;11;28
+r;315563323;230256;12101280;11;28
+r;315563333;230256;12101279;11;28
+r;315563353;230256;12101276;11;28
+r;315563363;230256;12101275;11;28
+r;315563391;230256;12101273;11;28
+r;315563586;230256;12101257;11;28
+r;315563629;230256;12101251;11;28
+r;315564414;230256;12101119;11;28
+r;315564440;230256;12101115;11;28
+r;315564567;230256;12101095;11;28
+r;315564578;230256;12101094;11;28
+r;315565157;230256;12101005;11;28
+r;315566122;230256;12100809;11;28
+r;315566267;230256;12100788;11;28
+r;315566609;230256;12100759;11;28
+r;315566714;230256;12100739;11;28
+r;315566741;230256;12100732;11;28
+r;315566751;230256;12100731;11;28
+r;315566775;230256;12100726;11;28
+r;315566806;230256;12100722;11;28
+r;315566836;230256;12100716;11;28
+r;315566846;230256;12100715;11;28
+r;315567170;230256;12100670;11;28
+r;315567195;230256;12100666;11;28
+r;315567205;230256;12100665;11;28
+r;315567352;230256;12100639;11;28
+r;318447871;230256;12240429;11;28
+r;318447895;230256;12240428;11;28
+r;318449702;230256;12240346;11;28
+r;318449726;230256;12240345;11;28
+r;318453186;230256;12240182;11;28
+r;318453210;230256;12240181;11;28
+r;318453490;230256;12240166;11;28
+r;318453514;230256;12240165;11;28
+r;318453598;230256;12240158;11;28
+r;318453628;230256;12240157;11;28
+r;318453652;230256;12240156;11;28
+r;318453676;230256;12240155;11;28
+r;318454353;230256;12240122;11;28
+r;318454377;230256;12240121;11;28
+r;318464525;230256;12239644;11;28
+r;318464549;230256;12239643;11;28
+r;318464573;230256;12239642;11;28
+r;318464601;230256;12239641;11;28
+r;318466333;230256;12239551;11;28
+r;318466357;230256;12239550;11;28
+r;318416580;230256;12241795;11;29
+r;318416604;230256;12241794;11;29
+r;315492776;230256;12108702;11;29
+r;315493496;230256;12108596;11;29
+r;315493522;230256;12108593;11;29
+r;315493532;230256;12108592;11;29
+r;315493568;230256;12108589;11;29
+r;315493603;230256;12108584;11;29
+r;315493647;230256;12108580;11;29
+r;315493771;230256;12108565;11;29
+r;315495835;230256;12108355;11;29
+r;315496664;230256;12108262;11;29
+r;315497065;230256;12108197;11;29
+r;315497454;230256;12108135;11;29
+r;315497464;230256;12108134;11;29
+r;315497504;230256;12108130;11;29
+r;315497526;230256;12108128;11;29
+r;315497577;230256;12108121;11;29
+r;315497739;230256;12108101;11;29
+r;315497818;230256;12108090;11;29
+r;315497896;230256;12108080;11;29
+r;315497922;230256;12108076;11;29
+r;315497940;230256;12108074;11;29
+r;315497950;230256;12108073;11;29
+r;315498279;230256;12108032;11;29
+r;315499627;230256;12107852;11;29
+r;315500095;230256;12107798;11;29
+r;315500133;230256;12107792;11;29
+r;315500151;230256;12107790;11;29
+r;315500173;230256;12107788;11;29
+r;315500183;230256;12107787;11;29
+r;315500735;230256;12107730;11;29
+r;315500967;230256;12107693;11;29
+r;315501001;230256;12107689;11;29
+r;315502377;230256;12107493;11;29
+r;315502673;230256;12107438;11;29
+r;315502683;230256;12107437;11;29
+r;315502693;230256;12107436;11;29
+r;315502703;230256;12107435;11;29
+r;315502713;230256;12107434;11;29
+r;315502723;230256;12107433;11;29
+r;315506335;230256;12107121;11;29
+r;315506350;230256;12107119;11;29
+r;315506447;230256;12107106;11;29
+r;315507512;230256;12106975;11;29
+r;315507615;230256;12106961;11;29
+r;315514217;230256;12106520;11;29
+r;315515315;230256;12106419;11;29
+r;315515456;230256;12106400;11;29
+r;315515516;230256;12106393;11;29
+r;315515526;230256;12106392;11;29
+r;315516779;230256;12106251;11;29
+r;315516805;230256;12106249;11;29
+r;315517117;230256;12106214;11;29
+r;315519583;230256;12105879;11;29
+r;315519627;230256;12105873;11;29
+r;315519651;230256;12105870;11;29
+r;315519661;230256;12105869;11;29
+r;315519671;230256;12105868;11;29
+r;315519681;230256;12105867;11;29
+r;315519691;230256;12105866;11;29
+r;315519765;230256;12105855;11;29
+r;315519775;230256;12105854;11;29
+r;315519785;230256;12105853;11;29
+r;315519813;230256;12105849;11;29
+r;315519823;230256;12105848;11;29
+r;315519833;230256;12105847;11;29
+r;315519843;230256;12105846;11;29
+r;315519853;230256;12105845;11;29
+r;315519863;230256;12105844;11;29
+r;315519883;230256;12105842;11;29
+r;315519893;230256;12105841;11;29
+r;315520075;230256;12105809;11;29
+r;315520085;230256;12105808;11;29
+r;315520169;230256;12105793;11;29
+r;315520179;230256;12105792;11;29
+r;315520189;230256;12105791;11;29
+r;315520199;230256;12105790;11;29
+r;315520219;230256;12105788;11;29
+r;315520229;230256;12105787;11;29
+r;315520239;230256;12105786;11;29
+r;315520249;230256;12105785;11;29
+r;315520259;230256;12105784;11;29
+r;315520418;230256;12105763;11;29
+r;315520464;230256;12105759;11;29
+r;315520490;230256;12105756;11;29
+r;315520520;230256;12105752;11;29
+r;315520943;230256;12105715;11;29
+r;318419504;230256;12241659;11;29
+r;318419528;230256;12241658;11;29
+r;318419552;230256;12241657;11;29
+r;318419576;230256;12241656;11;29
+r;318420073;230256;12241629;11;29
+r;318420097;230256;12241628;11;29
+r;318420121;230256;12241627;11;29
+r;318420145;230256;12241626;11;29
+r;318421257;230256;12241569;11;29
+r;318421281;230256;12241568;11;29
+r;318421714;230256;12241548;11;29
+r;318421738;230256;12241547;11;29
+r;318421762;230256;12241546;11;29
+r;318421786;230256;12241545;11;29
+r;318421810;230256;12241544;11;29
+r;318421834;230256;12241543;11;29
+r;318422333;230256;12241521;11;29
+r;318422357;230256;12241520;11;29
+r;318422381;230256;12241519;11;29
+r;318422405;230256;12241518;11;29
+r;318424490;230256;12241408;11;29
+r;318424514;230256;12241407;11;29
+r;318424538;230256;12241406;11;29
+r;318424562;230256;12241405;11;29
+r;318424586;230256;12241404;11;29
+r;318424610;230256;12241403;11;29
+r;318432539;230256;12241054;11;29
+r;318432563;230256;12241053;11;29
+r;318432587;230256;12241052;11;29
+r;318432611;230256;12241051;11;29
+r;318320594;230256;12241871;11;31
+r;318320618;230256;12241870;11;31
+r;271602178;230256;10838999;11;36
+r;318279426;230256;12242831;11;36
+r;318279450;230256;12242830;11;36
+r;318261368;230256;12243661;11;37
+r;318261392;230256;12243660;11;37
+r;318261414;230256;12243659;11;37
+r;318265099;230256;12243505;11;37
+r;318265123;230256;12243504;11;37
+r;318266146;230256;12243448;11;37
+r;318266170;230256;12243447;11;37
+r;318271941;230256;12243165;11;37
+r;318271963;230256;12243164;11;37
+r;318252447;230256;12244071;11;39
+r;318252471;230256;12244070;11;39
+r;318247297;230256;12244206;11;41
+r;318247321;230256;12244205;11;41
+r;318247566;230256;12244192;11;41
+r;318247590;230256;12244191;11;41
+r;318248066;230256;12244168;11;41
+r;318248090;230256;12244167;11;41
+r;318248114;230256;12244166;11;41
+r;318248138;230256;12244165;11;41
+r;318246460;230256;12244244;11;42
+r;318246484;230256;12244243;11;42
+r;318239033;230256;12244590;11;44
+r;318239057;230256;12244589;11;44
+r;317988351;230256;12244992;11;48
+r;317988375;230256;12244991;11;48
+r;317985105;230256;12245126;11;50
+r;317985129;230256;12245125;11;50
+r;317985381;230256;12245112;11;50
+r;317985405;230256;12245111;11;50
+r;61301402;230256;2675143;11;52
+r;13052350;230256;391391;11;101
+r;1791177;230256;151553;12;17
+r;23472146;230256;152775;12;21
+r;90798892;230256;3576104;18;27
+r;89907204;230256;3575927;18;34
+r;12112149;230256;37302;19;54
+r;12112152;230256;48704;19;54
+r;23473302;230256;28722;23;23
+r;99044697;230256;116162;23;24
+r;27786275;230256;254878;36;6
+r;27094142;230256;254877;36;11
+r;27552772;230256;223172;36;22
+r;33831264;230256;438949;36;40
+r;26513317;230256;241794;36;42
+r;8441147;230256;273221;36;47
+r;9620813;230256;254876;36;83
+r;9235215;230256;223173;36;323
+r;105158319;230256;37302;59;34
+r;324113385;230256;12664462;200;1
+r;324113443;230256;12664464;200;1
+r;324209465;230256;12666989;200;1
+r;324209555;230256;12666993;200;1
+r;342084353;230256;13512284;200;1
+r;324560702;230256;12676682;200;1
+r;324579055;230256;12677067;200;1
+r;324775350;230256;12681795;200;1
+r;324779445;230256;12681911;200;1
+r;324855998;230256;12683749;200;1
+r;325428101;230256;12697289;200;1
+r;326340173;230256;12717222;200;1
+r;326406499;230256;12718134;200;1
+r;326415120;230256;12718290;200;1
+r;326490074;230256;12719917;200;1
+r;326537510;230256;12720881;200;1
+r;326700663;230256;12724373;200;1
+r;327783757;230256;12773854;200;1
+r;327995597;230256;12784444;200;1
+r;328194245;230256;12789921;200;1
+r;328205656;230256;12790182;200;1
+r;328972821;230256;12794157;200;1
+r;329059530;230256;12812795;200;1
+r;329119107;230256;12825716;200;1
+r;329499650;230256;12863469;200;1
+r;330296022;230256;12884128;200;1
+r;330305428;230256;12884262;200;1
+r;332571407;230256;12978802;200;1
+r;333586343;230256;12986089;200;1
+r;334020753;230256;12993695;200;1
+r;335265560;230256;13106508;200;1
+r;337615625;230256;13270137;200;1
+r;342799578;230256;13535021;200;1
+r;363892123;230256;14281607;200;2
+r;324500708;230256;12675053;200;2
+r;324705929;230256;12680116;200;2
+r;325259980;230256;12693269;200;2
+r;326223206;230256;12714806;200;2
+r;326260631;230256;12715583;200;2
+r;326444607;230256;12718993;200;2
+r;326444809;230256;12718996;200;2
+r;326444998;230256;12719000;200;2
+r;326491277;230256;12719949;200;2
+r;326600922;230256;12722187;200;2
+r;326691711;230256;12724195;200;2
+r;327286952;230256;12738131;200;2
+r;338550373;230256;13319622;200;2
+r;338557026;230256;13320386;200;2
+r;342472192;230256;13519505;200;2
+r;342908369;230256;13536563;200;2
+r;343019709;230256;13538211;200;2
+r;344201496;230256;13589771;200;2
+r;344332237;230256;13595068;200;2
+r;345397735;230256;13627909;200;2
+r;345403678;230256;13628016;200;2
+r;345748531;230256;13634254;200;2
+r;346240917;230256;13643648;200;2
+r;347153205;230256;13665967;200;2
+r;350155453;230256;13854740;200;2
+r;352976157;230256;14002690;200;2
+r;354099200;230256;14026361;200;2
+r;354331378;230256;14030746;200;2
+r;357884021;230256;14127559;200;2
+r;358077926;230256;14131317;200;2
+r;359078845;230256;14152518;200;2
+r;359426417;230256;14156958;200;2
+r;359640659;230256;14158187;200;2
+r;359927090;230256;14165641;200;2
+r;364399358;230256;14318853;200;2
+r;364572365;230256;14326372;200;2
+r;325981261;230256;12709723;200;3
+r;326721362;230256;12724826;200;3
+r;329471091;230256;12863211;200;3
+r;329788127;230256;12880673;200;3
+r;336470798;230256;13187056;200;3
+r;340920371;230256;13440506;200;3
+r;342422155;230256;13518969;200;3
+r;324757429;230256;12681361;200;4
+r;326783292;230256;12726405;200;4
+r;345159264;230256;13614562;200;4
+r;353063316;230256;14003948;200;4
+r;356582214;230256;14095411;200;4
+r;324799681;230256;12682346;200;5
+r;325474696;230256;12698438;200;5
+r;329191172;230256;12827128;200;5
+r;324791210;230256;12682151;200;6
+r;347138622;230256;13665608;200;6
+r;354309107;230256;14030381;200;6
+r;325474291;230256;12698425;200;7
+r;325099948;230256;12689769;200;14
+r;74042213;230256;2983124;555;10261
+r;285248050;230256;3562710;999;5
+r;285248057;230256;3562653;999;5
+r;285248076;230256;3562656;999;5
+r;285248084;230256;3562654;999;5
+r;285248093;230256;3562652;999;5
+r;316557839;12196297;230256;0;1
+r;316559101;12195902;230256;0;1
+r;316559133;12195896;230256;0;1
+r;316559146;12195893;230256;0;1
+r;316559185;12195887;230256;0;1
+r;316559255;12195862;230256;0;1
+r;316559301;12195854;230256;0;1
+r;316559565;12195699;230256;0;1
+r;316562701;12194881;230256;0;1
+r;316563886;12194567;230256;0;1
+r;316564530;12194336;230256;0;1
+r;316565178;12193987;230256;0;1
+r;316565191;12193985;230256;0;1
+r;316565241;12193977;230256;0;1
+r;316565269;12193972;230256;0;1
+r;316565341;12193959;230256;0;1
+r;316565640;12193860;230256;0;1
+r;316565759;12193825;230256;0;1
+r;316565883;12193781;230256;0;1
+r;316565922;12193773;230256;0;1
+r;316565946;12193769;230256;0;1
+r;316565959;12193766;230256;0;1
+r;316566608;12193572;230256;0;1
+r;316568968;12192785;230256;0;1
+r;316569698;12192613;230256;0;1
+r;316569769;12192591;230256;0;1
+r;316569808;12192582;230256;0;1
+r;316569887;12192569;230256;0;1
+r;316569900;12192567;230256;0;1
+r;316570717;12192308;230256;0;1
+r;316571143;12192176;230256;0;1
+r;316571191;12192168;230256;0;1
+r;316573425;12191585;230256;0;1
+r;316574213;12191303;230256;0;1
+r;316574226;12191301;230256;0;1
+r;316574239;12191299;230256;0;1
+r;316574250;12191297;230256;0;1
+r;316574263;12191295;230256;0;1
+r;316574276;12191293;230256;0;1
+r;316578556;12190306;230256;0;1
+r;316578577;12190301;230256;0;1
+r;316578742;12190238;230256;0;1
+r;316579761;12189873;230256;0;1
+r;316579936;12189821;230256;0;1
+r;316585335;12188525;230256;0;1
+r;316586670;12188205;230256;0;1
+r;316586914;12188127;230256;0;1
+r;316587000;12188105;230256;0;1
+r;316587013;12188103;230256;0;1
+r;316589186;12187706;230256;0;1
+r;316589220;12187701;230256;0;1
+r;316589638;12187612;230256;0;1
+r;316593216;12186833;230256;0;1
+r;316593278;12186821;230256;0;1
+r;316593313;12186814;230256;0;1
+r;316593326;12186812;230256;0;1
+r;316593337;12186810;230256;0;1
+r;316593350;12186807;230256;0;1
+r;316593363;12186805;230256;0;1
+r;316593499;12186744;230256;0;1
+r;316593512;12186742;230256;0;1
+r;316593527;12186740;230256;0;1
+r;316593589;12186728;230256;0;1
+r;316593604;12186726;230256;0;1
+r;316593617;12186724;230256;0;1
+r;316593630;12186722;230256;0;1
+r;316593643;12186720;230256;0;1
+r;316593656;12186717;230256;0;1
+r;316593684;12186713;230256;0;1
+r;316593699;12186711;230256;0;1
+r;316594061;12186583;230256;0;1
+r;316594074;12186580;230256;0;1
+r;316594231;12186534;230256;0;1
+r;316594244;12186532;230256;0;1
+r;316594257;12186529;230256;0;1
+r;316594270;12186527;230256;0;1
+r;316594296;12186522;230256;0;1
+r;316594309;12186520;230256;0;1
+r;316594322;12186518;230256;0;1
+r;316594335;12186515;230256;0;1
+r;316594348;12186512;230256;0;1
+r;316594618;12186446;230256;0;1
+r;316594679;12186437;230256;0;1
+r;316594730;12186428;230256;0;1
+r;316594776;12186419;230256;0;1
+r;316595196;12186313;230256;0;1
+r;316595530;12186165;230256;0;1
+r;316595558;12186160;230256;0;1
+r;316595586;12186155;230256;0;1
+r;316595805;12186108;230256;0;1
+r;316595818;12186106;230256;0;1
+r;316595852;12186102;230256;0;1
+r;316595865;12186100;230256;0;1
+r;316595878;12186098;230256;0;1
+r;316596461;12185942;230256;0;1
+r;316598074;12185498;230256;0;1
+r;316598449;12185408;230256;0;1
+r;316598713;12185291;230256;0;1
+r;316598726;12185289;230256;0;1
+r;316598744;12185287;230256;0;1
+r;316598762;12185284;230256;0;1
+r;316598775;12185282;230256;0;1
+r;316599876;12184971;230256;0;1
+r;316602631;12184252;230256;0;1
+r;316602642;12184250;230256;0;1
+r;316602657;12184248;230256;0;1
+r;316602670;12184246;230256;0;1
+r;316602690;12184242;230256;0;1
+r;316602705;12184240;230256;0;1
+r;316603528;12183986;230256;0;1
+r;316605672;12183588;230256;0;1
+r;316606142;12183481;230256;0;1
+r;316606562;12183330;230256;0;1
+r;316607135;12183148;230256;0;1
+r;316607155;12183144;230256;0;1
+r;316607305;12183101;230256;0;1
+r;316607323;12183099;230256;0;1
+r;316607341;12183096;230256;0;1
+r;316607368;12183085;230256;0;1
+r;316607397;12183078;230256;0;1
+r;316607667;12182997;230256;0;1
+r;316607701;12182993;230256;0;1
+r;316607725;12182989;230256;0;1
+r;316607738;12182986;230256;0;1
+r;316607845;12182962;230256;0;1
+r;316609569;12182418;230256;0;1
+r;316609774;12182316;230256;0;1
+r;316611544;12181833;230256;0;1
+r;316611557;12181831;230256;0;1
+r;316611653;12181792;230256;0;1
+r;316612193;12181590;230256;0;1
+r;316612863;12181443;230256;0;1
+r;316613359;12181231;230256;0;1
+r;316613372;12181229;230256;0;1
+r;316618691;12180365;230256;0;1
+r;316619693;12180153;230256;0;1
+r;316619900;12180066;230256;0;1
+r;316619944;12180058;230256;0;1
+r;316619999;12180043;230256;0;1
+r;316620120;12179986;230256;0;1
+r;316634996;12178444;230256;0;1
+r;316635009;12178441;230256;0;1
+r;316635022;12178439;230256;0;1
+r;316635033;12178436;230256;0;1
+r;316635307;12178329;230256;0;1
+r;316635667;12178254;230256;0;1
+r;316635912;12178197;230256;0;1
+r;316638613;12177549;230256;0;1
+r;316639296;12177099;230256;0;1
+r;316639311;12177097;230256;0;1
+r;316640664;12176747;230256;0;1
+r;316641648;12176426;230256;0;1
+r;316641697;12176418;230256;0;1
+r;316641710;12176416;230256;0;1
+r;316641799;12176390;230256;0;1
+r;316641836;12176381;230256;0;1
+r;316641885;12176370;230256;0;1
+r;316642866;12176078;230256;0;1
+r;316642879;12176075;230256;0;1
+r;316645722;12175319;230256;0;1
+r;316645800;12175300;230256;0;1
+r;316646197;12175178;230256;0;1
+r;316646284;12175158;230256;0;1
+r;316647170;12174660;230256;0;1
+r;316647194;12174655;230256;0;1
+r;316648605;12174080;230256;0;1
+r;316648618;12174078;230256;0;1
+r;316648641;12174071;230256;0;1
+r;316649511;12173771;230256;0;1
+r;316649529;12173767;230256;0;1
+r;316650116;12173259;230256;0;1
+r;316650149;12173251;230256;0;1
+r;316650169;12173246;230256;0;1
+r;316650182;12173243;230256;0;1
+r;316650234;12173232;230256;0;1
+r;316650247;12173227;230256;0;1
+r;316650260;12173225;230256;0;1
+r;316650273;12173222;230256;0;1
+r;316651319;12172998;230256;0;1
+r;316653321;12172263;230256;0;1
+r;316653624;12172119;230256;0;1
+r;316653637;12172117;230256;0;1
+r;316653843;12171995;230256;0;1
+r;316653867;12171990;230256;0;1
+r;316653955;12171965;230256;0;1
+r;316655032;12171573;230256;0;1
+r;316655114;12171552;230256;0;1
+r;316655150;12171516;230256;0;1
+r;316655161;12171514;230256;0;1
+r;316655174;12171512;230256;0;1
+r;316655206;12171503;230256;0;1
+r;316655226;12171499;230256;0;1
+r;316655559;12171376;230256;0;1
+r;316655864;12171247;230256;0;1
+r;316655976;12171211;230256;0;1
+r;316656319;12171114;230256;0;1
+r;316658403;12170626;230256;0;1
+r;316658516;12170608;230256;0;1
+r;316658529;12170606;230256;0;1
+r;316658542;12170603;230256;0;1
+r;316659248;12170435;230256;0;1
+r;316659431;12170403;230256;0;1
+r;316659477;12170394;230256;0;1
+r;316659601;12170373;230256;0;1
+r;316659620;12170369;230256;0;1
+r;316659648;12170363;230256;0;1
+r;316659659;12170361;230256;0;1
+r;316659689;12170356;230256;0;1
+r;316659954;12170323;230256;0;1
+r;316660016;12170310;230256;0;1
+r;316661416;12169775;230256;0;1
+r;316661457;12169767;230256;0;1
+r;316661744;12169688;230256;0;1
+r;316661757;12169686;230256;0;1
+r;316662955;12169357;230256;0;1
+r;316665151;12168325;230256;0;1
+r;316665478;12168158;230256;0;1
+r;316665914;12168048;230256;0;1
+r;316666103;12168000;230256;0;1
+r;316666171;12167973;230256;0;1
+r;316666184;12167971;230256;0;1
+r;316666258;12167941;230256;0;1
+r;316666314;12167929;230256;0;1
+r;316666378;12167908;230256;0;1
+r;316666391;12167906;230256;0;1
+r;316666904;12167784;230256;0;1
+r;316666956;12167763;230256;0;1
+r;316666969;12167761;230256;0;1
+r;316667225;12167670;230256;0;1
+r;316667928;12167506;230256;0;1
+r;316667945;12167504;230256;0;1
+r;316667962;12167502;230256;0;1
+r;316671288;12166532;230256;0;1
+r;316671301;12166530;230256;0;1
+r;316671563;12166384;230256;0;1
+r;316671576;12166381;230256;0;1
+r;316671860;12166299;230256;0;1
+r;316672828;12166004;230256;0;1
+r;316673641;12165564;230256;0;1
+r;316676986;12164780;230256;0;1
+r;316677093;12164747;230256;0;1
+r;316677142;12164741;230256;0;1
+r;316678208;12164500;230256;0;1
+r;316678223;12164498;230256;0;1
+r;316678238;12164496;230256;0;1
+r;316678251;12164493;230256;0;1
+r;316679622;12164072;230256;0;1
+r;316679680;12164052;230256;0;1
+r;316679704;12164045;230256;0;1
+r;316679741;12164039;230256;0;1
+r;316680077;12163971;230256;0;1
+r;316680109;12163967;230256;0;1
+r;316680126;12163965;230256;0;1
+r;316680143;12163963;230256;0;1
+r;316680158;12163961;230256;0;1
+r;316680495;12163906;230256;0;1
+r;316680828;12163776;230256;0;1
+r;316680852;12163772;230256;0;1
+r;316680865;12163770;230256;0;1
+r;316680910;12163764;230256;0;1
+r;316680957;12163758;230256;0;1
+r;316682065;12163428;230256;0;1
+r;316682098;12163420;230256;0;1
+r;316682115;12163417;230256;0;1
+r;316682130;12163415;230256;0;1
+r;316682160;12163411;230256;0;1
+r;316682175;12163409;230256;0;1
+r;316682188;12163407;230256;0;1
+r;316682315;12163383;230256;0;1
+r;316682493;12163340;230256;0;1
+r;316682506;12163338;230256;0;1
+r;316683062;12163098;230256;0;1
+r;316689629;12161074;230256;0;1
+r;316689642;12161072;230256;0;1
+r;316689822;12161030;230256;0;1
+r;316691642;12160369;230256;0;1
+r;316691836;12160323;230256;0;1
+r;316691906;12160311;230256;0;1
+r;316692410;12160157;230256;0;1
+r;316692425;12160155;230256;0;1
+r;316692449;12160149;230256;0;1
+r;316692462;12160147;230256;0;1
+r;316692475;12160145;230256;0;1
+r;316692973;12159936;230256;0;1
+r;316692997;12159932;230256;0;1
+r;316695162;12158953;230256;0;1
+r;316695219;12158942;230256;0;1
+r;316695489;12158812;230256;0;1
+r;316695737;12158753;230256;0;1
+r;316700792;12156876;230256;0;1
+r;316700946;12156849;230256;0;1
+r;316701063;12156828;230256;0;1
+r;316702358;12156494;230256;0;1
+r;316702447;12156471;230256;0;1
+r;316703022;12156318;230256;0;1
+r;316703452;12156179;230256;0;1
+r;316703465;12156176;230256;0;1
+r;316703794;12156108;230256;0;1
+r;316703816;12156104;230256;0;1
+r;316709843;12154537;230256;0;1
+r;316710169;12154445;230256;0;1
+r;316710195;12154440;230256;0;1
+r;316710208;12154438;230256;0;1
+r;316710221;12154435;230256;0;1
+r;316710238;12154433;230256;0;1
+r;316710272;12154428;230256;0;1
+r;316710659;12154338;230256;0;1
+r;316711186;12154205;230256;0;1
+r;316711338;12154170;230256;0;1
+r;316711351;12154168;230256;0;1
+r;316711364;12154166;230256;0;1
+r;316711377;12154164;230256;0;1
+r;316711390;12154162;230256;0;1
+r;316711474;12154145;230256;0;1
+r;316711580;12154113;230256;0;1
+r;316713839;12153508;230256;0;1
+r;316713927;12153482;230256;0;1
+r;316714282;12153356;230256;0;1
+r;316714319;12153350;230256;0;1
+r;316714332;12153348;230256;0;1
+r;316714438;12153318;230256;0;1
+r;316714678;12153266;230256;0;1
+r;316714817;12153212;230256;0;1
+r;316714830;12153209;230256;0;1
+r;316717044;12152635;230256;0;1
+r;316717079;12152627;230256;0;1
+r;316717434;12152425;230256;0;1
+r;316717547;12152393;230256;0;1
+r;316717713;12152346;230256;0;1
+r;316717796;12152322;230256;0;1
+r;316717809;12152320;230256;0;1
+r;316718133;12152232;230256;0;1
+r;316718940;12152031;230256;0;1
+r;316719001;12152021;230256;0;1
+r;316719014;12152017;230256;0;1
+r;316719025;12152015;230256;0;1
+r;316719049;12152010;230256;0;1
+r;316719091;12152002;230256;0;1
+r;316719291;12151970;230256;0;1
+r;316719336;12151959;230256;0;1
+r;316719360;12151955;230256;0;1
+r;316725789;12149887;230256;0;1
+r;316725827;12149879;230256;0;1
+r;316725859;12149874;230256;0;1
+r;316726032;12149829;230256;0;1
+r;316726062;12149820;230256;0;1
+r;316727574;12149506;230256;0;1
+r;316727594;12149502;230256;0;1
+r;316727611;12149499;230256;0;1
+r;316727628;12149496;230256;0;1
+r;316727648;12149492;230256;0;1
+r;316727686;12149484;230256;0;1
+r;316727706;12149480;230256;0;1
+r;316727758;12149471;230256;0;1
+r;316727773;12149469;230256;0;1
+r;316727794;12149463;230256;0;1
+r;316727807;12149460;230256;0;1
+r;316730184;12148578;230256;0;1
+r;316730816;12148306;230256;0;1
+r;316731731;12148064;230256;0;1
+r;316733710;12147446;230256;0;1
+r;316733903;12147392;230256;0;1
+r;316734203;12147289;230256;0;1
+r;316734242;12147282;230256;0;1
+r;316734951;12146969;230256;0;1
+r;316735105;12146929;230256;0;1
+r;316735125;12146925;230256;0;1
+r;316735156;12146918;230256;0;1
+r;316735340;12146862;230256;0;1
+r;316735353;12146860;230256;0;1
+r;316735995;12146630;230256;0;1
+r;316736032;12146624;230256;0;1
+r;316736045;12146622;230256;0;1
+r;316736125;12146609;230256;0;1
+r;316736151;12146602;230256;0;1
+r;316737763;12145919;230256;0;1
+r;316742669;12144659;230256;0;1
+r;316742707;12144651;230256;0;1
+r;316745121;12143867;230256;0;1
+r;316747225;12143200;230256;0;1
+r;316747270;12143192;230256;0;1
+r;316747307;12143187;230256;0;1
+r;316747322;12143185;230256;0;1
+r;316747337;12143183;230256;0;1
+r;316747358;12143179;230256;0;1
+r;316747375;12143176;230256;0;1
+r;316747460;12143162;230256;0;1
+r;316747477;12143160;230256;0;1
+r;316747490;12143158;230256;0;1
+r;316747555;12143146;230256;0;1
+r;316747585;12143140;230256;0;1
+r;316747730;12143115;230256;0;1
+r;316747809;12143102;230256;0;1
+r;316747824;12143100;230256;0;1
+r;316747837;12143098;230256;0;1
+r;316748131;12143050;230256;0;1
+r;316748848;12142798;230256;0;1
+r;316748861;12142796;230256;0;1
+r;316749195;12142665;230256;0;1
+r;316749210;12142663;230256;0;1
+r;316749234;12142659;230256;0;1
+r;316749253;12142647;230256;0;1
+r;316751894;12141902;230256;0;1
+r;316751943;12141892;230256;0;1
+r;316751973;12141887;230256;0;1
+r;316751986;12141885;230256;0;1
+r;316753333;12141427;230256;0;1
+r;316761869;12139451;230256;0;1
+r;316761882;12139448;230256;0;1
+r;316761895;12139446;230256;0;1
+r;316761908;12139443;230256;0;1
+r;316761919;12139441;230256;0;1
+r;316761943;12139437;230256;0;1
+r;316761954;12139435;230256;0;1
+r;316761967;12139433;230256;0;1
+r;316762142;12139367;230256;0;1
+r;316762744;12139099;230256;0;1
+r;316762759;12139097;230256;0;1
+r;316762774;12139095;230256;0;1
+r;316762787;12139093;230256;0;1
+r;316762800;12139091;230256;0;1
+r;316762813;12139088;230256;0;1
+r;316762826;12139085;230256;0;1
+r;316764269;12138709;230256;0;1
+r;316764284;12138707;230256;0;1
+r;316764401;12138669;230256;0;1
+r;316764414;12138667;230256;0;1
+r;316764750;12138574;230256;0;1
+r;316765253;12138378;230256;0;1
+r;316765427;12138331;230256;0;1
+r;316771063;12136600;230256;0;1
+r;316771750;12136474;230256;0;1
+r;316772439;12136272;230256;0;1
+r;316772644;12136237;230256;0;1
+r;316772657;12136230;230256;0;1
+r;316772760;12136212;230256;0;1
+r;316776373;12134821;230256;0;1
+r;316776415;12134812;230256;0;1
+r;316776484;12134802;230256;0;1
+r;316776544;12134794;230256;0;1
+r;316780485;12133186;230256;0;1
+r;316780533;12133178;230256;0;1
+r;316780594;12133166;230256;0;1
+r;316780657;12133154;230256;0;1
+r;316781082;12133033;230256;0;1
+r;316781114;12133021;230256;0;1
+r;316781890;12132763;230256;0;1
+r;316781905;12132761;230256;0;1
+r;316782947;12132382;230256;0;1
+r;316784681;12131963;230256;0;1
+r;316787143;12131340;230256;0;1
+r;316787154;12131338;230256;0;1
+r;316787211;12131328;230256;0;1
+r;316787237;12131324;230256;0;1
+r;316787314;12131308;230256;0;1
+r;316787391;12131296;230256;0;1
+r;318612086;12235050;230256;0;1
+r;318612110;12235049;230256;0;1
+r;318621397;12234559;230256;0;1
+r;318621421;12234558;230256;0;1
+r;318623244;12234460;230256;0;1
+r;318623268;12234459;230256;0;1
+r;318624273;12234417;230256;0;1
+r;318624297;12234416;230256;0;1
+r;318624401;12234411;230256;0;1
+r;318624425;12234410;230256;0;1
+r;318624831;12234389;230256;0;1
+r;318624855;12234388;230256;0;1
+r;318625539;12234357;230256;0;1
+r;318625563;12234356;230256;0;1
+r;318636275;12233846;230256;0;1
+r;318636299;12233845;230256;0;1
+r;318637241;12233805;230256;0;1
+r;318637265;12233804;230256;0;1
+r;318639527;12233695;230256;0;1
+r;318639551;12233694;230256;0;1
+r;318645405;12233423;230256;0;1
+r;318645433;12233422;230256;0;1
+r;318656978;12232951;230256;0;1
+r;318657002;12232950;230256;0;1
+r;318660871;12232790;230256;0;1
+r;318660895;12232789;230256;0;1
+r;318661094;12232780;230256;0;1
+r;318661124;12232779;230256;0;1
+r;318661148;12232778;230256;0;1
+r;318661172;12232777;230256;0;1
+r;318663010;12232691;230256;0;1
+r;318663038;12232690;230256;0;1
+r;318666318;12232553;230256;0;1
+r;318666346;12232552;230256;0;1
+r;315634920;12092603;230256;0;2
+r;315634950;12092599;230256;0;2
+r;315635004;12092594;230256;0;2
+r;315635048;12092590;230256;0;2
+r;315637017;12092026;230256;0;2
+r;315637049;12092022;230256;0;2
+r;315637085;12092017;230256;0;2
+r;315637104;12092014;230256;0;2
+r;315637334;12091985;230256;0;2
+r;315637344;12091984;230256;0;2
+r;315637918;12091912;230256;0;2
+r;315638449;12091846;230256;0;2
+r;315639546;12091726;230256;0;2
+r;315641064;12091533;230256;0;2
+r;315641074;12091532;230256;0;2
+r;315641110;12091527;230256;0;2
+r;315641128;12091525;230256;0;2
+r;315641188;12091518;230256;0;2
+r;315641240;12091512;230256;0;2
+r;315642328;12091369;230256;0;2
+r;315642338;12091367;230256;0;2
+r;315643018;12091291;230256;0;2
+r;315643048;12091287;230256;0;2
+r;315643082;12091284;230256;0;2
+r;315643133;12091277;230256;0;2
+r;318544935;12238186;230256;0;2
+r;318544959;12238185;230256;0;2
+r;318547894;12238037;230256;0;2
+r;318547918;12238036;230256;0;2
+r;318551288;12237889;230256;0;2
+r;318551312;12237888;230256;0;2
+r;318559493;12237548;230256;0;2
+r;318559517;12237547;230256;0;2
+r;318560273;12237509;230256;0;2
+r;318560297;12237508;230256;0;2
+r;318565307;12237236;230256;0;2
+r;318565329;12237235;230256;0;2
+r;318574020;12236789;230256;0;2
+r;318574050;12236788;230256;0;2
+r;318574074;12236787;230256;0;2
+r;318574102;12236786;230256;0;2
+r;318574126;12236785;230256;0;2
+r;318574150;12236784;230256;0;2
+r;318574174;12236783;230256;0;2
+r;318574346;12236776;230256;0;2
+r;318574370;12236775;230256;0;2
+r;318574394;12236774;230256;0;2
+r;318574422;12236773;230256;0;2
+r;318574450;12236772;230256;0;2
+r;318574474;12236771;230256;0;2
+r;318576538;12236684;230256;0;2
+r;318576562;12236683;230256;0;2
+r;318584082;12236301;230256;0;2
+r;318584106;12236300;230256;0;2
+r;318585342;12236237;230256;0;2
+r;318585366;12236236;230256;0;2
+r;318586380;12236179;230256;0;2
+r;318586404;12236178;230256;0;2
+r;318586536;12236172;230256;0;2
+r;318586562;12236171;230256;0;2
+r;318591980;12235952;230256;0;2
+r;318592004;12235951;230256;0;2
+r;318592600;12235917;230256;0;2
+r;318592624;12235916;230256;0;2
+r;318594871;12235802;230256;0;2
+r;318594897;12235801;230256;0;2
+r;318603025;12235480;230256;0;2
+r;318603049;12235479;230256;0;2
+r;318604067;12235434;230256;0;2
+r;318604090;12235433;230256;0;2
+r;318604114;12235432;230256;0;2
+r;318604138;12235431;230256;0;2
+r;318604162;12235430;230256;0;2
+r;318604186;12235429;230256;0;2
+r;318604209;12235428;230256;0;2
+r;318604232;12235427;230256;0;2
+r;318604256;12235426;230256;0;2
+r;318604280;12235425;230256;0;2
+r;318604304;12235424;230256;0;2
+r;318604328;12235423;230256;0;2
+r;318604352;12235422;230256;0;2
+r;318604376;12235421;230256;0;2
+r;318609812;12235162;230256;0;2
+r;318609836;12235161;230256;0;2
+r;315478967;12090044;230256;0;3
+r;315483334;12090027;230256;0;3
+r;315422919;12088568;230256;0;3
+r;315423252;12088569;230256;0;3
+r;315423701;12088598;230256;0;3
+r;315429632;12088567;230256;0;3
+r;315429681;12088597;230256;0;3
+r;315429704;12088566;230256;0;3
+r;315430545;12088611;230256;0;3
+r;315434562;12088711;230256;0;3
+r;315434611;12088754;230256;0;3
+r;315434844;12088710;230256;0;3
+r;315440189;12088756;230256;0;3
+r;315443624;12088882;230256;0;3
+r;315457346;12088868;230256;0;3
+r;315461143;12088867;230256;0;3
+r;315461250;12088871;230256;0;3
+r;315461429;12088937;230256;0;3
+r;315462099;12088966;230256;0;3
+r;315462167;12088943;230256;0;3
+r;315462474;12088979;230256;0;3
+r;315462550;12088963;230256;0;3
+r;315462925;12088866;230256;0;3
+r;315463477;12088869;230256;0;3
+r;315465225;12089111;230256;0;3
+r;315467791;12089348;230256;0;3
+r;315468504;12089347;230256;0;3
+r;315471787;12089641;230256;0;3
+r;315471985;12089741;230256;0;3
+r;315472270;12089744;230256;0;3
+r;315472386;12089790;230256;0;3
+r;315472592;12089750;230256;0;3
+r;315472870;12089793;230256;0;3
+r;315472948;12089761;230256;0;3
+r;315473270;12089760;230256;0;3
+r;315473610;12089785;230256;0;3
+r;315473703;12089909;230256;0;3
+r;315473904;12089879;230256;0;3
+r;315474181;12089860;230256;0;3
+r;315474315;12089875;230256;0;3
+r;315474486;12089752;230256;0;3
+r;315474962;12090012;230256;0;3
+r;315475093;12090001;230256;0;3
+r;315475157;12090023;230256;0;3
+r;315476060;12090007;230256;0;3
+r;315476569;12090019;230256;0;3
+r;315476667;12089880;230256;0;3
+r;315568152;12090706;230256;0;3
+r;315568210;12090711;230256;0;3
+r;315568977;12090712;230256;0;3
+r;315568994;12090707;230256;0;3
+r;315569107;12090727;230256;0;3
+r;315569295;12090729;230256;0;3
+r;315570367;12090708;230256;0;3
+r;315571441;12090878;230256;0;3
+r;315572477;12091050;230256;0;3
+r;315572660;12100571;230256;0;3
+r;315572680;12100570;230256;0;3
+r;315572700;12100569;230256;0;3
+r;315575328;12100273;230256;0;3
+r;315575338;12100272;230256;0;3
+r;315575388;12100259;230256;0;3
+r;315575398;12100258;230256;0;3
+r;315575531;12100239;230256;0;3
+r;315576182;12100154;230256;0;3
+r;315576594;12100081;230256;0;3
+r;315578174;12099888;230256;0;3
+r;315578231;12099875;230256;0;3
+r;315578267;12099872;230256;0;3
+r;315579040;12099782;230256;0;3
+r;315579050;12099781;230256;0;3
+r;315579060;12099780;230256;0;3
+r;315579070;12099779;230256;0;3
+r;315579990;12099663;230256;0;3
+r;315580021;12099658;230256;0;3
+r;315580045;12099656;230256;0;3
+r;315580074;12099653;230256;0;3
+r;315580314;12099622;230256;0;3
+r;315580340;12099620;230256;0;3
+r;315580353;12099619;230256;0;3
+r;315580366;12099618;230256;0;3
+r;315580379;12099617;230256;0;3
+r;315580596;12099593;230256;0;3
+r;315580709;12099570;230256;0;3
+r;315580725;12099568;230256;0;3
+r;315580735;12099567;230256;0;3
+r;315580769;12099564;230256;0;3
+r;315580805;12099561;230256;0;3
+r;315581427;12099461;230256;0;3
+r;315581454;12099458;230256;0;3
+r;315581466;12099457;230256;0;3
+r;315581478;12099456;230256;0;3
+r;315581500;12099454;230256;0;3
+r;315581510;12099453;230256;0;3
+r;315581625;12099442;230256;0;3
+r;315581746;12099426;230256;0;3
+r;315581756;12099425;230256;0;3
+r;315582029;12099367;230256;0;3
+r;315587683;12098772;230256;0;3
+r;315587693;12098771;230256;0;3
+r;315587808;12098754;230256;0;3
+r;315588974;12098590;230256;0;3
+r;315589112;12098571;230256;0;3
+r;315589142;12098568;230256;0;3
+r;315589425;12098521;230256;0;3
+r;315589435;12098520;230256;0;3
+r;315589453;12098518;230256;0;3
+r;315589463;12098517;230256;0;3
+r;315589473;12098516;230256;0;3
+r;315589802;12098453;230256;0;3
+r;315589820;12098451;230256;0;3
+r;315590385;12098173;230256;0;3
+r;315590421;12098168;230256;0;3
+r;315590503;12098140;230256;0;3
+r;315590714;12098115;230256;0;3
+r;315594601;12097692;230256;0;3
+r;315594641;12097688;230256;0;3
+r;315594701;12097681;230256;0;3
+r;315595766;12097569;230256;0;3
+r;315595796;12097563;230256;0;3
+r;315596254;12097508;230256;0;3
+r;315596497;12097476;230256;0;3
+r;315596507;12097475;230256;0;3
+r;315596780;12097445;230256;0;3
+r;315596792;12097443;230256;0;3
+r;315600158;12096974;230256;0;3
+r;315600360;12096953;230256;0;3
+r;315600381;12096951;230256;0;3
+r;315600391;12096950;230256;0;3
+r;315600401;12096949;230256;0;3
+r;315600413;12096948;230256;0;3
+r;315600439;12096946;230256;0;3
+r;315600721;12096918;230256;0;3
+r;315601070;12096872;230256;0;3
+r;315601173;12096860;230256;0;3
+r;315601183;12096859;230256;0;3
+r;315601193;12096858;230256;0;3
+r;315601203;12096857;230256;0;3
+r;315601241;12096852;230256;0;3
+r;315601285;12096847;230256;0;3
+r;315602655;12096681;230256;0;3
+r;315602707;12096673;230256;0;3
+r;315602877;12096646;230256;0;3
+r;315602905;12096643;230256;0;3
+r;315602915;12096642;230256;0;3
+r;315602965;12096634;230256;0;3
+r;315603167;12096615;230256;0;3
+r;315603213;12096601;230256;0;3
+r;315603223;12096600;230256;0;3
+r;315604949;12096396;230256;0;3
+r;315604978;12096393;230256;0;3
+r;315605142;12096365;230256;0;3
+r;315605218;12096356;230256;0;3
+r;315605332;12096340;230256;0;3
+r;315605376;12096331;230256;0;3
+r;315605386;12096330;230256;0;3
+r;315605686;12096300;230256;0;3
+r;315606173;12096250;230256;0;3
+r;315606211;12096245;230256;0;3
+r;315606221;12096244;230256;0;3
+r;315606231;12096243;230256;0;3
+r;315606249;12096241;230256;0;3
+r;315606273;12096238;230256;0;3
+r;315606400;12096223;230256;0;3
+r;315606426;12096218;230256;0;3
+r;315606444;12096216;230256;0;3
+r;315606716;12096174;230256;0;3
+r;315606741;12096170;230256;0;3
+r;315606767;12096168;230256;0;3
+r;315606887;12096154;230256;0;3
+r;315606898;12096152;230256;0;3
+r;315607986;12096046;230256;0;3
+r;315608000;12096044;230256;0;3
+r;315608012;12096043;230256;0;3
+r;315608024;12096042;230256;0;3
+r;315608038;12096040;230256;0;3
+r;315608060;12096036;230256;0;3
+r;315608074;12096034;230256;0;3
+r;315608098;12096031;230256;0;3
+r;315608108;12096030;230256;0;3
+r;315608118;12096027;230256;0;3
+r;315608128;12096026;230256;0;3
+r;315609786;12095807;230256;0;3
+r;315610231;12095730;230256;0;3
+r;315610962;12095675;230256;0;3
+r;315612308;12095512;230256;0;3
+r;315612431;12095496;230256;0;3
+r;315612607;12095467;230256;0;3
+r;315612625;12095465;230256;0;3
+r;315613014;12095402;230256;0;3
+r;315613133;12095388;230256;0;3
+r;315613143;12095387;230256;0;3
+r;315613163;12095385;230256;0;3
+r;315613252;12095365;230256;0;3
+r;315613262;12095364;230256;0;3
+r;315613536;12095306;230256;0;3
+r;315613558;12095303;230256;0;3
+r;315613568;12095302;230256;0;3
+r;315613606;12095298;230256;0;3
+r;315613626;12095295;230256;0;3
+r;315614312;12095157;230256;0;3
+r;315616272;12094894;230256;0;3
+r;315617543;12094728;230256;0;3
+r;315617566;12094726;230256;0;3
+r;315617579;12094724;230256;0;3
+r;315617592;12094723;230256;0;3
+r;315617604;12094722;230256;0;3
+r;315617618;12094720;230256;0;3
+r;315617632;12094719;230256;0;3
+r;315617694;12094712;230256;0;3
+r;315617706;12094711;230256;0;3
+r;315617755;12094705;230256;0;3
+r;315617765;12094703;230256;0;3
+r;315617799;12094696;230256;0;3
+r;315617857;12094691;230256;0;3
+r;315617867;12094690;230256;0;3
+r;315617935;12094684;230256;0;3
+r;315618162;12094641;230256;0;3
+r;315618172;12094640;230256;0;3
+r;315618368;12094611;230256;0;3
+r;315618378;12094610;230256;0;3
+r;315618396;12094608;230256;0;3
+r;315618406;12094605;230256;0;3
+r;315619940;12094418;230256;0;3
+r;315619982;12094412;230256;0;3
+r;315619992;12094411;230256;0;3
+r;315620002;12094410;230256;0;3
+r;315620781;12094317;230256;0;3
+r;315626337;12093677;230256;0;3
+r;315626347;12093676;230256;0;3
+r;315626357;12093675;230256;0;3
+r;315626367;12093674;230256;0;3
+r;315626377;12093673;230256;0;3
+r;315626395;12093671;230256;0;3
+r;315626405;12093670;230256;0;3
+r;315626415;12093669;230256;0;3
+r;315626516;12093654;230256;0;3
+r;315626808;12093607;230256;0;3
+r;315626818;12093606;230256;0;3
+r;315626828;12093605;230256;0;3
+r;315626838;12093604;230256;0;3
+r;315626848;12093603;230256;0;3
+r;315626858;12093602;230256;0;3
+r;315626868;12093601;230256;0;3
+r;315626893;12091077;230256;0;3
+r;315627850;12093508;230256;0;3
+r;315627860;12093507;230256;0;3
+r;315627911;12093498;230256;0;3
+r;315627921;12093497;230256;0;3
+r;315628096;12093470;230256;0;3
+r;315628370;12093420;230256;0;3
+r;315628453;12093406;230256;0;3
+r;315631816;12093031;230256;0;3
+r;315632395;12092972;230256;0;3
+r;315632855;12092912;230256;0;3
+r;315632938;12092903;230256;0;3
+r;315633006;12092894;230256;0;3
+r;318484477;12238802;230256;0;3
+r;318484501;12238801;230256;0;3
+r;318484523;12238800;230256;0;3
+r;318484543;12238799;230256;0;3
+r;318485569;12238749;230256;0;3
+r;318485599;12238748;230256;0;3
+r;318485623;12238747;230256;0;3
+r;315439868;12088570;230256;0;4
+r;315463778;12089030;230256;0;4
+r;315473465;12089753;230256;0;4
+r;315521160;12105678;230256;0;4
+r;315521182;12105676;230256;0;4
+r;315521204;12105674;230256;0;4
+r;315521343;12105658;230256;0;4
+r;315521353;12105657;230256;0;4
+r;315521379;12105655;230256;0;4
+r;315521389;12105654;230256;0;4
+r;315521399;12105653;230256;0;4
+r;315521711;12105609;230256;0;4
+r;315522604;12105478;230256;0;4
+r;315522802;12105455;230256;0;4
+r;315522969;12105436;230256;0;4
+r;315522979;12105435;230256;0;4
+r;315522994;12105434;230256;0;4
+r;315523009;12105433;230256;0;4
+r;315523019;12105432;230256;0;4
+r;315523745;12105358;230256;0;4
+r;315525387;12105184;230256;0;4
+r;315525397;12105183;230256;0;4
+r;315525407;12105182;230256;0;4
+r;315525421;12105180;230256;0;4
+r;315525431;12105179;230256;0;4
+r;315525851;12105106;230256;0;4
+r;315527811;12104949;230256;0;4
+r;315528130;12104912;230256;0;4
+r;315528358;12104878;230256;0;4
+r;315528599;12104831;230256;0;4
+r;315528609;12104830;230256;0;4
+r;315528701;12104816;230256;0;4
+r;315528716;12104815;230256;0;4
+r;315528731;12104814;230256;0;4
+r;315528754;12104811;230256;0;4
+r;315528768;12104809;230256;0;4
+r;315528929;12104787;230256;0;4
+r;315528955;12104785;230256;0;4
+r;315528973;12104783;230256;0;4
+r;315528983;12104782;230256;0;4
+r;315529057;12104771;230256;0;4
+r;315530165;12104631;230256;0;4
+r;315530237;12104612;230256;0;4
+r;315531365;12104443;230256;0;4
+r;315531410;12104433;230256;0;4
+r;315531665;12104382;230256;0;4
+r;315532179;12104329;230256;0;4
+r;315532483;12104289;230256;0;4
+r;315532493;12104288;230256;0;4
+r;315536641;12104037;230256;0;4
+r;315537454;12103950;230256;0;4
+r;315537574;12103932;230256;0;4
+r;315537602;12103928;230256;0;4
+r;315537631;12103924;230256;0;4
+r;315537703;12103916;230256;0;4
+r;315547914;12103251;230256;0;4
+r;315547924;12103250;230256;0;4
+r;315547934;12103249;230256;0;4
+r;315547944;12103248;230256;0;4
+r;315548088;12103217;230256;0;4
+r;315548401;12103183;230256;0;4
+r;315548538;12103164;230256;0;4
+r;315550363;12102988;230256;0;4
+r;315550604;12102926;230256;0;4
+r;315550614;12102925;230256;0;4
+r;315551607;12102817;230256;0;4
+r;315552073;12102744;230256;0;4
+r;315552100;12102741;230256;0;4
+r;315552110;12102740;230256;0;4
+r;315552159;12102732;230256;0;4
+r;315552181;12102728;230256;0;4
+r;315552213;12102723;230256;0;4
+r;315552992;12102640;230256;0;4
+r;315553002;12102639;230256;0;4
+r;315555049;12102410;230256;0;4
+r;315555089;12102404;230256;0;4
+r;315555414;12102359;230256;0;4
+r;315555481;12102350;230256;0;4
+r;315555943;12102268;230256;0;4
+r;315555961;12102266;230256;0;4
+r;315556998;12102130;230256;0;4
+r;315557008;12102129;230256;0;4
+r;315557016;12102127;230256;0;4
+r;315557599;12102038;230256;0;4
+r;315557612;12102036;230256;0;4
+r;315557828;12102003;230256;0;4
+r;315557858;12102000;230256;0;4
+r;315557872;12101998;230256;0;4
+r;315557882;12101997;230256;0;4
+r;315557928;12101993;230256;0;4
+r;315557938;12101992;230256;0;4
+r;315557948;12101991;230256;0;4
+r;315557958;12101990;230256;0;4
+r;315558611;12101931;230256;0;4
+r;315559846;12101733;230256;0;4
+r;315559921;12101703;230256;0;4
+r;315559931;12101702;230256;0;4
+r;315560009;12101687;230256;0;4
+r;315560027;12101685;230256;0;4
+r;315560082;12101678;230256;0;4
+r;315560900;12101597;230256;0;4
+r;315560961;12101590;230256;0;4
+r;315560983;12101585;230256;0;4
+r;315560993;12101584;230256;0;4
+r;315561003;12101583;230256;0;4
+r;315561019;12101579;230256;0;4
+r;315561033;12101577;230256;0;4
+r;315561157;12101547;230256;0;4
+r;315561293;12101507;230256;0;4
+r;315561341;12101499;230256;0;4
+r;315561500;12101477;230256;0;4
+r;315562695;12101347;230256;0;4
+r;315562782;12101339;230256;0;4
+r;315562792;12101338;230256;0;4
+r;315562802;12101337;230256;0;4
+r;315563200;12101293;230256;0;4
+r;315563250;12101288;230256;0;4
+r;315563280;12101284;230256;0;4
+r;315563324;12101280;230256;0;4
+r;315563334;12101279;230256;0;4
+r;315563354;12101276;230256;0;4
+r;315563364;12101275;230256;0;4
+r;315563392;12101273;230256;0;4
+r;315563587;12101257;230256;0;4
+r;315563630;12101251;230256;0;4
+r;315564415;12101119;230256;0;4
+r;315564441;12101115;230256;0;4
+r;315564568;12101095;230256;0;4
+r;315564579;12101094;230256;0;4
+r;315565158;12101005;230256;0;4
+r;315566123;12100809;230256;0;4
+r;315566268;12100788;230256;0;4
+r;315566610;12100759;230256;0;4
+r;315566715;12100739;230256;0;4
+r;315566742;12100732;230256;0;4
+r;315566752;12100731;230256;0;4
+r;315566776;12100726;230256;0;4
+r;315566807;12100722;230256;0;4
+r;315566837;12100716;230256;0;4
+r;315566847;12100715;230256;0;4
+r;315567171;12100670;230256;0;4
+r;315567196;12100666;230256;0;4
+r;315567206;12100665;230256;0;4
+r;315567353;12100639;230256;0;4
+r;318447872;12240429;230256;0;4
+r;318447896;12240428;230256;0;4
+r;318449703;12240346;230256;0;4
+r;318449727;12240345;230256;0;4
+r;318453187;12240182;230256;0;4
+r;318453211;12240181;230256;0;4
+r;318453491;12240166;230256;0;4
+r;318453515;12240165;230256;0;4
+r;318453599;12240158;230256;0;4
+r;318453629;12240157;230256;0;4
+r;318453653;12240156;230256;0;4
+r;318453677;12240155;230256;0;4
+r;318454354;12240122;230256;0;4
+r;318454378;12240121;230256;0;4
+r;318464526;12239644;230256;0;4
+r;318464550;12239643;230256;0;4
+r;318464574;12239642;230256;0;4
+r;318464602;12239641;230256;0;4
+r;318466334;12239551;230256;0;4
+r;318466358;12239550;230256;0;4
+r;318416605;12241794;230256;0;5
+r;318416581;12241795;230256;0;5
+r;315492777;12108702;230256;0;5
+r;315493497;12108596;230256;0;5
+r;315493523;12108593;230256;0;5
+r;315493533;12108592;230256;0;5
+r;315493569;12108589;230256;0;5
+r;315493604;12108584;230256;0;5
+r;315493648;12108580;230256;0;5
+r;315493772;12108565;230256;0;5
+r;315495836;12108355;230256;0;5
+r;315496665;12108262;230256;0;5
+r;315497066;12108197;230256;0;5
+r;315497455;12108135;230256;0;5
+r;315497465;12108134;230256;0;5
+r;315497505;12108130;230256;0;5
+r;315497527;12108128;230256;0;5
+r;315497578;12108121;230256;0;5
+r;315497740;12108101;230256;0;5
+r;315497819;12108090;230256;0;5
+r;315497897;12108080;230256;0;5
+r;315497923;12108076;230256;0;5
+r;315497941;12108074;230256;0;5
+r;315497951;12108073;230256;0;5
+r;315498280;12108032;230256;0;5
+r;315499628;12107852;230256;0;5
+r;315500096;12107798;230256;0;5
+r;315500134;12107792;230256;0;5
+r;315500152;12107790;230256;0;5
+r;315500174;12107788;230256;0;5
+r;315500184;12107787;230256;0;5
+r;315500736;12107730;230256;0;5
+r;315500968;12107693;230256;0;5
+r;315501002;12107689;230256;0;5
+r;315502378;12107493;230256;0;5
+r;315502674;12107438;230256;0;5
+r;315502684;12107437;230256;0;5
+r;315502694;12107436;230256;0;5
+r;315502704;12107435;230256;0;5
+r;315502714;12107434;230256;0;5
+r;315502724;12107433;230256;0;5
+r;315506336;12107121;230256;0;5
+r;315506351;12107119;230256;0;5
+r;315506448;12107106;230256;0;5
+r;315507513;12106975;230256;0;5
+r;315507616;12106961;230256;0;5
+r;315514218;12106520;230256;0;5
+r;315515316;12106419;230256;0;5
+r;315515457;12106400;230256;0;5
+r;315515517;12106393;230256;0;5
+r;315515527;12106392;230256;0;5
+r;315516780;12106251;230256;0;5
+r;315516806;12106249;230256;0;5
+r;315517118;12106214;230256;0;5
+r;315519584;12105879;230256;0;5
+r;315519628;12105873;230256;0;5
+r;315519652;12105870;230256;0;5
+r;315519662;12105869;230256;0;5
+r;315519672;12105868;230256;0;5
+r;315519682;12105867;230256;0;5
+r;315519692;12105866;230256;0;5
+r;315519766;12105855;230256;0;5
+r;315519776;12105854;230256;0;5
+r;315519786;12105853;230256;0;5
+r;315519814;12105849;230256;0;5
+r;315519824;12105848;230256;0;5
+r;315519834;12105847;230256;0;5
+r;315519844;12105846;230256;0;5
+r;315519854;12105845;230256;0;5
+r;315519864;12105844;230256;0;5
+r;315519884;12105842;230256;0;5
+r;315519894;12105841;230256;0;5
+r;315520076;12105809;230256;0;5
+r;315520086;12105808;230256;0;5
+r;315520170;12105793;230256;0;5
+r;315520180;12105792;230256;0;5
+r;315520190;12105791;230256;0;5
+r;315520200;12105790;230256;0;5
+r;315520220;12105788;230256;0;5
+r;315520230;12105787;230256;0;5
+r;315520240;12105786;230256;0;5
+r;315520250;12105785;230256;0;5
+r;315520260;12105784;230256;0;5
+r;315520419;12105763;230256;0;5
+r;315520465;12105759;230256;0;5
+r;315520491;12105756;230256;0;5
+r;315520521;12105752;230256;0;5
+r;315520944;12105715;230256;0;5
+r;318419505;12241659;230256;0;5
+r;318419529;12241658;230256;0;5
+r;318419553;12241657;230256;0;5
+r;318419577;12241656;230256;0;5
+r;318420074;12241629;230256;0;5
+r;318420098;12241628;230256;0;5
+r;318420122;12241627;230256;0;5
+r;318420146;12241626;230256;0;5
+r;318421258;12241569;230256;0;5
+r;318421282;12241568;230256;0;5
+r;318421715;12241548;230256;0;5
+r;318421739;12241547;230256;0;5
+r;318421763;12241546;230256;0;5
+r;318421787;12241545;230256;0;5
+r;318421811;12241544;230256;0;5
+r;318421835;12241543;230256;0;5
+r;318422334;12241521;230256;0;5
+r;318422358;12241520;230256;0;5
+r;318422382;12241519;230256;0;5
+r;318422406;12241518;230256;0;5
+r;318424491;12241408;230256;0;5
+r;318424515;12241407;230256;0;5
+r;318424539;12241406;230256;0;5
+r;318424563;12241405;230256;0;5
+r;318424587;12241404;230256;0;5
+r;318424611;12241403;230256;0;5
+r;318432540;12241054;230256;0;5
+r;318432564;12241053;230256;0;5
+r;318432588;12241052;230256;0;5
+r;318432612;12241051;230256;0;5
+r;318320595;12241871;230256;0;7
+r;318320619;12241870;230256;0;7
+r;271602180;10838999;230256;0;12
+r;318279427;12242831;230256;0;12
+r;318279451;12242830;230256;0;12
+r;318261369;12243661;230256;0;13
+r;318261393;12243660;230256;0;13
+r;318261415;12243659;230256;0;13
+r;318265100;12243505;230256;0;13
+r;318265124;12243504;230256;0;13
+r;318266147;12243448;230256;0;13
+r;318266171;12243447;230256;0;13
+r;318271942;12243165;230256;0;13
+r;318271964;12243164;230256;0;13
+r;318252448;12244071;230256;0;15
+r;318252472;12244070;230256;0;15
+r;318247298;12244206;230256;0;17
+r;318247322;12244205;230256;0;17
+r;318247567;12244192;230256;0;17
+r;318247591;12244191;230256;0;17
+r;318248067;12244168;230256;0;17
+r;318248091;12244167;230256;0;17
+r;318248115;12244166;230256;0;17
+r;318248139;12244165;230256;0;17
+r;318246461;12244244;230256;0;18
+r;318246485;12244243;230256;0;18
+r;318239034;12244590;230256;0;20
+r;318239058;12244589;230256;0;20
+r;317988352;12244992;230256;0;24
+r;317988376;12244991;230256;0;24
+r;317985106;12245126;230256;0;26
+r;317985130;12245125;230256;0;26
+r;317985382;12245112;230256;0;26
+r;317985406;12245111;230256;0;26
+r;88850596;3562655;230256;0;38
+r;23214187;153770;230256;0;51
+r;61301403;2675143;230256;0;59
+r;13052351;391391;230256;0;104
+r;1791176;143036;230256;0;110
+r;99028775;116162;230256;17;39
+r;23472145;28722;230256;17;71
+r;88850441;143036;230256;35;43
+r;105158320;37302;230256;60;34
