@@ -3,29 +3,35 @@ package main;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import org.w3c.dom.stylesheets.LinkStyle;
-
-import com.sun.org.apache.xml.internal.utils.ListingErrorHandler;
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+import java.util.Scanner;
 
 import graph.LexicalPattern;
-import graph.PropertyHolder;
-import graph.Sentence;
-import jdk.internal.util.xml.impl.Pair;
 
 public class MainV2 {
 
 	private HashMap<String,graph.Word> dicoMots = new HashMap<String,graph.Word>();
 
 	public static void main(String args[]) throws IOException {
-		MainV2 test = new MainV2();
-		System.out.println(System.currentTimeMillis());
-		long first = System.currentTimeMillis();
-		System.out.println(test.getRelaFromWiki("Plante"));
-		//System.out.println(test.getAllRelations("Plante"));
+		intro();
+		Scanner sc = new Scanner(System.in);
+		String wordToSearch = getTypedLine(sc);
+		boolean stop = false;
+		while(wordToSearch.length() > 0 && !stop) {
+			MainV2 test = new MainV2();
+			long first = System.currentTimeMillis();
+			System.out.println(test.getRelaFromWiki(wordToSearch));
+			//System.out.println(test.getAllRelations("Plante"));
 
-		System.out.println(System.currentTimeMillis()-first);
+			System.out.println((System.currentTimeMillis()-first)/(1000) + " secondes pour chercher les relations du mot " + wordToSearch + ".");
+			System.out.println("Voulez-vous renseigner un nouveau mot ? o/n");
+			wordToSearch = getTypedLine(sc);
+//			if(wordToSearch.equals("n")) stop = true;
+//			else
+		}
+	}
+	
+	public void writeResults(String res) {
+		
 	}
 
 
@@ -35,6 +41,22 @@ public class MainV2 {
 
 	public void setDicoMots(HashMap<String, graph.Word> dicoMots) {
 		this.dicoMots = dicoMots;
+	}
+
+	public static void intro() {
+		System.out.println("               ################################################");
+		System.out.println("               ################################################");
+		System.out.println("               ##     BONJOUR    ET   BIENVENUE   DANS       ##");
+		System.out.println("               ##                                            ##");
+		System.out.println("               ##     NOTRE    EXTRACTEUR    SEMANTIQUE      ##");
+		System.out.println("               ################################################");
+		System.out.println("               ################################################");
+		System.out.println("");
+		System.out.println("Quel mot correspondant à une page Wikipédia voulez-vous renseigner à notre extracteur sémantique ?");
+	}
+
+	public static String getTypedLine(Scanner scan) {
+		return scan.nextLine();
 	}
 
 	public String getAllRelations(String wordToCompute) throws IOException{
@@ -86,7 +108,7 @@ public class MainV2 {
 		this.processAllText1(wikiExtractor.getTextExtracted());
 		//		String test = "Pierre est un jeune. Rouge a un rapport avec Marc.";
 		//		String[] allSentences = test.split("\\.");
-//		this.processAllText1(test);
+		//		this.processAllText1(test);
 		graph.LexicalPattern lexicalPatterns = new graph.LexicalPattern();
 		String stringAllMeanings = lexicalPatterns.getMeaningBrutString();
 		this.processAllText1(stringAllMeanings);
