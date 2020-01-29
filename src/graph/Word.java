@@ -48,17 +48,6 @@ public class Word {
 			}
 		}
 
-
-		public Word(PropertyHolder word) {
-			this.grammaticalTag = this.getGrammaticalTag();
-			if(!this.getGrammaticalTag().contains(word.getGrammaticalClass()))
-				this.grammaticalTag.add(word.getGrammaticalClass());
-			this.initialWord = word.getWord();
-			for(String s: word.getLemmatized().split("\\|")) {
-				this.lemmatizedWord.add(s);
-			}
-		}
-
 		public Word(String word) {
 			ArrayList<Word> caracWord = process(word);
 			initialWord = word;
