@@ -22,7 +22,7 @@ public class MainV2 {
 		MainV2 test = new MainV2();
 		System.out.println(System.currentTimeMillis());
 		long first = System.currentTimeMillis();
-		System.out.println(test.getRelaFromWiki("France"));
+		System.out.println(test.getRelaFromWiki("Plante"));
 		//System.out.println(test.getAllRelations("Plante"));
 
 		System.out.println(System.currentTimeMillis()-first);
@@ -84,17 +84,10 @@ public class MainV2 {
 		String[] allSentences = wikiExtractor.getTextExtracted().split("\\.");
 		//this.processAllText(wikiExtractor.getTextExtracted());
 		this.processAllText1(wikiExtractor.getTextExtracted());
-		System.out.println(wikiExtractor.getTextExtracted());
-		System.out.println(this.getDicoMots().keySet().contains("phylogénétiqueLes"));
-		//lexicalPatterns.getLexicalPatterns()
+		//		String test = "Pierre est un jeune. Rouge a un rapport avec Marc.";
+		//		String[] allSentences = test.split("\\.");
+//		this.processAllText1(test);
 		graph.LexicalPattern lexicalPatterns = new graph.LexicalPattern();
-		
-		for (ArrayList<String> a : lexicalPatterns.getLexicalPatterns().values()) {
-			System.out.println(a);
-		}
-		
-		
-		
 		String stringAllMeanings = lexicalPatterns.getMeaningBrutString();
 		this.processAllText1(stringAllMeanings);
 		String betweenXandYLemm;
@@ -108,13 +101,6 @@ public class MainV2 {
 				allSentences[cptSent] = allSentences[cptSent].substring(1,allSentences[cptSent].length());
 			}
 			String listWords[] = allSentences[cptSent].split(" ");
-			
-			for (String motls : listWords) {
-				System.out.print(motls+" ");
-			}
-				System.out.println();
-			
-			
 			//on va fixer le x
 			for(int XIndex = 0;XIndex < listWords.length - 2;XIndex++) {
 				String x = listWords[XIndex];
@@ -122,12 +108,12 @@ public class MainV2 {
 					ArrayList<graph.Word> tmp = graph.Word.process(x);
 					this.getDicoMots().put(x, tmp.get(0));
 				}
-				//System.out.println(x+" "+this.dicoMots.get(x));
-				if(this.dicoMots.get(x)!=null && this.dicoMots.get(x).grammClassRelevant()){
+				//System.out.println(x+" "+ x);
+				if(this.dicoMots.get(x).grammClassRelevant()){
 					//on va fixer le y
 					for(int YIndex = XIndex+2;YIndex < listWords.length;YIndex++) {
 						//System.out.println(listWords[XIndex]+" -> "+dejavus.get(listWords[XIndex]));
-						
+
 						//Si le x et le y ne sont pas trop  eloignes
 						if(YIndex - XIndex < 7) {
 							String y = listWords[YIndex];
@@ -136,29 +122,28 @@ public class MainV2 {
 								this.getDicoMots().put(y, tmp.get(0));
 							}
 							//Si le y vient d'une classe grammaticale interessante
-							//System.out.println("Taille listMots:" + listWords.length);
-							//System.out.println("Index y" + YIndex + " mot =" + listWords[YIndex]);
+							//							System.out.println("Taille listMots:" + listWords.length);
+							//							System.out.println("Index y" + YIndex + " mot =" + listWords[YIndex]);
 							//System.out.println(this.dicoMots.get(listWords[YIndex]));
-							
-							
-							if(this.dicoMots.get(listWords[YIndex])!=null && this.dicoMots.get(listWords[YIndex]).grammClassRelevant()){
+
+
+							if(this.dicoMots.get(listWords[YIndex]).grammClassRelevant()){
 								//on recupere les mots entre x et y
 								//betweenXandYLemm = allSentences[cptSent].substring(XIndex + 1, YIndex - 1);
-								
+
 								betweenXandYLemm = getBetween(listWords, XIndex, YIndex);
 								//System.out.println(allSentences[cptSent]);
 								//								System.out.println(XIndex + ":" + YIndex);
 								//								System.out.println(betweenXandYLemm);
 								//On lemmatise les mots entre x et y
 								betweenXandYLemm = this.getSentLemmatized(betweenXandYLemm);
-								
-//								if (lexicalPatterns.getLexicalPatterns().values().contains(betweenXandYLemm+" ")) {
-//									System.out.println("---- Affiche : "+betweenXandYLemm);
-//									continue;
-//								}
-								
+								//								if (lexicalPatterns.getLexicalPatterns().values().contains(betweenXandYLemm+" ")) {
+								//									System.out.println("---- Affiche : "+betweenXandYLemm);
+								//									continue;
+								//								}
+
 								//if (!checkInPattern(lexicalPatterns,betweenXandYLemm)) continue;
-								
+
 								//On compare les mots lemmatises entre x et y avec toutes les traductions qui seront lemmatisees
 								tmpRel = this.compareLexWordsBetw(lexicalPatterns, betweenXandYLemm, XIndex, YIndex, listWords);
 								//Si on a des nouvelles relations on les rajoute
@@ -176,11 +161,10 @@ public class MainV2 {
 				}
 			}
 			System.out.println(cptSent + " done sur " + allSentences.length + " Taille res:" + cptNbRelTotal);
-			System.out.println(res);
 		}
 		return res.toString();
 	}
-	
+
 	public boolean checkInPattern(LexicalPattern lexicalPatterns, String betweenXandYLemm) {
 		for (ArrayList a : lexicalPatterns.getLexicalPatterns().values()) {
 			if (a.contains(betweenXandYLemm)) {
@@ -317,7 +301,7 @@ public class MainV2 {
 				if(hasNewLemm(p))
 					this.dicoMots.get(p.getInitialWord()).getLemmatizedWord().add(p.getGrammaticalTag().get(0));
 			}
-			System.out.println(cpt + " sur " + text.length());
+			//System.out.println(cpt + " sur " + text.length());
 			cpt += p.getInitialWord().length();
 		}
 
@@ -357,16 +341,19 @@ public class MainV2 {
 
 	public ArrayList<String> compareLexWordsBetw(LexicalPattern lexicalPattern,String sentenceLemm,int XIndex,int YIndex, String[] listWords) throws IOException{
 		ArrayList<String> res = new ArrayList<String>();
+
 		boolean isThere = false;
-		for (ArrayList a : lexicalPattern.getLexicalPatterns().values()) {
+		for (ArrayList<String> a : lexicalPattern.getLexicalPatterns().values()) {
 			if (a.contains(sentenceLemm)) {
-				//System.out.println("---- Affiche : "+betweenXandYLemm);
 				isThere = true;
 			}
 		}
-		if (isThere = false) return res;
+		if (!isThere) return res;
+
 		for(String rel: lexicalPattern.getLexicalPatterns().keySet()){
 			for(String meaning: lexicalPattern.getLexicalPatterns().get(rel)){
+				//				System.out.println("Rel:" + rel + ". Meaning:" + meaning + ".Phrase:" + sentenceLemm);
+				//				System.out.println("Meaning" + meaning + ". Phrase:" + sentenceLemm);
 				//String currentMeaningLemmatized = this.getSentLemmatized(meaning);
 				if(meaning.equals(sentenceLemm)){
 					res.add(rel);

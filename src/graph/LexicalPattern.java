@@ -40,7 +40,7 @@ public class LexicalPattern {
 	public void setLexicalPatterns(HashMap<String, ArrayList<String>> lexicalPatterns) {
 		this.lexicalPatterns = lexicalPatterns;
 	}
-	
+
 	public String toStringLexicalPattern() {
 		String res = "";
 		for(String key: this.getLexicalPatterns().keySet()) {
@@ -72,7 +72,7 @@ public class LexicalPattern {
 		br.close();
 		return res;
 	}
-	
+
 	public HashMap<String,ArrayList<String>> getLexicalPatternLemmatized() throws IOException{
 		HashMap<String,ArrayList<String>> res = new HashMap<String,ArrayList<String>>();
 		StringBuilder lemmatizedMeaning = new StringBuilder();
@@ -140,12 +140,15 @@ public class LexicalPattern {
 		//On enleve l'espace au tout debut de la premiere relation extraite
 		allMeaningsSplit[0] = allMeaningsSplit[0].substring(1);
 		for(String currentMeaning: allMeaningsSplit) {
+			if(currentMeaning.startsWith(" ")) {
+				currentMeaning = currentMeaning.substring(1);
+			}
 			meanings.add(currentMeaning);
 		}
-		
+
 		return meanings;
 	}
-	
+
 	public ArrayList<String> getMeaningsBrut(){
 		ArrayList<String> res = new ArrayList<String>();
 		for(String key: this.getLexicalPatterns().keySet()){
@@ -155,7 +158,7 @@ public class LexicalPattern {
 		}
 		return res;
 	}
-	
+
 	public String getMeaningBrutString(){
 		StringBuilder res = new StringBuilder();
 		for(String key: this.getLexicalPatterns().keySet()) {
@@ -179,6 +182,5 @@ public class LexicalPattern {
 
 	public static void main(String args[]) throws IOException {
 		LexicalPattern test = new LexicalPattern();
-		//System.out.println(test.toStringLexicalPattern());
 	}
 }

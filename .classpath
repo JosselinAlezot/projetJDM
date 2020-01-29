@@ -4,6 +4,6 @@
 	<classpathentry kind="lib" path="jsoup-1.12.1.jar"/>
 	<classpathentry kind="lib" path="RequeterRezo.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="/home/e20150004937/Documents/Master/S3/TALN/ProjetJDM/ProjetJDM/org.annolab.tt4j-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alezot Josselin/Desktop/org.annolab.tt4j-1.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
