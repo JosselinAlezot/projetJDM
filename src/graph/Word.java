@@ -34,6 +34,21 @@ public class Word {
 			add("VER:subp");
 		}};
 
+		public Word(String brutWord,String grammClass,String lemm) {
+			initialWord = brutWord;
+			grammaticalTag.add(grammClass);
+			if(lemm.contains("\\|)")){
+				String tmp[] = lemm.split("\\|");
+				for(String s: tmp) {
+					lemmatizedWord.add(s);
+				}
+			}
+			else {
+				lemmatizedWord.add(lemm);
+			}
+		}
+
+
 		public Word(PropertyHolder word) {
 			this.grammaticalTag = this.getGrammaticalTag();
 			if(!this.getGrammaticalTag().contains(word.getGrammaticalClass()))
@@ -45,13 +60,16 @@ public class Word {
 		}
 
 		public Word(String word) {
-			ArrayList<PropertyHolder> caracWord = process(word);
+			ArrayList<Word> caracWord = process(word);
 			initialWord = word;
 			//System.out.println("Word:" + word);
 			//System.out.println("carac word size:" + caracWord.size());
-			if(!grammaticalTag.contains(caracWord.get(0).getGrammaticalClass()))
-				grammaticalTag.add(caracWord.get(0).getGrammaticalClass());
-			String lemmatizedWords = caracWord.get(0).getLemmatized();
+			
+			//if(!grammaticalTag.contains(caracWord.get(0).getGrammaticalClass()))
+			grammaticalTag.add(caracWord.get(0).getGrammaticalTag().get(0));
+				
+			
+			String lemmatizedWords = caracWord.get(0).getLemmatizedWord().get(0);
 
 			for(String s: lemmatizedWords.split("\\|")) {
 				lemmatizedWord.add(s);
@@ -88,13 +106,13 @@ public class Word {
 		 * @param text Texte a evaluer
 		 * @return Liste de propertyHolder qui contiendra pour chaque le mot initial,sa classe grammatical et ses lemmatisations
 		 */
-		public static ArrayList<PropertyHolder> process(String text) {
+		public static ArrayList<Word> process(String text) {
 			System.setProperty("treetagger.home", "tree-tagger-windows-3.2.2/TreeTagger/lib");
 			TreeTaggerWrapper<String> tt = new TreeTaggerWrapper<>();
-			ArrayList<PropertyHolder> relationSet = new ArrayList<PropertyHolder>();
+			ArrayList<Word> relationSet = new ArrayList<Word>();
 			try {
 				tt.setModel("TreeTagger/lib/french.par:utf-8");
-				tt.setHandler((token, pos, lemma) -> relationSet.add(new PropertyHolder(token, pos, lemma)));
+				tt.setHandler((token, pos, lemma) -> relationSet.add(new Word(token, pos, lemma)));
 				tt.process(asList(text.split("[\\s]")));
 			} catch (IOException | TreeTaggerException e) {
 				e.printStackTrace();
@@ -123,7 +141,7 @@ public class Word {
 		 */
 		public String lemmatizedWordChosen(String sentence) throws IOException {
 			String res = "";
-			ArrayList<PropertyHolder> wordProperty;
+			ArrayList<Word> wordProperty;
 			ArrayList<Edge> relTwoWords;
 			ArrayList<Integer> numberRelByLemmatizedWord = new ArrayList<Integer>();
 			main.Main m = new main.Main();
@@ -140,7 +158,7 @@ public class Word {
 					//si le mot actuel n'est pas celui qui a la contrainte de multiple lemmatisations
 					if(!s.equals(this.getInitialWord())) {
 						//Si le mot est interessant
-						if(relevantGrammTags.contains(wordProperty.get(cpt2).getGrammaticalClass())) {
+						if(relevantGrammTags.contains(wordProperty.get(cpt2).getGrammaticalTag())) {
 							relTwoWords = graph.Edge.getRelationsFromXandY(graph.Node.getNodeFromString(currentLem),graph.Node.getNodeFromString(s));
 							cpt += relTwoWords.size();
 						}
@@ -160,6 +178,34 @@ public class Word {
 			//On retourne le mot contenant le max de relations
 			return this.getLemmatizedWord().get(numberRelByLemmatizedWord.indexOf(nbMaxRel));
 		}
+		
+		public String lemmatizedWordChosen1(String sentence,Word word,main.MainV2 m) throws IOException {
+			int tmpNbRel = 0;
+			int nbMaxRel = -1;
+			String motChoisi = "";
+			main.Main ma = new main.Main();
+			ma.initWord(ma, sentence);
+			ArrayList<graph.Edge> tmpRelList = new ArrayList<graph.Edge>();
+			//POur toutes les lemma
+			for(String currentLemmW: word.getLemmatizedWord()) {
+				//Pour chaque mot
+				for(String currentW: sentence.split(" ")) {
+					//Si c'est pas le mot original 
+					if(!currentW.equals(word.getInitialWord())) {
+						//Si le mot est interessant alors on calcule la relation avec le mot lemmat et on ajoute au score
+						if(graph.Word.relevantGrammTags.contains(m.getDicoMots().get(currentW).getInitialWord())){
+							tmpRelList = graph.Edge.getRelationsFromXandY(graph.Node.getNodeFromString(currentLemmW),graph.Node.getNodeFromString(m.getDicoMots().get(currentW).getLemmatizedWord().get(0)));
+							tmpNbRel += tmpRelList.size();
+						}
+					}
+				}
+				//Si le mot courant a plus de relations alors c'est le mot a choisir
+				if(tmpNbRel > nbMaxRel) motChoisi = currentLemmW;
+			}
+			return motChoisi;
+		}
+		
+		
 
 		public String getInitialWord() {
 			return initialWord;

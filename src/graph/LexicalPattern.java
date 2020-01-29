@@ -86,10 +86,10 @@ public class LexicalPattern {
 			//Pour chaque traduction
 			for(String meaning: this.getLexicalPatterns().get(key)) {
 				//On process la traduction a analysee
-				ArrayList<PropertyHolder> sentenceProcessed = graph.Word.process(meaning);
+				ArrayList<Word> sentenceProcessed = graph.Word.process(meaning);
 				//Pour tous les mots analyses de la phrase
 				for(int i = 0;i < sentenceProcessed.size();i++) {
-					Word word = new graph.Word(sentenceProcessed.get(i));
+					Word word = sentenceProcessed.get(i);
 					//S'il y a plusieurs lemmatisation
 					if(word.getLemmatizedWord().size() > 1) {
 						lemmatizedWordChosen = word.lemmatizedWordChosen(meaning);
@@ -154,6 +154,17 @@ public class LexicalPattern {
 			}
 		}
 		return res;
+	}
+	
+	public String getMeaningBrutString(){
+		StringBuilder res = new StringBuilder();
+		for(String key: this.getLexicalPatterns().keySet()) {
+			for(String meaning: this.getLexicalPatterns().get(key)) {
+				res.append(meaning + ".");
+			}
+		}
+		res.delete(res.length()-1, res.length());
+		return res.toString();
 	}
 
 
