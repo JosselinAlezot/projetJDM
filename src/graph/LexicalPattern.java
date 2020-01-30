@@ -140,6 +140,7 @@ public class LexicalPattern {
 		//On enleve l'espace au tout debut de la premiere relation extraite
 		allMeaningsSplit[0] = allMeaningsSplit[0].substring(1);
 		for(String currentMeaning: allMeaningsSplit) {
+			if(currentMeaning.startsWith(" ")) currentMeaning = currentMeaning.substring(1);
 			meanings.add(currentMeaning);
 		}
 		

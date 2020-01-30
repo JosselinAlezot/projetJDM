@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import org.annolab.tt4j.TreeTaggerException;
 import org.annolab.tt4j.TreeTaggerWrapper;
 
-import com.oracle.webservices.internal.api.message.PropertySet.Property;
-
 import static java.util.Arrays.asList;
 
 import java.io.IOException;
@@ -62,10 +60,6 @@ public class Word {
 		public Word(String word) {
 			ArrayList<Word> caracWord = process(word);
 			initialWord = word;
-			//System.out.println("Word:" + word);
-			//System.out.println("carac word size:" + caracWord.size());
-			
-			//if(!grammaticalTag.contains(caracWord.get(0).getGrammaticalClass()))
 			grammaticalTag.add(caracWord.get(0).getGrammaticalTag().get(0));
 				
 			
