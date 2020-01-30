@@ -1,0 +1,329 @@
+(Plantae) r_isa   organismes
+sont r_concerning   organismes
+l'un r_concerning   règnes
+règnes r_concerning   eucaryotes[1]
+règne r_isa   groupe
+science r_concerning   plantes
+plantes r_isa   botanique
+
+plantes r_carac   difficile
+difficile r_beneficiaire   déterminer
+
+majorité r_isa   plantes
+sont r_concerning   plantes
+plantes r_beneficiaire   fleurs
+espèces r_carac   découvertes
+victimes r_concerning   déforestation
+cinq r_carac   menacée
+plantes r_has_part   été
+ont r_carac   jusqu'au
+environs r_concerning   temps
+mouvement r_beneficiaire   attraper
+mouvement r_but   attraper
+végétaux r_agent-1   être
+végétaux r_carac   répartis
+peuvent r_carac   répartis
+distinguer r_beneficiaire   l'intérieur
+plante r_concerning   même
+cours r_concerning   Moyen
+apparaissent r_concerning   usages
+utilisé r_lieu   vocabulaire
+termes r_carac   utilisés
+opposition r_beneficiaire   animalia
+époque
+ r_concerning   botanistes
+
+réflexion r_lieu   classement
+classement r_concerning   plantes[8]
+cherchent r_beneficiaire   établir
+établir r_concerning   groupes
+plantes r_beneficiaire   partir
+classification r_concerning   plantes
+herbacé r_concerning   tige
+forme r_concerning   fruit
+
+l'absence r_concerning   enveloppe
+forme r_concerning   racine
+commode r_carac   employée
+ayant r_beneficiaire   fondement
+ayant r_but   fondement
+caractères r_concerning   fleur
+
+fleur
+ r_concerning   fruit
+inventeur r_concerning   terme
+classement r_concerning   végétaux
+structure r_concerning   fleurs
+botaniste r_concerning   roi
+base r_concerning   système
+binominale r_concerning   végétaux
+deviennent r_concerning   règnes
+
+classification r_concerning   plantes
+Familles r_concerning   Plantes
+
+parties r_concerning   plante
+naturelle r_carac   poursuivie
+circulation r_concerning   sève
+
+sève
+ r_concerning   végétaux
+plantes
+ r_hypo   champignons
+
+commencent r_beneficiaire   être
+groupe r_beneficiaire   former
+groupe r_but   former
+former r_concerning   catégories
+d'ancienneté r_concerning   caractères
+abandonné[11]) r_carac   l'œuvre
+prémoléculaires r_concerning   Angiospermes
+progrès r_concerning   connaissance
+connaissance r_instr-1   proposer
+homogène r_lieu   classifications
+définition r_concerning   terme
+eucaryotes r_agent-1   photosynthèse
+
+correspond r_beneficiaire   groupe
+rassemblées r_concerning   espèces
+système r_concerning   cinq
+verte
+ r_hypo   végétaux
+plantes r_beneficiaire   fleurs[18]
+Chlorophytes r_carac   considérées
+classification r_concerning   autres
+algues r_lieu   règne
+règne r_concerning   plantes
+plantes r_isa   introduction
+introduction r_concerning   classification
+ont r_carac   classées
+progrès r_concerning   phylogénie
+phylogénie r_has_part   fait
+s'opèrent r_lieu   classification
+sous-règne r_concerning   Bryophytes
+division r_concerning   Hépaticophytes
+division r_concerning   Anthocérotophytes
+division r_concerning   Bryophytes
+sous-règne r_concerning   Trachéobiontes
+Tracheophyta) r_carac   composé
+
+phylogénétique r_concerning   plantes
+division r_carac   faite
+forment r_concerning   bois)
+cadre r_concerning   théories
+modules[22] r_concerning   même
+présente r_concerning   similitudes
+symbiotiques r_instr   mycorhizes
+l'essentiel r_concerning   nutrition
+hydrominérale r_concerning   plantes
+naturel
+ r_has_part   mycorhizes
+ont r_concerning   mycorhizes
+plantes r_has_part   évolué
+existe r_concerning   plantes
+l'eau
+ r_lieu   forêts
+surface r_concerning   Terre
+Terre r_carac   fonction
+fonction r_concerning   conditions
+compte r_concerning   principaux
+Köppen r_has_part   établi
+classification r_concerning   climats
+niveau r_concerning   précipitations
+tropique r_concerning   Cancer
+tropique r_concerning   Capricorne
+l'une r_concerning   grandes
+nées r_concerning   circulation
+globale r_concerning   forêts
+moyenne r_concerning   mois
+froid r_carac   supérieure
+correspondante r_isa   forêt
+adaptés r_beneficiaire   l'environnement
+étendu r_beneficiaire   proximité
+proximité r_concerning   surface
+arrivent r_beneficiaire   récolter
+espèces r_carac   appelées
+espèces r_syn   xérophytes
+sont r_hypo   xérophytes
+existe r_concerning   cactus
+
+cactus
+ r_concerning   plantes
+plantes r_beneficiaire   cuticule
+épaisse r_beneficiaire   limiter
+épaisse r_but   limiter
+l'évapotranspiration
+ r_concerning   plantes
+coussinets
+ r_concerning   succulentes
+famille r_concerning   Crassulassées
+
+plupart r_concerning   plantes
+s'étend r_concerning   forêt
+thermique r_carac   modéré
+gel r_lieu   partie
+supérieure r_concerning   sols
+
+sols
+ r_isa   été
+associées r_beneficiaire   divers
+d'arbres r_beneficiaire   cause
+due r_beneficiaire   raccourcissement
+raccourcissement r_concerning   période
+typique r_concerning   Sibérie
+sous-bois r_carac   constitué
+conifères r_beneficiaire   aiguilles
+classification r_concerning   types
+Raunkiær
+ r_isa   classification
+quantitative r_concerning   carbone
+stocké r_lieu   vivant
+
+groupe r_concerning   arthropodes
+sein r_concerning   Vivant
+puisqu'elles r_carac   constituées
+Gt r_isa   plantes
+
+sont r_concerning   plantes
+
+gigatonnes r_carac   comparables
+l'Homme r_lieu   reste
+reste r_concerning   biomasse
+végétaux r_beneficiaire   nourrir
+végétaux r_but   nourrir
+l'ensemble r_concerning   autres
+vivant r_lieu   milieux
+l’eau r_isa   source
+limitante r_has_part   dû
+sèche r_object>mater   germination
+racines r_concerning   plantes
+plantes r_make_use_of   stratégies
+utilisant r_concerning   stratégies
+d’évitement r_concerning   sécheresse
+possèdent r_concerning   tiges
+stocker r_concerning   nourriture
+feuilles r_carac   épaisses
+situés r_lieu   face
+(dorsale) r_concerning   feuille
+
+feuilles r_own   trichomes
+possèdent r_concerning   trichomes
+stomates r_concerning   plantes
+adaptées r_lieu   milieux
+cryptes r_concerning   surface
+plantes r_agent-1   vivre
+montagne r_has_part   développé
+face r_beneficiaire   milieu
+sécheresse
+ r_concerning   vent
+
+vivant r_lieu   toundra
+
+développé r_concerning   adaptations
+profiter r_concerning   chaleur
+surface r_concerning   sol
+recouvrement r_concerning   neige
+végétaux
+ r_lieu   toundra
+notamment
+ r_hypo   bouleau
+poussent r_beneficiaire   l’horizontale
+forme r_concerning   plantes
+chaleur r_concerning   rayons
+rayons r_concerning   soleil
+plantes r_agent-1   être
+plantes r_carac   réduites
+peuvent r_carac   réduites
+aider r_beneficiaire   croître
+protéger r_concerning   froid
+déshydratation r_causatif   vents
+partie r_concerning   rayonnements
+rapide r_beneficiaire   contrer
+rapide r_but   contrer
+long r_isa   système
+contact r_instr   concentrations
+plantes r_has_part   potentiel
+faible r_beneficiaire   pouvoir
+faible r_but   pouvoir
+concentrer r_lieu   feuilles
+toxiques r_concerning   sel
+glandes r_beneficiaire   sels
+développer r_lieu   milieux
+s’agit r_concerning   glycophytes
+accumulent r_lieu   racines
+concentration r_concerning   dioxygène
+plantes r_has_part   développé
+développé r_concerning   stratégies
+possèdent r_concerning   aérenchymes
+
+d’air
+ r_telic_role   transporter
+servant r_beneficiaire   transporter
+dioxygène r_concerning   parties
+plupart r_concerning   végétaux
+végétaux r_own   adaptations
+possèdent r_concerning   adaptations
+proche[évasif] r_concerning   système
+nerveux r_concerning   animaux[34]
+dernières r_carac   adoptées
+réponse r_beneficiaire   agression
+qu’ériger r_concerning   structures
+défense r_has_part   coût
+présentera r_concerning   signes
+puisqu’elle r_has_part   dû
+dernières r_agent-1   être
+dernières r_carac   physiques
+
+peuvent r_carac   physiques
+
+ériger r_concerning   structures
+épines
+ r_concerning   trichomes
+
+posséder r_concerning   parois
+cellulaires r_has_part   lignine
+
+produire r_concerning   composés
+prédateurs r_concerning   herbivores
+exemple
+ r_agent-1   être
+exemple
+ r_carac   toxique
+peut r_carac   toxique
+l’arginine r_lieu   protéines
+protéines r_concerning   victime
+
+s’adapter r_beneficiaire   l’apparition
+métabolisme r_concerning   calcium
+calcium r_concerning   végétaux
+
+composés r_concerning   plantes
+plante r_agent-1   produire
+plante r_make   composés
+peut r_make   composés
+produire r_concerning   composés
+protègent r_concerning   sécheresse
+plante r_require   apport
+avoir r_concerning   défenses
+cryptes r_has_part   trichomes
+cryptes r_object>mater   trichomes
+contenant r_concerning   trichomes
+cryptes r_beneficiaire   limiter
+cryptes r_but   limiter
+surface r_concerning   feuilles
+retrouve r_concerning   conditions
+feuilles r_concerning   végétaux
+stomates r_beneficiaire   l’air
+constituant r_concerning   réserves
+développé r_concerning   adaptations
+consiste r_beneficiaire   avoir
+a r_concerning   neige
+
+protégées r_concerning   froid
+froid r_carac   d’adapter
+passage r_concerning   vie
+(anciennement r_hypo   cormophytes
+plantes r_beneficiaire   racines
+(plantes r_beneficiaire   graines)
+synthèse r_concerning   cellulose
+plantes r_carac   adaptées

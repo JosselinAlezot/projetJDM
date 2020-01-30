@@ -1,9 +1,10 @@
 package main;
 
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
-
 import java.util.Scanner;
 
 import graph.LexicalPattern;
@@ -20,9 +21,11 @@ public class MainV2 {
 		while(wordToSearch.length() > 0 && !stop) {
 			MainV2 test = new MainV2();
 			long first = System.currentTimeMillis();
-			System.out.println(test.getRelaFromWiki(wordToSearch));
+			String res = test.getRelaFromWiki(wordToSearch);
+			System.out.println(res);
 			//System.out.println(test.getAllRelations("Plante"));
 			System.out.println((System.currentTimeMillis()-first)/(1000) + " secondes pour chercher les relations du mot " + wordToSearch + ".");
+			writeRes(res,wordToSearch);
 			System.out.println("Voulez-vous renseigner un nouveau mot ? Taper 'o' si vous souhaitez continuer.");
 			System.out.println("Toute entrée différente de 'o' entrainera la fin du programme.");
 			wordToSearch = getTypedLine(sc);
@@ -31,10 +34,27 @@ public class MainV2 {
 				System.out.println("Quel mot correspondant à une page Wikipédia voulez-vous renseigner à notre extracteur sémantique ?");
 				wordToSearch = getTypedLine(sc);
 			}
-
-			//			if(wordToSearch.equals("n")) stop = true;
-			//			else
+			
 		}
+	}
+	
+	public static void writeRes(String res,String wordComputed) throws IOException{
+		File directory = new File("./");
+		String dir = directory.getAbsolutePath().substring(0, directory.getAbsolutePath().length()-1) + "Resultats";
+		File d = new File(dir);
+		d.mkdirs();
+		
+		File resFile = new File(dir + File.separator + wordComputed);
+		FileWriter writer = new FileWriter(resFile); 
+		if(!resFile.exists())	resFile.createNewFile();
+		
+		
+		String[] allRel = res.split(",");
+		for(String currentRel: allRel){
+			writer.write(currentRel);
+			writer.write("\n");
+		}
+		writer.close();
 	}
 
 
@@ -101,7 +121,6 @@ public class MainV2 {
 			//on va fixer le x
 			for(int XIndex = 0;XIndex < listWords.length - 2;XIndex++) {
 				String x = listWords[XIndex];
-				String nextX = listWords[XIndex + 1];
 				if(!checkWord(x)) {
 					ArrayList<graph.Word> tmp = graph.Word.process(x);
 					this.getDicoMots().put(x, tmp.get(0));
@@ -159,7 +178,7 @@ public class MainV2 {
 					}
 				}
 			}
-			System.out.println(cptSent + " done sur " + allSentences.length + " Taille res:" + cptNbRelTotal);
+			System.out.println(cptSent + 1 + " done sur " + allSentences.length + " Taille res:" + cptNbRelTotal);
 			//System.out.println(res);
 		}
 		return res.toString();
