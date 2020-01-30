@@ -1,0 +1,226 @@
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;200;'n_context'
+nt;444;'n_link'
+nt;777;'n_wikipedia'
+e;426051;'veuves';1;50
+e;9254920;'=widow=';1;0
+e;87987;'France';1;2594
+e;48917;'veuf';1;112
+e;62724;'Loir-et-Cher';1;60
+e;12099;'veuve';1;228
+e;6389214;'veuvage chez la femme';1;0
+e;145100;'Centre';1;72
+e;2303413;'veuvages';2;0
+e;88572;'veuvage';1;85
+e;35143;'biologie';1;1812
+e;572174;'veuves>171870';1;50;'veuves>Nom:'
+e;572175;'veuves>171869';1;50;'veuves>Adj:'
+e;2586628;'Gender:Fem';4;0
+e;2586630;'Number:Plur';4;0
+e;149404;'Adj:Fem PL';4;50
+e;146893;'Nom:Fem PL';4;50
+e;171869;'Adj:';4;50
+e;171870;'Nom:';4;50
+e;6425891;'veuves noires';1;0
+e;5960571;'Du grabuge chez les veuves';777;0
+e;11002131;'pin faiseur de veuves';777;0
+e;136974;'L'Île des veuves';1;50
+e;151553;'_FL:0';6;50
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;254878;'_POL-NEG_PC';36;50
+e;223172;'_POL-NEG';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;276096;'_INFO-WIKI-YES';36;50
+e;1912917;'_INFO-COUNTABLE-YES';36;0
+e;438949;'_INFO-POLYMORPHIC';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;254876;'_POL-POS_PC';36;50
+e;223173;'_POL-POS';36;50
+e;57933;'guerre';1;5549
+e;12724160;'cbb4d02f0ca35f6bfdc9ab5801cc9588';200;0
+e;12714434;'4e6d8e1081abd4f145a6ed925f4dd103';200;0
+e;12714443;'45785012a421f5a19059efee3af857b5';200;0
+e;12714453;'f5c964f18aa8fa2fbf5b1fa9af5731e9';200;0
+e;12720533;'84bee95e9249c8c7b4d91bf1b2cb7442';200;0
+e;13879494;'3ddb099f1b0a33beb6f401d11a889c6e';200;0
+e;14119333;'a7a9b3b67e98161622ed596e43fb0455';200;0
+e;12725430;'9150f154b646dcf2e0bc12d164d958a9';200;0
+e;9254915;'bn:00811616n';444;0
+e;6114324;'umls:C1510465';444;0
+e;3228593;'wiki:@';444;0
+e;2983124;'_SW';36;50
+e;174932;'Commune';1;6
+e;167583;'commune française';1;406
+e;121891;'Loire';1;142
+e;47822;'Indre-et-Loire';1;58
+e;285696;'École des hautes études en sciences sociales';777;52
+e;285695;'EHESS';1;54
+e;4067;'barbette';1;50
+e;11254537;'barbette>139654';1;0;'barbette>coiffe'
+e;65386;'Henri Désiré Landru';1;50
+e;218863;'rite funéraire';1;2
+e;313947;'funéraille';1;60
+e;345872;'célibat ecclésiastique';1;50
+e;99597;'célibat';1;200
+e;345902;'cérémonie funéraire';1;50
+e;59117;'délai';1;120
+e;400446;'délais';1;50
+e;8586;'célibataire';1;322
+e;144086;'funérailles';1;242
+e;404911;'Information';1;50
+e;16462;'Meurtres';1;50
+e;40616;'Landru';1;52
+e;81697;'obsèques';1;146
+e;136646;'funéraire';1;86
+e;184035;'reine blanche';1;50
+e;317294;'enterrements';1;60
+e;43175;'rites funéraires';1;52
+e;1831662;'délai de viduité';1;0
+e;2236228;'obsèque';1;0
+e;1002613;'Passeridae';1;0
+e;5673287;'Passeridés';777;0
+e;10069241;'place des femmes dans l'hindouisme';777;0
+e;10842230;'John Bost';777;0
+e;10842231;'Fondation John Bost';777;0
+e;10899052;'famille Peugeot';777;0
+e;10985496;'Bleuet de France';777;0
+e;10995350;'Vrindavan';777;0
+e;10995351;'Vrindâvana';777;0
+e;10995352;'Brindavan';777;0
+e;10995353;'Govind Dev';777;0
+e;11391963;'statut des femmes à l'époque mérovingienne';777;0
+e;12247301;'Social Security Act';777;0
+e;94205;'prémices';1;58
+e;14258095;'Françoise d'Amboise';777;0
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;2;'r_raff_morpho';'raffinement morphologique';Raffinement morphologique vers un usage particulier du terme source
+rt;3;'r_domain';'domaine';Il est demandé de fournir des domaines relatifs au mot cible. Par exemple, pour 'corner', on pourra donner les domaines 'football' ou 'sport'.
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;15;'r_lieu';'chose>lieu';Il est demandé d'énumérer les LIEUX typiques où peut se trouver le terme/objet en question. (carotte r_lieu potager)
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;28;'r_lieu-1';'lieu>chose';A partir d'un lieu, il est demandé d'énumérer ce qui peut typiquement s'y trouver. Par exemple : Paris r_lieu-1 tour Eiffel
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;41;'r_conseq';'conséquence';B (que vous devez donner) est une CONSEQUENCE possible de A. A et B sont des verbes ou des noms.  Exemples : tomber -> se blesser ; faim -> voler ; allumer -> incendie ; négligence --> accident ; etc.
+rt;42;'r_causatif';'cause';B (que vous devez donner) est une CAUSE possible de A. A et B sont des verbes ou des noms.  Exemples : se blesser -> tomber ; vol -> pauvreté ; incendie -> négligence ; mort --> maladie ; etc.
+rt;200;'r_context';'r_context';Relation de contexte entre un terme et un noeud contexte.
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+r;320232713;426051;9254920;0;25
+r;17582127;426051;87987;0;27
+r;87492801;426051;48917;0;29
+r;17582125;426051;62724;0;30
+r;87492799;426051;12099;0;30
+r;120804192;426051;6389214;0;31
+r;17582123;426051;145100;0;35
+r;120804196;426051;2303413;0;35
+r;120804197;426051;88572;0;35
+r;121715452;426051;35143;0;37
+r;17582115;426051;572174;2;50
+r;17582118;426051;572175;2;50
+r;121088693;426051;35143;3;35
+r;53899718;426051;2586628;4;45
+r;53910238;426051;2586630;4;45
+r;14343460;426051;149404;4;52
+r;14343462;426051;146893;4;60
+r;14343461;426051;171869;4;60
+r;14343463;426051;171870;4;79
+r;122727576;426051;6425891;11;30
+r;116578739;426051;5960571;11;34
+r;278739120;426051;11002131;11;40
+r;14296557;426051;136974;11;55
+r;74805115;426051;151553;12;26
+r;17582126;426051;62724;15;30
+r;17582124;426051;145100;15;31
+r;17582128;426051;87987;15;32
+r;90743820;426051;3576104;18;30
+r;89782233;426051;3575927;18;38
+r;14343464;426051;12099;19;54
+r;14343459;426051;48917;19;54
+r;211616557;426051;254878;36;1
+r;211616556;426051;223172;36;3
+r;27244015;426051;254877;36;18
+r;211616657;426051;276096;36;30
+r;30785374;426051;1912917;36;40
+r;17582117;426051;438949;36;45
+r;26208709;426051;241794;36;64
+r;27244014;426051;254876;36;81
+r;21836490;426051;223173;36;283
+r;166631934;426051;57933;42;33
+r;326689677;426051;12724160;200;1
+r;326205285;426051;12714434;200;2
+r;326205963;426051;12714443;200;2
+r;326206799;426051;12714453;200;2
+r;326522984;426051;12720533;200;2
+r;350570085;426051;13879494;200;2
+r;357604499;426051;14119333;200;2
+r;326748001;426051;12725430;200;4
+r;211616577;426051;9254915;444;30
+r;119418424;426051;6114324;444;31
+r;78042272;426051;3228593;444;35
+r;74000225;426051;2983124;555;2770
+r;17582129;426051;174932;777;10
+r;17582130;426051;167583;777;10
+r;17582131;426051;121891;777;10
+r;17582132;426051;47822;777;10
+r;17582133;426051;285696;777;10
+r;17582134;426051;285695;777;10
+r;122727577;6425891;426051;0;1
+r;116578740;5960571;426051;0;10
+r;278739121;11002131;426051;0;16
+r;288483077;4067;426051;0;20
+r;320232714;9254920;426051;0;25
+r;120804191;6389214;426051;0;29
+r;120804187;12099;426051;0;35
+r;288432931;11254537;426051;0;35
+r;120804198;88572;426051;0;36
+r;120804195;2303413;426051;0;39
+r;14296558;136974;426051;0;40
+r;17710154;145100;426051;28;30
+r;17710155;62724;426051;28;34
+r;17710156;87987;426051;28;35
+r;165379234;57933;426051;41;61
+r;18470148;65386;426051;777;5
+r;16385156;218863;426051;777;10
+r;16385157;313947;426051;777;10
+r;16972913;345872;426051;777;10
+r;16972912;99597;426051;777;10
+r;16972632;345902;426051;777;10
+r;17282424;59117;426051;777;10
+r;17282425;400446;426051;777;10
+r;17594743;8586;426051;777;10
+r;17786603;144086;426051;777;10
+r;18470146;404911;426051;777;10
+r;18470147;16462;426051;777;10
+r;18470149;40616;426051;777;10
+r;18655178;81697;426051;777;10
+r;18791172;136646;426051;777;10
+r;19620008;184035;426051;777;10
+r;22742992;317294;426051;777;10
+r;25368704;43175;426051;777;10
+r;29961696;1831662;426051;777;10
+r;33098056;2236228;426051;777;10
+r;111268255;1002613;426051;777;10
+r;111268257;5673287;426051;777;10
+r;231650022;10069241;426051;777;10
+r;271350611;10842230;426051;777;10
+r;271350612;10842231;426051;777;10
+r;273280723;10899052;426051;777;10
+r;277273322;10985496;426051;777;10
+r;277891016;10995350;426051;777;10
+r;277891017;10995351;426051;777;10
+r;277891018;10995352;426051;777;10
+r;277891019;10995353;426051;777;10
+r;292523182;11391963;426051;777;10
+r;317741550;12247301;426051;777;10
+r;346245886;94205;426051;777;10
+r;361557724;14258095;426051;777;10

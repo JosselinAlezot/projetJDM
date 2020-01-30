@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/home/e20150004937/Documents/Master/S3/TALN/ProjetJDM/ProjetJDM/projetJDM/bin"
+CMD="/home/e20150004937/Documents/Master/S3/TALN/ProjetJDM/ProjetJDM/projetJDM/cmd"
+LIB="/home/e20150004937/Documents/Master/S3/TALN/ProjetJDM/ProjetJDM/projetJDM/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TOKENIZER=${CMD}/utf8-tokenize.perl
+MWL=${CMD}/greek-mwls.pl
+TAGGER=${BIN}/tree-tagger
+ABBR_LIST=${LIB}/greek-abbreviations
+PARFILE=${LIB}/greek.par
+
+$TOKENIZER -a $ABBR_LIST $* |
+$MWL |
+# tagging
+$TAGGER $OPTIONS $PARFILE
+

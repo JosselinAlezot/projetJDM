@@ -1,0 +1,18 @@
+#!/bin/sh
+
+# Set these paths appropriately
+
+BIN="/home/e20150004937/Documents/Master/S3/TALN/ProjetJDM/ProjetJDM/projetJDM/bin"
+CMD="/home/e20150004937/Documents/Master/S3/TALN/ProjetJDM/ProjetJDM/projetJDM/cmd"
+LIB="/home/e20150004937/Documents/Master/S3/TALN/ProjetJDM/ProjetJDM/projetJDM/lib"
+
+OPTIONS="-token -lemma -sgml"
+
+TAGGER=${BIN}/tree-tagger
+TOKENIZER=${CMD}/tokenize-korean.pl
+PARFILE=${LIB}/korean.par
+
+$TOKENIZER $* |
+$TAGGER $OPTIONS $PARFILE |
+$CMD/add-korean-sentence-markers.pl |
+$CMD/reformat-korean-tagger-output.pl

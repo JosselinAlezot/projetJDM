@@ -1,0 +1,56 @@
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+e;2009055;'caractérise';2;0
+e;30894;'caractériser';1;68
+e;14270944;'VerbalPers:P3';4;0
+e;14270943;'VerbalPers:P2';4;0
+e;14270942;'VerbalPers:P1';4;0
+e;14270847;'Ver:ImPre SG P2';4;0
+e;14270798;'VerbalMode:Impératif';4;0
+e;3093591;'VerbalMode:Subjonctif';4;0
+e;3093590;'VerbalMode:Indicatif';4;0
+e;14270945;'VerbalNumber:SG';4;0
+e;2946892;'Ver:Conjug';4;0
+e;2935005;'VerbalTime:Present';4;0
+e;212235;'Ver:';4;50
+e;161698;'Ver:IPre SG P1:IPre SG P3:SPre SG P1:SPre SG P3:ImPre SG P2';4;50
+e;150120;'Ver:SPre SG P3';4;50
+e;150119;'Ver:SPre SG P1';4;50
+e;150118;'Ver:IPre SG P3';4;50
+e;150117;'Ver:IPre SG P1';4;50
+e;151553;'_FL:0';6;50
+e;3575927;'Morpho:min';18;50
+e;3576104;'Morpho:nospace';18;50
+e;2983124;'_SW';36;50
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;555;'r_cooccurrence';'r_cooccurrence';co-occurences (non utilisée)
+r;87538374;2009055;30894;0;34
+r;363026898;2009055;14270944;4;25
+r;363017903;2009055;14270943;4;25
+r;363008945;2009055;14270942;4;25
+r;363205831;2009055;14270847;4;25
+r;361879883;2009055;14270798;4;25
+r;75777930;2009055;3093591;4;45
+r;75777929;2009055;3093590;4;50
+r;363000084;2009055;14270945;4;25
+r;72443358;2009055;2946892;4;45
+r;72100508;2009055;2935005;4;45
+r;32221671;2009055;212235;4;52
+r;32221667;2009055;161698;4;58
+r;362991125;2009055;150120;4;25
+r;362982004;2009055;150119;4;25
+r;362972984;2009055;150118;4;25
+r;362964080;2009055;150117;4;25
+r;74563516;2009055;151553;12;35
+r;89689326;2009055;3575927;18;29
+r;90674083;2009055;3576104;18;30
+r;32221662;2009055;30894;19;57
+r;73947536;2009055;2983124;555;18102

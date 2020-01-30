@@ -1,0 +1,239 @@
+nt;1;'n_term'
+nt;2;'n_form'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;200;'n_context'
+nt;444;'n_link'
+nt;666;'n_AKI'
+nt;777;'n_wikipedia'
+e;140509;'le';1;72
+e;140508;'Le';1;50
+e;2207111;'guègue';1;0
+e;13997415;'Les ligaments de Cooper';777;0
+e;13997416;'ligaments suspenseurs de Cooper';777;0
+e;48804;'ce';1;56
+e;42271;'un';1;2380
+e;20408;'lé';1;56
+e;225970;'la>80635';1;50;'la>pronom'
+e;115763;'article';1;704
+e;146901;'Det:Mas SG';4;50
+e;142265;'la';1;324
+e;143442;'les';1;60
+e;148598;'Pro:3Mas SG';4;50
+e;239128;'_COM';36;50
+e;157460;'le>146901';1;50;'le>Det:Mas SG'
+e;157461;'le>148598';1;50;'le>Pro:3Mas SG'
+e;2356740;'Pro:Pers';4;0
+e;2586627;'Gender:Mas';4;0
+e;2586629;'Number:Sing';4;0
+e;2931520;'Pro:Pers:COD';4;0
+e;147826;'Pro:';4;50
+e;147628;'Det:';4;50
+e;1558;'Le Cap de Bonne-Espérance';1;50
+e;1536;'Le Petit Monde de Don Camillo';1;50
+e;1005;'Le Contrat social de Ruskin';1;50
+e;681;'Le Chaos et la Nuit';1;50
+e;1239;'le Testament';1;50
+e;684;'le Coup de grâce';1;50
+e;683;'le Grand Fossé';1;50
+e;1776;'Le Stagirite Aristote';1;50
+e;151553;'_FL:0';6;50
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;273221;'_INFO-WIKI-NO';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;2355199;'_OCC-IGNORE';36;0
+e;217817;'_INFO-POLYSEMIC';36;50
+e;254876;'_POL-POS_PC';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;223173;'_POL-POS';36;50
+e;3819149;'dbnary:fra:__ws_6_le__article_défini__1';444;0
+e;3882336;'dbnary:fra:__ws_5_le__article_défini__1';444;0
+e;3945092;'dbnary:fra:__ws_4_le__article_défini__1';444;0
+e;4008064;'dbnary:fra:__ws_3_le__article_défini__1';444;0
+e;4070591;'dbnary:fra:__ws_2_le__article_défini__1';444;0
+e;4127325;'dbnary:fra:__ws_9_le__pronom_personnel__1';444;0
+e;4132775;'dbnary:fra:__ws_1_le__article_défini__1';444;0
+e;4200818;'dbnary:fra:__ws_8_le__article_défini__1';444;0
+e;4263322;'dbnary:fra:__ws_7_le__article_défini__1';444;0
+e;4273166;'dbnary:fra:__ws_10_le__pronom_personnel__1';444;0
+e;225971;'la>140862';1;4;'la>note'
+e;263029;'l'';1;50
+e;160664;'article défini';1;54
+e;2217833;'le__det';2;0
+e;2217901;'les__det';2;0
+e;47959;'l';1;1134
+e;397029;'Saint';1;14
+e;2373701;'à l'';1;0
+e;17087;'the';1;50
+e;2398917;'ze';1;0
+e;12702039;'a438da1963d19b41318b2d6a8fd43c3e';200;0
+e;12702040;'90b9ce148b3f9d5e23dbbabfe14c38e7';200;0
+e;12702042;'40dcce6fa656653704436d79054b59e0';200;0
+e;12702045;'bfd8a5448daa0f684e18a9d737e94386';200;0
+e;12702046;'a642b01a008444fb8296ed8c8147ed80';200;0
+e;14136766;'1cc74aaff736c06c89a47446285a6e38';200;0
+e;230405;'Jean-Claude Convenant';666;50
+e;55814;'adobe';1;50
+e;10836579;'Maya Lopez';777;0
+e;13935;'Ronin';1;50
+e;11147526;'grotte d'Harpea';777;0
+e;11289622;'Aéroport international de Guadalajara Miguel Hidalgo y Costilla';777;0
+e;3321477;'GDL';1;0
+e;11289623;'MMGL';777;0
+e;11552888;'Marie-Thérèse Charlotte de France';777;0
+e;12197633;'aéroport Egal d'Hargeisa';777;0
+e;12197634;'HGA';777;0
+e;12197635;'HCMH';777;0
+e;30472;'titres';1;62
+e;66372;'texte';1;892
+e;56362;'gras';1;1854
+e;136284;'italique';1;56
+e;191712;'citations';1;54
+e;9634975;'listes à puces';777;0
+e;146823;'tableaux';1;116
+e;13594660;'National Amateur Body-Builders' Association';777;0
+e;13594661;'nabba';777;0
+e;13684717;'démission d'Evo Morales';777;0
+e;13685007;'coup d'État de 2019 en Bolivie';777;0
+e;5534855;'citer vos sources';777;0
+e;13738549;'démission du gouvernement Evo Morales';777;0
+e;137514;'coup d'État';1;50
+e;10922926;'Jimmy Reed';777;0
+e;13853873;'Une proposition de fusion est en cours entre Démission du gouvernement Evo Morales et Crise post-électorale bolivienne de 2019';777;0
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;1;'r_raff_sem';'raffinement sémantique';Raffinement sémantique vers un usage particulier du terme source
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;35;'r_meaning/glose';'glose/sens/signification';Quels SENS/SIGNIFICATIONS pouvez vous donner au terme proposé. Il s'agira de termes (des gloses) évoquant chacun des sens possibles, par exemple : 'forces de l'ordre', 'contrat d'assurance', 'police typographique', ... pour 'police'.
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;200;'r_context';'r_context';Relation de contexte entre un terme et un noeud contexte.
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;666;'r_aki';'r_aki';(TOTAKI) equivalent pour TOTAKI de l'association libre
+rt;777;'r_wiki';'r_wiki';Associations issues de wikipedia...
+rt;999;'r_inhib';'r_inhib';relation d'inhibition, le terme inhibe les termes suivants... ce terme a tendance à exclure le terme associé.
+rt;2000;'r_raff_sem-1';'r_raff_sem-1';Inverse de r_raff_sem (automatique)
+r;14486479;140509;140508;0;23
+r;218115661;140509;2207111;0;25
+r;352686608;140509;13997415;0;25
+r;352686609;140509;13997416;0;25
+r;916773;140509;48804;0;29
+r;916774;140509;42271;0;30
+r;14486477;140509;20408;0;30
+r;1988605;140509;225970;0;38
+r;168690;140509;115763;0;52
+r;88956856;140509;146901;0;58
+r;145548;140509;142265;0;60
+r;145550;140509;143442;0;60
+r;88956855;140509;148598;0;63
+r;24107243;140509;239128;0;1000000
+r;218072;140509;157460;1;51
+r;218074;140509;157461;1;59
+r;48898713;140509;2356740;4;37
+r;71818589;140509;2586627;4;45
+r;71818602;140509;2586629;4;45
+r;71879341;140509;2931520;4;45
+r;12100503;140509;147826;4;53
+r;34118;140509;148598;4;58
+r;34116;140509;146901;4;64
+r;12100502;140509;147628;4;95
+r;8980995;140509;1558;11;27
+r;8980993;140509;1536;11;29
+r;8980952;140509;1005;11;32
+r;8980936;140509;681;11;32
+r;8980970;140509;1239;11;34
+r;8980938;140509;684;11;37
+r;8980937;140509;683;11;40
+r;8981007;140509;1776;11;43
+r;110533;140509;151553;12;18
+r;90828428;140509;3576104;18;26
+r;89970299;140509;3575927;18;34
+r;312930;140509;140509;19;52
+r;24982861;140509;146901;35;55
+r;24982862;140509;148598;35;60
+r;193860198;140509;273221;36;29
+r;9293313;140509;254877;36;30
+r;46458782;140509;2355199;36;38
+r;1646639;140509;217817;36;47
+r;9293312;140509;254876;36;70
+r;9217454;140509;241794;36;154
+r;9187837;140509;223173;36;355
+r;94214832;140509;3819149;444;1
+r;94271159;140509;3882336;444;1
+r;94327105;140509;3945092;444;1
+r;94383439;140509;4008064;444;1
+r;94439547;140509;4070591;444;1
+r;94491057;140509;4127325;444;1
+r;94495983;140509;4132775;444;1
+r;94557246;140509;4200818;444;1
+r;94613700;140509;4263322;444;1
+r;94622543;140509;4273166;444;1
+r;29532318;140509;225971;999;9
+r;794495;48804;140509;0;21
+r;14486478;20408;140509;0;22
+r;218115660;2207111;140509;0;25
+r;352686606;13997415;140509;0;25
+r;352686611;13997416;140509;0;25
+r;87646976;263029;140509;0;26
+r;1988611;160664;140509;0;28
+r;87775156;2217833;140509;0;28
+r;87775213;2217901;140509;0;29
+r;1031518;42271;140509;0;30
+r;87483115;47959;140509;0;30
+r;87483009;143442;140509;0;32
+r;82005562;397029;140509;0;41
+r;62862827;2373701;140509;0;45
+r;1760501;225970;140509;0;54
+r;159124;17087;140509;0;60
+r;1706220;142265;140509;0;60
+r;63291185;2398917;140509;0;60
+r;110532;115763;140509;0;105
+r;14486480;140508;140509;0;200
+r;312408;142265;140509;19;51
+r;313700;47959;140509;19;51
+r;312930;140509;140509;19;52
+r;32891850;2217833;140509;19;54
+r;313020;143442;140509;19;55
+r;32891994;2217901;140509;19;59
+r;32539745;263029;140509;19;66
+r;325782294;12702039;140509;200;1
+r;325782314;12702040;140509;200;1
+r;325782358;12702042;140509;200;1
+r;325782472;12702045;140509;200;1
+r;325782513;12702046;140509;200;1
+r;358519102;14136766;140509;200;3
+r;1801686;230405;140509;666;1
+r;222118374;55814;140509;777;10
+r;270935495;10836579;140509;777;10
+r;270935497;13935;140509;777;10
+r;283371477;11147526;140509;777;10
+r;288888098;11289622;140509;777;10
+r;288888100;3321477;140509;777;10
+r;288888102;11289623;140509;777;10
+r;303699792;11552888;140509;777;10
+r;316217277;12197633;140509;777;10
+r;316217278;12197634;140509;777;10
+r;316217279;12197635;140509;777;10
+r;325502626;30472;140509;777;10
+r;325502628;66372;140509;777;10
+r;325502630;56362;140509;777;10
+r;325502632;136284;140509;777;10
+r;325502634;191712;140509;777;10
+r;325502636;9634975;140509;777;10
+r;325502638;146823;140509;777;10
+r;344310429;13594660;140509;777;10
+r;344310430;13594661;140509;777;10
+r;347775457;13684717;140509;777;10
+r;347804605;13685007;140509;777;10
+r;348151931;5534855;140509;777;10
+r;348439582;13738549;140509;777;10
+r;349316807;137514;140509;777;10
+r;349895665;10922926;140509;777;10
+r;350098959;13853873;140509;777;10
+r;289322415;157460;140509;2000;51
+r;289322416;157461;140509;2000;59

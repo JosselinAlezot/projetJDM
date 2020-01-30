@@ -1,0 +1,412 @@
+nt;1;'n_term'
+nt;4;'n_pos'
+nt;6;'n_flpot'
+nt;10;'n_relation'
+nt;18;'n_data'
+nt;36;'n_data_pot'
+nt;444;'n_link'
+nt;777;'n_wikipedia'
+e;128170;'dont';1;62
+e;29839;'connecteur';1;58
+e;19945;'et';1;110
+e;165776;'pronom relatif';1;96
+e;119894;'possesseur';1;76
+e;61380;'y compris';1;50
+e;116827;'lequel';1;82
+e;70784;'laquelle';1;82
+e;75888;'divin';1;228
+e;140932;'de';1;102
+e;63213;'lesquels';1;62
+e;33153;'par';1;68
+e;3233;'partie';1;842
+e;114890;'qui';1;106
+e;11403;'possession';1;432
+e;7596;'agent';1;326
+e;440709;'partie de';1;50
+e;237;'objet';1;1860
+e;41356;'duquel';1;68
+e;18948;'où';1;84
+e;91719;'avec';1;132
+e;115745;'parmi';1;64
+e;94143;'celui';1;84
+e;177480;'celle';1;18
+e;239128;'_COM';36;50
+e;2348072;'dont>11403';1;0;'dont>possession'
+e;2348073;'dont>237';1;0;'dont>objet'
+e;2348074;'dont>440709';1;0;'dont>partie de'
+e;2348075;'dont>7596';1;0;'dont>agent'
+e;2356742;'Pro:Rel';4;0
+e;147826;'Pro:';4;50
+e;127071;'quoi';1;88
+e;6300537;'échantillon dont la quantité ne permet pas un diagnostic';1;0
+e;6342086;'spécimen dont la qualité ne permet pas un diagnostic';1;0
+e;6368899;'spécimen non représentatif du site anatomique dont il provient';1;0
+e;6394331;'échantillon dont la qualité ne permet pas un diagnostic';1;0
+e;6406544;'spécimen dont la quantité ne permet pas un diagnostic';1;0
+e;13656736;'chansons francophones dont le titre comporte un prénom commençant par la lettre S';777;0
+e;14174762;'communes dont le territoire est traversé ou bordé par la Loire';777;0
+e;14222219;'chansons francophones dont le titre comporte un prénom commençant par la lettre D';777;0
+e;6430118;'urétrite au cours de maladies dont le mode de transmission est essentiellement sexuel';1;0
+e;6371080;'sujets en contact avec et exposés à des infections dont le mode de transmission est essentiellement sexuel';1;0
+e;6324609;'examen spécial de dépistage des infections dont le mode de transmission est essentiellement sexuel';1;0
+e;6404407;'autres maladies précisées dont le mode de transmission est essentiellement sexuel';1;0
+e;12979255;'plats dont l'un des principaux ingrédients est la viande consommée crue';777;0
+e;6438232;'anomalies dont l'origine se situe dans la période périnatale';1;0
+e;6440692;'ceux dont l'origine se situe dans la période périnatale';1;0
+e;6424197;'sujet porteur de maladies dont le mode de transmission est essentiellement sexuel';1;0
+e;10741725;'Ce dont rêvent les filles';777;0
+e;12079656;'livre dont vous êtes le héros';1;0
+e;9946358;'chansons francophones dont le titre comporte un prénom commençant par la lettre B';777;0
+e;10930200;'Liste des pays dont les athlètes ont participé aux Jeux paralympiques d'été';777;0
+e;11021342;'chansons francophones dont le titre comporte un prénom';777;0
+e;11479477;'chansons francophones dont le titre comporte un prénom commençant par la lettre T';777;0
+e;5810423;'liste d'espèces protéobacteriennes dont le génome est séquencé';777;0
+e;6451485;'syndrome de l'enfant dont la mère a un diabète de la grossesse';1;0
+e;6438225;'affection foetale dont l'origine se situe dans la période périnatale';1;0
+e;5991440;'dont l'activité principale';777;0
+e;6017254;'châteaux français qui ont disparu et dont on ne conserve la trace que par les textes';777;0
+e;11390741;'chansons francophones dont le titre comporte un prénom commençant par la lettre A';777;0
+e;5893851;'Cette catégorie ne doit répertorier que les films dont au moins un des personnages principaux est un suricate! Il ne faut en aucun cas répertorier des films où des suricates apparaissent ou interviennent de manière secondaire ou anecdotique!';777;0
+e;10352552;'voies de Paris dont le nom fait référence aux propriétaires';777;0
+e;6446431;'corps non identifié mais dont l'identité est suspectée';1;0
+e;11183297;'L'homme dont les bras sont des branches';777;0
+e;2436809;'dont auquel';1;0
+e;6446911;'autres affections dont l'origine se situe dans la période périnatale';1;0
+e;10084084;'ce dont on se nourrit';1;0
+e;6449854;'autres affections précisées dont l'origine se situe dans la période périnatale';1;0
+e;13301090;'façon dont les gens vivent leur vie';1;0
+e;5981314;'Baby dont forget my number';777;0
+e;6441632;'autres affections mal définies dont l'origine se situe dans la période périnatale';1;0
+e;12267081;'chansons francophones dont le titre comporte un prénom commençant par la lettre E';777;0
+e;3753356;'oeufs dont on aura séparé les blancs des jaunes';1;0
+e;3319528;'Sous-comité plénier chargé d'examiner la manière dont est administré le PAM';1;0
+e;3755539;'oeufs dont vous aurez séparé les blancs des jaunes';1;0
+e;3755208;'pilons de poulet dont on aura retiré la peau';1;0
+e;3754521;'crevettes fraîches décortiquées dont vous aurez laissé la queue';1;0
+e;1784631;'dont on peut douter';1;2
+e;3759112;'bardes de lard dont on aura retiré la couenne et que l'on aura coupées en lardons';1;0
+e;3758592;'bulbes de fenouil lavés dont on aura retiré les morceaux dures et coupés en fines lamelles';1;0
+e;3757827;'asperges dont on aura coupé l'extrémité dure';1;0
+e;1781319;'dont on se souvient';1;0
+e;3320104;'germes de maïs dont on a extrait l'huile';1;0
+e;3758924;'gros boudins noirs dont on aura extrait la chair';1;0
+e;3758368;'botte d'asperges dont on aura coupé les extrémités dures';1;0
+e;3751776;'gros citron pressé dont on aura retiré le zeste';1;0
+e;3757906;'oeufs dont on aura séparé le blanc du jaune';1;0
+e;3757151;'champignons shiitaké dont on aura retiré le pied';1;0
+e;3756471;'palourdes émincées égouttées dont on aura conservé le jus';1;0
+e;346769;'de la façon dont c'est parti';1;50
+e;346776;'de la manière dont ce être parti';1;50
+e;348151;'dont acte';1;50
+e;250949;'être du bois dont on fait les flûtes';1;2
+e;25938;'La Ville dont le prince est un enfant';1;50
+e;95586;'La Maison dont le chien est fou';1;50
+e;108709;'Ville dont le prince est un enfant';1;50
+e;186086;'être du bois dont on fait les grands hommes';1;50
+e;299963;'livres dont vous êtes le héros';777;50
+e;198937;'du bois dont on fait les flûtes';1;50
+e;157639;'_FL:35';6;50
+e;151553;'_FL:0';6;50
+e;3576104;'Morpho:nospace';18;50
+e;3575927;'Morpho:min';18;50
+e;57221;'joie';1;3732
+e;14330;'satisfaction';1;526
+e;91691;'surprise';1;1072
+e;103405;'indifférence';1;490
+e;28453;'bonheur';1;2104
+e;107814;'chèque';1;524
+e;57839;'cadeau';1;2198
+e;48513;'qualité';1;350
+e;254878;'_POL-NEG_PC';36;50
+e;273221;'_INFO-WIKI-NO';36;50
+e;223172;'_POL-NEG';36;50
+e;217817;'_INFO-POLYSEMIC';36;50
+e;191741;'_INFO-VOC-COMMON';36;50
+e;254876;'_POL-POS_PC';36;50
+e;2355199;'_OCC-IGNORE';36;0
+e;254877;'_POL-NEUTRE_PC';36;50
+e;2585997;'_INFO-CNRTL-NO';36;50
+e;223173;'_POL-POS';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;151587;'_FL:10';6;50
+e;2348131;'_FL:149';6;0
+e;2348129;'_FL:121';6;0
+e;153037;'_FL:26';6;50
+e;1744547;':r28694616';10;0
+e;1744548;':r28694622';10;0
+e;23042;'dom';1;50
+e;17324;'don';1;846
+e;4155086;'dbnary:fra:__ws_1_dont__pronom_relatif__1';444;0
+e;4174384;'dbnary:fra:__ws_2_dont__pronom_relatif__1';444;0
+e;4193906;'dbnary:fra:__ws_3_dont__pronom_relatif__1';444;0
+e;461256;'Dont';1;50
+e;147446;'auquel';1;58
+e;54624;'de qui';1;50
+e;109362;'avec lequel';1;52
+e;39820;'par lequel';1;52
+e;136459;'de quoi';1;50
+e;21818;'lesquelles';1;62
+rt;0;'r_associated';'idée associée';Il est demandé d'énumérer les termes les plus étroitement associés au mot cible... Ce mot vous fait penser à quoi ?
+rt;1;'r_raff_sem';'raffinement sémantique';Raffinement sémantique vers un usage particulier du terme source
+rt;4;'r_pos';'POS';Partie du discours (Nom, Verbe, Adjectif, Adverbe, etc.)
+rt;5;'r_syn';'synonyme';Il est demandé d'énumérer les synonymes ou quasi-synonymes de ce terme.
+rt;11;'r_locution';'locution';A partir d'un terme, il est demandé d'énumérer les locutions, expression ou mots composés en rapport avec ce terme. Par exemple, pour 'moulin', ou pourra avoir 'moulin à vent', 'moulin à eau', 'moulin à café'. Pour 'vendre', on pourra avoir 'vendre la peau de l'ours avant de l'avoir tué', 'vendre à perte', etc..
+rt;12;'r_flpot';' 	r_flpot';(relation interne) potentiel de relation
+rt;18;'r_data';'r_data';Informations diverses (plutôt d'ordre lexicales)
+rt;19;'r_lemma';'r_lemma';Le lemme (par exemple 'mangent a pour lemme  'manger' ; 'avions' a pour lemme 'avion' ou 'avoir').
+rt;32;'r_sentiment';'sentiment';Pour un terme donné, évoquer des mots liés à des SENTIMENTS ou des EMOTIONS que vous pourriez associer à ce terme. Par exemple, la joie, le plaisir, le dégoût, la peur, la haine, l'amour, l'indifférence, l'envie, avoir peur, horrible, etc.
+rt;35;'r_meaning/glose';'glose/sens/signification';Quels SENS/SIGNIFICATIONS pouvez vous donner au terme proposé. Il s'agira de termes (des gloses) évoquant chacun des sens possibles, par exemple : 'forces de l'ordre', 'contrat d'assurance', 'police typographique', ... pour 'police'.
+rt;36;'r_infopot';'information potentielle';Information sémantique potentielle
+rt;115;'r_sentiment-1';'sentiment-1';Pour un SENTIMENT ou EMOTION donné, il est demandé dénumérer les termes que vous pourriez associer. Par exemple, pour 'joie', on aurait 'cadeau', 'naissance', 'bonne nouvelle', etc.
+rt;117;'r_foncteur';'r_foncteur';La fonction de ce terme par rapport à d'autres. Pour les prépositions notamment, 'chez' => relation r_location. (demande un type de relation comme valeur)
+rt;128;'r_node2relnode';'r_node2relnode';Relation entre un noeud (quelconque) et un noeud de relation (type = 10) - permet de rendre le graphe connexe même avec les annotations de relations
+rt;161;'r_homophone';'homophone';Il est demandé d'énumérer les homophones ou quasi-homophones de ce terme.
+rt;444;'r_link';'r_link';Lien vers une ressource externe (WordNet, RadLex, UMLS, Wikipedia, etc...)
+rt;2000;'r_raff_sem-1';'r_raff_sem-1';Inverse de r_raff_sem (automatique)
+r;28694613;128170;29839;0;10
+r;28694616;128170;19945;0;10
+r;28694628;128170;165776;0;10
+r;97659020;128170;119894;0;15
+r;13027738;128170;61380;0;21
+r;12213883;128170;116827;0;22
+r;831425;128170;70784;0;24
+r;9362658;128170;75888;0;27
+r;12213884;128170;140932;0;27
+r;831427;128170;63213;0;30
+r;12213886;128170;33153;0;30
+r;28696619;128170;3233;0;32
+r;831426;128170;114890;0;40
+r;88973529;128170;11403;0;40
+r;88973526;128170;7596;0;44
+r;88973527;128170;440709;0;44
+r;88973528;128170;237;0;44
+r;2196470;128170;41356;0;51
+r;8827279;128170;18948;0;51
+r;2074430;128170;91719;0;60
+r;2196469;128170;115745;0;60
+r;2579003;128170;94143;0;61
+r;2579004;128170;177480;0;61
+r;24098958;128170;239128;0;1000000
+r;34650670;128170;2348072;1;40
+r;34650677;128170;2348073;1;40
+r;34650693;128170;2348074;1;40
+r;34650697;128170;2348075;1;40
+r;48898781;128170;2356742;4;37
+r;19335;128170;147826;4;57
+r;729091;128170;116827;5;-33
+r;729088;128170;41356;5;-30
+r;729092;128170;115745;5;-30
+r;12461861;128170;61380;5;-29
+r;729087;128170;91719;5;-28
+r;729090;128170;140932;5;-28
+r;729089;128170;33153;5;-25
+r;85635989;128170;127071;5;-4
+r;299130186;128170;6300537;11;25
+r;301487473;128170;6342086;11;25
+r;302972472;128170;6368899;11;25
+r;304994059;128170;6394331;11;25
+r;305312928;128170;6406544;11;25
+r;346964297;128170;13656736;11;25
+r;360533681;128170;14174762;11;25
+r;360989950;128170;14222219;11;25
+r;122694908;128170;6430118;11;26
+r;302990903;128170;6371080;11;26
+r;300178272;128170;6324609;11;26
+r;305297569;128170;6404407;11;26
+r;333241545;128170;12979255;11;26
+r;121543914;128170;6438232;11;31
+r;121521756;128170;6440692;11;32
+r;122740710;128170;6424197;11;32
+r;269413050;128170;10741725;11;32
+r;315116898;128170;12079656;11;34
+r;220421642;128170;9946358;11;35
+r;274959934;128170;10930200;11;35
+r;279190382;128170;11021342;11;35
+r;294995289;128170;11479477;11;36
+r;113277194;128170;5810423;11;37
+r;121033864;128170;6451485;11;37
+r;121543975;128170;6438225;11;37
+r;117820421;128170;5991440;11;38
+r;118943314;128170;6017254;11;38
+r;292526767;128170;11390741;11;38
+r;114750083;128170;5893851;11;39
+r;254168008;128170;10352552;11;39
+r;121470273;128170;6446431;11;40
+r;287145248;128170;11183297;11;40
+r;55171537;128170;2436809;11;41
+r;121466057;128170;6446911;11;41
+r;232466401;128170;10084084;11;42
+r;121048858;128170;6449854;11;43
+r;338931594;128170;13301090;11;43
+r;117908835;128170;5981314;11;45
+r;121513432;128170;6441632;11;46
+r;318522887;128170;12267081;11;47
+r;93705167;128170;3753356;11;51
+r;83671089;128170;3319528;11;52
+r;93683871;128170;3755539;11;53
+r;93687835;128170;3755208;11;53
+r;93694128;128170;3754521;11;53
+r;29296848;128170;1784631;11;54
+r;93650247;128170;3759112;11;54
+r;93655336;128170;3758592;11;54
+r;93662556;128170;3757827;11;55
+r;29225831;128170;1781319;11;57
+r;83668013;128170;3320104;11;57
+r;93652073;128170;3758924;11;58
+r;93657490;128170;3758368;11;58
+r;93719746;128170;3751776;11;58
+r;93661846;128170;3757906;11;59
+r;93668814;128170;3757151;11;59
+r;93675063;128170;3756471;11;60
+r;12716405;128170;346769;11;102
+r;12716361;128170;346776;11;103
+r;12710715;128170;348151;11;106
+r;8714443;128170;250949;11;160
+r;8578559;128170;25938;11;162
+r;8602533;128170;95586;11;162
+r;8607346;128170;108709;11;162
+r;8646030;128170;186086;11;163
+r;8766696;128170;299963;11;163
+r;8665944;128170;198937;11;164
+r;435404;128170;157639;12;18
+r;2074429;128170;151553;12;26
+r;90837159;128170;3576104;18;32
+r;89977594;128170;3575927;18;35
+r;296611;128170;128170;19;60
+r;33352422;128170;57221;32;-5
+r;104969649;128170;14330;32;6
+r;104969648;128170;91691;32;6
+r;72963473;128170;103405;32;15
+r;33602162;128170;28453;32;47
+r;8558285;128170;107814;35;-10
+r;28694612;128170;57839;35;10
+r;28694622;128170;48513;35;10
+r;8554309;128170;75888;35;22
+r;34650669;128170;11403;35;40
+r;34650676;128170;237;35;40
+r;34650684;128170;440709;35;40
+r;34650696;128170;7596;35;40
+r;26748896;128170;254878;36;5
+r;190299391;128170;273221;36;28
+r;26644744;128170;223172;36;40
+r;34650673;128170;217817;36;40
+r;738729;128170;191741;36;42
+r;9241469;128170;254876;36;42
+r;48898923;128170;2355199;36;42
+r;9241470;128170;254877;36;53
+r;54886343;128170;2585997;36;53
+r;9178377;128170;223173;36;326
+r;9216105;128170;241794;36;408
+r;34651344;128170;151587;117;28
+r;34651322;128170;2348131;117;40
+r;34651358;128170;2348129;117;41
+r;34651920;128170;153037;117;41
+r;28694619;128170;1744547;128;1
+r;28694625;128170;1744548;128;1
+r;87248775;128170;23042;161;26
+r;87248776;128170;17324;161;26
+r;94516095;128170;4155086;444;1
+r;94533508;128170;4174384;444;1
+r;94551046;128170;4193906;444;1
+r;122694909;6430118;128170;0;1
+r;299130187;6300537;128170;0;1
+r;301487474;6342086;128170;0;1
+r;302972473;6368899;128170;0;1
+r;304994060;6394331;128170;0;1
+r;305312929;6406544;128170;0;1
+r;346964298;13656736;128170;0;1
+r;360533682;14174762;128170;0;1
+r;360989951;14222219;128170;0;1
+r;121543976;6438225;128170;0;2
+r;302990904;6371080;128170;0;2
+r;300178273;6324609;128170;0;2
+r;305297570;6404407;128170;0;2
+r;333241546;12979255;128170;0;2
+r;121521757;6440692;128170;0;3
+r;122740711;6424197;128170;0;3
+r;121513433;6441632;128170;0;4
+r;121543915;6438232;128170;0;4
+r;85635988;127071;128170;0;5
+r;113277195;5810423;128170;0;7
+r;121470274;6446431;128170;0;7
+r;121466058;6446911;128170;0;8
+r;269413051;10741725;128170;0;8
+r;117908836;5981314;128170;0;9
+r;220421643;9946358;128170;0;9
+r;114750084;5893851;128170;0;10
+r;121033865;6451485;128170;0;10
+r;121048859;6449854;128170;0;10
+r;315116899;12079656;128170;0;10
+r;274959935;10930200;128170;0;11
+r;279190383;11021342;128170;0;11
+r;118943315;6017254;128170;0;12
+r;294995291;11479477;128170;0;12
+r;117820422;5991440;128170;0;13
+r;55171538;2436809;128170;0;14
+r;292526768;11390741;128170;0;14
+r;254168009;10352552;128170;0;15
+r;287145249;11183297;128170;0;16
+r;232466402;10084084;128170;0;18
+r;338931595;13301090;128170;0;19
+r;12218553;115745;128170;0;22
+r;318522888;12267081;128170;0;23
+r;978073;114890;128170;0;24
+r;915929;70784;128170;0;27
+r;12218216;116827;128170;0;27
+r;12228318;91719;128170;0;27
+r;917005;63213;128170;0;28
+r;12461860;61380;128170;0;28
+r;44039687;461256;128170;0;35
+r;12253173;33153;128170;0;38
+r;29225832;1781319;128170;0;51
+r;83668014;3320104;128170;0;51
+r;93650248;3759112;128170;0;51
+r;217060531;147446;128170;0;51
+r;93657491;3758368;128170;0;52
+r;2186063;41356;128170;0;53
+r;29296849;1784631;128170;0;53
+r;93694129;3754521;128170;0;55
+r;93662557;3757827;128170;0;56
+r;93719747;3751776;128170;0;56
+r;93661847;3757906;128170;0;57
+r;93687836;3755208;128170;0;57
+r;93705168;3753356;128170;0;57
+r;83671090;3319528;128170;0;58
+r;93652074;3758924;128170;0;58
+r;93655337;3758592;128170;0;59
+r;93668815;3757151;128170;0;59
+r;93675064;3756471;128170;0;59
+r;93683872;3755539;128170;0;59
+r;2565977;140932;128170;0;60
+r;12716406;346769;128170;0;104
+r;12716362;346776;128170;0;106
+r;12710716;348151;128170;0;122
+r;9382827;25938;128170;0;143
+r;9407655;95586;128170;0;144
+r;9412626;108709;128170;0;144
+r;9457814;186086;128170;0;146
+r;9479030;198937;128170;0;147
+r;9526661;250949;128170;0;147
+r;9582636;299963;128170;0;147
+r;724095;116827;128170;5;-83
+r;12460778;61380;128170;5;-56
+r;72677277;54624;128170;5;-50
+r;72826850;109362;128170;5;-50
+r;100044363;39820;128170;5;-50
+r;84303601;136459;128170;5;-50
+r;684188;33153;128170;5;-31
+r;712503;91719;128170;5;-31
+r;723674;115745;128170;5;-30
+r;12213885;140932;128170;5;-30
+r;688435;41356;128170;5;-29
+r;85748409;21818;128170;5;-28
+r;85748407;63213;128170;5;-26
+r;85624990;127071;128170;5;-25
+r;296611;128170;128170;19;60
+r;78569221;28453;128170;115;2
+r;87248774;17324;128170;161;26
+r;87248772;23042;128170;161;27
+r;289371737;2348075;128170;2000;40
+r;289371738;2348074;128170;2000;40
+r;289371739;2348073;128170;2000;40
+r;289371740;2348072;128170;2000;40
