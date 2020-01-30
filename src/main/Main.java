@@ -3,23 +3,16 @@ package main;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
-import java.nio.charset.Charset;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
-import java.util.Dictionary;
 import java.util.HashMap;
-
-import com.sun.management.DiagnosticCommandMBean;
 //import com.sun.tools.javac.util.Pair;
 
 
@@ -206,7 +199,7 @@ public class Main {
 	    while ((line = br.readLine()) != null){
 	    	dicoMots.add(line);
 	    }
-	    
+	    br.close();
 	}
 	
 	/*
@@ -219,8 +212,6 @@ public class Main {
 		/* On splite le fichier en relations */
 	    BufferedReader br = null;
 	    String line = "";
-	    String lineSplitBy = "\n";
-	    
 	    br = new BufferedReader(new FileReader(relationsFile));
 	    while ((line = br.readLine()) != null){
 	    	//System.out.println(line);
@@ -241,6 +232,7 @@ public class Main {
 	    }
 	    
 	    //String[] rules = line.split(lineSplitBy);
+	    br.close();
 	}
 	
 	/*

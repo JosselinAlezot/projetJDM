@@ -3,10 +3,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -18,6 +15,7 @@ public class Edge {
 	private String type;
 	private Node x,y;
 	private boolean valid;
+	@SuppressWarnings("serial")
 	public static HashMap<Integer, String> typesEdge = new HashMap<Integer, String>() {
 	{
 		
@@ -154,9 +152,8 @@ public class Edge {
 	public void getRel(){
 		File fichierRel = new File("./Relations/Relations.txt");
 		BufferedReader br = null;
+		@SuppressWarnings("unused")
 		String line = "";
-		String lineSplitBy = "\n";
-
 		try {
 			br = new BufferedReader(new FileReader(fichierRel));
 		} catch (FileNotFoundException e1) {

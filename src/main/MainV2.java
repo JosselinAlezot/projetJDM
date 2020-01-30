@@ -4,15 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.w3c.dom.stylesheets.LinkStyle;
-
-import com.sun.org.apache.xml.internal.utils.ListingErrorHandler;
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
 import graph.LexicalPattern;
-import graph.Sentence;
-import jdk.internal.util.xml.impl.Pair;
-
 public class MainV2 {
 
 	private HashMap<String,graph.Word> dicoMots = new HashMap<String,graph.Word>();
@@ -34,46 +26,6 @@ public class MainV2 {
 
 	public void setDicoMots(HashMap<String, graph.Word> dicoMots) {
 		this.dicoMots = dicoMots;
-	}
-
-	public String getAllRelations(String wordToCompute) throws IOException{
-		//int cpt = 0;
-		StringBuilder res = new StringBuilder();
-		String newRules = "";
-		graph.LexicalPattern lexicalPattern = new graph.LexicalPattern();
-		lexicalPattern.setLexicalPatterns(lexicalPattern.getLexicalPatternLemmatized());
-		//System.out.println("cpt:" + cpt);
-		WikiExtractor wiki = new WikiExtractor(wordToCompute);
-		String allSentences[] = wiki.getTextExtracted().split("\\.");
-		//POur toutes les phrases du texte
-		for(String actualSentence: allSentences) {
-			//System.out.println("cpt:" + cpt);
-			//cpt++;
-			graph.Sentence sentenceStructured = new graph.Sentence(actualSentence);
-			//On fixe le x pour tous les mots de la phrase
-			for(int XIndex = 0;XIndex < sentenceStructured.getWordsFromSentence().size() - 2;XIndex++) {
-				graph.Word x = sentenceStructured.getWordsFromSentence().get(XIndex);
-				//Si le x est interessant
-				if(graph.Word.relevantGrammTags.contains(x.getGrammaticalTag())) {
-					//On fixe un y pour tous les mots de la phrase
-					for(int YIndex = XIndex+2;YIndex < sentenceStructured.getWordsFromSentence().size();YIndex++) {
-						//Si l'écart entre les 2 mots n'est pas trop grand
-
-						if(YIndex - XIndex < 7) {
-							graph.Word y = sentenceStructured.getWordsFromSentence().get(YIndex);
-							ArrayList<graph.Word> wordsBetweenXAndY = sentenceStructured.getWordsBetweenXAndY(sentenceStructured.getWordsFromSentence(), XIndex, YIndex);
-							if(graph.Word.relevantGrammTags.contains(y.getGrammaticalTag())) {
-								newRules = lexicalPatternEvolvedTest(actualSentence, lexicalPattern, x, y, wordsBetweenXAndY);
-								if(newRules.length() > 0) res.append(newRules);
-							}
-						}
-					}
-
-				}
-			}
-
-		}
-		return res.toString();
 	}
 
 	public String getRelaFromWiki(String wordToCompute) throws IOException{
@@ -278,18 +230,13 @@ public class MainV2 {
 	}
 
 	public void processAllText(ArrayList<String> text){
-		int cpt = 0;
 		for(String s: text){
-			//System.out.println("Nb Rela traitées:" + cpt + " sur " + text.size());
-			//processAllText(s);
 			processAllText1(s);
-			cpt++;
 		}
 	}
 
 	public void processAllText1(String text) {
 		ArrayList<graph.Word> listWords = graph.Word.process(text);
-		int cpt = 0;
 		for(graph.Word p: listWords) {
 			if(!this.dicoMots.containsKey(p.getInitialWord()))this.dicoMots.put(p.getInitialWord(), p);
 			//Si on a deja vu le mot
@@ -302,8 +249,6 @@ public class MainV2 {
 				if(hasNewLemm(p))
 					this.dicoMots.get(p.getInitialWord()).getLemmatizedWord().add(p.getGrammaticalTag().get(0));
 			}
-			//System.out.println(cpt + " sur " + text.length());
-			cpt += p.getInitialWord().length();
 		}
 
 	}
@@ -320,26 +265,6 @@ public class MainV2 {
 		return false;	
 	}
 
-	//
-	//	public void processAllText(String text) {
-	//		ArrayList<graph.Word> listWords = graph.Word.process(text);
-	//		for(graph.Word p: listWords) {
-	//			//Si on ne connait pas le mot
-	//			if(!this.dicoMots.containsKey(p.getInitialWord()))this.dicoMots.put(p.getInitialWord(), p);
-	//			//Si on a deja vu le mot
-	//			else { 
-	//				for(String s: p.getLemmatized().split("\\|")){
-	//					//Si on a pas deja le mot lemmatise
-	//					if(!this.dicoMots.get(p.getWord()).getLemmatizedWord().contains(s)){
-	//						this.dicoMots.get(p.getWord()).getLemmatizedWord().add(s);
-	//					}
-	//				}
-	//				if(this.dicoMots.get(p.getWord()).getGrammaticalTag().contains(p.getGrammaticalClass()))
-	//					this.dicoMots.get(p.getWord()).getGrammaticalTag().add(p.getGrammaticalClass());
-	//			}
-	//		}
-	//	}
-
 	public ArrayList<String> compareLexWordsBetw(LexicalPattern lexicalPattern,String sentenceLemm,int XIndex,int YIndex, String[] listWords) throws IOException{
 		ArrayList<String> res = new ArrayList<String>();
 		boolean isThere = false;
@@ -349,7 +274,7 @@ public class MainV2 {
 				isThere = true;
 			}
 		}
-		if (isThere = false) return res;
+		if (!isThere) return res;
 		for(String rel: lexicalPattern.getLexicalPatterns().keySet()){
 			for(String meaning: lexicalPattern.getLexicalPatterns().get(rel)){
 				//String currentMeaningLemmatized = this.getSentLemmatized(meaning);
@@ -360,57 +285,6 @@ public class MainV2 {
 			}
 		}
 		return res;
-	}
-
-
-	public static String lexicalPatternEvolvedTest(String sentence,LexicalPattern lexicalPattern, graph.Word x, graph.Word y,ArrayList<graph.Word> betweenXAndY) throws IOException {
-		StringBuilder res = new StringBuilder();
-		StringBuilder wordsBetween = new StringBuilder();
-		for(int i = 0;i < betweenXAndY.size();i++) {
-			if(betweenXAndY.get(i).hasMultipleLemm()) wordsBetween.append(betweenXAndY.get(i).getUniqueLemm(sentence));
-			else { 
-				wordsBetween.append((betweenXAndY.get(i).getLemmatizedWord().get(0)));
-			}
-			wordsBetween.append(" ");
-		}
-		for(String key: lexicalPattern.getLexicalPatterns().keySet()) {
-			for(String meaning: lexicalPattern.getLexicalPatterns().get(key)) {
-				//Si les mots entre x et y correspondent a la traduction de la regle
-				if(wordsBetween.toString().equals(meaning)) {
-					//System.out.println("Match wordsbetween et meaning= " + wordsBetween + " " +  meaning);
-					//System.out.println("X = " + x + " Y = " + y + " Words between = " + wordsBetween + " Meaning = " + meaning);
-					res.append(x + " " + key + " " + y);
-					res.append("\n");
-				}
-			}
-		}
-		return res.toString();
-	}
-
-
-	/**
-	 * 
-	 * @return Les nouvelles relations trouvees 
-	 */
-	//Probleme de match entre la traduction de la regle et les mots entre
-	public static String lexicalPatternTest(LexicalPattern lexicalPattern,String x,String y,String wordsBetween) {
-		StringBuilder res = new StringBuilder();
-
-		//Pour toutes les cles
-		for(String key: lexicalPattern.getLexicalPatterns().keySet()) {
-			//pour toutes les traductions de la cle
-			for(String meaning: lexicalPattern.getLexicalPatterns().get(key)) {
-
-				//Si les mots entre x et y correspondent a la traduction de la regle
-				if(wordsBetween.equals(meaning)) {
-					//System.out.println("Match wordsbetween et meaning= " + wordsBetween + " " +  meaning);
-					//System.out.println("X = " + x + " Y = " + y + " Words between = " + wordsBetween + " Meaning = " + meaning);
-					res.append(x + " " + key + " " + y);
-					res.append("\n");
-				}
-			}
-		}
-		return res.toString();
 	}
 
 }

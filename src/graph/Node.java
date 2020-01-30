@@ -1,7 +1,6 @@
 package graph;
 
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Node {
@@ -9,6 +8,7 @@ public class Node {
 	public int id;
 	public String nom, type, poids; // pour les termes
 	public boolean valid;
+	@SuppressWarnings("serial")
 	public static HashMap<Integer, String> typesNode = new HashMap<Integer, String>() {
 	{
 	    put(0, "n_generic");

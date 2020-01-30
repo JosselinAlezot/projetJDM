@@ -14,6 +14,7 @@ public class Word {
 	private String initialWord;
 	private ArrayList<String> grammaticalTag = new ArrayList<String>();
 	private ArrayList<String> lemmatizedWord = new ArrayList<String>();
+	@SuppressWarnings("serial")
 	public static final ArrayList<String> relevantGrammTags = new ArrayList<String>() {
 		{
 			add("ADJ");
@@ -123,7 +124,6 @@ public class Word {
 		 * @throws IOException 
 		 */
 		public String lemmatizedWordChosen(String sentence) throws IOException {
-			String res = "";
 			ArrayList<Word> wordProperty;
 			ArrayList<Edge> relTwoWords;
 			ArrayList<Integer> numberRelByLemmatizedWord = new ArrayList<Integer>();
