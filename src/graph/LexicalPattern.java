@@ -147,16 +147,6 @@ public class LexicalPattern {
 		return meanings;
 	}
 	
-	public ArrayList<String> getMeaningsBrut(){
-		ArrayList<String> res = new ArrayList<String>();
-		for(String key: this.getLexicalPatterns().keySet()){
-			for(String meaning: this.getLexicalPatterns().get(key)){
-				res.add(meaning);
-			}
-		}
-		return res;
-	}
-	
 	public String getMeaningBrutString(){
 		StringBuilder res = new StringBuilder();
 		for(String key: this.getLexicalPatterns().keySet()) {

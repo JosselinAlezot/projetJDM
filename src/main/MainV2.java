@@ -10,7 +10,6 @@ import com.sun.org.apache.xml.internal.utils.ListingErrorHandler;
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 import graph.LexicalPattern;
-import graph.PropertyHolder;
 import graph.Sentence;
 import jdk.internal.util.xml.impl.Pair;
 

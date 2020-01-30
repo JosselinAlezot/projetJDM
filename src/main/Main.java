@@ -22,7 +22,6 @@ import java.util.HashMap;
 import com.sun.management.DiagnosticCommandMBean;
 //import com.sun.tools.javac.util.Pair;
 
-import graph.Phrase;
 
 
 /* mots actuellement dans le fichier relations : 
