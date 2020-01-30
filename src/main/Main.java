@@ -52,25 +52,6 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-//		
-//		System.out.println("&#305;");
-//		String base = "&#305;";
-//		
-//		String eu = URLEncoder.encode(base,StandardCharsets.ISO_8859_1);
-//		System.out.println(eu);
-//		
-//		String u = URLDecoder.decode(eu,StandardCharsets.UTF_8);
-//		System.out.println(u);
-//
-//		
-//		
-//		
-//		
-//		
-//		String s2 = new String(u.getBytes("utf8"), "iso-8859-1");
-//		
-//		System.out.println(s2);
-		
 		Main m = new Main();
 		String mot =  "échelle";
 		String phrase = "Nous être beaux veuve";
@@ -99,52 +80,6 @@ public class Main {
 		System.out.println(motovoiture.size()+" relations entre "+moto.getName()+" et "+voiture.getName()+" : "+motovoiture);
 		System.out.println(motocamiondepompier.size()+" relations entre "+moto.getName()+" et "+camiondepompier.getName()+" : "+motocamiondepompier);
 		
-		
-		
-		/*
-		 * Test : les r_has_part d'un camion de pompier
-		 * (contient échelle)
-		 *
-		ArrayList<graph.Node> resultsdontechelle = graph.Edge.getYFromRelation(camiondepompier, graph.Edge.getIdTypeFromString("r_has_part"));
-		System.out.println(resultsdontechelle.size());
-		for (graph.Node n : resultsdontechelle) {
-			System.out.println(n);
-		}
-		*/
-		
-		//m.printNodesRelationsDico();
-
-		
-		//String nodemot = "e;22842;'hyène';1;120";
-		
-		//System.out.println(URLDecoder.decode(nodemot, "UTF-8"));
-		
-		//graph.Node node = new graph.Node(nodemot);
-		
-		//System.out.println(node.toString());
-		
-//		for (graph.Edge e : graph.Edge.getRelationsFromX(relationsH,graph.Node.getNodeFromString("'moto'"))) {
-//			System.out.println(e);
-//		}
-		
-/* 
- * vieux test sur la classe phrase		
-		
-		Phrase p = new Phrase(phrase);
-		
-		System.out.println(p.getMots());
-		
-//		for (Pair pa : p.getMots()) {
-//			System.out.println(pa);
-//		}
-		
-		for (int i = 0; i < p.getMots().size(); i++) {
-			System.out.println(p.getMots().get(i));
-			
-		}
- */
-
-
 	}
 	
 	/*
@@ -329,16 +264,5 @@ public class Main {
 		return line;
 	}
 	
-	/*
-	 * TODO (eventuellement)
-	 */
-	public ArrayList<String> pruningSentence(ArrayList<String> s)
-	{
-		
-		
-		
-		return s;
-	}
-
 }
 
